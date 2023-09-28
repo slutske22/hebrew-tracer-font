@@ -1,0 +1,11 @@
+<svg viewBox="0 0 288 400" xmlns="http://www.w3.org/2000/svg" xmlns:bx="https://boxy-svg.com">
+  <defs>
+    <linearGradient id="color-0" gradientUnits="userSpaceOnUse" gradientTransform="matrix(1, 0, 0, 1, 21.806234, -7.289316)" bx:pinned="true">
+      <title>Blue</title>
+      <stop style="stop-color: rgb(9, 0, 255);"></stop>
+    </linearGradient>
+  </defs>
+  <rect y="13.285" width="372" height="371.133" style="fill: rgb(216, 216, 216); paint-order: stroke; stroke: rgba(0, 0, 0, 0); visibility: hidden;"></rect>
+  <path style="stroke-width: 10px; stroke: url(#color-0); fill: rgba(216, 216, 216, 0); stroke-linecap: round; stroke-dasharray: 30; stroke-dashoffset: -41px;" d="M 58.388 29.576 C 58.388 29.576 196.72 -21.778 194.149 106.613 L 194.337 267.186 L 229.437 384.986"></path>
+  <path style="fill: rgba(216, 216, 216, 0); stroke: url(#color-0); stroke-width: 10px; stroke-linecap: round; stroke-dasharray: 30px;" d="M 45.216 383.669 L 76.655 322.529 C 76.655 322.529 104.569 262.77 194.149 267.657"></path>
+</svg>

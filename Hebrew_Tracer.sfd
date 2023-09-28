@@ -1,0 +1,5981 @@
+SplineFontDB: 3.2
+FontName: ArialHebrew
+FullName: Arial Hebrew
+FamilyName: Arial Hebrew
+Weight: Book
+Copyright: Typeface (c) Monotype Typography ltd. Data (c) Monotype Typography ltd, Type Solutions Inc 1990-1993. All rights reserved.
+Version: 13.0d1e1
+ItalicAngle: 0
+UnderlinePosition: -125
+UnderlineWidth: 50
+Ascent: 800
+Descent: 200
+InvalidEm: 0
+sfntRevision: 0x00073333
+LayerCount: 2
+Layer: 0 1 "Back" 1
+Layer: 1 1 "Fore" 0
+XUID: [1021 507 1675590895 5417990]
+StyleMap: 0x0040
+FSType: 4
+OS2Version: 3
+OS2_WeightWidthSlopeOnly: 0
+OS2_UseTypoMetrics: 0
+CreationTime: 1377702308
+ModificationTime: 1695858687
+PfmFamily: 81
+TTFWeight: 400
+TTFWidth: 5
+LineGap: 0
+VLineGap: 0
+Panose: 0 0 0 0 0 0 0 0 0 0
+OS2TypoAscent: 730
+OS2TypoAOffset: 0
+OS2TypoDescent: -335
+OS2TypoDOffset: 0
+OS2TypoLinegap: 0
+OS2WinAscent: 730
+OS2WinAOffset: 0
+OS2WinDescent: 335
+OS2WinDOffset: 0
+HheadAscent: 730
+HheadAOffset: 0
+HheadDescent: -335
+HheadDOffset: 0
+OS2SubXSize: 700
+OS2SubYSize: 650
+OS2SubXOff: 0
+OS2SubYOff: 140
+OS2SupXSize: 700
+OS2SupYSize: 650
+OS2SupXOff: 0
+OS2SupYOff: 477
+OS2StrikeYSize: 50
+OS2StrikeYPos: 250
+OS2CapHeight: 716
+OS2XHeight: 520
+OS2Vendor: 'sryp'
+OS2CodePages: 00000001.00000000
+OS2UnicodeRanges: 80000843.40000002.00000000.00000000
+Lookup: 1 0 0 "'ccmp' Glyph Composition/Decomposition in Hebrew lookup 0" { "'ccmp' Glyph Composition/Decomposition in Hebrew lookup 0 subtable"  } ['ccmp' ('hebr' <'dflt' > ) ]
+Lookup: 6 257 0 "'ccmp' Glyph Composition/Decomposition in Hebrew lookup 1" { "'ccmp' Glyph Composition/Decomposition in Hebrew lookup 1 subtable"  } ['ccmp' ('hebr' <'dflt' > ) ]
+Lookup: 4 1 0 "'ccmp' Glyph Composition/Decomposition in Hebrew lookup 2" { "'ccmp' Glyph Composition/Decomposition in Hebrew lookup 2 subtable"  } ['ccmp' ('hebr' <'dflt' > ) ]
+Lookup: 4 1 0 "'ccmp' Glyph Composition/Decomposition in Hebrew lookup 3" { "'ccmp' Glyph Composition/Decomposition in Hebrew lookup 3 subtable"  } ['ccmp' ('hebr' <'dflt' > ) ]
+Lookup: 4 1 0 "'ccmp' Glyph Composition/Decomposition in Hebrew lookup 4" { "'ccmp' Glyph Composition/Decomposition in Hebrew lookup 4 subtable"  } ['ccmp' ('hebr' <'dflt' > ) ]
+Lookup: 1 257 0 "Single Substitution lookup 5" { "Single Substitution lookup 5 subtable"  } []
+Lookup: 264 256 0 "'kern' Horizontal Kerning in Hebrew lookup 0" { "'kern' Horizontal Kerning in Hebrew lookup 0 subtable"  } ['kern' ('hebr' <'dflt' > ) ]
+Lookup: 264 256 0 "'kern' Horizontal Kerning in Hebrew lookup 1" { "'kern' Horizontal Kerning in Hebrew lookup 1 subtable"  } ['kern' ('hebr' <'dflt' > ) ]
+Lookup: 264 0 0 "'kern' Horizontal Kerning in Hebrew lookup 2" { "'kern' Horizontal Kerning in Hebrew lookup 2 subtable"  } ['kern' ('hebr' <'dflt' > ) ]
+Lookup: 264 0 0 "'kern' Horizontal Kerning in Hebrew lookup 3" { "'kern' Horizontal Kerning in Hebrew lookup 3 contextual 0"  "'kern' Horizontal Kerning in Hebrew lookup 3 contextual 1"  } ['kern' ('hebr' <'dflt' > ) ]
+Lookup: 264 0 0 "'kern' Horizontal Kerning in Hebrew lookup 4" { "'kern' Horizontal Kerning in Hebrew lookup 4 subtable"  } ['kern' ('hebr' <'dflt' > ) ]
+Lookup: 260 1 0 "'mark' Mark Positioning in Hebrew lookup 5" { "'mark' Mark Positioning in Hebrew lookup 5 subtable"  } ['mark' ('hebr' <'dflt' > ) ]
+Lookup: 260 1 0 "'mark' Mark Positioning in Hebrew lookup 6" { "'mark' Mark Positioning in Hebrew lookup 6 subtable"  } ['mark' ('hebr' <'dflt' > ) ]
+Lookup: 260 1 0 "'mark' Mark Positioning in Hebrew lookup 7" { "'mark' Mark Positioning in Hebrew lookup 7 subtable"  } ['mark' ('hebr' <'dflt' > ) ]
+Lookup: 260 0 0 "'mark' Mark Positioning in Hebrew lookup 8" { "'mark' Mark Positioning in Hebrew lookup 8 subtable"  } ['mark' ('hebr' <'dflt' > ) ]
+Lookup: 260 1 0 "'mark' Mark Positioning in Hebrew lookup 9" { "'mark' Mark Positioning in Hebrew lookup 9 subtable"  } ['mark' ('hebr' <'dflt' > ) ]
+Lookup: 260 0 0 "'mark' Mark Positioning in Hebrew lookup 10" { "'mark' Mark Positioning in Hebrew lookup 10 subtable"  } ['mark' ('hebr' <'dflt' > ) ]
+Lookup: 264 0 0 "'kern' Horizontal Kerning in Hebrew lookup 11" { "'kern' Horizontal Kerning in Hebrew lookup 11 subtable"  } ['kern' ('hebr' <'dflt' > ) ]
+Lookup: 264 0 0 "'kern' Horizontal Kerning in Hebrew lookup 12" { "'kern' Horizontal Kerning in Hebrew lookup 12 subtable"  } ['kern' ('hebr' <'dflt' > ) ]
+Lookup: 264 0 0 "'kern' Horizontal Kerning in Hebrew lookup 13" { "'kern' Horizontal Kerning in Hebrew lookup 13 contextual 0"  "'kern' Horizontal Kerning in Hebrew lookup 13 contextual 1"  } ['kern' ('hebr' <'dflt' > ) ]
+Lookup: 264 0 0 "'kern' Horizontal Kerning in Hebrew lookup 14" { "'kern' Horizontal Kerning in Hebrew lookup 14 subtable"  } ['kern' ('hebr' <'dflt' > ) ]
+Lookup: 262 0 0 "'mkmk' Mark to Mark in Hebrew lookup 15" { "'mkmk' Mark to Mark in Hebrew lookup 15 subtable"  } ['mkmk' ('hebr' <'dflt' > ) ]
+Lookup: 262 0 0 "'mkmk' Mark to Mark in Hebrew lookup 16" { "'mkmk' Mark to Mark in Hebrew lookup 16 subtable"  } ['mkmk' ('hebr' <'dflt' > ) ]
+Lookup: 262 0 0 "'mkmk' Mark to Mark in Hebrew lookup 17" { "'mkmk' Mark to Mark in Hebrew lookup 17 subtable"  } ['mkmk' ('hebr' <'dflt' > ) ]
+Lookup: 260 0 0 "'mark' Mark Positioning in Hebrew lookup 18" { "'mark' Mark Positioning in Hebrew lookup 18 subtable"  } ['mark' ('hebr' <'dflt' > ) ]
+Lookup: 257 256 0 "Single Positioning lookup 19" { "Single Positioning lookup 19 subtable"  } []
+Lookup: 257 256 0 "Single Positioning lookup 20" { "Single Positioning lookup 20 subtable"  } []
+Lookup: 257 0 0 "Single Positioning lookup 21" { "Single Positioning lookup 21 subtable"  } []
+Lookup: 257 0 0 "Single Positioning lookup 22" { "Single Positioning lookup 22 subtable"  } []
+Lookup: 257 0 0 "Single Positioning lookup 23" { "Single Positioning lookup 23 subtable"  } []
+Lookup: 257 0 0 "Single Positioning lookup 24" { "Single Positioning lookup 24 subtable"  } []
+Lookup: 257 0 0 "Single Positioning lookup 25" { "Single Positioning lookup 25 subtable"  } []
+Lookup: 257 0 0 "Single Positioning lookup 26" { "Single Positioning lookup 26 subtable"  } []
+Lookup: 258 0 0 "Pairwise Positioning (kerning) lookup 27" { "Pairwise Positioning (kerning) lookup 27 subtable"  } []
+MarkAttachClasses: 2
+"MarkClass-1" 145 shevahebrew hatafsegolhebrew hatafpatahhebrew hatafqamatshebrew hiriqhebrew tserehebrew segolhebrew patahhebrew qamatshebrew qubutshebrew uni05C7
+DEI: 91125
+ChainSub2: coverage "'ccmp' Glyph Composition/Decomposition in Hebrew lookup 1 subtable" 0 0 0 1
+ 1 0 1
+  Coverage: 10 ayinhebrew
+  FCoverage: 145 shevahebrew hatafsegolhebrew hatafpatahhebrew hatafqamatshebrew hiriqhebrew tserehebrew segolhebrew patahhebrew qamatshebrew qubutshebrew uni05C7
+ 1
+  SeqLookup: 0 "Single Substitution lookup 5"
+EndFPST
+ChainPos2: coverage "'kern' Horizontal Kerning in Hebrew lookup 14 subtable" 0 0 0 1
+ 2 1 0
+  Coverage: 11 holamhebrew
+  Coverage: 18 rafehebrew uniFB1E
+  BCoverage: 34 vavhebrew yodhebrew finalnunhebrew
+ 1
+  SeqLookup: 0 "Pairwise Positioning (kerning) lookup 27"
+EndFPST
+ChainPos2: coverage "'kern' Horizontal Kerning in Hebrew lookup 13 contextual 1" 0 0 0 1
+ 1 1 1
+  Coverage: 145 shevahebrew hatafsegolhebrew hatafpatahhebrew hatafqamatshebrew hiriqhebrew tserehebrew segolhebrew patahhebrew qamatshebrew qubutshebrew uni05C7
+  BCoverage: 15 qofdageshhebrew
+  FCoverage: 145 shevahebrew hatafsegolhebrew hatafpatahhebrew hatafqamatshebrew hiriqhebrew tserehebrew segolhebrew patahhebrew qamatshebrew qubutshebrew uni05C7
+ 1
+  SeqLookup: 0 "Single Positioning lookup 26"
+EndFPST
+ChainPos2: coverage "'kern' Horizontal Kerning in Hebrew lookup 13 contextual 0" 0 0 0 1
+ 1 1 1
+  Coverage: 145 shevahebrew hatafsegolhebrew hatafpatahhebrew hatafqamatshebrew hiriqhebrew tserehebrew segolhebrew patahhebrew qamatshebrew qubutshebrew uni05C7
+  BCoverage: 9 qofhebrew
+  FCoverage: 145 shevahebrew hatafsegolhebrew hatafpatahhebrew hatafqamatshebrew hiriqhebrew tserehebrew segolhebrew patahhebrew qamatshebrew qubutshebrew uni05C7
+ 1
+  SeqLookup: 0 "Single Positioning lookup 26"
+EndFPST
+ChainPos2: coverage "'kern' Horizontal Kerning in Hebrew lookup 12 subtable" 0 0 0 1
+ 1 1 1
+  Coverage: 145 shevahebrew hatafsegolhebrew hatafpatahhebrew hatafqamatshebrew hiriqhebrew tserehebrew segolhebrew patahhebrew qamatshebrew qubutshebrew uni05C7
+  BCoverage: 85 gimelhebrew zayinhebrew nunhebrew gimeldageshhebrew zayindageshhebrew nundageshhebrew
+  FCoverage: 145 shevahebrew hatafsegolhebrew hatafpatahhebrew hatafqamatshebrew hiriqhebrew tserehebrew segolhebrew patahhebrew qamatshebrew qubutshebrew uni05C7
+ 1
+  SeqLookup: 0 "Single Positioning lookup 25"
+EndFPST
+ChainPos2: coverage "'kern' Horizontal Kerning in Hebrew lookup 11 subtable" 0 0 0 1
+ 1 1 1
+  Coverage: 145 shevahebrew hatafsegolhebrew hatafpatahhebrew hatafqamatshebrew hiriqhebrew tserehebrew segolhebrew patahhebrew qamatshebrew qubutshebrew uni05C7
+  BCoverage: 66 vavhebrew yodhebrew vavdageshhebrew yoddageshhebrew vavholamhebrew
+  FCoverage: 145 shevahebrew hatafsegolhebrew hatafpatahhebrew hatafqamatshebrew hiriqhebrew tserehebrew segolhebrew patahhebrew qamatshebrew qubutshebrew uni05C7
+ 1
+  SeqLookup: 0 "Single Positioning lookup 24"
+EndFPST
+ChainPos2: coverage "'kern' Horizontal Kerning in Hebrew lookup 4 subtable" 0 0 0 1
+ 1 0 2
+  Coverage: 29 lamedhebrew lameddageshhebrew
+  FCoverage: 24 holamhebrew sindothebrew
+  FCoverage: 130 finalkafhebrew finalnunhebrew finalpehebrew finaltsadihebrew finalkafdageshhebrew uniFB43 finalkafqamatshebrew finalkafshevahebrew
+ 1
+  SeqLookup: 0 "Single Positioning lookup 23"
+EndFPST
+ChainPos2: coverage "'kern' Horizontal Kerning in Hebrew lookup 3 contextual 1" 0 0 0 1
+ 1 0 2
+  Coverage: 66 vavhebrew yodhebrew vavdageshhebrew yoddageshhebrew vavholamhebrew
+  FCoverage: 145 shevahebrew hatafsegolhebrew hatafpatahhebrew hatafqamatshebrew hiriqhebrew tserehebrew segolhebrew patahhebrew qamatshebrew qubutshebrew uni05C7
+  FCoverage: 130 finalkafhebrew finalnunhebrew finalpehebrew finaltsadihebrew finalkafdageshhebrew uniFB43 finalkafqamatshebrew finalkafshevahebrew
+ 1
+  SeqLookup: 0 "Single Positioning lookup 22"
+EndFPST
+ChainPos2: coverage "'kern' Horizontal Kerning in Hebrew lookup 3 contextual 0" 0 0 0 1
+ 1 0 3
+  Coverage: 66 vavhebrew yodhebrew vavdageshhebrew yoddageshhebrew vavholamhebrew
+  FCoverage: 145 shevahebrew hatafsegolhebrew hatafpatahhebrew hatafqamatshebrew hiriqhebrew tserehebrew segolhebrew patahhebrew qamatshebrew qubutshebrew uni05C7
+  FCoverage: 145 shevahebrew hatafsegolhebrew hatafpatahhebrew hatafqamatshebrew hiriqhebrew tserehebrew segolhebrew patahhebrew qamatshebrew qubutshebrew uni05C7
+  FCoverage: 130 finalkafhebrew finalnunhebrew finalpehebrew finaltsadihebrew finalkafdageshhebrew uniFB43 finalkafqamatshebrew finalkafshevahebrew
+ 1
+  SeqLookup: 0 "Single Positioning lookup 22"
+EndFPST
+ChainPos2: coverage "'kern' Horizontal Kerning in Hebrew lookup 2 subtable" 0 0 0 1
+ 1 0 4
+  Coverage: 622 alefhebrew bethebrew gimelhebrew dalethebrew hehebrew vavhebrew zayinhebrew hethebrew tethebrew yodhebrew finalkafhebrew kafhebrew finalmemhebrew memhebrew nunhebrew samekhhebrew ayinhebrew pehebrew finaltsadihebrew tsadihebrew qofhebrew reshhebrew uniFB20 uniFB24 uniFB25 uniFB30 betdageshhebrew gimeldageshhebrew daletdageshhebrew hedageshhebrew vavdageshhebrew zayindageshhebrew tetdageshhebrew yoddageshhebrew finalkafdageshhebrew kafdageshhebrew memdageshhebrew nundageshhebrew samekhdageshhebrew pedageshhebrew tsadidageshhebrew qofdageshhebrew uniFB48 vavholamhebrew uniFB4F finalkafqamatshebrew finalkafshevahebrew
+  FCoverage: 145 shevahebrew hatafsegolhebrew hatafpatahhebrew hatafqamatshebrew hiriqhebrew tserehebrew segolhebrew patahhebrew qamatshebrew qubutshebrew uni05C7
+  FCoverage: 145 shevahebrew hatafsegolhebrew hatafpatahhebrew hatafqamatshebrew hiriqhebrew tserehebrew segolhebrew patahhebrew qamatshebrew qubutshebrew uni05C7
+  FCoverage: 145 shevahebrew hatafsegolhebrew hatafpatahhebrew hatafqamatshebrew hiriqhebrew tserehebrew segolhebrew patahhebrew qamatshebrew qubutshebrew uni05C7
+  FCoverage: 130 finalkafhebrew finalnunhebrew finalpehebrew finaltsadihebrew finalkafdageshhebrew uniFB43 finalkafqamatshebrew finalkafshevahebrew
+ 1
+  SeqLookup: 0 "Single Positioning lookup 21"
+EndFPST
+ChainPos2: coverage "'kern' Horizontal Kerning in Hebrew lookup 1 subtable" 0 0 0 1
+ 1 0 1
+  Coverage: 31 finalnunhebrew finaltsadihebrew
+  FCoverage: 16 hatafsegolhebrew
+ 1
+  SeqLookup: 0 "Single Positioning lookup 20"
+EndFPST
+ChainPos2: coverage "'kern' Horizontal Kerning in Hebrew lookup 0 subtable" 0 0 0 1
+ 1 0 1
+  Coverage: 31 finalnunhebrew finaltsadihebrew
+  FCoverage: 170 shevahebrew hatafsegolhebrew hatafpatahhebrew hatafqamatshebrew hiriqhebrew tserehebrew segolhebrew patahhebrew qamatshebrew holamhebrew qubutshebrew sindothebrew uni05C7
+ 1
+  SeqLookup: 0 "Single Positioning lookup 19"
+EndFPST
+MacFeat: 9 1 0
+MacName: 0 0 10 "Diacritics"
+MacSetting: 0
+MacName: 0 0 9 "No Change"
+MacSetting: 1
+MacName: 0 0 15 "Hide Diacritics"
+EndMacFeatures
+TtTable: prep
+PUSHW_1
+ 320
+SCANCTRL
+EndTTInstrs
+ShortTable: maxp 16
+  1
+  0
+  269
+  128
+  16
+  84
+  7
+  2
+  16
+  47
+  89
+  0
+  184
+  0
+  3
+  1
+EndShort
+LangName: 1033 "Typeface +AKkA Monotype Typography ltd. Data +AKkA Monotype Typography ltd, Type Solutions Inc 1990-1993. All rights reserved." "" "Regular" "Arial Hebrew; 13.0d1e1; 2017-06-17" "" "13.0d1e1" "" "Arial +AK4A Trademark of The Monotype Corporation registered in the US Pat & TM off. and elsewhere."
+LangName: 1028 "" "" "+ahlulprU"
+LangName: 1030 "" "" "Ordin+AOYA-r"
+LangName: 1031 "" "" "Normal"
+LangName: 1035 "" "" "Normaali"
+LangName: 1036 "" "" "Normal"
+LangName: 1040 "" "" "Regolare"
+LangName: 1041 "" "" "+MOwwrjDlMOkw/AAA"
+LangName: 1042 "" "" "+x3y8GMy0"
+LangName: 1043 "" "" "Regulier"
+LangName: 1044 "" "" "Normal"
+LangName: 1046 "" "" "Normal"
+LangName: 1049 "" "" "+BB4EMQRLBEcEPQRLBDkA"
+LangName: 1053 "" "" "Normal"
+LangName: 2052 "" "" "+XjiJxE9T"
+LangName: 3082 "" "" "Normal"
+Encoding: UnicodeBmp
+UnicodeInterp: none
+NameList: AGL For New Fonts
+DisplaySize: -48
+AntiAlias: 1
+FitToEm: 0
+WinInfo: 1424 16 11
+AnchorClass2: "Anchor-0" "'mark' Mark Positioning in Hebrew lookup 5 subtable" "Anchor-1" "'mark' Mark Positioning in Hebrew lookup 6 subtable" "Anchor-2" "'mark' Mark Positioning in Hebrew lookup 7 subtable" "Anchor-3" "'mark' Mark Positioning in Hebrew lookup 8 subtable" "Anchor-4" "'mark' Mark Positioning in Hebrew lookup 9 subtable" "Anchor-5" "'mark' Mark Positioning in Hebrew lookup 10 subtable" "Anchor-6" "'mkmk' Mark to Mark in Hebrew lookup 15 subtable" "Anchor-7" "'mkmk' Mark to Mark in Hebrew lookup 16 subtable" "Anchor-8" "'mkmk' Mark to Mark in Hebrew lookup 17 subtable" "Anchor-9" "'mark' Mark Positioning in Hebrew lookup 18 subtable"
+BeginChars: 65540 193
+
+StartChar: .notdef
+Encoding: 65536 -1 0
+Width: 750
+GlyphClass: 2
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+125 0 m 1,0,-1
+ 125 625 l 1,1,-1
+ 625 625 l 1,2,-1
+ 625 0 l 1,3,-1
+ 125 0 l 1,0,-1
+141 16 m 1,4,-1
+ 609 16 l 1,5,-1
+ 609 609 l 1,6,-1
+ 141 609 l 1,7,-1
+ 141 16 l 1,4,-1
+EndSplineSet
+Validated: 1
+EndChar
+
+StartChar: NULL
+Encoding: 0 0 1
+AltUni2: 000008.ffffffff.0 00001d.ffffffff.0 000008.ffffffff.0 00001d.ffffffff.0
+Width: 0
+GlyphClass: 2
+Flags: W
+LayerCount: 2
+Fore
+Validated: 1
+EndChar
+
+StartChar: nonmarkingreturn
+Encoding: 9 9 2
+AltUni2: 00000d.ffffffff.0 00000d.ffffffff.0
+Width: 278
+GlyphClass: 2
+Flags: W
+LayerCount: 2
+Fore
+Validated: 1
+EndChar
+
+StartChar: space
+Encoding: 32 32 3
+Width: 278
+GlyphClass: 2
+Flags: W
+LayerCount: 2
+Fore
+Validated: 1
+EndChar
+
+StartChar: exclam
+Encoding: 33 33 4
+Width: 251
+GlyphClass: 2
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+98 178 m 1,0,-1
+ 77 440 l 1,1,-1
+ 77 599 l 1,2,-1
+ 174 599 l 1,3,-1
+ 174 440 l 1,4,-1
+ 155 178 l 1,5,-1
+ 98 178 l 1,0,-1
+76 0 m 1,6,-1
+ 76 100 l 1,7,-1
+ 176 100 l 1,8,-1
+ 176 0 l 1,9,-1
+ 76 0 l 1,6,-1
+EndSplineSet
+Validated: 1
+EndChar
+
+StartChar: quotedbl
+Encoding: 34 34 5
+Width: 417
+GlyphClass: 2
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+225 330 m 1,0,-1
+ 273 518 l 1,1,-1
+ 373 518 l 1,2,-1
+ 284 330 l 1,3,-1
+ 225 330 l 1,0,-1
+44 330 m 1,4,-1
+ 92 518 l 1,5,-1
+ 192 518 l 1,6,-1
+ 103 330 l 1,7,-1
+ 44 330 l 1,4,-1
+EndSplineSet
+Validated: 1
+EndChar
+
+StartChar: numbersign
+Encoding: 35 35 6
+Width: 557
+GlyphClass: 2
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+100 0 m 1,0,-1
+ 128 136 l 1,1,-1
+ 64 136 l 1,2,-1
+ 64 203 l 1,3,-1
+ 140 203 l 1,4,-1
+ 164 315 l 1,5,-1
+ 64 315 l 1,6,-1
+ 64 382 l 1,7,-1
+ 177 382 l 1,8,-1
+ 206 518 l 1,9,-1
+ 274 518 l 1,10,-1
+ 246 382 l 1,11,-1
+ 355 382 l 1,12,-1
+ 382 518 l 1,13,-1
+ 451 518 l 1,14,-1
+ 423 382 l 1,15,-1
+ 493 382 l 1,16,-1
+ 493 315 l 1,17,-1
+ 409 315 l 1,18,-1
+ 388 203 l 1,19,-1
+ 493 203 l 1,20,-1
+ 493 136 l 1,21,-1
+ 374 136 l 1,22,-1
+ 346 0 l 1,23,-1
+ 277 0 l 1,24,-1
+ 305 136 l 1,25,-1
+ 196 136 l 1,26,-1
+ 169 0 l 1,27,-1
+ 100 0 l 1,0,-1
+210 203 m 1,28,-1
+ 318 203 l 1,29,-1
+ 341 315 l 1,30,-1
+ 232 315 l 1,31,-1
+ 210 203 l 1,28,-1
+EndSplineSet
+Validated: 1
+EndChar
+
+StartChar: dollar
+Encoding: 36 36 7
+Width: 462
+GlyphClass: 2
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+208 233 m 1,0,-1
+ 171 249 l 2,1,2
+ 111 275 111 275 85 307.5 c 128,-1,3
+ 59 340 59 340 59 392 c 0,4,5
+ 59 457 59 457 104.5 493 c 128,-1,6
+ 150 529 150 529 208 529 c 1,7,-1
+ 208 592 l 1,8,-1
+ 258 592 l 1,9,-1
+ 258 529 l 1,10,11
+ 380 511 380 511 394 386 c 1,12,-1
+ 322 374 l 1,13,14
+ 311 445 311 445 258 457 c 1,15,-1
+ 258 304 l 1,16,-1
+ 290 291 l 2,17,18
+ 356 264 356 264 383.5 229.5 c 128,-1,19
+ 411 195 411 195 411 141 c 0,20,21
+ 411 76 411 76 365.5 32.5 c 128,-1,22
+ 320 -11 320 -11 258 -11 c 1,23,-1
+ 258 -75 l 1,24,-1
+ 208 -75 l 1,25,-1
+ 208 -10 l 1,26,27
+ 71 8 71 8 54 155 c 1,28,-1
+ 128 168 l 1,29,30
+ 138 74 138 74 208 59 c 1,31,-1
+ 208 233 l 1,0,-1
+208 323 m 1,32,-1
+ 208 456 l 1,33,34
+ 181 456 181 456 159.5 440.5 c 128,-1,35
+ 138 425 138 425 138 397 c 0,36,37
+ 138 370 138 370 152.5 355.5 c 128,-1,38
+ 167 341 167 341 208 323 c 1,32,-1
+258 212 m 1,39,-1
+ 258 57 l 1,40,41
+ 331 73 331 73 331 132 c 0,42,43
+ 331 156 331 156 315.5 175.5 c 128,-1,44
+ 300 195 300 195 258 212 c 1,39,-1
+EndSplineSet
+Validated: 1
+EndChar
+
+StartChar: percent
+Encoding: 37 37 8
+Width: 706
+GlyphClass: 2
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+168 -20 m 1,0,-1
+ 459 541 l 1,1,-1
+ 538 541 l 1,2,-1
+ 248 -20 l 1,3,-1
+ 168 -20 l 1,0,-1
+39 399 m 0,4,5
+ 39 462 39 462 75 501.5 c 128,-1,6
+ 111 541 111 541 168 541 c 0,7,8
+ 231 541 231 541 264 497 c 128,-1,9
+ 297 453 297 453 297 399 c 256,10,11
+ 297 345 297 345 264 302 c 128,-1,12
+ 231 259 231 259 168 259 c 0,13,14
+ 107 259 107 259 73 301.5 c 128,-1,15
+ 39 344 39 344 39 399 c 0,4,5
+116 400 m 256,16,17
+ 116 308 116 308 168 308 c 256,18,19
+ 220 308 220 308 220 400 c 256,20,21
+ 220 492 220 492 168 492 c 256,22,23
+ 116 492 116 492 116 400 c 256,16,17
+667 121 m 256,24,25
+ 667 58 667 58 631 18.5 c 128,-1,26
+ 595 -21 595 -21 538 -21 c 0,27,28
+ 475 -21 475 -21 442 22 c 128,-1,29
+ 409 65 409 65 409 121 c 0,30,31
+ 409 183 409 183 446 222 c 128,-1,32
+ 483 261 483 261 538 261 c 0,33,34
+ 592 261 592 261 629.5 222.5 c 128,-1,35
+ 667 184 667 184 667 121 c 256,24,25
+590 120 m 256,36,37
+ 590 212 590 212 538 212 c 256,38,39
+ 486 212 486 212 486 120 c 256,40,41
+ 486 28 486 28 538 28 c 256,42,43
+ 590 28 590 28 590 120 c 256,36,37
+EndSplineSet
+Validated: 1
+EndChar
+
+StartChar: quotesingle
+Encoding: 39 39 9
+Width: 236
+GlyphClass: 2
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+44 330 m 1,0,-1
+ 92 518 l 1,1,-1
+ 192 518 l 1,2,-1
+ 103 330 l 1,3,-1
+ 44 330 l 1,0,-1
+EndSplineSet
+Validated: 1
+EndChar
+
+StartChar: parenleft
+Encoding: 40 40 10
+Width: 241
+GlyphClass: 2
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+214 620 m 1,0,1
+ 141 475 141 475 141 258 c 0,2,3
+ 141 59 141 59 219 -101 c 1,4,-1
+ 169 -101 l 1,5,6
+ 54 77 54 77 54 258 c 0,7,8
+ 54 462 54 462 164 620 c 1,9,-1
+ 214 620 l 1,0,1
+EndSplineSet
+Validated: 1
+EndChar
+
+StartChar: parenright
+Encoding: 41 41 11
+Width: 241
+GlyphClass: 2
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+22 -101 m 1,0,1
+ 100 59 100 59 100 258 c 0,2,3
+ 100 475 100 475 27 620 c 1,4,-1
+ 77 620 l 1,5,6
+ 187 462 187 462 187 258 c 0,7,8
+ 187 78 187 78 72 -101 c 1,9,-1
+ 22 -101 l 1,0,1
+EndSplineSet
+Validated: 1
+EndChar
+
+StartChar: asterisk
+Encoding: 42 42 12
+Width: 340
+GlyphClass: 2
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+60 362 m 1,0,1
+ 108 422 108 422 132 445 c 1,2,3
+ 69 457 69 457 24 470 c 1,4,-1
+ 45 532 l 1,5,6
+ 118 505 118 505 146 489 c 1,7,8
+ 139 547 139 547 139 599 c 1,9,-1
+ 201 599 l 1,10,11
+ 201 547 201 547 191 489 c 1,12,13
+ 234 513 234 513 294 532 c 1,14,-1
+ 315 470 l 1,15,16
+ 264 452 264 452 206 445 c 1,17,18
+ 250 401 250 401 282 362 c 1,19,-1
+ 229 324 l 1,20,21
+ 194 373 194 373 168 418 c 1,22,23
+ 138 358 138 358 110 324 c 1,24,-1
+ 60 362 l 1,0,1
+EndSplineSet
+Validated: 1
+EndChar
+
+StartChar: plus
+Encoding: 43 43 13
+Width: 488
+GlyphClass: 2
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+204 89 m 1,0,-1
+ 204 222 l 1,1,-1
+ 72 222 l 1,2,-1
+ 72 297 l 1,3,-1
+ 204 297 l 1,4,-1
+ 204 431 l 1,5,-1
+ 284 431 l 1,6,-1
+ 284 297 l 1,7,-1
+ 416 297 l 1,8,-1
+ 416 222 l 1,9,-1
+ 284 222 l 1,10,-1
+ 284 89 l 1,11,-1
+ 204 89 l 1,0,-1
+EndSplineSet
+Validated: 1
+EndChar
+
+StartChar: comma
+Encoding: 44 44 14
+Width: 213
+GlyphClass: 2
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+60 0 m 1,0,-1
+ 60 100 l 1,1,-1
+ 160 100 l 1,2,-1
+ 160 0 l 2,3,4
+ 160 -107 160 -107 79 -141 c 1,5,-1
+ 54 -104 l 1,6,7
+ 110 -81 110 -81 110 0 c 1,8,-1
+ 60 0 l 1,0,-1
+EndSplineSet
+Validated: 1
+EndChar
+
+StartChar: hyphen
+Encoding: 45 45 15
+Width: 349
+GlyphClass: 2
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+44 220 m 1,0,-1
+ 44 298 l 1,1,-1
+ 305 298 l 1,2,-1
+ 305 220 l 1,3,-1
+ 44 220 l 1,0,-1
+EndSplineSet
+Validated: 1
+EndChar
+
+StartChar: period
+Encoding: 46 46 16
+Width: 208
+GlyphClass: 2
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+54 0 m 1,0,-1
+ 54 100 l 1,1,-1
+ 154 100 l 1,2,-1
+ 154 0 l 1,3,-1
+ 54 0 l 1,0,-1
+EndSplineSet
+Validated: 1
+EndChar
+
+StartChar: slash
+Encoding: 47 47 17
+Width: 312
+GlyphClass: 2
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+29 -12 m 1,0,-1
+ 207 620 l 1,1,-1
+ 283 620 l 1,2,-1
+ 105 -12 l 1,3,-1
+ 29 -12 l 1,0,-1
+EndSplineSet
+Validated: 1
+EndChar
+
+StartChar: zero
+Encoding: 48 48 18
+Width: 488
+GlyphClass: 2
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+46 260 m 0,0,1
+ 46 385 46 385 101 459 c 128,-1,2
+ 156 533 156 533 244 533 c 0,3,4
+ 333 533 333 533 387 459 c 128,-1,5
+ 441 385 441 385 442 260 c 0,6,7
+ 442 136 442 136 387.5 60.5 c 128,-1,8
+ 333 -15 333 -15 244 -15 c 0,9,10
+ 151 -15 151 -15 98.5 63 c 128,-1,11
+ 46 141 46 141 46 260 c 0,0,1
+344 259 m 256,12,13
+ 344 456 344 456 244 456 c 256,14,15
+ 144 456 144 456 144 259 c 256,16,17
+ 144 62 144 62 244 62 c 256,18,19
+ 344 62 344 62 344 259 c 256,12,13
+EndSplineSet
+Validated: 1
+EndChar
+
+StartChar: one
+Encoding: 49 49 19
+Width: 488
+GlyphClass: 2
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+107 425 m 1,0,1
+ 211 449 211 449 270 527 c 1,2,-1
+ 322 527 l 1,3,-1
+ 322 0 l 1,4,-1
+ 234 0 l 1,5,-1
+ 234 400 l 1,6,7
+ 190 366 190 366 107 356 c 1,8,-1
+ 107 425 l 1,0,1
+EndSplineSet
+Validated: 1
+EndChar
+
+StartChar: two
+Encoding: 50 50 20
+Width: 488
+GlyphClass: 2
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+59 392 m 1,0,1
+ 71 457 71 457 122.5 494.5 c 128,-1,2
+ 174 532 174 532 248 532 c 0,3,4
+ 320 532 320 532 366.5 489.5 c 128,-1,5
+ 413 447 413 447 413 374 c 0,6,7
+ 413 286 413 286 302 207 c 0,8,9
+ 182 122 182 122 169 75 c 1,10,-1
+ 426 75 l 1,11,-1
+ 426 0 l 1,12,-1
+ 52 0 l 1,13,14
+ 62 83 62 83 109 139.5 c 128,-1,15
+ 156 196 156 196 251 266 c 0,16,17
+ 323 318 323 318 323 372 c 0,18,19
+ 323 406 323 406 304.5 431 c 128,-1,20
+ 286 456 286 456 242 456 c 0,21,22
+ 162 456 162 456 149 377 c 1,23,-1
+ 59 392 l 1,0,1
+EndSplineSet
+Validated: 1
+EndChar
+
+StartChar: three
+Encoding: 51 51 21
+Width: 488
+GlyphClass: 2
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+326 283 m 1,0,1
+ 372 271 372 271 397 233.5 c 128,-1,2
+ 422 196 422 196 424 152 c 0,3,4
+ 424 82 424 82 374.5 35 c 128,-1,5
+ 325 -12 325 -12 246 -12 c 0,6,7
+ 166 -12 166 -12 109 29.5 c 128,-1,8
+ 52 71 52 71 44 132 c 1,9,-1
+ 126 147 l 1,10,11
+ 131 112 131 112 163 86 c 128,-1,12
+ 195 60 195 60 238 60 c 0,13,14
+ 283 60 283 60 310 84.5 c 128,-1,15
+ 337 109 337 109 337 146 c 0,16,17
+ 337 185 337 185 309 212 c 128,-1,18
+ 281 239 281 239 246 240 c 0,19,20
+ 217 240 217 240 204 236 c 1,21,-1
+ 212 304 l 1,22,-1
+ 222 304 l 2,23,24
+ 267 304 267 304 289 329.5 c 128,-1,25
+ 311 355 311 355 311 385 c 0,26,27
+ 311 422 311 422 289 439 c 128,-1,28
+ 267 456 267 456 235 456 c 0,29,30
+ 167 456 167 456 146 394 c 1,31,-1
+ 64 408 l 1,32,33
+ 78 465 78 465 127 498.5 c 128,-1,34
+ 176 532 176 532 242 532 c 0,35,36
+ 300 532 300 532 348 495.5 c 128,-1,37
+ 396 459 396 459 396 392 c 0,38,39
+ 396 314 396 314 326 283 c 1,0,1
+EndSplineSet
+Validated: 1
+EndChar
+
+StartChar: four
+Encoding: 52 52 22
+Width: 488
+GlyphClass: 2
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+290 0 m 1,0,-1
+ 290 116 l 1,1,-1
+ 28 116 l 1,2,-1
+ 28 165 l 1,3,-1
+ 318 527 l 1,4,-1
+ 374 527 l 1,5,-1
+ 374 184 l 1,6,-1
+ 455 184 l 1,7,-1
+ 455 116 l 1,8,-1
+ 374 116 l 1,9,-1
+ 374 0 l 1,10,-1
+ 290 0 l 1,0,-1
+130 184 m 1,11,-1
+ 290 184 l 1,12,-1
+ 290 384 l 1,13,-1
+ 130 184 l 1,11,-1
+EndSplineSet
+Validated: 1
+EndChar
+
+StartChar: five
+Encoding: 53 53 23
+Width: 488
+GlyphClass: 2
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+139 139 m 1,0,1
+ 142 105 142 105 170.5 82.5 c 128,-1,2
+ 199 60 199 60 239 60 c 0,3,4
+ 284 60 284 60 311 89.5 c 128,-1,5
+ 338 119 338 119 338 169 c 0,6,7
+ 338 217 338 217 310.5 248 c 128,-1,8
+ 283 279 283 279 240 279 c 0,9,10
+ 179 279 179 279 144 235 c 1,11,-1
+ 72 242 l 1,12,-1
+ 124 518 l 1,13,-1
+ 402 518 l 1,14,-1
+ 402 443 l 1,15,-1
+ 185 443 l 1,16,-1
+ 159 311 l 1,17,18
+ 200 345 200 345 261 345 c 0,19,20
+ 333 345 333 345 380 295 c 128,-1,21
+ 427 245 427 245 428 171 c 0,22,23
+ 428 87 428 87 372.5 37.5 c 128,-1,24
+ 317 -12 317 -12 231 -12 c 0,25,26
+ 167 -12 167 -12 115.5 25 c 128,-1,27
+ 64 62 64 62 54 128 c 1,28,-1
+ 139 139 l 1,0,1
+EndSplineSet
+Validated: 1
+EndChar
+
+StartChar: six
+Encoding: 54 54 24
+Width: 488
+GlyphClass: 2
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+142 281 m 1,0,1
+ 191 345 191 345 274 345 c 0,2,3
+ 346 345 346 345 393.5 297.5 c 128,-1,4
+ 441 250 441 250 441 171 c 0,5,6
+ 441 93 441 93 390 40.5 c 128,-1,7
+ 339 -12 339 -12 256 -12 c 0,8,9
+ 161 -12 161 -12 107.5 59 c 128,-1,10
+ 54 130 54 130 54 245 c 0,11,12
+ 54 378 54 378 112 454 c 128,-1,13
+ 170 530 170 530 270 532 c 0,14,15
+ 327 532 327 532 367.5 504 c 128,-1,16
+ 408 476 408 476 421 431 c 1,17,-1
+ 336 418 l 1,18,19
+ 316 456 316 456 263 456 c 0,20,21
+ 208 456 208 456 175 409 c 128,-1,22
+ 142 362 142 362 142 281 c 1,0,1
+157 169 m 0,23,24
+ 157 120 157 120 184 90 c 128,-1,25
+ 211 60 211 60 253 60 c 0,26,27
+ 300 60 300 60 326 90.5 c 128,-1,28
+ 352 121 352 121 352 169 c 256,29,30
+ 352 217 352 217 326.5 246 c 128,-1,31
+ 301 275 301 275 256 275 c 0,32,33
+ 213 275 213 275 185 246 c 128,-1,34
+ 157 217 157 217 157 169 c 0,23,24
+EndSplineSet
+Validated: 1
+EndChar
+
+StartChar: seven
+Encoding: 55 55 25
+Width: 488
+GlyphClass: 2
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+61 443 m 1,0,-1
+ 61 518 l 1,1,-1
+ 422 518 l 1,2,-1
+ 422 459 l 1,3,4
+ 358 395 358 395 315 266.5 c 128,-1,5
+ 272 138 272 138 272 0 c 1,6,-1
+ 182 0 l 1,7,8
+ 182 133 182 133 223 259 c 128,-1,9
+ 264 385 264 385 317 443 c 1,10,-1
+ 61 443 l 1,0,-1
+EndSplineSet
+Validated: 1
+EndChar
+
+StartChar: eight
+Encoding: 56 56 26
+Width: 488
+GlyphClass: 2
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+138 284 m 1,0,1
+ 80 324 80 324 80 392 c 256,2,3
+ 80 460 80 460 129.5 496 c 128,-1,4
+ 179 532 179 532 244 532 c 0,5,6
+ 308 532 308 532 358 496 c 128,-1,7
+ 408 460 408 460 408 392 c 256,8,9
+ 408 324 408 324 350 284 c 1,10,-1
+ 350 283 l 1,11,12
+ 389 265 389 265 412.5 229.5 c 128,-1,13
+ 436 194 436 194 436 152 c 0,14,15
+ 436 84 436 84 383 35 c 128,-1,16
+ 330 -14 330 -14 244 -14 c 0,17,18
+ 155 -14 155 -14 103.5 35.5 c 128,-1,19
+ 52 85 52 85 52 152 c 0,20,21
+ 52 194 52 194 75.5 229.5 c 128,-1,22
+ 99 265 99 265 138 283 c 1,23,-1
+ 138 284 l 1,0,1
+244 312 m 256,24,25
+ 274 312 274 312 298.5 330 c 128,-1,26
+ 323 348 323 348 323 382 c 0,27,28
+ 323 419 323 419 299.5 437.5 c 128,-1,29
+ 276 456 276 456 244 456 c 0,30,31
+ 209 456 209 456 187 436 c 128,-1,32
+ 165 416 165 416 165 382 c 0,33,34
+ 165 349 165 349 189.5 330.5 c 128,-1,35
+ 214 312 214 312 244 312 c 256,24,25
+244 62 m 256,36,37
+ 282 62 282 62 311 84 c 128,-1,38
+ 340 106 340 106 340 152 c 0,39,40
+ 340 189 340 189 312 214 c 128,-1,41
+ 284 239 284 239 244 239 c 0,42,43
+ 205 239 205 239 176.5 214 c 128,-1,44
+ 148 189 148 189 148 152 c 0,45,46
+ 148 106 148 106 177 84 c 128,-1,47
+ 206 62 206 62 244 62 c 256,36,37
+EndSplineSet
+Validated: 1
+EndChar
+
+StartChar: nine
+Encoding: 57 57 27
+Width: 488
+GlyphClass: 2
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+346 246 m 1,0,1
+ 297 182 297 182 215 182 c 0,2,3
+ 141 182 141 182 94.5 229.5 c 128,-1,4
+ 48 277 48 277 48 349 c 0,5,6
+ 48 426 48 426 101.5 479 c 128,-1,7
+ 155 532 155 532 229 532 c 0,8,9
+ 323 532 323 532 378.5 462 c 128,-1,10
+ 434 392 434 392 434 274 c 0,11,12
+ 434 146 434 146 376.5 67 c 128,-1,13
+ 319 -12 319 -12 217 -12 c 0,14,15
+ 163 -12 163 -12 119.5 18.5 c 128,-1,16
+ 76 49 76 49 66 89 c 1,17,-1
+ 151 102 l 1,18,19
+ 171 64 171 64 224 64 c 0,20,21
+ 281 64 281 64 313.5 113.5 c 128,-1,22
+ 346 163 346 163 346 246 c 1,0,1
+330 351 m 0,23,24
+ 330 402 330 402 304.5 431 c 128,-1,25
+ 279 460 279 460 234 460 c 0,26,27
+ 195 460 195 460 167 429.5 c 128,-1,28
+ 139 399 139 399 139 351 c 0,29,30
+ 139 309 139 309 165 281.5 c 128,-1,31
+ 191 254 191 254 233 254 c 0,32,33
+ 273 254 273 254 301.5 281.5 c 128,-1,34
+ 330 309 330 309 330 351 c 0,23,24
+EndSplineSet
+Validated: 1
+EndChar
+
+StartChar: colon
+Encoding: 58 58 28
+Width: 237
+GlyphClass: 2
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+68 296 m 1,0,-1
+ 68 396 l 1,1,-1
+ 168 396 l 1,2,-1
+ 168 296 l 1,3,-1
+ 68 296 l 1,0,-1
+68 0 m 1,4,-1
+ 68 100 l 1,5,-1
+ 168 100 l 1,6,-1
+ 168 0 l 1,7,-1
+ 68 0 l 1,4,-1
+EndSplineSet
+Validated: 1
+EndChar
+
+StartChar: semicolon
+Encoding: 59 59 29
+Width: 243
+GlyphClass: 2
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+74 296 m 1,0,-1
+ 74 396 l 1,1,-1
+ 174 396 l 1,2,-1
+ 174 296 l 1,3,-1
+ 74 296 l 1,0,-1
+74 0 m 1,4,-1
+ 74 100 l 1,5,-1
+ 174 100 l 1,6,-1
+ 174 0 l 2,7,8
+ 174 -51 174 -51 157.5 -85.5 c 128,-1,9
+ 141 -120 141 -120 93 -141 c 1,10,-1
+ 68 -104 l 1,11,12
+ 125 -82 125 -82 125 0 c 1,13,-1
+ 74 0 l 1,4,-1
+EndSplineSet
+Validated: 1
+EndChar
+
+StartChar: less
+Encoding: 60 60 30
+Width: 488
+GlyphClass: 2
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+51 227 m 1,0,-1
+ 51 295 l 1,1,-1
+ 437 458 l 1,2,-1
+ 437 379 l 1,3,-1
+ 149 261 l 1,4,-1
+ 437 142 l 1,5,-1
+ 437 62 l 1,6,-1
+ 51 227 l 1,0,-1
+EndSplineSet
+Validated: 1
+EndChar
+
+StartChar: equal
+Encoding: 61 61 31
+Width: 488
+GlyphClass: 2
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+415 300 m 1,0,-1
+ 73 300 l 1,1,-1
+ 73 378 l 1,2,-1
+ 415 378 l 1,3,-1
+ 415 300 l 1,0,-1
+415 140 m 1,4,-1
+ 73 140 l 1,5,-1
+ 73 218 l 1,6,-1
+ 415 218 l 1,7,-1
+ 415 140 l 1,4,-1
+EndSplineSet
+Validated: 1
+EndChar
+
+StartChar: greater
+Encoding: 62 62 32
+Width: 488
+GlyphClass: 2
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+437 227 m 1,0,-1
+ 51 62 l 1,1,-1
+ 51 142 l 1,2,-1
+ 339 261 l 1,3,-1
+ 51 379 l 1,4,-1
+ 51 458 l 1,5,-1
+ 437 295 l 1,6,-1
+ 437 227 l 1,0,-1
+EndSplineSet
+Validated: 1
+EndChar
+
+StartChar: question
+Encoding: 63 63 33
+Width: 441
+GlyphClass: 2
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+164 178 m 1,0,1
+ 164 232 164 232 182 267.5 c 128,-1,2
+ 200 303 200 303 238 338 c 0,3,4
+ 284 380 284 380 296 401 c 128,-1,5
+ 308 422 308 422 308 452 c 0,6,7
+ 308 488 308 488 279 512 c 128,-1,8
+ 250 536 250 536 208 536 c 0,9,10
+ 169 536 169 536 142.5 515.5 c 128,-1,11
+ 116 495 116 495 107 462 c 1,12,-1
+ 29 474 l 1,13,14
+ 41 537 41 537 95 574.5 c 128,-1,15
+ 149 612 149 612 223 612 c 256,16,17
+ 297 612 297 612 347 567.5 c 128,-1,18
+ 397 523 397 523 397 454 c 0,19,20
+ 397 417 397 417 380.5 385 c 128,-1,21
+ 364 353 364 353 308 307 c 0,22,23
+ 266 272 266 272 249 244 c 128,-1,24
+ 232 216 232 216 232 178 c 1,25,-1
+ 164 178 l 1,0,1
+149 0 m 1,26,-1
+ 149 100 l 1,27,-1
+ 250 100 l 1,28,-1
+ 250 0 l 1,29,-1
+ 149 0 l 1,26,-1
+EndSplineSet
+Validated: 1
+EndChar
+
+StartChar: bracketleft
+Encoding: 91 91 34
+Width: 278
+GlyphClass: 2
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+76 -101 m 1,0,-1
+ 76 620 l 1,1,-1
+ 256 620 l 1,2,-1
+ 256 554 l 1,3,-1
+ 150 554 l 1,4,-1
+ 150 -35 l 1,5,-1
+ 256 -35 l 1,6,-1
+ 256 -101 l 1,7,-1
+ 76 -101 l 1,0,-1
+EndSplineSet
+Validated: 1
+EndChar
+
+StartChar: backslash
+Encoding: 92 92 35
+Width: 312
+GlyphClass: 2
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+282 -12 m 1,0,-1
+ 207 -12 l 1,1,-1
+ 29 620 l 1,2,-1
+ 105 620 l 1,3,-1
+ 282 -12 l 1,0,-1
+EndSplineSet
+Validated: 1
+EndChar
+
+StartChar: bracketright
+Encoding: 93 93 36
+Width: 279
+GlyphClass: 2
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+203 -101 m 1,0,-1
+ 22 -101 l 1,1,-1
+ 22 -35 l 1,2,-1
+ 128 -35 l 1,3,-1
+ 128 554 l 1,4,-1
+ 22 554 l 1,5,-1
+ 22 620 l 1,6,-1
+ 203 620 l 1,7,-1
+ 203 -101 l 1,0,-1
+EndSplineSet
+Validated: 1
+EndChar
+
+StartChar: braceleft
+Encoding: 123 123 37
+Width: 302
+GlyphClass: 2
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+49 290 m 1,0,1
+ 105 301 105 301 105 407 c 2,2,-1
+ 105 493 l 2,3,4
+ 105 620 105 620 242 620 c 2,5,-1
+ 280 620 l 1,6,-1
+ 280 561 l 1,7,-1
+ 256 561 l 2,8,9
+ 214 561 214 561 197.5 542.5 c 128,-1,10
+ 181 524 181 524 181 482 c 2,11,-1
+ 181 407 l 2,12,13
+ 181 346 181 346 163.5 311.5 c 128,-1,14
+ 146 277 146 277 104 259 c 1,15,16
+ 181 227 181 227 181 111 c 2,17,-1
+ 181 36 l 2,18,19
+ 181 -12 181 -12 201 -27.5 c 128,-1,20
+ 221 -43 221 -43 256 -43 c 2,21,-1
+ 280 -43 l 1,22,-1
+ 280 -102 l 1,23,-1
+ 242 -102 l 2,24,25
+ 105 -102 105 -102 105 25 c 2,26,-1
+ 105 111 l 2,27,28
+ 105 217 105 217 49 228 c 1,29,-1
+ 49 290 l 1,0,1
+EndSplineSet
+Validated: 1
+EndChar
+
+StartChar: bar
+Encoding: 124 124 38
+Width: 275
+GlyphClass: 2
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+103 -102 m 1,0,-1
+ 103 620 l 1,1,-1
+ 172 620 l 1,2,-1
+ 172 -102 l 1,3,-1
+ 103 -102 l 1,0,-1
+EndSplineSet
+Validated: 1
+EndChar
+
+StartChar: braceright
+Encoding: 125 125 39
+Width: 302
+GlyphClass: 2
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+253 228 m 1,0,1
+ 197 217 197 217 197 111 c 2,2,-1
+ 197 25 l 2,3,4
+ 197 -102 197 -102 60 -102 c 2,5,-1
+ 22 -102 l 1,6,-1
+ 22 -43 l 1,7,-1
+ 46 -43 l 2,8,9
+ 88 -43 88 -43 104.5 -24.5 c 128,-1,10
+ 121 -6 121 -6 121 36 c 2,11,-1
+ 121 111 l 2,12,13
+ 121 172 121 172 138.5 206.5 c 128,-1,14
+ 156 241 156 241 198 259 c 1,15,16
+ 121 291 121 291 121 407 c 2,17,-1
+ 121 482 l 2,18,19
+ 121 524 121 524 104.5 542.5 c 128,-1,20
+ 88 561 88 561 46 561 c 2,21,-1
+ 22 561 l 1,22,-1
+ 22 620 l 1,23,-1
+ 60 620 l 2,24,25
+ 197 620 197 620 197 493 c 2,26,-1
+ 197 407 l 2,27,28
+ 197 301 197 301 253 290 c 1,29,-1
+ 253 228 l 1,0,1
+EndSplineSet
+Validated: 1
+EndChar
+
+StartChar: nonbreakingspace
+Encoding: 160 160 40
+Width: 278
+GlyphClass: 2
+Flags: W
+LayerCount: 2
+Fore
+Validated: 1
+EndChar
+
+StartChar: uni034F
+Encoding: 847 847 41
+Width: 0
+GlyphClass: 2
+Flags: W
+LayerCount: 2
+Fore
+Validated: 1
+EndChar
+
+StartChar: uni0591
+Encoding: 1425 1425 42
+Width: 0
+GlyphClass: 4
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+86 -245 m 1,0,-1
+ 42 -245 l 1,1,-1
+ 42 -206 l 2,2,3
+ 42 -177 42 -177 33 -162.5 c 128,-1,4
+ 24 -148 24 -148 1 -148 c 0,5,6
+ -24 -148 -24 -148 -33.5 -162.5 c 128,-1,7
+ -43 -177 -43 -177 -43 -206 c 2,8,-1
+ -43 -245 l 1,9,-1
+ -87 -245 l 1,10,-1
+ -87 -201 l 2,11,12
+ -87 -125 -87 -125 -22 -108 c 1,13,-1
+ -22 -65 l 1,14,-1
+ 22 -65 l 1,15,-1
+ 22 -108 l 1,16,17
+ 86 -123 86 -123 86 -201 c 2,18,-1
+ 86 -245 l 1,0,-1
+EndSplineSet
+Validated: 1
+Substitution2: "'ccmp' Glyph Composition/Decomposition in Hebrew lookup 0 subtable" glyph268
+EndChar
+
+StartChar: uni0592
+Encoding: 1426 1426 43
+Width: 0
+GlyphClass: 4
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+-100 622 m 0,0,1
+ -100 639 -100 639 -88.5 650.5 c 128,-1,2
+ -77 662 -77 662 -60 662 c 256,3,4
+ -43 662 -43 662 -31.5 650.5 c 128,-1,5
+ -20 639 -20 639 -20 622 c 0,6,7
+ -20 606 -20 606 -31.5 594 c 128,-1,8
+ -43 582 -43 582 -60 582 c 256,9,10
+ -77 582 -77 582 -88.5 594 c 128,-1,11
+ -100 606 -100 606 -100 622 c 0,0,1
+-40 717 m 0,12,13
+ -40 734 -40 734 -28.5 745.5 c 128,-1,14
+ -17 757 -17 757 0 757 c 256,15,16
+ 17 757 17 757 28.5 745.5 c 128,-1,17
+ 40 734 40 734 40 717 c 0,18,19
+ 40 701 40 701 28.5 689 c 128,-1,20
+ 17 677 17 677 0 677 c 256,21,22
+ -17 677 -17 677 -28.5 689 c 128,-1,23
+ -40 701 -40 701 -40 717 c 0,12,13
+20 622 m 0,24,25
+ 20 639 20 639 31.5 650.5 c 128,-1,26
+ 43 662 43 662 60 662 c 256,27,28
+ 77 662 77 662 88.5 650.5 c 128,-1,29
+ 100 639 100 639 100 622 c 0,30,31
+ 100 606 100 606 88.5 594 c 128,-1,32
+ 77 582 77 582 60 582 c 256,33,34
+ 43 582 43 582 31.5 594 c 128,-1,35
+ 20 606 20 606 20 622 c 0,24,25
+EndSplineSet
+Validated: 1
+Substitution2: "'ccmp' Glyph Composition/Decomposition in Hebrew lookup 0 subtable" glyph268
+EndChar
+
+StartChar: uni0593
+Encoding: 1427 1427 44
+Width: 0
+GlyphClass: 4
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+67 629 m 1,0,-1
+ -24 587 l 1,1,-1
+ -67 587 l 1,2,-1
+ 24 629 l 1,3,-1
+ -67 671 l 1,4,-1
+ 24 713 l 1,5,-1
+ -67 755 l 1,6,-1
+ 24 797 l 1,7,-1
+ 67 797 l 1,8,-1
+ -24 755 l 1,9,-1
+ 67 713 l 1,10,-1
+ -24 671 l 1,11,-1
+ 67 629 l 1,0,-1
+EndSplineSet
+Validated: 1
+Substitution2: "'ccmp' Glyph Composition/Decomposition in Hebrew lookup 0 subtable" glyph268
+EndChar
+
+StartChar: uni0594
+Encoding: 1428 1428 45
+Width: 0
+GlyphClass: 4
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+-40 623 m 0,0,1
+ -40 639 -40 639 -28.5 650.5 c 128,-1,2
+ -17 662 -17 662 0 662 c 256,3,4
+ 17 662 17 662 28.5 650.5 c 128,-1,5
+ 40 639 40 639 40 623 c 0,6,7
+ 40 606 40 606 28.5 594 c 128,-1,8
+ 17 582 17 582 0 582 c 256,9,10
+ -17 582 -17 582 -28.5 594 c 128,-1,11
+ -40 606 -40 606 -40 623 c 0,0,1
+-40 743 m 0,12,13
+ -40 760 -40 760 -28.5 771.5 c 128,-1,14
+ -17 783 -17 783 0 783 c 256,15,16
+ 17 783 17 783 28.5 771.5 c 128,-1,17
+ 40 760 40 760 40 743 c 0,18,19
+ 40 727 40 727 28.5 715 c 128,-1,20
+ 17 703 17 703 0 703 c 256,21,22
+ -17 703 -17 703 -28.5 715 c 128,-1,23
+ -40 727 -40 727 -40 743 c 0,12,13
+EndSplineSet
+Validated: 1
+Substitution2: "'ccmp' Glyph Composition/Decomposition in Hebrew lookup 0 subtable" glyph268
+EndChar
+
+StartChar: uni0595
+Encoding: 1429 1429 46
+Width: 0
+GlyphClass: 4
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+10 623 m 0,0,1
+ 10 639 10 639 21.5 650.5 c 128,-1,2
+ 33 662 33 662 50 662 c 256,3,4
+ 67 662 67 662 78.5 650.5 c 128,-1,5
+ 90 639 90 639 90 623 c 0,6,7
+ 90 606 90 606 78.5 594 c 128,-1,8
+ 67 582 67 582 50 582 c 256,9,10
+ 33 582 33 582 21.5 594 c 128,-1,11
+ 10 606 10 606 10 623 c 0,0,1
+10 743 m 0,12,13
+ 10 760 10 760 21.5 771.5 c 128,-1,14
+ 33 783 33 783 50 783 c 256,15,16
+ 67 783 67 783 78.5 771.5 c 128,-1,17
+ 90 760 90 760 90 743 c 0,18,19
+ 90 727 90 727 78.5 715 c 128,-1,20
+ 67 703 67 703 50 703 c 256,21,22
+ 33 703 33 703 21.5 715 c 128,-1,23
+ 10 727 10 727 10 743 c 0,12,13
+-84 773 m 1,24,-1
+ -33 773 l 1,25,-1
+ -33 592 l 1,26,-1
+ -84 592 l 1,27,-1
+ -84 773 l 1,24,-1
+EndSplineSet
+Validated: 1
+Substitution2: "'ccmp' Glyph Composition/Decomposition in Hebrew lookup 0 subtable" glyph268
+EndChar
+
+StartChar: uni0596
+Encoding: 1430 1430 47
+Width: 0
+GlyphClass: 4
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+-17 -65 m 1,0,1
+ -20 -85 -20 -85 -20 -106 c 0,2,3
+ -20 -156 -20 -156 -0.5 -178.5 c 128,-1,4
+ 19 -201 19 -201 60 -201 c 1,5,-1
+ 60 -245 l 1,6,7
+ -6 -242 -6 -242 -35 -207.5 c 128,-1,8
+ -64 -173 -64 -173 -64 -104 c 0,9,10
+ -64 -84 -64 -84 -61 -65 c 1,11,-1
+ -17 -65 l 1,0,1
+EndSplineSet
+Validated: 1
+Substitution2: "'ccmp' Glyph Composition/Decomposition in Hebrew lookup 0 subtable" glyph268
+EndChar
+
+StartChar: uni0597
+Encoding: 1431 1431 48
+Width: 0
+GlyphClass: 4
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+69 674 m 1,0,-1
+ 0 587 l 1,1,-1
+ -68 674 l 1,2,-1
+ 0 761 l 1,3,-1
+ 69 674 l 1,0,-1
+EndSplineSet
+Validated: 1
+Substitution2: "'ccmp' Glyph Composition/Decomposition in Hebrew lookup 0 subtable" glyph268
+EndChar
+
+StartChar: uni0598
+Encoding: 1432 1432 49
+Width: 0
+GlyphClass: 4
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+51 703 m 1,0,-1
+ 66 731 l 1,1,2
+ 106 707 106 707 106 661 c 0,3,4
+ 106 629 106 629 91 608 c 128,-1,5
+ 76 587 76 587 50 587 c 0,6,7
+ 27 587 27 587 14 605.5 c 128,-1,8
+ 1 624 1 624 -8 645.5 c 128,-1,9
+ -17 667 -17 667 -26 685.5 c 128,-1,10
+ -35 704 -35 704 -50 704 c 0,11,12
+ -81 704 -81 704 -81 661 c 0,13,14
+ -81 629 -81 629 -56 618 c 1,15,-1
+ -67 587 l 1,16,17
+ -112 616 -112 616 -112 661 c 0,18,19
+ -112 692 -112 692 -95 713.5 c 128,-1,20
+ -78 735 -78 735 -52 735 c 0,21,22
+ -27 735 -27 735 -13 716.5 c 128,-1,23
+ 1 698 1 698 10.5 676.5 c 128,-1,24
+ 20 655 20 655 28 636.5 c 128,-1,25
+ 36 618 36 618 50 618 c 0,26,27
+ 75 618 75 618 75 661 c 0,28,29
+ 75 689 75 689 51 703 c 1,0,-1
+EndSplineSet
+Validated: 1
+Substitution2: "'ccmp' Glyph Composition/Decomposition in Hebrew lookup 0 subtable" glyph268
+EndChar
+
+StartChar: uni0599
+Encoding: 1433 1433 50
+Width: 0
+GlyphClass: 4
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+-46 587 m 1,0,1
+ -43 607 -43 607 -43 628 c 0,2,3
+ -43 678 -43 678 -62.5 700.5 c 128,-1,4
+ -82 723 -82 723 -123 723 c 1,5,-1
+ -123 767 l 1,6,7
+ -57 764 -57 764 -28 729.5 c 128,-1,8
+ 1 695 1 695 1 626 c 0,9,10
+ 1 606 1 606 -2 587 c 1,11,-1
+ -46 587 l 1,0,1
+EndSplineSet
+Validated: 1
+Substitution2: "'ccmp' Glyph Composition/Decomposition in Hebrew lookup 0 subtable" glyph268
+EndChar
+
+StartChar: uni059A
+Encoding: 1434 1434 51
+Width: 0
+GlyphClass: 4
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+148 -245 m 1,0,-1
+ 88 -245 l 1,1,-1
+ 0 -155 l 1,2,-1
+ 88 -65 l 1,3,-1
+ 148 -65 l 1,4,-1
+ 60 -155 l 1,5,-1
+ 148 -245 l 1,0,-1
+EndSplineSet
+Validated: 1
+Substitution2: "'ccmp' Glyph Composition/Decomposition in Hebrew lookup 0 subtable" glyph268
+EndChar
+
+StartChar: uni059B
+Encoding: 1435 1435 52
+Width: 0
+GlyphClass: 4
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+67 -65 m 1,0,1
+ 70 -86 70 -86 70 -104 c 0,2,3
+ 70 -173 70 -173 41 -207.5 c 128,-1,4
+ 12 -242 12 -242 -54 -245 c 1,5,-1
+ -54 -201 l 1,6,7
+ -13 -201 -13 -201 6.5 -178.5 c 128,-1,8
+ 26 -156 26 -156 26 -106 c 0,9,10
+ 26 -86 26 -86 23 -65 c 1,11,-1
+ 67 -65 l 1,0,1
+-66 -120 m 256,12,13
+ -66 -134 -66 -134 -56 -144 c 128,-1,14
+ -46 -154 -46 -154 -32 -154 c 256,15,16
+ -18 -154 -18 -154 -8 -144 c 128,-1,17
+ 2 -134 2 -134 2 -120 c 256,18,19
+ 2 -106 2 -106 -8 -96 c 128,-1,20
+ -18 -86 -18 -86 -32 -86 c 256,21,22
+ -46 -86 -46 -86 -56 -96 c 128,-1,23
+ -66 -106 -66 -106 -66 -120 c 256,12,13
+EndSplineSet
+Validated: 9
+Substitution2: "'ccmp' Glyph Composition/Decomposition in Hebrew lookup 0 subtable" glyph268
+EndChar
+
+StartChar: uni059C
+Encoding: 1436 1436 53
+Width: 0
+GlyphClass: 4
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+-80 587 m 1,0,1
+ -83 606 -83 606 -83 626 c 0,2,3
+ -83 695 -83 695 -54 729.5 c 128,-1,4
+ -25 764 -25 764 41 767 c 1,5,-1
+ 41 723 l 1,6,7
+ 0 723 0 723 -19.5 700.5 c 128,-1,8
+ -39 678 -39 678 -39 628 c 0,9,10
+ -39 607 -39 607 -36 587 c 1,11,-1
+ -80 587 l 1,0,1
+EndSplineSet
+Validated: 1
+Substitution2: "'ccmp' Glyph Composition/Decomposition in Hebrew lookup 0 subtable" glyph268
+EndChar
+
+StartChar: uni059D
+Encoding: 1437 1437 54
+Width: 0
+GlyphClass: 4
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+3 587 m 1,0,1
+ 0 606 0 606 0 626 c 0,2,3
+ 0 695 0 695 29 729.5 c 128,-1,4
+ 58 764 58 764 124 767 c 1,5,-1
+ 124 723 l 1,6,7
+ 83 723 83 723 63.5 700.5 c 128,-1,8
+ 44 678 44 678 44 628 c 0,9,10
+ 44 607 44 607 47 587 c 1,11,-1
+ 3 587 l 1,0,1
+EndSplineSet
+Validated: 1
+Substitution2: "'ccmp' Glyph Composition/Decomposition in Hebrew lookup 0 subtable" glyph268
+EndChar
+
+StartChar: uni059E
+Encoding: 1438 1438 55
+Width: 0
+GlyphClass: 4
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+-25 587 m 1,0,1
+ -28 606 -28 606 -28 626 c 0,2,3
+ -28 695 -28 695 1 729.5 c 128,-1,4
+ 30 764 30 764 96 767 c 1,5,-1
+ 96 723 l 1,6,7
+ 55 723 55 723 35.5 700.5 c 128,-1,8
+ 16 678 16 678 16 628 c 0,9,10
+ 16 607 16 607 19 587 c 1,11,-1
+ -25 587 l 1,0,1
+-145 587 m 1,12,13
+ -148 606 -148 606 -148 626 c 0,14,15
+ -148 695 -148 695 -119 729.5 c 128,-1,16
+ -90 764 -90 764 -24 767 c 1,17,-1
+ -24 723 l 1,18,19
+ -65 723 -65 723 -84.5 700.5 c 128,-1,20
+ -104 678 -104 678 -104 628 c 0,21,22
+ -104 607 -104 607 -101 587 c 1,23,-1
+ -145 587 l 1,12,13
+EndSplineSet
+Validated: 1
+Substitution2: "'ccmp' Glyph Composition/Decomposition in Hebrew lookup 0 subtable" glyph268
+EndChar
+
+StartChar: uni059F
+Encoding: 1439 1439 56
+Width: 0
+GlyphClass: 4
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+17 694 m 256,0,1
+ 17 726 17 726 39.5 749 c 128,-1,2
+ 62 772 62 772 94 772 c 256,3,4
+ 126 772 126 772 149 749 c 128,-1,5
+ 172 726 172 726 172 694 c 256,6,7
+ 172 662 172 662 149 639.5 c 128,-1,8
+ 126 617 126 617 94 617 c 0,9,10
+ 79 617 79 617 64 622 c 1,11,-1
+ 35 574 l 1,12,-1
+ 8 590 l 1,13,-1
+ 39 640 l 1,14,15
+ 17 662 17 662 17 694 c 256,0,1
+49 694 m 256,16,17
+ 49 675 49 675 62 662 c 128,-1,18
+ 75 649 75 649 94 649 c 256,19,20
+ 113 649 113 649 126.5 662 c 128,-1,21
+ 140 675 140 675 140 694 c 256,22,23
+ 140 713 140 713 126.5 726.5 c 128,-1,24
+ 113 740 113 740 94 740 c 256,25,26
+ 75 740 75 740 62 726.5 c 128,-1,27
+ 49 713 49 713 49 694 c 256,16,17
+-17 694 m 256,28,29
+ -17 662 -17 662 -39 640 c 1,30,-1
+ -8 590 l 1,31,-1
+ -35 574 l 1,32,-1
+ -64 622 l 1,33,34
+ -79 617 -79 617 -94 617 c 0,35,36
+ -126 617 -126 617 -149 639.5 c 128,-1,37
+ -172 662 -172 662 -172 694 c 256,38,39
+ -172 726 -172 726 -149 749 c 128,-1,40
+ -126 772 -126 772 -94 772 c 256,41,42
+ -62 772 -62 772 -39.5 749 c 128,-1,43
+ -17 726 -17 726 -17 694 c 256,28,29
+-49 694 m 256,44,45
+ -49 713 -49 713 -62 726.5 c 128,-1,46
+ -75 740 -75 740 -94 740 c 256,47,48
+ -113 740 -113 740 -126.5 726.5 c 128,-1,49
+ -140 713 -140 713 -140 694 c 256,50,51
+ -140 675 -140 675 -126.5 662 c 128,-1,52
+ -113 649 -113 649 -94 649 c 256,53,54
+ -75 649 -75 649 -62 662 c 128,-1,55
+ -49 675 -49 675 -49 694 c 256,44,45
+EndSplineSet
+Validated: 1
+Substitution2: "'ccmp' Glyph Composition/Decomposition in Hebrew lookup 0 subtable" glyph268
+EndChar
+
+StartChar: uni05A0
+Encoding: 1440 1440 57
+Width: 0
+GlyphClass: 4
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+10 694 m 256,0,1
+ 10 726 10 726 32.5 749 c 128,-1,2
+ 55 772 55 772 87 772 c 256,3,4
+ 119 772 119 772 142 749 c 128,-1,5
+ 165 726 165 726 165 694 c 256,6,7
+ 165 662 165 662 142 639.5 c 128,-1,8
+ 119 617 119 617 87 617 c 0,9,10
+ 72 617 72 617 57 622 c 1,11,-1
+ 28 574 l 1,12,-1
+ 1 590 l 1,13,-1
+ 32 640 l 1,14,15
+ 10 662 10 662 10 694 c 256,0,1
+42 694 m 256,16,17
+ 42 675 42 675 55 662 c 128,-1,18
+ 68 649 68 649 87 649 c 256,19,20
+ 106 649 106 649 119.5 662 c 128,-1,21
+ 133 675 133 675 133 694 c 256,22,23
+ 133 713 133 713 119.5 726.5 c 128,-1,24
+ 106 740 106 740 87 740 c 256,25,26
+ 68 740 68 740 55 726.5 c 128,-1,27
+ 42 713 42 713 42 694 c 256,16,17
+EndSplineSet
+Validated: 1
+Substitution2: "'ccmp' Glyph Composition/Decomposition in Hebrew lookup 0 subtable" glyph268
+EndChar
+
+StartChar: uni05A1
+Encoding: 1441 1441 58
+Width: 0
+GlyphClass: 4
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+74 731 m 2,0,1
+ 74 694 74 694 53 666.5 c 128,-1,2
+ 32 639 32 639 0 639 c 0,3,4
+ -18 639 -18 639 -31 644 c 1,5,-1
+ -31 587 l 1,6,-1
+ -73 587 l 1,7,-1
+ -73 767 l 1,8,-1
+ -31 767 l 1,9,-1
+ -31 681 l 1,10,11
+ -26 676 -26 676 -10 676 c 0,12,13
+ 32 676 32 676 32 738 c 2,14,-1
+ 32 767 l 1,15,-1
+ 74 767 l 1,16,-1
+ 74 731 l 2,0,1
+EndSplineSet
+Validated: 1
+Substitution2: "'ccmp' Glyph Composition/Decomposition in Hebrew lookup 0 subtable" glyph268
+EndChar
+
+StartChar: uni05A2
+Encoding: 1442 1442 59
+Width: 0
+GlyphClass: 4
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+86 -109 m 2,0,1
+ 86 -186 86 -186 22 -202 c 1,2,-1
+ 22 -245 l 1,3,-1
+ -22 -245 l 1,4,-1
+ -22 -202 l 1,5,6
+ -87 -185 -87 -185 -87 -109 c 2,7,-1
+ -87 -65 l 1,8,-1
+ -43 -65 l 1,9,-1
+ -43 -104 l 2,10,11
+ -43 -133 -43 -133 -33.5 -147.5 c 128,-1,12
+ -24 -162 -24 -162 1 -162 c 0,13,14
+ 24 -162 24 -162 33 -147.5 c 128,-1,15
+ 42 -133 42 -133 42 -104 c 2,16,-1
+ 42 -65 l 1,17,-1
+ 86 -65 l 1,18,-1
+ 86 -109 l 2,0,1
+EndSplineSet
+Validated: 1
+Substitution2: "'ccmp' Glyph Composition/Decomposition in Hebrew lookup 0 subtable" glyph268
+EndChar
+
+StartChar: uni05A3
+Encoding: 1443 1443 60
+Width: 0
+GlyphClass: 4
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+64 -234 m 1,0,-1
+ -64 -234 l 1,1,-1
+ -64 -192 l 1,2,-1
+ 22 -192 l 1,3,-1
+ 22 -65 l 1,4,-1
+ 64 -65 l 1,5,-1
+ 64 -234 l 1,0,-1
+EndSplineSet
+Validated: 1
+Substitution2: "'ccmp' Glyph Composition/Decomposition in Hebrew lookup 0 subtable" glyph268
+EndChar
+
+StartChar: uni05A4
+Encoding: 1444 1444 61
+Width: 0
+GlyphClass: 4
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+74 -245 m 1,0,-1
+ 14 -245 l 1,1,-1
+ -74 -155 l 1,2,-1
+ 14 -65 l 1,3,-1
+ 74 -65 l 1,4,-1
+ -14 -155 l 1,5,-1
+ 74 -245 l 1,0,-1
+EndSplineSet
+Validated: 1
+Substitution2: "'ccmp' Glyph Composition/Decomposition in Hebrew lookup 0 subtable" glyph268
+EndChar
+
+StartChar: uni05A5
+Encoding: 1445 1445 62
+Width: 0
+GlyphClass: 4
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+67 -65 m 1,0,1
+ 70 -84 70 -84 70 -104 c 0,2,3
+ 70 -173 70 -173 41 -207.5 c 128,-1,4
+ 12 -242 12 -242 -54 -245 c 1,5,-1
+ -54 -201 l 1,6,7
+ -13 -201 -13 -201 6.5 -178.5 c 128,-1,8
+ 26 -156 26 -156 26 -106 c 0,9,10
+ 26 -85 26 -85 23 -65 c 1,11,-1
+ 67 -65 l 1,0,1
+EndSplineSet
+Validated: 1
+Substitution2: "'ccmp' Glyph Composition/Decomposition in Hebrew lookup 0 subtable" glyph268
+EndChar
+
+StartChar: uni05A6
+Encoding: 1446 1446 63
+Width: 0
+GlyphClass: 4
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+-13 -65 m 1,0,1
+ -10 -84 -10 -84 -10 -104 c 0,2,3
+ -10 -173 -10 -173 -39 -207.5 c 128,-1,4
+ -68 -242 -68 -242 -134 -245 c 1,5,-1
+ -134 -201 l 1,6,7
+ -93 -201 -93 -201 -73.5 -178.5 c 128,-1,8
+ -54 -156 -54 -156 -54 -106 c 0,9,10
+ -54 -85 -54 -85 -57 -65 c 1,11,-1
+ -13 -65 l 1,0,1
+107 -65 m 1,12,13
+ 110 -84 110 -84 110 -104 c 0,14,15
+ 110 -173 110 -173 81 -207.5 c 128,-1,16
+ 52 -242 52 -242 -14 -245 c 1,17,-1
+ -14 -201 l 1,18,19
+ 27 -201 27 -201 46.5 -178.5 c 128,-1,20
+ 66 -156 66 -156 66 -106 c 0,21,22
+ 66 -85 66 -85 63 -65 c 1,23,-1
+ 107 -65 l 1,12,13
+EndSplineSet
+Validated: 1
+Substitution2: "'ccmp' Glyph Composition/Decomposition in Hebrew lookup 0 subtable" glyph268
+EndChar
+
+StartChar: uni05A7
+Encoding: 1447 1447 64
+Width: 0
+GlyphClass: 4
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+63 -204 m 1,0,-1
+ 31 -231 l 1,1,-1
+ -65 -250 l 1,2,-1
+ -65 -212 l 1,3,-1
+ 6 -198 l 1,4,-1
+ -63 -106 l 1,5,-1
+ -31 -80 l 1,6,-1
+ 64 -60 l 1,7,-1
+ 64 -97 l 1,8,-1
+ -7 -113 l 1,9,-1
+ 63 -204 l 1,0,-1
+EndSplineSet
+Validated: 1
+Substitution2: "'ccmp' Glyph Composition/Decomposition in Hebrew lookup 0 subtable" glyph268
+EndChar
+
+StartChar: uni05A8
+Encoding: 1448 1448 65
+Width: 0
+GlyphClass: 4
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+34 587 m 1,0,1
+ 37 607 37 607 37 628 c 0,2,3
+ 37 678 37 678 17.5 700.5 c 128,-1,4
+ -2 723 -2 723 -43 723 c 1,5,-1
+ -43 767 l 1,6,7
+ 23 764 23 764 52 729.5 c 128,-1,8
+ 81 695 81 695 81 626 c 0,9,10
+ 81 606 81 606 78 587 c 1,11,-1
+ 34 587 l 1,0,1
+EndSplineSet
+Validated: 1
+Substitution2: "'ccmp' Glyph Composition/Decomposition in Hebrew lookup 0 subtable" glyph268
+EndChar
+
+StartChar: uni05A9
+Encoding: 1449 1449 66
+Width: 0
+GlyphClass: 4
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+-10 694 m 256,0,1
+ -10 662 -10 662 -32 640 c 1,2,-1
+ -1 590 l 1,3,-1
+ -28 574 l 1,4,-1
+ -57 622 l 1,5,6
+ -72 617 -72 617 -87 617 c 0,7,8
+ -119 617 -119 617 -142 639.5 c 128,-1,9
+ -165 662 -165 662 -165 694 c 256,10,11
+ -165 726 -165 726 -142 749 c 128,-1,12
+ -119 772 -119 772 -87 772 c 256,13,14
+ -55 772 -55 772 -32.5 749 c 128,-1,15
+ -10 726 -10 726 -10 694 c 256,0,1
+-42 694 m 256,16,17
+ -42 713 -42 713 -55 726.5 c 128,-1,18
+ -68 740 -68 740 -87 740 c 256,19,20
+ -106 740 -106 740 -119.5 726.5 c 128,-1,21
+ -133 713 -133 713 -133 694 c 256,22,23
+ -133 675 -133 675 -119.5 662 c 128,-1,24
+ -106 649 -106 649 -87 649 c 256,25,26
+ -68 649 -68 649 -55 662 c 128,-1,27
+ -42 675 -42 675 -42 694 c 256,16,17
+EndSplineSet
+Validated: 1
+Substitution2: "'ccmp' Glyph Composition/Decomposition in Hebrew lookup 0 subtable" glyph268
+EndChar
+
+StartChar: uni05AA
+Encoding: 1450 1450 67
+Width: 0
+GlyphClass: 4
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+92 -81 m 2,0,1
+ 92 -181 92 -181 0 -181 c 256,2,3
+ -92 -181 -92 -181 -92 -81 c 2,4,-1
+ -92 -65 l 1,5,-1
+ -48 -65 l 1,6,-1
+ -48 -70 l 2,7,8
+ -48 -110 -48 -110 -36 -124.5 c 128,-1,9
+ -24 -139 -24 -139 1 -139 c 0,10,11
+ 24 -139 24 -139 36 -124.5 c 128,-1,12
+ 48 -110 48 -110 48 -70 c 2,13,-1
+ 48 -65 l 1,14,-1
+ 92 -65 l 1,15,-1
+ 92 -81 l 2,0,1
+EndSplineSet
+Validated: 1
+Substitution2: "'ccmp' Glyph Composition/Decomposition in Hebrew lookup 0 subtable" glyph268
+EndChar
+
+StartChar: uni05AB
+Encoding: 1451 1451 68
+Width: 0
+GlyphClass: 4
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+74 587 m 1,0,-1
+ 14 587 l 1,1,-1
+ -74 677 l 1,2,-1
+ 14 767 l 1,3,-1
+ 74 767 l 1,4,-1
+ -14 677 l 1,5,-1
+ 74 587 l 1,0,-1
+EndSplineSet
+Validated: 1
+Substitution2: "'ccmp' Glyph Composition/Decomposition in Hebrew lookup 0 subtable" glyph268
+EndChar
+
+StartChar: uni05AC
+Encoding: 1452 1452 69
+Width: 0
+GlyphClass: 4
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+64 587 m 1,0,-1
+ -64 587 l 1,1,-1
+ -64 629 l 1,2,-1
+ 22 629 l 1,3,-1
+ 22 756 l 1,4,-1
+ 64 756 l 1,5,-1
+ 64 587 l 1,0,-1
+EndSplineSet
+Validated: 1
+Substitution2: "'ccmp' Glyph Composition/Decomposition in Hebrew lookup 0 subtable" glyph268
+EndChar
+
+StartChar: uni05AD
+Encoding: 1453 1453 70
+Width: 0
+GlyphClass: 4
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+47 -65 m 1,0,1
+ 44 -85 44 -85 44 -106 c 0,2,3
+ 44 -156 44 -156 63.5 -178.5 c 128,-1,4
+ 83 -201 83 -201 124 -201 c 1,5,-1
+ 124 -245 l 1,6,7
+ 58 -242 58 -242 29 -207.5 c 128,-1,8
+ 0 -173 0 -173 0 -104 c 0,9,10
+ 0 -84 0 -84 3 -65 c 1,11,-1
+ 47 -65 l 1,0,1
+EndSplineSet
+Validated: 1
+Substitution2: "'ccmp' Glyph Composition/Decomposition in Hebrew lookup 0 subtable" glyph268
+EndChar
+
+StartChar: uni05AE
+Encoding: 1454 1454 71
+Width: 0
+GlyphClass: 4
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+-55 703 m 1,0,-1
+ -40 731 l 1,1,2
+ 0 707 0 707 0 661 c 0,3,4
+ 0 629 0 629 -15 608 c 128,-1,5
+ -30 587 -30 587 -56 587 c 0,6,7
+ -79 587 -79 587 -92 605.5 c 128,-1,8
+ -105 624 -105 624 -114 645.5 c 128,-1,9
+ -123 667 -123 667 -132 685.5 c 128,-1,10
+ -141 704 -141 704 -156 704 c 0,11,12
+ -187 704 -187 704 -187 661 c 0,13,14
+ -187 629 -187 629 -162 618 c 1,15,-1
+ -173 587 l 1,16,17
+ -218 616 -218 616 -218 661 c 0,18,19
+ -218 692 -218 692 -201 713.5 c 128,-1,20
+ -184 735 -184 735 -158 735 c 0,21,22
+ -133 735 -133 735 -119 716.5 c 128,-1,23
+ -105 698 -105 698 -95.5 676.5 c 128,-1,24
+ -86 655 -86 655 -78 636.5 c 128,-1,25
+ -70 618 -70 618 -56 618 c 0,26,27
+ -31 618 -31 618 -31 661 c 0,28,29
+ -31 689 -31 689 -55 703 c 1,0,-1
+EndSplineSet
+Validated: 1
+Substitution2: "'ccmp' Glyph Composition/Decomposition in Hebrew lookup 0 subtable" glyph268
+EndChar
+
+StartChar: uni05AF
+Encoding: 1455 1455 72
+Width: 0
+GlyphClass: 4
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+57 644 m 256,0,1
+ 57 620 57 620 40.5 603.5 c 128,-1,2
+ 24 587 24 587 0 587 c 256,3,4
+ -24 587 -24 587 -40.5 603.5 c 128,-1,5
+ -57 620 -57 620 -57 644 c 256,6,7
+ -57 668 -57 668 -40.5 684.5 c 128,-1,8
+ -24 701 -24 701 0 701 c 256,9,10
+ 24 701 24 701 40.5 684.5 c 128,-1,11
+ 57 668 57 668 57 644 c 256,0,1
+33 644 m 256,12,13
+ 33 677 33 677 0 677 c 256,14,15
+ -33 677 -33 677 -33 644 c 256,16,17
+ -33 611 -33 611 0 611 c 256,18,19
+ 33 611 33 611 33 644 c 256,12,13
+EndSplineSet
+Validated: 1
+Substitution2: "'ccmp' Glyph Composition/Decomposition in Hebrew lookup 0 subtable" glyph268
+EndChar
+
+StartChar: shevahebrew
+Encoding: 1456 1456 73
+Width: 0
+GlyphClass: 4
+Flags: W
+AnchorPoint: "Anchor-9" 0 0 mark 0
+AnchorPoint: "Anchor-5" 310 0 mark 0
+AnchorPoint: "Anchor-4" 275 0 mark 0
+LayerCount: 2
+Fore
+SplineSet
+231 -219 m 0,0,1
+ 231 -203 231 -203 242.5 -191.5 c 128,-1,2
+ 254 -180 254 -180 271 -180 c 256,3,4
+ 288 -180 288 -180 299.5 -191.5 c 128,-1,5
+ 311 -203 311 -203 311 -219 c 0,6,7
+ 311 -236 311 -236 299.5 -248 c 128,-1,8
+ 288 -260 288 -260 271 -260 c 256,9,10
+ 254 -260 254 -260 242.5 -248 c 128,-1,11
+ 231 -236 231 -236 231 -219 c 0,0,1
+231 -100 m 0,12,13
+ 231 -83 231 -83 242.5 -71.5 c 128,-1,14
+ 254 -60 254 -60 271 -60 c 256,15,16
+ 288 -60 288 -60 299.5 -71.5 c 128,-1,17
+ 311 -83 311 -83 311 -100 c 0,18,19
+ 311 -116 311 -116 299.5 -128 c 128,-1,20
+ 288 -140 288 -140 271 -140 c 256,21,22
+ 254 -140 254 -140 242.5 -128 c 128,-1,23
+ 231 -116 231 -116 231 -100 c 0,12,13
+EndSplineSet
+Validated: 1
+Position2: "Single Positioning lookup 26 subtable" dx=100 dy=0 dh=0 dv=0
+Position2: "Single Positioning lookup 25 subtable" dx=60 dy=0 dh=0 dv=0
+Position2: "Single Positioning lookup 24 subtable" dx=80 dy=0 dh=0 dv=0
+EndChar
+
+StartChar: hatafsegolhebrew
+Encoding: 1457 1457 74
+Width: 0
+GlyphClass: 4
+Flags: W
+AnchorPoint: "Anchor-5" 420 0 mark 0
+AnchorPoint: "Anchor-4" 270 0 mark 0
+LayerCount: 2
+Fore
+SplineSet
+341 -219 m 0,0,1
+ 341 -203 341 -203 352.5 -191.5 c 128,-1,2
+ 364 -180 364 -180 381 -180 c 256,3,4
+ 398 -180 398 -180 409.5 -191.5 c 128,-1,5
+ 421 -203 421 -203 421 -219 c 0,6,7
+ 421 -236 421 -236 409.5 -248 c 128,-1,8
+ 398 -260 398 -260 381 -260 c 256,9,10
+ 364 -260 364 -260 352.5 -248 c 128,-1,11
+ 341 -236 341 -236 341 -219 c 0,0,1
+341 -100 m 0,12,13
+ 341 -83 341 -83 352.5 -71.5 c 128,-1,14
+ 364 -60 364 -60 381 -60 c 256,15,16
+ 398 -60 398 -60 409.5 -71.5 c 128,-1,17
+ 421 -83 421 -83 421 -100 c 0,18,19
+ 421 -116 421 -116 409.5 -128 c 128,-1,20
+ 398 -140 398 -140 381 -140 c 256,21,22
+ 364 -140 364 -140 352.5 -128 c 128,-1,23
+ 341 -116 341 -116 341 -100 c 0,12,13
+176 -219 m 0,24,25
+ 176 -203 176 -203 187.5 -191.5 c 128,-1,26
+ 199 -180 199 -180 216 -180 c 256,27,28
+ 233 -180 233 -180 244.5 -191.5 c 128,-1,29
+ 256 -203 256 -203 256 -219 c 0,30,31
+ 256 -236 256 -236 244.5 -248 c 128,-1,32
+ 233 -260 233 -260 216 -260 c 256,33,34
+ 199 -260 199 -260 187.5 -248 c 128,-1,35
+ 176 -236 176 -236 176 -219 c 0,24,25
+121 -100 m 0,36,37
+ 121 -83 121 -83 132.5 -71.5 c 128,-1,38
+ 144 -60 144 -60 161 -60 c 256,39,40
+ 178 -60 178 -60 189.5 -71.5 c 128,-1,41
+ 201 -83 201 -83 201 -100 c 0,42,43
+ 201 -116 201 -116 189.5 -128 c 128,-1,44
+ 178 -140 178 -140 161 -140 c 256,45,46
+ 144 -140 144 -140 132.5 -128 c 128,-1,47
+ 121 -116 121 -116 121 -100 c 0,36,37
+231 -100 m 0,48,49
+ 231 -83 231 -83 242.5 -71.5 c 128,-1,50
+ 254 -60 254 -60 271 -60 c 256,51,52
+ 288 -60 288 -60 299.5 -71.5 c 128,-1,53
+ 311 -83 311 -83 311 -100 c 0,54,55
+ 311 -116 311 -116 299.5 -128 c 128,-1,56
+ 288 -140 288 -140 271 -140 c 256,57,58
+ 254 -140 254 -140 242.5 -128 c 128,-1,59
+ 231 -116 231 -116 231 -100 c 0,48,49
+EndSplineSet
+Validated: 1
+Position2: "Single Positioning lookup 26 subtable" dx=100 dy=0 dh=0 dv=0
+Position2: "Single Positioning lookup 25 subtable" dx=60 dy=0 dh=0 dv=0
+Position2: "Single Positioning lookup 24 subtable" dx=80 dy=0 dh=0 dv=0
+EndChar
+
+StartChar: hatafpatahhebrew
+Encoding: 1458 1458 75
+Width: 0
+GlyphClass: 4
+Flags: W
+AnchorPoint: "Anchor-5" 410 0 mark 0
+AnchorPoint: "Anchor-4" 260 0 mark 0
+LayerCount: 2
+Fore
+SplineSet
+331 -219 m 0,0,1
+ 331 -203 331 -203 342.5 -191.5 c 128,-1,2
+ 354 -180 354 -180 371 -180 c 256,3,4
+ 388 -180 388 -180 399.5 -191.5 c 128,-1,5
+ 411 -203 411 -203 411 -219 c 0,6,7
+ 411 -236 411 -236 399.5 -248 c 128,-1,8
+ 388 -260 388 -260 371 -260 c 256,9,10
+ 354 -260 354 -260 342.5 -248 c 128,-1,11
+ 331 -236 331 -236 331 -219 c 0,0,1
+331 -100 m 0,12,13
+ 331 -83 331 -83 342.5 -71.5 c 128,-1,14
+ 354 -60 354 -60 371 -60 c 256,15,16
+ 388 -60 388 -60 399.5 -71.5 c 128,-1,17
+ 411 -83 411 -83 411 -100 c 0,18,19
+ 411 -116 411 -116 399.5 -128 c 128,-1,20
+ 388 -140 388 -140 371 -140 c 256,21,22
+ 354 -140 354 -140 342.5 -128 c 128,-1,23
+ 331 -116 331 -116 331 -100 c 0,12,13
+130 -116 m 1,24,-1
+ 130 -65 l 1,25,-1
+ 294 -65 l 1,26,-1
+ 294 -116 l 1,27,-1
+ 130 -116 l 1,24,-1
+EndSplineSet
+Validated: 1
+Position2: "Single Positioning lookup 26 subtable" dx=100 dy=0 dh=0 dv=0
+Position2: "Single Positioning lookup 25 subtable" dx=60 dy=0 dh=0 dv=0
+Position2: "Single Positioning lookup 24 subtable" dx=80 dy=0 dh=0 dv=0
+EndChar
+
+StartChar: hatafqamatshebrew
+Encoding: 1459 1459 76
+Width: 0
+GlyphClass: 4
+Flags: W
+AnchorPoint: "Anchor-5" 410 0 mark 0
+AnchorPoint: "Anchor-4" 260 0 mark 0
+LayerCount: 2
+Fore
+SplineSet
+331 -219 m 0,0,1
+ 331 -203 331 -203 342.5 -191.5 c 128,-1,2
+ 354 -180 354 -180 371 -180 c 256,3,4
+ 388 -180 388 -180 399.5 -191.5 c 128,-1,5
+ 411 -203 411 -203 411 -219 c 0,6,7
+ 411 -236 411 -236 399.5 -248 c 128,-1,8
+ 388 -260 388 -260 371 -260 c 256,9,10
+ 354 -260 354 -260 342.5 -248 c 128,-1,11
+ 331 -236 331 -236 331 -219 c 0,0,1
+331 -100 m 0,12,13
+ 331 -83 331 -83 342.5 -71.5 c 128,-1,14
+ 354 -60 354 -60 371 -60 c 256,15,16
+ 388 -60 388 -60 399.5 -71.5 c 128,-1,17
+ 411 -83 411 -83 411 -100 c 0,18,19
+ 411 -116 411 -116 399.5 -128 c 128,-1,20
+ 388 -140 388 -140 371 -140 c 256,21,22
+ 354 -140 354 -140 342.5 -128 c 128,-1,23
+ 331 -116 331 -116 331 -100 c 0,12,13
+185 -208 m 1,24,-1
+ 185 -116 l 1,25,-1
+ 130 -116 l 1,26,-1
+ 130 -65 l 1,27,-1
+ 294 -65 l 1,28,-1
+ 294 -116 l 1,29,-1
+ 242 -116 l 1,30,-1
+ 242 -208 l 1,31,-1
+ 185 -208 l 1,24,-1
+EndSplineSet
+Validated: 1
+Position2: "Single Positioning lookup 26 subtable" dx=100 dy=0 dh=0 dv=0
+Position2: "Single Positioning lookup 25 subtable" dx=60 dy=0 dh=0 dv=0
+Position2: "Single Positioning lookup 24 subtable" dx=80 dy=0 dh=0 dv=0
+EndChar
+
+StartChar: hiriqhebrew
+Encoding: 1460 1460 77
+Width: 0
+GlyphClass: 4
+Flags: W
+AnchorPoint: "Anchor-9" 0 0 mark 0
+AnchorPoint: "Anchor-5" 310 0 mark 0
+AnchorPoint: "Anchor-4" 270 0 mark 0
+LayerCount: 2
+Fore
+SplineSet
+231 -100 m 0,0,1
+ 231 -83 231 -83 242.5 -71.5 c 128,-1,2
+ 254 -60 254 -60 271 -60 c 256,3,4
+ 288 -60 288 -60 299.5 -71.5 c 128,-1,5
+ 311 -83 311 -83 311 -100 c 0,6,7
+ 311 -116 311 -116 299.5 -128 c 128,-1,8
+ 288 -140 288 -140 271 -140 c 256,9,10
+ 254 -140 254 -140 242.5 -128 c 128,-1,11
+ 231 -116 231 -116 231 -100 c 0,0,1
+EndSplineSet
+Validated: 1
+Position2: "Single Positioning lookup 26 subtable" dx=100 dy=0 dh=0 dv=0
+Position2: "Single Positioning lookup 25 subtable" dx=60 dy=0 dh=0 dv=0
+Position2: "Single Positioning lookup 24 subtable" dx=80 dy=0 dh=0 dv=0
+EndChar
+
+StartChar: tserehebrew
+Encoding: 1461 1461 78
+Width: 0
+GlyphClass: 4
+Flags: W
+AnchorPoint: "Anchor-9" 0 0 mark 0
+AnchorPoint: "Anchor-5" 370 0 mark 0
+AnchorPoint: "Anchor-4" 275 0 mark 0
+LayerCount: 2
+Fore
+SplineSet
+171 -100 m 0,0,1
+ 171 -83 171 -83 182.5 -71.5 c 128,-1,2
+ 194 -60 194 -60 211 -60 c 256,3,4
+ 228 -60 228 -60 239.5 -71.5 c 128,-1,5
+ 251 -83 251 -83 251 -100 c 0,6,7
+ 251 -116 251 -116 239.5 -128 c 128,-1,8
+ 228 -140 228 -140 211 -140 c 256,9,10
+ 194 -140 194 -140 182.5 -128 c 128,-1,11
+ 171 -116 171 -116 171 -100 c 0,0,1
+291 -100 m 0,12,13
+ 291 -83 291 -83 302.5 -71.5 c 128,-1,14
+ 314 -60 314 -60 331 -60 c 256,15,16
+ 348 -60 348 -60 359.5 -71.5 c 128,-1,17
+ 371 -83 371 -83 371 -100 c 0,18,19
+ 371 -116 371 -116 359.5 -128 c 128,-1,20
+ 348 -140 348 -140 331 -140 c 256,21,22
+ 314 -140 314 -140 302.5 -128 c 128,-1,23
+ 291 -116 291 -116 291 -100 c 0,12,13
+EndSplineSet
+Validated: 1
+Position2: "Single Positioning lookup 26 subtable" dx=100 dy=0 dh=0 dv=0
+Position2: "Single Positioning lookup 25 subtable" dx=60 dy=0 dh=0 dv=0
+Position2: "Single Positioning lookup 24 subtable" dx=80 dy=0 dh=0 dv=0
+EndChar
+
+StartChar: segolhebrew
+Encoding: 1462 1462 79
+Width: 0
+GlyphClass: 4
+Flags: W
+AnchorPoint: "Anchor-9" 0 0 mark 0
+AnchorPoint: "Anchor-5" 370 0 mark 0
+AnchorPoint: "Anchor-4" 275 0 mark 0
+LayerCount: 2
+Fore
+SplineSet
+171 -100 m 0,0,1
+ 171 -83 171 -83 182.5 -71.5 c 128,-1,2
+ 194 -60 194 -60 211 -60 c 256,3,4
+ 228 -60 228 -60 239.5 -71.5 c 128,-1,5
+ 251 -83 251 -83 251 -100 c 0,6,7
+ 251 -116 251 -116 239.5 -128 c 128,-1,8
+ 228 -140 228 -140 211 -140 c 256,9,10
+ 194 -140 194 -140 182.5 -128 c 128,-1,11
+ 171 -116 171 -116 171 -100 c 0,0,1
+291 -100 m 0,12,13
+ 291 -83 291 -83 302.5 -71.5 c 128,-1,14
+ 314 -60 314 -60 331 -60 c 256,15,16
+ 348 -60 348 -60 359.5 -71.5 c 128,-1,17
+ 371 -83 371 -83 371 -100 c 0,18,19
+ 371 -116 371 -116 359.5 -128 c 128,-1,20
+ 348 -140 348 -140 331 -140 c 256,21,22
+ 314 -140 314 -140 302.5 -128 c 128,-1,23
+ 291 -116 291 -116 291 -100 c 0,12,13
+231 -220 m 0,24,25
+ 231 -203 231 -203 242.5 -191.5 c 128,-1,26
+ 254 -180 254 -180 271 -180 c 256,27,28
+ 288 -180 288 -180 299.5 -191.5 c 128,-1,29
+ 311 -203 311 -203 311 -220 c 0,30,31
+ 311 -236 311 -236 299.5 -248 c 128,-1,32
+ 288 -260 288 -260 271 -260 c 256,33,34
+ 254 -260 254 -260 242.5 -248 c 128,-1,35
+ 231 -236 231 -236 231 -220 c 0,24,25
+EndSplineSet
+Validated: 1
+Position2: "Single Positioning lookup 26 subtable" dx=100 dy=0 dh=0 dv=0
+Position2: "Single Positioning lookup 25 subtable" dx=60 dy=0 dh=0 dv=0
+Position2: "Single Positioning lookup 24 subtable" dx=80 dy=0 dh=0 dv=0
+EndChar
+
+StartChar: patahhebrew
+Encoding: 1463 1463 80
+Width: 0
+GlyphClass: 4
+Flags: W
+AnchorPoint: "Anchor-9" 0 0 mark 0
+AnchorPoint: "Anchor-5" 370 0 mark 0
+AnchorPoint: "Anchor-4" 270 0 mark 0
+LayerCount: 2
+Fore
+SplineSet
+175 -116 m 1,0,-1
+ 175 -65 l 1,1,-1
+ 371 -65 l 1,2,-1
+ 371 -116 l 1,3,-1
+ 175 -116 l 1,0,-1
+EndSplineSet
+Validated: 1
+Position2: "Single Positioning lookup 26 subtable" dx=100 dy=0 dh=0 dv=0
+Position2: "Single Positioning lookup 25 subtable" dx=60 dy=0 dh=0 dv=0
+Position2: "Single Positioning lookup 24 subtable" dx=80 dy=0 dh=0 dv=0
+EndChar
+
+StartChar: qamatshebrew
+Encoding: 1464 1464 81
+Width: 0
+GlyphClass: 4
+Flags: W
+AnchorPoint: "Anchor-9" 0 0 mark 0
+AnchorPoint: "Anchor-5" 370 0 mark 0
+AnchorPoint: "Anchor-4" 270 0 mark 0
+LayerCount: 2
+Fore
+SplineSet
+245 -218 m 1,0,-1
+ 245 -116 l 1,1,-1
+ 175 -116 l 1,2,-1
+ 175 -65 l 1,3,-1
+ 371 -65 l 1,4,-1
+ 371 -116 l 1,5,-1
+ 302 -116 l 1,6,-1
+ 302 -218 l 1,7,-1
+ 245 -218 l 1,0,-1
+EndSplineSet
+Validated: 1
+Position2: "Single Positioning lookup 26 subtable" dx=100 dy=0 dh=0 dv=0
+Position2: "Single Positioning lookup 25 subtable" dx=60 dy=0 dh=0 dv=0
+Position2: "Single Positioning lookup 24 subtable" dx=80 dy=0 dh=0 dv=0
+EndChar
+
+StartChar: holamhebrew
+Encoding: 1465 1465 82
+Width: 0
+GlyphClass: 4
+Flags: W
+AnchorPoint: "Anchor-7" 60 0 mark 0
+AnchorPoint: "Anchor-6" -52 0 basemark 0
+AnchorPoint: "Anchor-6" 60 0 mark 0
+AnchorPoint: "Anchor-3" 60 580 mark 0
+LayerCount: 2
+Fore
+SplineSet
+-16 623 m 0,0,1
+ -16 639 -16 639 -4.5 650.5 c 128,-1,2
+ 7 662 7 662 24 662 c 256,3,4
+ 41 662 41 662 52.5 650.5 c 128,-1,5
+ 64 639 64 639 64 623 c 0,6,7
+ 64 606 64 606 52.5 594 c 128,-1,8
+ 41 582 41 582 24 582 c 256,9,10
+ 7 582 7 582 -4.5 594 c 128,-1,11
+ -16 606 -16 606 -16 623 c 0,0,1
+EndSplineSet
+Validated: 1
+PairPos2: "Pairwise Positioning (kerning) lookup 27 subtable" uniFB1E dx=0 dy=0 dh=0 dv=0 dx=65 dy=0 dh=0 dv=0
+PairPos2: "Pairwise Positioning (kerning) lookup 27 subtable" rafehebrew dx=0 dy=0 dh=0 dv=0 dx=65 dy=0 dh=0 dv=0
+EndChar
+
+StartChar: uni05BA
+Encoding: 1466 1466 83
+Width: 0
+GlyphClass: 4
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+-121 623 m 0,0,1
+ -121 639 -121 639 -109.5 650.5 c 128,-1,2
+ -98 662 -98 662 -81 662 c 256,3,4
+ -64 662 -64 662 -52.5 650.5 c 128,-1,5
+ -41 639 -41 639 -41 623 c 0,6,7
+ -41 606 -41 606 -52.5 594 c 128,-1,8
+ -64 582 -64 582 -81 582 c 256,9,10
+ -98 582 -98 582 -109.5 594 c 128,-1,11
+ -121 606 -121 606 -121 623 c 0,0,1
+EndSplineSet
+Validated: 1
+Substitution2: "'ccmp' Glyph Composition/Decomposition in Hebrew lookup 0 subtable" glyph268
+EndChar
+
+StartChar: qubutshebrew
+Encoding: 1467 1467 84
+Width: 0
+GlyphClass: 4
+Flags: W
+AnchorPoint: "Anchor-5" 330 0 mark 0
+AnchorPoint: "Anchor-4" 220 0 mark 0
+LayerCount: 2
+Fore
+SplineSet
+113 -94 m 256,0,1
+ 113 -80 113 -80 123 -70 c 128,-1,2
+ 133 -60 133 -60 147 -60 c 256,3,4
+ 161 -60 161 -60 171 -70 c 128,-1,5
+ 181 -80 181 -80 181 -94 c 256,6,7
+ 181 -108 181 -108 171 -118 c 128,-1,8
+ 161 -128 161 -128 147 -128 c 256,9,10
+ 133 -128 133 -128 123 -118 c 128,-1,11
+ 113 -108 113 -108 113 -94 c 256,0,1
+258 -234 m 256,12,13
+ 258 -220 258 -220 268 -210 c 128,-1,14
+ 278 -200 278 -200 292 -200 c 256,15,16
+ 306 -200 306 -200 316 -210 c 128,-1,17
+ 326 -220 326 -220 326 -234 c 256,18,19
+ 326 -248 326 -248 316 -258 c 128,-1,20
+ 306 -268 306 -268 292 -268 c 256,21,22
+ 278 -268 278 -268 268 -258 c 128,-1,23
+ 258 -248 258 -248 258 -234 c 256,12,13
+188 -164 m 256,24,25
+ 188 -150 188 -150 198 -140 c 128,-1,26
+ 208 -130 208 -130 222 -130 c 256,27,28
+ 236 -130 236 -130 246 -140 c 128,-1,29
+ 256 -150 256 -150 256 -164 c 256,30,31
+ 256 -178 256 -178 246 -188 c 128,-1,32
+ 236 -198 236 -198 222 -198 c 256,33,34
+ 208 -198 208 -198 198 -188 c 128,-1,35
+ 188 -178 188 -178 188 -164 c 256,24,25
+EndSplineSet
+Validated: 1
+Position2: "Single Positioning lookup 26 subtable" dx=100 dy=0 dh=0 dv=0
+Position2: "Single Positioning lookup 25 subtable" dx=60 dy=0 dh=0 dv=0
+Position2: "Single Positioning lookup 24 subtable" dx=80 dy=0 dh=0 dv=0
+EndChar
+
+StartChar: dageshhebrew
+Encoding: 1468 1468 85
+Width: 0
+GlyphClass: 4
+Flags: W
+AnchorPoint: "Anchor-0" 235 275 mark 0
+LayerCount: 2
+Fore
+SplineSet
+237 323 m 0,0,1
+ 252 323 252 323 265 312.5 c 128,-1,2
+ 278 302 278 302 278 282 c 0,3,4
+ 278 265 278 265 266 253 c 128,-1,5
+ 254 241 254 241 237 241 c 256,6,7
+ 220 241 220 241 208 253 c 128,-1,8
+ 196 265 196 265 196 282 c 0,9,10
+ 196 297 196 297 206.5 310 c 128,-1,11
+ 217 323 217 323 237 323 c 0,0,1
+EndSplineSet
+Validated: 1
+EndChar
+
+StartChar: uni05BD
+Encoding: 1469 1469 86
+Width: 0
+GlyphClass: 4
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+141 -65 m 1,0,-1
+ 192 -65 l 1,1,-1
+ 192 -245 l 1,2,-1
+ 141 -245 l 1,3,-1
+ 141 -65 l 1,0,-1
+EndSplineSet
+Validated: 1
+Substitution2: "'ccmp' Glyph Composition/Decomposition in Hebrew lookup 0 subtable" glyph268
+EndChar
+
+StartChar: uni05BE
+Encoding: 1470 1470 87
+Width: 383
+GlyphClass: 2
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+61 440 m 1,0,-1
+ 61 518 l 1,1,-1
+ 322 518 l 1,2,-1
+ 322 440 l 1,3,-1
+ 61 440 l 1,0,-1
+EndSplineSet
+Validated: 1
+EndChar
+
+StartChar: rafehebrew
+Encoding: 1471 1471 88
+Width: 0
+GlyphClass: 4
+Flags: W
+AnchorPoint: "Anchor-8" 340 0 basemark 0
+AnchorPoint: "Anchor-7" 30 0 basemark 0
+AnchorPoint: "Anchor-1" 180 580 mark 0
+LayerCount: 2
+Fore
+SplineSet
+66 582 m 1,0,-1
+ 66 633 l 1,1,-1
+ 297 633 l 1,2,-1
+ 297 582 l 1,3,-1
+ 66 582 l 1,0,-1
+EndSplineSet
+Validated: 1
+EndChar
+
+StartChar: uni05C0
+Encoding: 1472 1472 89
+Width: 275
+GlyphClass: 2
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+103 -10 m 1,0,-1
+ 103 625 l 1,1,-1
+ 172 625 l 1,2,-1
+ 172 -10 l 1,3,-1
+ 103 -10 l 1,0,-1
+EndSplineSet
+Validated: 1
+EndChar
+
+StartChar: shindothebrew
+Encoding: 1473 1473 90
+Width: 0
+GlyphClass: 4
+Flags: W
+AnchorPoint: "Anchor-8" -20 0 mark 0
+AnchorPoint: "Anchor-2" -10 580 mark 0
+LayerCount: 2
+Fore
+Refer: 82 1465 N 1 0 0 1 0 0 1
+Validated: 1
+EndChar
+
+StartChar: sindothebrew
+Encoding: 1474 1474 91
+Width: 0
+GlyphClass: 4
+Flags: W
+AnchorPoint: "Anchor-7" 60 0 mark 0
+AnchorPoint: "Anchor-6" -50 0 basemark 0
+AnchorPoint: "Anchor-6" 60 0 mark 0
+AnchorPoint: "Anchor-3" 60 580 mark 0
+LayerCount: 2
+Fore
+Refer: 82 1465 N 1 0 0 1 0 0 1
+Validated: 1
+EndChar
+
+StartChar: uni05C3
+Encoding: 1475 1475 92
+Width: 278
+GlyphClass: 2
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+90 418 m 1,0,-1
+ 90 519 l 1,1,-1
+ 190 519 l 1,2,-1
+ 190 418 l 1,3,-1
+ 90 418 l 1,0,-1
+90 0 m 1,4,-1
+ 90 100 l 1,5,-1
+ 190 100 l 1,6,-1
+ 190 0 l 1,7,-1
+ 90 0 l 1,4,-1
+EndSplineSet
+Validated: 1
+EndChar
+
+StartChar: uni05C4
+Encoding: 1476 1476 93
+Width: 0
+GlyphClass: 4
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+127 623 m 0,0,1
+ 127 639 127 639 138.5 650.5 c 128,-1,2
+ 150 662 150 662 167 662 c 256,3,4
+ 184 662 184 662 195.5 650.5 c 128,-1,5
+ 207 639 207 639 207 623 c 0,6,7
+ 207 606 207 606 195.5 594 c 128,-1,8
+ 184 582 184 582 167 582 c 256,9,10
+ 150 582 150 582 138.5 594 c 128,-1,11
+ 127 606 127 606 127 623 c 0,0,1
+EndSplineSet
+Validated: 1
+Substitution2: "'ccmp' Glyph Composition/Decomposition in Hebrew lookup 0 subtable" glyph268
+EndChar
+
+StartChar: uni05C5
+Encoding: 1477 1477 94
+Width: 0
+GlyphClass: 4
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+-40 -100 m 0,0,1
+ -40 -83 -40 -83 -28.5 -71.5 c 128,-1,2
+ -17 -60 -17 -60 0 -60 c 256,3,4
+ 17 -60 17 -60 28.5 -71.5 c 128,-1,5
+ 40 -83 40 -83 40 -100 c 0,6,7
+ 40 -116 40 -116 28.5 -128 c 128,-1,8
+ 17 -140 17 -140 0 -140 c 256,9,10
+ -17 -140 -17 -140 -28.5 -128 c 128,-1,11
+ -40 -116 -40 -116 -40 -100 c 0,0,1
+EndSplineSet
+Validated: 1
+Substitution2: "'ccmp' Glyph Composition/Decomposition in Hebrew lookup 0 subtable" glyph268
+EndChar
+
+StartChar: uni05C6
+Encoding: 1478 1478 95
+Width: 353
+GlyphClass: 2
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+323 0 m 1,0,-1
+ 73 0 l 1,1,-1
+ 73 335 l 2,2,3
+ 73 409 73 409 88.5 444.5 c 128,-1,4
+ 104 480 104 480 138.5 502 c 128,-1,5
+ 173 524 173 524 235 524 c 0,6,7
+ 282 524 282 524 315 513 c 1,8,-1
+ 309 439 l 1,9,10
+ 279 444 279 444 255 444 c 0,11,12
+ 186 444 186 444 173 396 c 0,13,14
+ 167 373 167 373 167 332 c 2,15,-1
+ 167 78 l 1,16,-1
+ 323 78 l 1,17,-1
+ 323 0 l 1,0,-1
+EndSplineSet
+Validated: 1
+EndChar
+
+StartChar: uni05C7
+Encoding: 1479 1479 96
+Width: 0
+GlyphClass: 4
+Flags: W
+AnchorPoint: "Anchor-5" 100 0 mark 0
+AnchorPoint: "Anchor-4" 0 0 mark 0
+LayerCount: 2
+Fore
+SplineSet
+98 -116 m 1,0,-1
+ 29 -116 l 1,1,-1
+ 29 -252 l 1,2,-1
+ -28 -252 l 1,3,-1
+ -28 -116 l 1,4,-1
+ -98 -116 l 1,5,-1
+ -98 -65 l 1,6,-1
+ 98 -65 l 1,7,-1
+ 98 -116 l 1,0,-1
+EndSplineSet
+Validated: 1
+Position2: "Single Positioning lookup 26 subtable" dx=100 dy=0 dh=0 dv=0
+Position2: "Single Positioning lookup 25 subtable" dx=60 dy=0 dh=0 dv=0
+Position2: "Single Positioning lookup 24 subtable" dx=80 dy=0 dh=0 dv=0
+EndChar
+
+StartChar: alefhebrew
+Encoding: 1488 1488 97
+Width: 532
+GlyphClass: 2
+Flags: W
+AnchorPoint: "Anchor-4" 240 0 basechar 0
+AnchorPoint: "Anchor-3" 94.835 554.855 basechar 0
+AnchorPoint: "Anchor-2" 423.835 556.855 basechar 0
+AnchorPoint: "Anchor-1" 242.835 550.855 basechar 0
+LayerCount: 2
+Fore
+SplineSet
+91.8251953125 511.094726562 m 128,-1,1
+ 96.587890625 513.166992188 96.587890625 513.166992188 99.8056640625 510.60546875 c 128,-1,2
+ 103.025390625 508.043945312 103.025390625 508.043945312 112.537109375 494.616210938 c 0,3,4
+ 123.385742188 479.307617188 123.385742188 479.307617188 124.063476562 476.73046875 c 0,5,6
+ 125.483398438 471.33984375 125.483398438 471.33984375 120.344726562 467.9765625 c 128,-1,7
+ 115.205078125 464.612304688 115.205078125 464.612304688 110.819335938 468.061523438 c 0,8,9
+ 108.900390625 469.572265625 108.900390625 469.572265625 98 485 c 128,-1,10
+ 87.1005859375 500.42578125 87.1005859375 500.42578125 87.1005859375 502.979492188 c 0,11,0
+ 87.1005859375 509.041992188 87.1005859375 509.041992188 91.8251953125 511.094726562 c 128,-1,1
+422.846679688 495.307617188 m 0,12,13
+ 424.89453125 496.418945312 424.89453125 496.418945312 427.774414062 496.448242188 c 128,-1,14
+ 430.655273438 496.478515625 430.655273438 496.478515625 433.306640625 493.827148438 c 2,15,-1
+ 435.958984375 491.17578125 l 1,16,-1
+ 435.463867188 483.540039062 l 2,17,18
+ 433.43359375 452.225585938 433.43359375 452.225585938 430.932617188 448.409179688 c 0,19,20
+ 428.6015625 444.8515625 428.6015625 444.8515625 423.760742188 444.8671875 c 128,-1,21
+ 418.920898438 444.883789062 418.920898438 444.883789062 416.580078125 448.45703125 c 0,22,23
+ 414.725585938 451.287109375 414.725585938 451.287109375 416.62109375 467.900390625 c 0,24,25
+ 417.7109375 477.47265625 417.7109375 477.47265625 418.216796875 483.759765625 c 0,26,27
+ 418.977539062 493.208007812 418.977539062 493.208007812 422.846679688 495.307617188 c 0,12,13
+132.272460938 454.291015625 m 0,28,29
+ 137.53515625 456.661132812 137.53515625 456.661132812 141.477539062 452.958007812 c 0,30,31
+ 143.579101562 450.982421875 143.579101562 450.982421875 153.87109375 436.2578125 c 128,-1,32
+ 164.165039062 421.533203125 164.165039062 421.533203125 164.568359375 419.922851562 c 0,33,34
+ 165.513671875 416.159179688 165.513671875 416.159179688 162.7578125 412.9296875 c 128,-1,35
+ 160.00390625 409.69921875 160.00390625 409.69921875 155.844726562 409.6953125 c 0,36,37
+ 152.487304688 409.69140625 152.487304688 409.69140625 149.354492188 413.260742188 c 128,-1,38
+ 146.220703125 416.828125 146.220703125 416.828125 132.939453125 435.783203125 c 0,39,40
+ 127.500976562 443.543945312 127.500976562 443.543945312 127.500976562 446.65234375 c 0,41,42
+ 127.500976562 452.141601562 127.500976562 452.141601562 132.272460938 454.291015625 c 0,28,29
+414.98828125 426.53515625 m 0,43,44
+ 418.921875 428.24609375 418.921875 428.24609375 422.5703125 426.513671875 c 0,45,46
+ 428.099609375 423.890625 428.099609375 423.890625 427.17578125 416.919921875 c 0,47,48
+ 426.354492188 410.731445312 426.354492188 410.731445312 423.36328125 396.313476562 c 128,-1,49
+ 420.372070312 381.895507812 420.372070312 381.895507812 419.59765625 380.401367188 c 0,50,51
+ 417.2578125 375.875 417.2578125 375.875 411.774414062 376.189453125 c 128,-1,52
+ 406.291015625 376.504882812 406.291015625 376.504882812 404.3125 381.278320312 c 0,53,54
+ 403.265625 383.807617188 403.265625 383.807617188 407.646484375 406.69921875 c 0,55,56
+ 409.928710938 418.62890625 409.928710938 418.62890625 411.188476562 422.029296875 c 128,-1,57
+ 412.447265625 425.431640625 412.447265625 425.431640625 414.98828125 426.53515625 c 0,43,44
+172.672851562 397.430664062 m 0,58,59
+ 177.850585938 399.764648438 177.850585938 399.764648438 181.553710938 396.444335938 c 0,60,61
+ 183.263671875 394.911132812 183.263671875 394.911132812 193.35546875 380.603515625 c 128,-1,62
+ 203.4453125 366.294921875 203.4453125 366.294921875 204.372070312 364.08984375 c 0,63,64
+ 206.745117188 358.44140625 206.745117188 358.44140625 202.6875 355.07421875 c 0,65,66
+ 201.568359375 354.147460938 201.568359375 354.147460938 201.568359375 352.703125 c 0,67,68
+ 201.568359375 348.067382812 201.568359375 348.067382812 196.55078125 345.719726562 c 0,69,70
+ 188.255859375 341.8359375 188.255859375 341.8359375 178.137695312 332.920898438 c 0,71,72
+ 172.2890625 327.768554688 172.2890625 327.768554688 169.985351562 326.0859375 c 0,73,74
+ 164.438476562 322.034179688 164.438476562 322.034179688 159.448242188 326.817382812 c 128,-1,75
+ 154.458984375 331.600585938 154.458984375 331.600585938 158.064453125 337.51171875 c 0,76,77
+ 160.02734375 340.732421875 160.02734375 340.732421875 168.640625 347.829101562 c 128,-1,78
+ 177.254882812 354.92578125 177.254882812 354.92578125 183.05078125 358.099609375 c 2,79,-1
+ 186.603515625 360.045898438 l 1,80,-1
+ 178.025390625 372.155273438 l 2,81,82
+ 170.3359375 383.006835938 170.3359375 383.006835938 169.119140625 385.15625 c 128,-1,83
+ 167.90234375 387.3046875 167.90234375 387.3046875 167.90234375 390.025390625 c 0,84,85
+ 167.90234375 395.280273438 167.90234375 395.280273438 172.672851562 397.430664062 c 0,58,59
+398.370117188 357.571289062 m 128,-1,87
+ 400.793945312 359.735351562 400.793945312 359.735351562 404.215820312 359.349609375 c 0,88,89
+ 411.80078125 358.495117188 411.80078125 358.495117188 411.80078125 351.022460938 c 0,90,91
+ 411.80078125 348.6796875 411.80078125 348.6796875 406.903320312 333.043945312 c 128,-1,92
+ 402.004882812 317.409179688 402.004882812 317.409179688 400.143554688 313.809570312 c 0,93,94
+ 397.8828125 309.438476562 397.8828125 309.438476562 392.966796875 309.438476562 c 0,95,96
+ 384.119140625 309.438476562 384.119140625 309.438476562 384.119140625 317.577148438 c 0,97,98
+ 384.119140625 319.803710938 384.119140625 319.803710938 390.032226562 337.604492188 c 128,-1,86
+ 395.944335938 355.40234375 395.944335938 355.40234375 398.370117188 357.571289062 c 128,-1,87
+213.073242188 340.53515625 m 128,-1,100
+ 217.20703125 342.333984375 217.20703125 342.333984375 220.717773438 340.190429688 c 0,101,102
+ 222.448242188 339.13671875 222.448242188 339.13671875 232.432617188 325.51171875 c 128,-1,103
+ 242.416015625 311.888671875 242.416015625 311.888671875 244.438476562 307.8203125 c 0,104,105
+ 247.131835938 302.407226562 247.131835938 302.407226562 242.767578125 298.313476562 c 128,-1,106
+ 238.401367188 294.221679688 238.401367188 294.221679688 232.704101562 296.817382812 c 0,107,108
+ 229.668945312 298.198242188 229.668945312 298.198242188 210.755859375 326.161132812 c 0,109,110
+ 207.708984375 330.666015625 207.708984375 330.666015625 208.362304688 334.717773438 c 128,-1,99
+ 209.017578125 338.768554688 209.017578125 338.768554688 213.073242188 340.53515625 c 128,-1,100
+139.845703125 313.5234375 m 0,111,112
+ 142.087890625 314.641601562 142.087890625 314.641601562 143.009765625 314.659179688 c 0,113,114
+ 148.251953125 314.75390625 148.251953125 314.75390625 150.918945312 310.237304688 c 0,115,116
+ 152.638671875 307.325195312 152.638671875 307.325195312 151.872070312 304.434570312 c 128,-1,117
+ 151.104492188 301.541992188 151.104492188 301.541992188 146.674804688 294.228515625 c 0,118,119
+ 141.173828125 285.149414062 141.173828125 285.149414062 137.356445312 277.536132812 c 128,-1,120
+ 133.553710938 269.94921875 133.553710938 269.94921875 131.547851562 268.37109375 c 0,121,122
+ 127.6328125 265.291015625 127.6328125 265.291015625 122.703125 267.797851562 c 128,-1,123
+ 117.775390625 270.303710938 117.775390625 270.303710938 117.775390625 275.375976562 c 0,124,125
+ 117.775390625 279.241210938 117.775390625 279.241210938 127.240234375 295.599609375 c 128,-1,126
+ 136.704101562 311.958007812 136.704101562 311.958007812 139.845703125 313.5234375 c 0,111,112
+374.280273438 293.338867188 m 0,127,128
+ 378.684570312 295.73046875 378.684570312 295.73046875 383.203125 292.9765625 c 0,129,130
+ 390.174804688 288.725585938 390.174804688 288.725585938 383.264648438 275.838867188 c 0,131,132
+ 369.2734375 249.749023438 369.2734375 249.749023438 364.348632812 247.690429688 c 0,133,134
+ 358.841796875 245.390625 358.841796875 245.390625 354.615234375 250.4140625 c 0,135,136
+ 352.215820312 253.266601562 352.215820312 253.266601562 352.828125 256.24609375 c 128,-1,137
+ 353.440429688 259.2265625 353.440429688 259.2265625 357.919921875 266.500976562 c 0,138,139
+ 363.120117188 274.9453125 363.120117188 274.9453125 367.720703125 283.62109375 c 128,-1,140
+ 372.297851562 292.260742188 372.297851562 292.260742188 374.280273438 293.338867188 c 0,127,128
+253.434570312 283.658203125 m 0,141,142
+ 257.990234375 285.640625 257.990234375 285.640625 261.231445312 283.008789062 c 128,-1,143
+ 264.47265625 280.376953125 264.47265625 280.376953125 273.84765625 267.087890625 c 0,144,145
+ 284.36328125 252.180664062 284.36328125 252.180664062 284.94140625 251.19921875 c 0,146,147
+ 285.678710938 249.954101562 285.678710938 249.954101562 285.450195312 247.01953125 c 128,-1,148
+ 285.22265625 244.083984375 285.22265625 244.083984375 284.27734375 242.640625 c 0,149,150
+ 282.541992188 239.9921875 282.541992188 239.9921875 278.536132812 239.265625 c 128,-1,151
+ 274.529296875 238.538085938 274.529296875 238.538085938 272.135742188 240.4375 c 0,152,153
+ 269.349609375 242.650390625 269.349609375 242.650390625 251.0234375 269.30078125 c 0,154,155
+ 247.990234375 273.7109375 247.990234375 273.7109375 248.676757812 277.798828125 c 128,-1,156
+ 249.36328125 281.887695312 249.36328125 281.887695312 253.434570312 283.658203125 c 0,141,142
+108.61328125 250.517578125 m 0,157,158
+ 110.66796875 251.791992188 110.66796875 251.791992188 113.547851562 251.810546875 c 128,-1,159
+ 116.427734375 251.831054688 116.427734375 251.831054688 118.971679688 249.287109375 c 128,-1,160
+ 121.640625 246.618164062 121.640625 246.618164062 121.435546875 242.994140625 c 128,-1,161
+ 121.23046875 239.37109375 121.23046875 239.37109375 117.825195312 229.012695312 c 0,162,163
+ 114.115234375 217.71875 114.115234375 217.71875 112.23046875 211.372070312 c 128,-1,164
+ 110.323242188 204.953125 110.323242188 204.953125 108.915039062 203.682617188 c 0,165,166
+ 106.244140625 201.263671875 106.244140625 201.263671875 102.241210938 201.50390625 c 128,-1,167
+ 98.240234375 201.743164062 98.240234375 201.743164062 96.1123046875 204.450195312 c 128,-1,168
+ 94.0126953125 207.1171875 94.0126953125 207.1171875 95.0107421875 212.90234375 c 128,-1,169
+ 96.0068359375 218.686523438 96.0068359375 218.686523438 101.44140625 235.37109375 c 0,170,171
+ 105.809570312 248.778320312 105.809570312 248.778320312 108.61328125 250.517578125 c 0,157,158
+335.862304688 236.026367188 m 128,-1,173
+ 337.360351562 236.907226562 337.360351562 236.907226562 340.702148438 236.587890625 c 0,174,175
+ 348.208007812 235.8671875 348.208007812 235.8671875 348.208007812 228.166015625 c 0,176,177
+ 348.208007812 224.724609375 348.208007812 224.724609375 342.409179688 218.749023438 c 128,-1,178
+ 336.610351562 212.76953125 336.610351562 212.76953125 329.129882812 207.13671875 c 128,-1,179
+ 321.645507812 201.498046875 321.645507812 201.498046875 321.41796875 200.909179688 c 128,-1,180
+ 321.186523438 200.31640625 321.186523438 200.31640625 323.473632812 197.157226562 c 0,181,182
+ 326.328125 193.216796875 326.328125 193.216796875 325.752929688 189.08984375 c 128,-1,183
+ 325.17578125 184.961914062 325.17578125 184.961914062 321.509765625 183.086914062 c 0,184,185
+ 319.994140625 182.310546875 319.994140625 182.310546875 317.220703125 182.280273438 c 128,-1,186
+ 314.448242188 182.249023438 314.448242188 182.249023438 313.05859375 182.991210938 c 128,-1,187
+ 311.69921875 183.71875 311.69921875 183.71875 300.6640625 199.276367188 c 128,-1,188
+ 289.62890625 214.833984375 289.62890625 214.833984375 289.056640625 216.829101562 c 0,189,190
+ 288.079101562 220.240234375 288.079101562 220.240234375 290.119140625 223.473632812 c 128,-1,191
+ 292.159179688 226.708007812 292.159179688 226.708007812 295.793945312 227.505859375 c 0,192,193
+ 301.0859375 228.669921875 301.0859375 228.669921875 306.658203125 220.858398438 c 0,194,195
+ 310.184570312 215.918945312 310.184570312 215.918945312 310.95703125 215.918945312 c 0,196,197
+ 314.263671875 215.918945312 314.263671875 215.918945312 328.006835938 229.0625 c 0,198,172
+ 334.374023438 235.147460938 334.374023438 235.147460938 335.862304688 236.026367188 c 128,-1,173
+89.033203125 182.064453125 m 128,-1,200
+ 91.4404296875 184.497070312 91.4404296875 184.497070312 94.7802734375 184.497070312 c 0,201,202
+ 105.07421875 184.497070312 105.07421875 184.497070312 102.967773438 172.303710938 c 0,203,204
+ 102.151367188 167.578125 102.151367188 167.578125 99.8564453125 154.196289062 c 0,205,206
+ 97.041015625 137.783203125 97.041015625 137.783203125 94.9482421875 135.688476562 c 0,207,208
+ 91.896484375 132.635742188 91.896484375 132.635742188 87.4970703125 133.33984375 c 128,-1,209
+ 83.0986328125 134.043945312 83.0986328125 134.043945312 81.271484375 137.875976562 c 0,210,211
+ 79.7861328125 140.990234375 79.7861328125 140.990234375 84.2431640625 166.166015625 c 0,212,199
+ 86.626953125 179.6328125 86.626953125 179.6328125 89.033203125 182.064453125 c 128,-1,200
+333.993164062 169.719726562 m 0,213,214
+ 337.487304688 171.463867188 337.487304688 171.463867188 341.01953125 169.989257812 c 0,215,216
+ 343.509765625 168.948242188 343.509765625 168.948242188 354.817382812 152.96875 c 128,-1,217
+ 366.125 136.987304688 366.125 136.987304688 366.14453125 134.14453125 c 0,218,219
+ 366.184570312 128.16015625 366.184570312 128.16015625 362.069335938 126.286132812 c 0,220,221
+ 357.263671875 124.095703125 357.263671875 124.095703125 353.415039062 126.15625 c 0,222,223
+ 351.954101562 126.9375 351.954101562 126.9375 340.971679688 142.448242188 c 128,-1,224
+ 329.990234375 157.958984375 329.990234375 157.958984375 329.296875 160.221679688 c 0,225,226
+ 327.392578125 166.422851562 327.392578125 166.422851562 333.993164062 169.719726562 c 0,213,214
+80.18359375 114.396484375 m 0,227,228
+ 84.0869140625 116.899414062 84.0869140625 116.899414062 88.583984375 114.536132812 c 128,-1,229
+ 93.080078125 112.172851562 93.080078125 112.172851562 93.09375 107.611328125 c 0,230,231
+ 93.1279296875 94.02734375 93.1279296875 94.02734375 90.3681640625 71.5751953125 c 0,232,233
+ 89.4404296875 64.0419921875 89.4404296875 64.0419921875 81.841796875 64.0419921875 c 0,234,235
+ 78.23828125 64.0419921875 78.23828125 64.0419921875 75.9345703125 66.34375 c 128,-1,236
+ 73.6328125 68.6455078125 73.6328125 68.6455078125 73.6279296875 74.013671875 c 0,237,238
+ 73.6220703125 80.9541015625 73.6220703125 80.9541015625 74.94140625 94.990234375 c 128,-1,239
+ 76.2607421875 109.02734375 76.2607421875 109.02734375 77.087890625 110.818359375 c 0,240,241
+ 78.1318359375 113.081054688 78.1318359375 113.081054688 80.18359375 114.396484375 c 0,227,228
+374.595703125 113.060546875 m 0,242,243
+ 379.188476562 115.056640625 379.188476562 115.056640625 382.2734375 112.504882812 c 128,-1,244
+ 385.359375 109.952148438 385.359375 109.952148438 395.1953125 96.0224609375 c 0,245,246
+ 404.182617188 83.2939453125 404.182617188 83.2939453125 405.768554688 79.8076171875 c 128,-1,247
+ 407.353515625 76.3212890625 407.353515625 76.3212890625 405.752929688 72.8046875 c 0,248,249
+ 404.456054688 69.958984375 404.456054688 69.958984375 400.23046875 68.8671875 c 128,-1,250
+ 396.005859375 67.775390625 396.005859375 67.775390625 393.385742188 69.6103515625 c 0,251,252
+ 392.302734375 70.3701171875 392.302734375 70.3701171875 381.849609375 84.833984375 c 128,-1,253
+ 371.397460938 99.2998046875 371.397460938 99.2998046875 370.008789062 101.962890625 c 128,-1,254
+ 368.538085938 104.782226562 368.538085938 104.782226562 369.9609375 108.22265625 c 128,-1,255
+ 371.381835938 111.663085938 371.381835938 111.663085938 374.595703125 113.060546875 c 0,242,243
+419 53 m 0,256,257
+ 422 55 422 55 426.236328125 52.2451171875 c 0,258,259
+ 428 51 428 51 441 33 c 128,-1,260
+ 454 15 454 15 454.567382812 13.298828125 c 0,261,262
+ 457 9 457 9 454.228515625 5.1611328125 c 0,263,264
+ 452 1 452 1 447.072265625 1.0927734375 c 0,265,266
+ 444 1 444 1 442.188476562 2.21875 c 0,267,268
+ 441 3 441 3 431.49609375 16.1806640625 c 0,269,270
+ 416 38 416 38 415.827148438 39.884765625 c 0,271,272
+ 411 48 411 48 419 53 c 0,256,257
+74.6533203125 43.6142578125 m 1,273,-1
+ 71.7626953125 40.966796875 l 1,274,-1
+ 71.5263671875 22.9267578125 l 1,275,-1
+ 71.291015625 4.88671875 l 1,276,-1
+ 73.8837890625 2.29296875 l 2,277,278
+ 76.4765625 -0.298828125 76.4765625 -0.298828125 79.751953125 -0.298828125 c 128,-1,279
+ 83.02734375 -0.298828125 83.02734375 -0.298828125 84.693359375 0.869140625 c 0,280,281
+ 87.392578125 2.7587890625 87.392578125 2.7587890625 87.994140625 6.263671875 c 128,-1,282
+ 88.5966796875 9.767578125 88.5966796875 9.767578125 88.5966796875 23.5927734375 c 2,283,-1
+ 88.5966796875 40.826171875 l 1,284,-1
+ 86.5146484375 43.1572265625 l 2,285,286
+ 84.4326171875 45.484375 84.4326171875 45.484375 80.98828125 45.8740234375 c 128,-1,287
+ 77.54296875 46.26171875 77.54296875 46.26171875 74.6533203125 43.6142578125 c 1024,288,-1
+EndSplineSet
+Validated: 527395
+Position2: "Single Positioning lookup 21 subtable" dx=100 dy=0 dh=100 dv=0
+EndChar
+
+StartChar: bethebrew
+Encoding: 1489 1489 98
+Width: 542
+GlyphClass: 2
+Flags: W
+AnchorPoint: "Anchor-4" 279 0 basechar 0
+AnchorPoint: "Anchor-3" 118 558 basechar 0
+AnchorPoint: "Anchor-2" 418 558 basechar 0
+AnchorPoint: "Anchor-1" 258 558 basechar 0
+LayerCount: 2
+Fore
+SplineSet
+156.515625 482.57421875 m 2,0,-1
+ 158.538085938 484.748046875 l 1,1,-1
+ 175.169921875 484.380859375 l 2,2,3
+ 191.801757812 484.014648438 191.801757812 484.014648438 193.701171875 482.97265625 c 0,4,5
+ 199.370117188 479.866210938 199.370117188 479.866210938 196.59375 474.073242188 c 0,6,7
+ 195.100585938 470.95703125 195.100585938 470.95703125 191.525390625 470.318359375 c 128,-1,8
+ 187.950195312 469.678710938 187.950195312 469.678710938 174.415039062 470.10546875 c 0,9,10
+ 157.926757812 470.625976562 157.926757812 470.625976562 156.209960938 472.749023438 c 0,11,12
+ 152.100585938 477.828125 152.100585938 477.828125 156.515625 482.57421875 c 2,0,-1
+115.8359375 482.133789062 m 128,-1,14
+ 128.858398438 483.532226562 128.858398438 483.532226562 132.458984375 483.205078125 c 0,15,16
+ 139.619140625 482.546875 139.619140625 482.546875 139.030273438 475.73046875 c 0,17,18
+ 138.68359375 471.712890625 138.68359375 471.712890625 135.23828125 470.41796875 c 128,-1,19
+ 131.79296875 469.123046875 131.79296875 469.123046875 117.950195312 467.806640625 c 0,20,21
+ 101.634765625 466.25390625 101.634765625 466.25390625 99.3740234375 467.734375 c 0,22,23
+ 95.9736328125 469.962890625 95.9736328125 469.962890625 96.4814453125 474.255859375 c 128,-1,24
+ 96.9892578125 478.547851562 96.9892578125 478.547851562 100.82421875 479.990234375 c 0,25,13
+ 102.799804688 480.73046875 102.799804688 480.73046875 115.8359375 482.133789062 c 128,-1,14
+216.07421875 479.926757812 m 0,26,27
+ 218.19921875 481.088867188 218.19921875 481.088867188 228.337890625 479.225585938 c 0,28,29
+ 250.819335938 475.095703125 250.819335938 475.095703125 253.001953125 472.2734375 c 0,30,31
+ 254.583007812 470.2265625 254.583007812 470.2265625 254.0546875 466.806640625 c 128,-1,32
+ 253.52734375 463.38671875 253.52734375 463.38671875 251.383789062 461.79296875 c 2,33,-1
+ 248.935546875 459.971679688 l 1,34,-1
+ 238.34765625 462.364257812 l 2,35,36
+ 227.80859375 464.745117188 227.80859375 464.745117188 221.9453125 465.82421875 c 0,37,38
+ 212.029296875 467.646484375 212.029296875 467.646484375 212.029296875 473.559570312 c 0,39,40
+ 212.029296875 477.71484375 212.029296875 477.71484375 216.07421875 479.926757812 c 0,26,27
+58.2998046875 473.311523438 m 128,-1,42
+ 73.1357421875 476.372070312 73.1357421875 476.372070312 75.771484375 475.9609375 c 0,43,44
+ 81.673828125 475.040039062 81.673828125 475.040039062 81.673828125 469.294921875 c 0,45,46
+ 81.673828125 465.161132812 81.673828125 465.161132812 78.5673828125 463.515625 c 128,-1,47
+ 75.4609375 461.870117188 75.4609375 461.870117188 63.166015625 459.490234375 c 0,48,49
+ 49.7314453125 456.891601562 49.7314453125 456.891601562 46.4130859375 456.826171875 c 128,-1,50
+ 43.09375 456.760742188 43.09375 456.760742188 41.2841796875 459.060546875 c 0,51,52
+ 37.708984375 463.60546875 37.708984375 463.60546875 41.443359375 467.91796875 c 0,53,41
+ 43.4677734375 470.25390625 43.4677734375 470.25390625 58.2998046875 473.311523438 c 128,-1,42
+269.973632812 463.474609375 m 0,54,55
+ 272.180664062 465.681640625 272.180664062 465.681640625 274.42578125 465.681640625 c 0,56,57
+ 277.827148438 465.681640625 277.827148438 465.681640625 291.971679688 458.717773438 c 128,-1,58
+ 306.116210938 451.75390625 306.116210938 451.75390625 307.333007812 449.479492188 c 0,59,60
+ 309.125976562 446.129882812 309.125976562 446.129882812 307.115234375 442.420898438 c 128,-1,61
+ 305.103515625 438.711914062 305.103515625 438.711914062 301.495117188 438.711914062 c 0,62,63
+ 299.18359375 438.711914062 299.18359375 438.711914062 289.991210938 443.459960938 c 128,-1,64
+ 280.833007812 448.197265625 280.833007812 448.197265625 275.317382812 450.67578125 c 0,65,66
+ 262.801757812 456.3046875 262.801757812 456.3046875 269.973632812 463.474609375 c 0,54,55
+321.991210938 436.028320312 m 0,67,68
+ 325.211914062 437.358398438 325.211914062 437.358398438 329.043945312 434.982421875 c 128,-1,69
+ 332.875976562 432.606445312 332.875976562 432.606445312 343.25 422.846679688 c 0,70,71
+ 350.986328125 415.5703125 350.986328125 415.5703125 352.58203125 411.870117188 c 128,-1,72
+ 354.177734375 408.169921875 354.177734375 408.169921875 350.96484375 404.958984375 c 0,73,74
+ 348.7578125 402.751953125 348.7578125 402.751953125 345.951171875 402.751953125 c 128,-1,75
+ 343.142578125 402.751953125 343.142578125 402.751953125 330.626953125 414.6328125 c 128,-1,76
+ 318.111328125 426.513671875 318.111328125 426.513671875 318.111328125 429.076171875 c 0,77,78
+ 318.111328125 434.427734375 318.111328125 434.427734375 321.991210938 436.028320312 c 0,67,68
+358.974609375 391.5546875 m 0,79,80
+ 363.41796875 395.998046875 363.41796875 395.998046875 367.767578125 392.637695312 c 0,81,82
+ 369.221679688 391.516601562 369.221679688 391.516601562 374.108398438 383.423828125 c 0,83,84
+ 382.377929688 369.732421875 382.377929688 369.732421875 384.018554688 364.234375 c 128,-1,85
+ 385.658203125 358.735351562 385.658203125 358.735351562 382.267578125 356.069335938 c 0,86,87
+ 375.267578125 350.561523438 375.267578125 350.561523438 368.981445312 363.044921875 c 0,88,89
+ 365.950195312 369.0625 365.950195312 369.0625 361.362304688 376.6875 c 0,90,91
+ 354.8828125 387.462890625 354.8828125 387.462890625 358.974609375 391.5546875 c 0,79,80
+384.095703125 339.521484375 m 0,92,93
+ 392.5703125 346.810546875 392.5703125 346.810546875 397.541992188 329.932617188 c 0,94,95
+ 404.044921875 307.846679688 404.044921875 307.846679688 403.030273438 304.64453125 c 0,96,97
+ 402.467773438 302.874023438 402.467773438 302.874023438 400.036132812 301.120117188 c 128,-1,98
+ 397.60546875 299.366210938 397.60546875 299.366210938 395.711914062 299.366210938 c 0,99,100
+ 390.393554688 299.366210938 390.393554688 299.366210938 387.829101562 310.197265625 c 0,101,102
+ 386.240234375 316.899414062 386.240234375 316.899414062 384.029296875 324.333984375 c 0,103,104
+ 380.447265625 336.3828125 380.447265625 336.3828125 384.095703125 339.521484375 c 0,92,93
+395.784179688 282.7265625 m 2,105,106
+ 400.701171875 287.645507812 400.701171875 287.645507812 405.361328125 282.684570312 c 0,107,108
+ 408.705078125 279.124023438 408.705078125 279.124023438 408.846679688 256.272460938 c 0,109,110
+ 408.91015625 245.9921875 408.91015625 245.9921875 406.956054688 243.911132812 c 0,111,112
+ 403.958007812 240.720703125 403.958007812 240.720703125 399.858398438 242.25 c 128,-1,113
+ 395.758789062 243.778320312 395.758789062 243.778320312 395.061523438 248.345703125 c 0,114,115
+ 394.614257812 251.259765625 394.614257812 251.259765625 394.0703125 265.870117188 c 2,116,-1
+ 393.528320312 280.469726562 l 1,117,-1
+ 395.784179688 282.7265625 l 2,105,106
+399.102539062 226.458007812 m 0,118,119
+ 403.301757812 228.122070312 403.301757812 228.122070312 406.88671875 224.177734375 c 0,120,121
+ 408.91015625 221.952148438 408.91015625 221.952148438 408.91015625 206.853515625 c 0,122,123
+ 408.91015625 187.118164062 408.91015625 187.118164062 405.279296875 185.174804688 c 0,124,125
+ 400.04296875 182.372070312 400.04296875 182.372070312 396.32421875 186.092773438 c 0,126,127
+ 394.525390625 187.891601562 394.525390625 187.891601562 394.5546875 205.196289062 c 0,128,129
+ 394.578125 219.018554688 394.578125 219.018554688 395.237304688 222.103515625 c 128,-1,130
+ 395.897460938 225.188476562 395.897460938 225.188476562 399.102539062 226.458007812 c 0,118,119
+397.033203125 167.786132812 m 0,131,132
+ 401.522460938 171.197265625 401.522460938 171.197265625 405.930664062 167.057617188 c 0,133,134
+ 408.010742188 165.102539062 408.010742188 165.102539062 408.010742188 147.688476562 c 128,-1,135
+ 408.010742188 130.2734375 408.010742188 130.2734375 405.803710938 128.06640625 c 0,136,137
+ 403.110351562 125.373046875 403.110351562 125.373046875 399.828125 125.963867188 c 128,-1,138
+ 396.544921875 126.5546875 396.544921875 126.5546875 394.672851562 130.0703125 c 0,139,140
+ 393.674804688 131.944335938 393.674804688 131.944335938 393.625976562 146.758789062 c 128,-1,141
+ 393.578125 161.57421875 393.578125 161.57421875 394.560546875 164.16015625 c 128,-1,142
+ 395.497070312 166.619140625 395.497070312 166.619140625 397.033203125 167.786132812 c 0,131,132
+398.203125 110.487304688 m 0,143,144
+ 402.2109375 112.07421875 402.2109375 112.07421875 405.763671875 108.663085938 c 0,145,146
+ 407.561523438 106.9375 407.561523438 106.9375 407.849609375 92.3857421875 c 0,147,148
+ 408.236328125 73.0439453125 408.236328125 73.0439453125 405.263671875 70.0712890625 c 0,149,150
+ 403.512695312 68.3203125 403.512695312 68.3203125 400.353515625 68.3359375 c 128,-1,151
+ 397.194335938 68.3525390625 397.194335938 68.3525390625 395.424804688 70.1220703125 c 128,-1,152
+ 393.626953125 71.919921875 393.626953125 71.919921875 393.65625 89.2255859375 c 0,153,154
+ 393.678710938 103.047851562 393.678710938 103.047851562 394.338867188 106.1328125 c 128,-1,155
+ 394.998046875 109.217773438 394.998046875 109.217773438 398.203125 110.487304688 c 0,143,144
+396.133789062 51.8154296875 m 0,156,157
+ 400.930664062 55.4599609375 400.930664062 55.4599609375 405.192382812 50.923828125 c 0,158,159
+ 407.180664062 48.8056640625 407.180664062 48.8056640625 407.07421875 31.0556640625 c 128,-1,160
+ 406.966796875 13.3056640625 406.966796875 13.3056640625 408.836914062 11.3134765625 c 0,161,162
+ 413.481445312 6.3701171875 413.481445312 6.3701171875 408.9609375 1.8486328125 c 0,163,164
+ 405.947265625 -1.1640625 405.947265625 -1.1640625 386.561523438 -0.755859375 c 0,165,166
+ 372.09765625 -0.44921875 372.09765625 -0.44921875 370.096679688 1.552734375 c 128,-1,167
+ 368.251953125 3.3994140625 368.251953125 3.3994140625 368.108398438 6.591796875 c 128,-1,168
+ 367.965820312 9.7841796875 367.965820312 9.7841796875 369.651367188 11.4755859375 c 128,-1,169
+ 371.208984375 13.0361328125 371.208984375 13.0361328125 382.049804688 13.4853515625 c 2,170,-1
+ 392.891601562 13.9345703125 l 1,171,-1
+ 392.774414062 29.7412109375 l 2,172,173
+ 392.630859375 49.1533203125 392.630859375 49.1533203125 396.133789062 51.8154296875 c 0,156,157
+23.16015625 13.2314453125 m 0,174,175
+ 24.5859375 14.326171875 24.5859375 14.326171875 41.3212890625 14.3544921875 c 128,-1,176
+ 58.056640625 14.3837890625 58.056640625 14.3837890625 60.42578125 12.5205078125 c 128,-1,177
+ 62.935546875 10.546875 62.935546875 10.546875 62.935546875 7.19140625 c 128,-1,178
+ 62.935546875 3.8369140625 62.935546875 3.8369140625 60.42578125 1.86328125 c 128,-1,179
+ 58.056640625 0 58.056640625 0 41.66796875 0 c 128,-1,180
+ 25.2783203125 0 25.2783203125 0 23.01171875 1.783203125 c 0,181,182
+ 20.03125 4.1279296875 20.03125 4.1279296875 20.076171875 7.51171875 c 128,-1,183
+ 20.1201171875 10.8955078125 20.1201171875 10.8955078125 23.16015625 13.2314453125 c 0,174,175
+80.28515625 12.1767578125 m 128,-1,185
+ 82.4912109375 14.3837890625 82.4912109375 14.3837890625 98.7744140625 14.3837890625 c 0,186,187
+ 117.377929688 14.3837890625 117.377929688 14.3837890625 120.077148438 10.8662109375 c 0,188,189
+ 123.165039062 6.8447265625 123.165039062 6.8447265625 119.025390625 2.3798828125 c 2,190,-1
+ 116.8203125 0 l 1,191,-1
+ 99.6552734375 0 l 2,192,193
+ 82.490234375 0 82.490234375 0 80.28515625 2.20703125 c 128,-1,194
+ 78.078125 4.4130859375 78.078125 4.4130859375 78.078125 7.19140625 c 128,-1,184
+ 78.078125 9.970703125 78.078125 9.970703125 80.28515625 12.1767578125 c 128,-1,185
+139.048828125 12.65234375 m 0,195,196
+ 141.383789062 14.4892578125 141.383789062 14.4892578125 158.184570312 14.2109375 c 128,-1,197
+ 174.985351562 13.9345703125 174.985351562 13.9345703125 176.876953125 12.2216796875 c 128,-1,198
+ 178.796875 10.4814453125 178.796875 10.4814453125 178.776367188 7.31640625 c 128,-1,199
+ 178.755859375 4.1513671875 178.755859375 4.1513671875 176.811523438 2.080078125 c 128,-1,200
+ 174.856445312 -0.0009765625 174.856445312 -0.0009765625 157.70703125 0.029296875 c 128,-1,201
+ 140.55859375 0.0576171875 140.55859375 0.0576171875 139.131835938 1.15234375 c 0,202,203
+ 136.069335938 3.50390625 136.069335938 3.50390625 136.044921875 6.8876953125 c 128,-1,204
+ 136.021484375 10.2705078125 136.021484375 10.2705078125 139.048828125 12.65234375 c 0,195,196
+198.094726562 13.3759765625 m 0,205,206
+ 199.89453125 14.388671875 199.89453125 14.388671875 216.37890625 14.162109375 c 2,207,-1
+ 232.865234375 13.9345703125 l 1,208,-1
+ 235.033203125 11.4111328125 l 2,209,210
+ 239.26953125 6.482421875 239.26953125 6.482421875 234.994140625 2.20703125 c 0,211,212
+ 232.787109375 0 232.787109375 0 215.499023438 0 c 128,-1,213
+ 198.209960938 0 198.209960938 0 196.129882812 1.955078125 c 0,214,215
+ 193.47265625 4.4501953125 193.47265625 4.4501953125 194.075195312 7.94921875 c 128,-1,216
+ 194.676757812 11.44921875 194.676757812 11.44921875 198.094726562 13.3759765625 c 0,205,206
+256.080078125 13.220703125 m 0,217,218
+ 258.241210938 14.314453125 258.241210938 14.314453125 272.653320312 14.3857421875 c 128,-1,219
+ 287.06640625 14.45703125 287.06640625 14.45703125 290.127929688 13.390625 c 0,220,221
+ 292.975585938 12.3974609375 292.975585938 12.3974609375 293.856445312 10.7529296875 c 0,222,223
+ 296.658203125 5.517578125 296.658203125 5.517578125 292.939453125 1.7978515625 c 0,224,225
+ 291.140625 0 291.140625 0 274 0 c 128,-1,226
+ 256.859375 0 256.859375 0 255.245117188 0.8642578125 c 128,-1,227
+ 253.629882812 1.7275390625 253.629882812 1.7275390625 252.526367188 4.3935546875 c 0,228,229
+ 250.119140625 10.2060546875 250.119140625 10.2060546875 256.080078125 13.220703125 c 0,217,218
+311.974609375 11.404296875 m 0,230,231
+ 313.9296875 13.4853515625 313.9296875 13.4853515625 331.6875 13.4853515625 c 2,232,-1
+ 349.4453125 13.4853515625 l 1,233,-1
+ 351.30859375 11.115234375 l 2,234,235
+ 353.171875 8.7490234375 353.171875 8.7490234375 353.171875 6.7421875 c 128,-1,236
+ 353.171875 4.736328125 353.171875 4.736328125 351.30859375 2.369140625 c 2,237,-1
+ 349.4453125 0 l 1,238,-1
+ 331.813476562 0 l 2,239,240
+ 314.182617188 0 314.182617188 0 312.100585938 1.955078125 c 0,241,242
+ 307.317382812 6.4482421875 307.317382812 6.4482421875 311.974609375 11.404296875 c 0,230,231
+427.9453125 11.404296875 m 0,243,244
+ 429.900390625 13.4853515625 429.900390625 13.4853515625 447.314453125 13.4853515625 c 128,-1,245
+ 464.729492188 13.4853515625 464.729492188 13.4853515625 466.935546875 11.27734375 c 0,246,247
+ 469.5078125 8.70703125 469.5078125 8.70703125 468.877929688 5.1533203125 c 128,-1,248
+ 468.248046875 1.599609375 468.248046875 1.599609375 464.956054688 0.0986328125 c 0,249,250
+ 462.353515625 -1.0869140625 462.353515625 -1.0869140625 447.192382812 -0.951171875 c 128,-1,251
+ 432.03125 -0.814453125 432.03125 -0.814453125 429.651367188 0.416015625 c 0,252,253
+ 426.504882812 2.04296875 426.504882812 2.04296875 425.983398438 5.4013671875 c 128,-1,254
+ 425.461914062 8.7607421875 425.461914062 8.7607421875 427.9453125 11.404296875 c 0,243,244
+487.044921875 12.33203125 m 0,255,256
+ 484.00390625 9.9970703125 484.00390625 9.9970703125 483.959960938 6.61328125 c 128,-1,257
+ 483.915039062 3.2294921875 483.915039062 3.2294921875 486.895507812 0.8837890625 c 0,258,259
+ 489.162109375 -0.8994140625 489.162109375 -0.8994140625 505.552734375 -0.8994140625 c 128,-1,260
+ 521.940429688 -0.8994140625 521.940429688 -0.8994140625 524.309570312 0.9638671875 c 128,-1,261
+ 526.819335938 2.9384765625 526.819335938 2.9384765625 526.819335938 6.29296875 c 128,-1,262
+ 526.819335938 9.6474609375 526.819335938 9.6474609375 524.309570312 11.62109375 c 128,-1,263
+ 521.940429688 13.4853515625 521.940429688 13.4853515625 505.206054688 13.4560546875 c 128,-1,264
+ 488.470703125 13.4267578125 488.470703125 13.4267578125 487.044921875 12.33203125 c 1024,265,-1
+EndSplineSet
+Validated: 527363
+Position2: "Single Positioning lookup 21 subtable" dx=100 dy=0 dh=100 dv=0
+EndChar
+
+StartChar: gimelhebrew
+Encoding: 1490 1490 99
+Width: 429
+GlyphClass: 2
+Flags: WO
+AnchorPoint: "Anchor-4" 232 0 basechar 0
+AnchorPoint: "Anchor-3" 114 580 basechar 0
+AnchorPoint: "Anchor-2" 294 580 basechar 0
+AnchorPoint: "Anchor-1" 204 580 basechar 0
+LayerCount: 2
+Fore
+SplineSet
+160.623046875 520.37109375 m 128,-1,1
+ 162.162109375 520.670898438 162.162109375 520.670898438 177.84375 520.765625 c 0,2,3
+ 190.255859375 520.840820312 190.255859375 520.840820312 193.053710938 520.370117188 c 128,-1,4
+ 195.8515625 519.900390625 195.8515625 519.900390625 197.814453125 517.412109375 c 0,5,6
+ 200.869140625 513.53125 200.869140625 513.53125 196.791992188 509.022460938 c 2,7,-1
+ 194.877929688 506.90625 l 1,8,-1
+ 177.825195312 506.67578125 l 2,9,10
+ 160.771484375 506.447265625 160.771484375 506.447265625 159.155273438 507.17578125 c 0,11,12
+ 155.553710938 508.802734375 155.553710938 508.802734375 155.553710938 513.811523438 c 0,13,14
+ 155.553710938 515.647460938 155.553710938 515.647460938 157.25390625 517.84765625 c 128,-1,0
+ 158.954101562 520.047851562 158.954101562 520.047851562 160.623046875 520.37109375 c 128,-1,1
+124.9296875 515.654296875 m 0,15,16
+ 133.84375 517.455078125 133.84375 517.455078125 136.345703125 516.41015625 c 0,17,18
+ 143.5859375 513.383789062 143.5859375 513.383789062 139.926757812 506.307617188 c 0,19,20
+ 138.482421875 503.515625 138.482421875 503.515625 125.881835938 501.034179688 c 0,21,22
+ 116.747070312 499.234375 116.747070312 499.234375 111.963867188 497.866210938 c 128,-1,23
+ 107.184570312 496.5 107.184570312 496.5 105.201171875 496.5 c 128,-1,24
+ 103.234375 496.5 103.234375 496.5 100.858398438 498.826171875 c 128,-1,25
+ 98.4814453125 501.153320312 98.4814453125 501.153320312 98.4814453125 503.077148438 c 0,26,27
+ 98.4814453125 508.227539062 98.4814453125 508.227539062 102.90234375 510.073242188 c 0,28,29
+ 108.140625 512.262695312 108.140625 512.262695312 124.9296875 515.654296875 c 0,15,16
+215.623046875 515.004882812 m 128,-1,31
+ 217.575195312 516.684570312 217.575195312 516.684570312 220.146484375 516.682617188 c 0,32,33
+ 224.815429688 516.6796875 224.815429688 516.6796875 237.220703125 512.413085938 c 128,-1,34
+ 249.625 508.146484375 249.625 508.146484375 252.49609375 505.556640625 c 128,-1,35
+ 255.500976562 502.845703125 255.500976562 502.845703125 254.666992188 498.935546875 c 128,-1,36
+ 253.83203125 495.026367188 253.83203125 495.026367188 249.975585938 493.75390625 c 0,37,38
+ 247.549804688 492.952148438 247.549804688 492.952148438 239.65625 496.072265625 c 128,-1,39
+ 231.771484375 499.19140625 231.771484375 499.19140625 224.109375 501.383789062 c 0,40,41
+ 217.182617188 503.366210938 217.182617188 503.366210938 215.42578125 504.783203125 c 128,-1,42
+ 213.668945312 506.200195312 213.668945312 506.200195312 213.668945312 509.803710938 c 128,-1,30
+ 213.668945312 513.32421875 213.668945312 513.32421875 215.623046875 515.004882812 c 128,-1,31
+268.3828125 490.65625 m 0,43,44
+ 270.046875 491.580078125 270.046875 491.580078125 272.427734375 491.603515625 c 128,-1,45
+ 274.8125 491.627929688 274.8125 491.627929688 281.485351562 484.841796875 c 0,46,47
+ 297.157226562 468.90625 297.157226562 468.90625 297.157226562 462.340820312 c 0,48,49
+ 297.157226562 456.909179688 297.157226562 456.909179688 292.0859375 455.388671875 c 128,-1,50
+ 286.90625 453.8359375 286.90625 453.8359375 282.524414062 460.684570312 c 0,51,52
+ 277.638671875 468.322265625 277.638671875 468.322265625 269.243164062 477.118164062 c 0,53,54
+ 264.826171875 481.749023438 264.826171875 481.749023438 264.850585938 484.078125 c 0,55,56
+ 264.8984375 488.7265625 264.8984375 488.7265625 268.3828125 490.65625 c 0,43,44
+298.077148438 441.823242188 m 0,57,58
+ 306.00390625 446.125 306.00390625 446.125 309.012695312 435.712890625 c 128,-1,59
+ 312.010742188 425.340820312 312.010742188 425.340820312 313.560546875 412.510742188 c 0,60,61
+ 314.33203125 406.125976562 314.33203125 406.125976562 313.196289062 403.9296875 c 0,62,63
+ 311.508789062 400.665039062 311.508789062 400.665039062 307.379882812 400.288085938 c 128,-1,64
+ 303.251953125 399.911132812 303.251953125 399.911132812 301.329101562 402.845703125 c 0,65,66
+ 300.262695312 404.47265625 300.262695312 404.47265625 298.915039062 413.250976562 c 128,-1,67
+ 297.56640625 422.03125 297.56640625 422.03125 296.16015625 427.538085938 c 0,68,69
+ 293.190429688 439.169921875 293.190429688 439.169921875 298.077148438 441.823242188 c 0,57,58
+303.14453125 383.198242188 m 2,70,71
+ 307.87109375 387.924804688 307.87109375 387.924804688 312.829101562 382.96484375 c 2,72,-1
+ 315.00390625 380.790039062 l 1,73,-1
+ 314.796875 363.418945312 l 1,74,-1
+ 314.58984375 346.047851562 l 1,75,-1
+ 312.229492188 343.939453125 l 2,76,77
+ 309.869140625 341.831054688 309.869140625 341.831054688 307.155273438 342.1953125 c 0,78,79
+ 302.296875 342.846679688 302.296875 342.846679688 301.256835938 346.556640625 c 128,-1,80
+ 300.216796875 350.266601562 300.216796875 350.266601562 300.694335938 365.24609375 c 2,81,-1
+ 301.205078125 381.256835938 l 1,82,-1
+ 303.14453125 383.198242188 l 2,70,71
+304.845703125 326.713867188 m 0,83,84
+ 307.732421875 327.895507812 307.732421875 327.895507812 310.8515625 326.282226562 c 0,85,86
+ 313.73828125 324.788085938 313.73828125 324.788085938 314.318359375 321.2734375 c 128,-1,87
+ 314.8984375 317.7578125 314.8984375 317.7578125 314.494140625 304.211914062 c 2,88,-1
+ 314.012695312 288.059570312 l 1,89,-1
+ 312.092773438 286.139648438 l 2,90,91
+ 307.280273438 281.328125 307.280273438 281.328125 302.323242188 286.2890625 c 2,92,-1
+ 300.252929688 288.356445312 l 1,93,-1
+ 300.4609375 305.705078125 l 2,94,95
+ 300.669921875 323.053710938 300.669921875 323.053710938 302.061523438 324.598632812 c 128,-1,96
+ 303.452148438 326.143554688 303.452148438 326.143554688 304.845703125 326.713867188 c 0,83,84
+305.420898438 269.111328125 m 0,97,98
+ 311.571289062 270.2734375 311.571289062 270.2734375 313.576171875 264.999023438 c 0,99,100
+ 314.243164062 263.24609375 314.243164062 263.24609375 314.240234375 247.80859375 c 128,-1,101
+ 314.240234375 232.37109375 314.240234375 232.37109375 313.022460938 229.931640625 c 0,102,103
+ 311.181640625 226.248046875 311.181640625 226.248046875 306.89453125 226.216796875 c 128,-1,104
+ 302.607421875 226.184570312 302.607421875 226.184570312 300.715820312 229.841796875 c 0,105,106
+ 299.625976562 231.951171875 299.625976562 231.951171875 299.625976562 246.514648438 c 128,-1,107
+ 299.625976562 261.084960938 299.625976562 261.084960938 300.05859375 263.243164062 c 0,108,109
+ 301.067382812 268.2890625 301.067382812 268.2890625 305.420898438 269.111328125 c 0,97,98
+301.661132812 208.995117188 m 2,110,111
+ 306.471679688 214.145507812 306.471679688 214.145507812 311.510742188 209.10546875 c 2,112,-1
+ 313.545898438 207.071289062 l 1,113,-1
+ 313.545898438 189.919921875 l 2,114,115
+ 313.545898438 172.771484375 313.545898438 172.771484375 312.829101562 171.428710938 c 0,116,117
+ 310.844726562 167.72265625 310.844726562 167.72265625 301.53515625 168.424804688 c 0,118,119
+ 295.1171875 168.908203125 295.1171875 168.908203125 293.196289062 170.83203125 c 0,120,121
+ 290.163085938 173.86328125 290.163085938 173.86328125 291.40625 177.758789062 c 128,-1,122
+ 292.6484375 181.654296875 292.6484375 181.654296875 296.926757812 182.52734375 c 2,123,-1
+ 299.27734375 183.006835938 l 1,124,-1
+ 299.467773438 194.928710938 l 1,125,-1
+ 299.657226562 206.850585938 l 1,126,-1
+ 301.661132812 208.995117188 l 2,110,111
+259.219726562 180.833984375 m 0,127,128
+ 265.868164062 181.743164062 265.868164062 181.743164062 268.166015625 181.825195312 c 0,129,130
+ 273.171875 182.004882812 273.171875 182.004882812 275.251953125 177.850585938 c 128,-1,131
+ 277.33203125 173.6953125 277.33203125 173.6953125 274.047851562 170.078125 c 0,132,133
+ 272.1328125 167.96875 272.1328125 167.96875 264.129882812 166.93359375 c 128,-1,134
+ 256.092773438 165.893554688 256.092773438 165.893554688 247.868164062 164.370117188 c 128,-1,135
+ 239.608398438 162.841796875 239.608398438 162.841796875 237.079101562 164.198242188 c 0,136,137
+ 233.778320312 165.96484375 233.778320312 165.96484375 233.541015625 169.748046875 c 128,-1,138
+ 233.3046875 173.53125 233.3046875 173.53125 236.353515625 175.80078125 c 128,-1,139
+ 239.48046875 178.126953125 239.48046875 178.126953125 259.219726562 180.833984375 c 0,127,128
+204.1875 165.65625 m 0,140,141
+ 210.881835938 168.67578125 210.881835938 168.67578125 213.052734375 168.680664062 c 0,142,143
+ 217.40625 168.6875 217.40625 168.6875 219.217773438 164.233398438 c 128,-1,144
+ 221.029296875 159.779296875 221.029296875 159.779296875 217.899414062 156.766601562 c 0,145,146
+ 216.377929688 155.302734375 216.377929688 155.302734375 209.107421875 152.053710938 c 128,-1,147
+ 201.833007812 148.8046875 201.833007812 148.8046875 195.490234375 145.173828125 c 0,148,149
+ 186.143554688 139.822265625 186.143554688 139.822265625 182.365234375 143.106445312 c 128,-1,150
+ 178.588867188 146.385742188 178.588867188 146.385742188 180.526367188 151.432617188 c 0,151,152
+ 182.177734375 155.729492188 182.177734375 155.729492188 204.1875 165.65625 c 0,140,141
+311.750976562 153.967773438 m 0,153,154
+ 318.328125 157.159179688 318.328125 157.159179688 321.495117188 149.947265625 c 0,155,156
+ 322.881835938 146.791015625 322.881835938 146.791015625 326.565429688 133.934570312 c 128,-1,157
+ 330.249023438 121.078125 330.249023438 121.078125 330.249023438 119.3984375 c 0,158,159
+ 330.249023438 117.387695312 330.249023438 117.387695312 328.484375 115.24609375 c 128,-1,160
+ 326.71875 113.103515625 326.71875 113.103515625 324.696289062 112.659179688 c 0,161,162
+ 319.205078125 111.452148438 319.205078125 111.452148438 316.786132812 117.043945312 c 0,163,164
+ 315.409179688 120.227539062 315.409179688 120.227539062 311.693359375 133.03125 c 128,-1,165
+ 307.977539062 145.834960938 307.977539062 145.834960938 307.977539062 147.396484375 c 0,166,167
+ 307.977539062 152.137695312 307.977539062 152.137695312 311.750976562 153.967773438 c 0,153,154
+157.37890625 134.658203125 m 0,168,169
+ 161.13671875 138.059570312 161.13671875 138.059570312 163.966796875 138.059570312 c 0,170,171
+ 170.865234375 138.059570312 170.865234375 138.059570312 170.865234375 131.081054688 c 0,172,173
+ 170.865234375 128.170898438 170.865234375 128.170898438 164.04296875 121.109375 c 128,-1,174
+ 157.220703125 114.046875 157.220703125 114.046875 153.15234375 108.971679688 c 0,175,176
+ 148.015625 102.5625 148.015625 102.5625 144.290039062 102.567382812 c 0,177,178
+ 138.373046875 102.576171875 138.373046875 102.576171875 137.665039062 108.861328125 c 0,179,180
+ 137.313476562 111.979492188 137.313476562 111.979492188 140.665039062 116.4375 c 0,181,182
+ 147.926757812 126.096679688 147.926757812 126.096679688 157.37890625 134.658203125 c 0,168,169
+328.004882812 98 m 0,183,184
+ 335.279296875 101.948242188 335.279296875 101.948242188 338.520507812 93.1865234375 c 0,185,186
+ 339.821289062 89.669921875 339.821289062 89.669921875 343.452148438 77.2802734375 c 0,187,188
+ 347.96875 61.87109375 347.96875 61.87109375 345.025390625 59.2080078125 c 128,-1,189
+ 341.96875 56.4443359375 341.96875 56.4443359375 338.408203125 57.1240234375 c 0,190,191
+ 335.545898438 57.6708984375 335.545898438 57.6708984375 333.930664062 60.7646484375 c 128,-1,192
+ 332.315429688 63.857421875 332.315429688 63.857421875 328.946289062 75.2490234375 c 0,193,194
+ 324.96484375 88.7021484375 324.96484375 88.7021484375 324.810546875 92.44140625 c 128,-1,195
+ 324.655273438 96.181640625 324.655273438 96.181640625 328.004882812 98 c 0,183,184
+125.475585938 89.8115234375 m 0,196,197
+ 127.221679688 91.427734375 127.221679688 91.427734375 129.927734375 91.427734375 c 0,198,199
+ 135.448242188 91.427734375 135.448242188 91.427734375 136.827148438 86.3134765625 c 0,200,201
+ 137.600585938 83.439453125 137.600585938 83.439453125 130.504882812 69.5107421875 c 128,-1,202
+ 123.409179688 55.5869140625 123.409179688 55.5869140625 121.374023438 53.669921875 c 0,203,204
+ 118.134765625 50.6220703125 118.134765625 50.6220703125 113.875976562 52.474609375 c 128,-1,205
+ 109.618164062 54.3271484375 109.618164062 54.3271484375 109.618164062 58.7841796875 c 0,206,207
+ 109.618164062 60.34375 109.618164062 60.34375 116.7890625 74.375 c 128,-1,208
+ 123.9609375 88.4072265625 123.9609375 88.4072265625 125.475585938 89.8115234375 c 0,196,197
+343.321289062 41.3828125 m 0,209,210
+ 347.290039062 44.927734375 347.290039062 44.927734375 351.892578125 42.2109375 c 0,211,212
+ 354.358398438 40.75390625 354.358398438 40.75390625 359.067382812 24.9599609375 c 0,213,214
+ 363.985351562 8.4609375 363.985351562 8.4609375 362.645507812 5.6376953125 c 0,215,216
+ 360.732421875 1.6064453125 360.732421875 1.6064453125 356.079101562 1.62109375 c 128,-1,217
+ 351.42578125 1.63671875 351.42578125 1.63671875 349.834960938 5.6796875 c 128,-1,218
+ 348.288085938 9.6103515625 348.288085938 9.6103515625 344.731445312 22.275390625 c 128,-1,219
+ 341.17578125 34.939453125 341.17578125 34.939453125 341.12890625 36.6845703125 c 0,220,221
+ 341.057617188 39.3603515625 341.057617188 39.3603515625 343.321289062 41.3828125 c 0,209,210
+98.9990234375 38.28125 m 0,222,223
+ 97.759765625 37.1318359375 97.759765625 37.1318359375 91.189453125 24.7099609375 c 128,-1,224
+ 84.6201171875 12.2890625 84.6201171875 12.2890625 83.6044921875 9.173828125 c 0,225,226
+ 81.970703125 4.1669921875 81.970703125 4.1669921875 86.51953125 1.3505859375 c 128,-1,227
+ 91.068359375 -1.46484375 91.068359375 -1.46484375 94.923828125 2.166015625 c 0,228,229
+ 96.9580078125 4.0830078125 96.9580078125 4.0830078125 104 18 c 128,-1,230
+ 111.043945312 31.9189453125 111.043945312 31.9189453125 110.348632812 34.2939453125 c 0,231,232
+ 108.694335938 39.923828125 108.694335938 39.923828125 103.681640625 39.923828125 c 0,233,234
+ 100.7734375 39.923828125 100.7734375 39.923828125 98.9990234375 38.28125 c 1024,235,-1
+EndSplineSet
+Position2: "Single Positioning lookup 21 subtable" dx=100 dy=0 dh=100 dv=0
+EndChar
+
+StartChar: dalethebrew
+Encoding: 1491 1491 100
+Width: 508
+GlyphClass: 2
+Flags: W
+AnchorPoint: "Anchor-4" 348 0 basechar 0
+AnchorPoint: "Anchor-3" 80 580 basechar 0
+AnchorPoint: "Anchor-2" 350 580 basechar 0
+AnchorPoint: "Anchor-1" 250 580 basechar 0
+LayerCount: 2
+Fore
+SplineSet
+486 440 m 1,0,-1
+ 398 440 l 1,1,-1
+ 398 0 l 1,2,-1
+ 305 0 l 1,3,-1
+ 305 440 l 1,4,-1
+ 22 440 l 1,5,-1
+ 22 518 l 1,6,-1
+ 486 518 l 1,7,-1
+ 486 440 l 1,0,-1
+EndSplineSet
+Validated: 1
+Position2: "Single Positioning lookup 21 subtable" dx=100 dy=0 dh=100 dv=0
+EndChar
+
+StartChar: hehebrew
+Encoding: 1492 1492 101
+Width: 602
+GlyphClass: 2
+Flags: W
+AnchorPoint: "Anchor-4" 300 0 basechar 0
+AnchorPoint: "Anchor-3" 120 580 basechar 0
+AnchorPoint: "Anchor-2" 485 580 basechar 0
+AnchorPoint: "Anchor-1" 280 580 basechar 0
+LayerCount: 2
+Fore
+SplineSet
+73 509 m 1,0,1
+ 161 524 161 524 245 524 c 0,2,3
+ 407 524 407 524 469 464 c 128,-1,4
+ 531 404 531 404 531 280 c 2,5,-1
+ 531 0 l 1,6,-1
+ 438 0 l 1,7,-1
+ 438 255 l 2,8,9
+ 438 334 438 334 419.5 370 c 128,-1,10
+ 401 406 401 406 355.5 424.5 c 128,-1,11
+ 310 443 310 443 229 443 c 0,12,13
+ 165 443 165 443 81 429 c 1,14,-1
+ 73 509 l 1,0,1
+172 292 m 1,15,-1
+ 172 0 l 1,16,-1
+ 79 0 l 1,17,-1
+ 79 292 l 1,18,-1
+ 172 292 l 1,15,-1
+EndSplineSet
+Validated: 1
+Position2: "Single Positioning lookup 21 subtable" dx=100 dy=0 dh=100 dv=0
+EndChar
+
+StartChar: vavhebrew
+Encoding: 1493 1493 102
+Width: 247
+GlyphClass: 2
+Flags: W
+AnchorPoint: "Anchor-4" 125 0 basechar 0
+AnchorPoint: "Anchor-3" 110 580 basechar 0
+AnchorPoint: "Anchor-2" 125 580 basechar 0
+AnchorPoint: "Anchor-1" 125 580 basechar 0
+LayerCount: 2
+Fore
+SplineSet
+171 518 m 1,0,-1
+ 171 0 l 1,1,-1
+ 76 0 l 1,2,-1
+ 76 518 l 1,3,-1
+ 171 518 l 1,0,-1
+EndSplineSet
+Validated: 1
+Position2: "Single Positioning lookup 22 subtable" dx=80 dy=0 dh=80 dv=0
+Position2: "Single Positioning lookup 21 subtable" dx=100 dy=0 dh=100 dv=0
+EndChar
+
+StartChar: zayinhebrew
+Encoding: 1494 1494 103
+Width: 382
+GlyphClass: 2
+Flags: W
+AnchorPoint: "Anchor-4" 168 0 basechar 0
+AnchorPoint: "Anchor-3" 80 580 basechar 0
+AnchorPoint: "Anchor-2" 270 580 basechar 0
+AnchorPoint: "Anchor-1" 200 580 basechar 0
+LayerCount: 2
+Fore
+SplineSet
+360 452 m 1,0,1
+ 285 452 285 452 243 409.5 c 128,-1,2
+ 201 367 201 367 201 295 c 0,3,4
+ 201 274 201 274 209.5 201.5 c 128,-1,5
+ 218 129 218 129 218 72 c 2,6,-1
+ 218 0 l 1,7,-1
+ 125 0 l 1,8,-1
+ 125 85 l 2,9,10
+ 125 136 125 136 118 205 c 128,-1,11
+ 111 274 111 274 111 304 c 0,12,13
+ 111 384 111 384 177 440 c 1,14,-1
+ 46 440 l 1,15,-1
+ 46 518 l 1,16,-1
+ 360 518 l 1,17,-1
+ 360 452 l 1,0,1
+EndSplineSet
+Validated: 1
+Position2: "Single Positioning lookup 21 subtable" dx=100 dy=0 dh=100 dv=0
+EndChar
+
+StartChar: hethebrew
+Encoding: 1495 1495 104
+Width: 599
+GlyphClass: 2
+Flags: W
+AnchorPoint: "Anchor-4" 300 0 basechar 0
+AnchorPoint: "Anchor-3" 120 580 basechar 0
+AnchorPoint: "Anchor-2" 485 580 basechar 0
+AnchorPoint: "Anchor-1" 280 580 basechar 0
+AnchorPoint: "Anchor-0" 300 230 basechar 0
+LayerCount: 2
+Fore
+SplineSet
+528 0 m 1,0,-1
+ 435 0 l 1,1,-1
+ 435 281 l 2,2,3
+ 435 371 435 371 398 405.5 c 128,-1,4
+ 361 440 361 440 262 443 c 0,5,6
+ 215 443 215 443 169 436 c 1,7,-1
+ 169 0 l 1,8,-1
+ 76 0 l 1,9,-1
+ 76 507 l 1,10,11
+ 186 524 186 524 268 524 c 0,12,13
+ 364 524 364 524 423 494.5 c 128,-1,14
+ 482 465 482 465 505 415.5 c 128,-1,15
+ 528 366 528 366 528 290 c 2,16,-1
+ 528 0 l 1,0,-1
+EndSplineSet
+Validated: 1
+Position2: "Single Positioning lookup 21 subtable" dx=100 dy=0 dh=100 dv=0
+EndChar
+
+StartChar: tethebrew
+Encoding: 1496 1496 105
+Width: 590
+GlyphClass: 2
+Flags: W
+AnchorPoint: "Anchor-4" 300 0 basechar 0
+AnchorPoint: "Anchor-3" 120 580 basechar 0
+AnchorPoint: "Anchor-2" 460 580 basechar 0
+AnchorPoint: "Anchor-1" 280 580 basechar 0
+LayerCount: 2
+Fore
+SplineSet
+68 518 m 1,0,-1
+ 162 518 l 1,1,-1
+ 162 249 l 2,2,3
+ 162 137 162 137 201.5 99 c 128,-1,4
+ 241 61 241 61 298 61 c 0,5,6
+ 354 61 354 61 386 87 c 128,-1,7
+ 418 113 418 113 427.5 151.5 c 128,-1,8
+ 437 190 437 190 438 266 c 2,9,-1
+ 438 332 l 2,10,11
+ 438 446 438 446 373 446 c 0,12,13
+ 325 446 325 446 288 394 c 1,14,-1
+ 258 442 l 1,15,16
+ 310 529 310 529 393 529 c 0,17,18
+ 531 529 531 529 531 318 c 2,19,-1
+ 531 281 l 2,20,21
+ 531 168 531 168 507.5 110.5 c 128,-1,22
+ 484 53 484 53 428 19.5 c 128,-1,23
+ 372 -14 372 -14 298 -14 c 0,24,25
+ 223 -14 223 -14 168 22.5 c 128,-1,26
+ 113 59 113 59 90.5 114.5 c 128,-1,27
+ 68 170 68 170 68 275 c 2,28,-1
+ 68 518 l 1,0,-1
+EndSplineSet
+Validated: 1
+Position2: "Single Positioning lookup 21 subtable" dx=100 dy=0 dh=100 dv=0
+EndChar
+
+StartChar: yodhebrew
+Encoding: 1497 1497 106
+Width: 247
+GlyphClass: 2
+Flags: W
+AnchorPoint: "Anchor-4" 125 0 basechar 0
+AnchorPoint: "Anchor-3" 110 580 basechar 0
+AnchorPoint: "Anchor-2" 125 580 basechar 0
+AnchorPoint: "Anchor-1" 130 580 basechar 0
+LayerCount: 2
+Fore
+SplineSet
+171 518 m 1,0,-1
+ 171 250 l 1,1,-1
+ 76 250 l 1,2,-1
+ 76 518 l 1,3,-1
+ 171 518 l 1,0,-1
+EndSplineSet
+Validated: 1
+Position2: "Single Positioning lookup 22 subtable" dx=80 dy=0 dh=80 dv=0
+Position2: "Single Positioning lookup 21 subtable" dx=100 dy=0 dh=100 dv=0
+EndChar
+
+StartChar: finalkafhebrew
+Encoding: 1498 1498 107
+Width: 509
+GlyphClass: 2
+Flags: W
+AnchorPoint: "Anchor-5" 286 0 basechar 0
+AnchorPoint: "Anchor-3" 80 580 basechar 0
+AnchorPoint: "Anchor-2" 390 580 basechar 0
+AnchorPoint: "Anchor-1" 190 580 basechar 0
+LayerCount: 2
+Fore
+SplineSet
+20 513 m 1,0,1
+ 104 524 104 524 157 524 c 0,2,3
+ 308 524 308 524 373 466 c 128,-1,4
+ 438 408 438 408 438 280 c 2,5,-1
+ 438 -199 l 1,6,-1
+ 345 -199 l 1,7,-1
+ 345 255 l 2,8,9
+ 345 339 345 339 323.5 374.5 c 128,-1,10
+ 302 410 302 410 262 425.5 c 128,-1,11
+ 222 441 222 441 152 443 c 0,12,13
+ 101 443 101 443 27 433 c 1,14,-1
+ 20 513 l 1,0,1
+EndSplineSet
+Validated: 1
+Position2: "Single Positioning lookup 21 subtable" dx=100 dy=0 dh=100 dv=0
+EndChar
+
+StartChar: kafhebrew
+Encoding: 1499 1499 108
+Width: 461
+GlyphClass: 2
+Flags: W
+AnchorPoint: "Anchor-4" 220 0 basechar 0
+AnchorPoint: "Anchor-3" 80 580 basechar 0
+AnchorPoint: "Anchor-2" 350 580 basechar 0
+AnchorPoint: "Anchor-1" 180 580 basechar 0
+LayerCount: 2
+Fore
+SplineSet
+52 91 m 1,0,1
+ 98 76 98 76 146 76 c 0,2,3
+ 227 76 227 76 272 126.5 c 128,-1,4
+ 317 177 317 177 317 259 c 0,5,6
+ 317 345 317 345 271 394 c 128,-1,7
+ 225 443 225 443 146 443 c 0,8,9
+ 97 443 97 443 52 428 c 1,10,-1
+ 39 512 l 1,11,12
+ 96 527 96 527 141 527 c 0,13,14
+ 271 527 271 527 344 451 c 128,-1,15
+ 417 375 417 375 417 259 c 0,16,17
+ 417 138 417 138 342.5 65 c 128,-1,18
+ 268 -8 268 -8 141 -8 c 0,19,20
+ 96 -8 96 -8 39 7 c 1,21,-1
+ 52 91 l 1,0,1
+EndSplineSet
+Validated: 1
+Position2: "Single Positioning lookup 21 subtable" dx=100 dy=0 dh=100 dv=0
+EndChar
+
+StartChar: lamedhebrew
+Encoding: 1500 1500 109
+Width: 463
+GlyphClass: 2
+Flags: W
+AnchorPoint: "Anchor-4" 250 0 basechar 0
+AnchorPoint: "Anchor-3" -25 580 basechar 0
+AnchorPoint: "Anchor-2" 360 580 basechar 0
+AnchorPoint: "Anchor-1" 290 580 basechar 0
+LayerCount: 2
+Fore
+SplineSet
+122 518 m 1,0,-1
+ 409 518 l 1,1,-1
+ 409 389 l 2,2,3
+ 409 328 409 328 397.5 295 c 128,-1,4
+ 386 262 386 262 337 197 c 0,5,6
+ 297 145 297 145 297 83 c 2,7,-1
+ 297 0 l 1,8,-1
+ 204 0 l 1,9,-1
+ 204 70 l 2,10,11
+ 204 129 204 129 215 161 c 128,-1,12
+ 226 193 226 193 282 264 c 0,13,14
+ 300 287 300 287 308 307 c 128,-1,15
+ 316 327 316 327 316 370 c 2,16,-1
+ 316 440 l 1,17,-1
+ 29 440 l 1,18,-1
+ 29 716 l 1,19,-1
+ 122 716 l 1,20,-1
+ 122 518 l 1,0,-1
+EndSplineSet
+Validated: 1
+Position2: "Single Positioning lookup 23 subtable" dx=110 dy=0 dh=110 dv=0
+EndChar
+
+StartChar: finalmemhebrew
+Encoding: 1501 1501 110
+Width: 599
+GlyphClass: 2
+Flags: W
+AnchorPoint: "Anchor-4" 300 0 basechar 0
+AnchorPoint: "Anchor-3" 120 580 basechar 0
+AnchorPoint: "Anchor-2" 480 580 basechar 0
+AnchorPoint: "Anchor-1" 270 580 basechar 0
+AnchorPoint: "Anchor-0" 298 254 basechar 0
+LayerCount: 2
+Fore
+SplineSet
+528 0 m 1,0,-1
+ 76 0 l 1,1,-1
+ 76 507 l 1,2,3
+ 186 524 186 524 268 524 c 0,4,5
+ 364 524 364 524 423 494.5 c 128,-1,6
+ 482 465 482 465 505 415.5 c 128,-1,7
+ 528 366 528 366 528 290 c 2,8,-1
+ 528 0 l 1,0,-1
+435 78 m 1,9,-1
+ 435 281 l 2,10,11
+ 435 371 435 371 398 405.5 c 128,-1,12
+ 361 440 361 440 262 443 c 0,13,14
+ 215 443 215 443 169 436 c 1,15,-1
+ 169 78 l 1,16,-1
+ 435 78 l 1,9,-1
+EndSplineSet
+Validated: 1
+Position2: "Single Positioning lookup 21 subtable" dx=100 dy=0 dh=100 dv=0
+EndChar
+
+StartChar: memhebrew
+Encoding: 1502 1502 111
+Width: 601
+GlyphClass: 2
+Flags: W
+AnchorPoint: "Anchor-4" 320 0 basechar 0
+AnchorPoint: "Anchor-3" 100 580 basechar 0
+AnchorPoint: "Anchor-2" 480 580 basechar 0
+AnchorPoint: "Anchor-1" 340 580 basechar 0
+LayerCount: 2
+Fore
+SplineSet
+39 518 m 1,0,-1
+ 130 518 l 1,1,-1
+ 168 404 l 1,2,3
+ 191 455 191 455 241 489.5 c 128,-1,4
+ 291 524 291 524 345 524 c 0,5,6
+ 435 524 435 524 482.5 460 c 128,-1,7
+ 530 396 530 396 530 230 c 2,8,-1
+ 530 0 l 1,9,-1
+ 263 0 l 1,10,-1
+ 263 78 l 1,11,-1
+ 436 78 l 1,12,-1
+ 436 230 l 2,13,14
+ 436 324 436 324 428.5 361.5 c 128,-1,15
+ 421 399 421 399 397.5 421.5 c 128,-1,16
+ 374 444 374 444 343 444 c 0,17,18
+ 289 444 289 444 251 388 c 128,-1,19
+ 213 332 213 332 185 192 c 2,20,-1
+ 148 0 l 1,21,-1
+ 54 0 l 1,22,-1
+ 95 202 l 1,23,-1
+ 119 302 l 1,24,-1
+ 39 518 l 1,0,-1
+EndSplineSet
+Validated: 1
+Position2: "Single Positioning lookup 21 subtable" dx=100 dy=0 dh=100 dv=0
+EndChar
+
+StartChar: finalnunhebrew
+Encoding: 1503 1503 112
+Width: 247
+GlyphClass: 2
+Flags: W
+AnchorPoint: "Anchor-5" 20 0 basechar 0
+AnchorPoint: "Anchor-3" 110 580 basechar 0
+AnchorPoint: "Anchor-2" 125 580 basechar 0
+AnchorPoint: "Anchor-1" 125 580 basechar 0
+AnchorPoint: "Anchor-0" 0 260 basechar 0
+LayerCount: 2
+Fore
+SplineSet
+171 518 m 1,0,-1
+ 171 -199 l 1,1,-1
+ 76 -199 l 1,2,-1
+ 76 518 l 1,3,-1
+ 171 518 l 1,0,-1
+EndSplineSet
+Validated: 1
+Position2: "Single Positioning lookup 20 subtable" dx=100 dy=0 dh=100 dv=0
+Position2: "Single Positioning lookup 19 subtable" dx=220 dy=0 dh=220 dv=0
+EndChar
+
+StartChar: nunhebrew
+Encoding: 1504 1504 113
+Width: 353
+GlyphClass: 2
+Flags: W
+AnchorPoint: "Anchor-4" 150 0 basechar 0
+AnchorPoint: "Anchor-3" 40 580 basechar 0
+AnchorPoint: "Anchor-2" 230 580 basechar 0
+AnchorPoint: "Anchor-1" 144 580 basechar 0
+LayerCount: 2
+Fore
+SplineSet
+279 0 m 1,0,-1
+ 29 0 l 1,1,-1
+ 29 78 l 1,2,-1
+ 186 78 l 1,3,-1
+ 186 332 l 2,4,5
+ 186 396 186 396 167 418 c 128,-1,6
+ 148 440 148 440 97 444 c 0,7,8
+ 69 444 69 444 44 439 c 1,9,-1
+ 37 513 l 1,10,11
+ 72 524 72 524 117 524 c 0,12,13
+ 184 524 184 524 218 499.5 c 128,-1,14
+ 252 475 252 475 265 441.5 c 128,-1,15
+ 278 408 278 408 279 335 c 2,16,-1
+ 279 0 l 1,0,-1
+EndSplineSet
+Validated: 1
+Position2: "Single Positioning lookup 21 subtable" dx=100 dy=0 dh=100 dv=0
+EndChar
+
+StartChar: samekhhebrew
+Encoding: 1505 1505 114
+Width: 574
+GlyphClass: 2
+Flags: W
+AnchorPoint: "Anchor-4" 288 0 basechar 0
+AnchorPoint: "Anchor-3" 100 580 basechar 0
+AnchorPoint: "Anchor-2" 480 580 basechar 0
+AnchorPoint: "Anchor-1" 280 580 basechar 0
+LayerCount: 2
+Fore
+SplineSet
+44 257 m 0,0,1
+ 44 382 44 382 110.5 457 c 128,-1,2
+ 177 532 177 532 287 532 c 256,3,4
+ 397 532 397 532 463.5 457 c 128,-1,5
+ 530 382 530 382 530 257 c 0,6,7
+ 530 133 530 133 463 59 c 128,-1,8
+ 396 -15 396 -15 287 -15 c 0,9,10
+ 175 -15 175 -15 109.5 60 c 128,-1,11
+ 44 135 44 135 44 257 c 0,0,1
+146 257 m 0,12,13
+ 146 164 146 164 183 113.5 c 128,-1,14
+ 220 63 220 63 287 63 c 256,15,16
+ 354 63 354 63 391.5 114.5 c 128,-1,17
+ 429 166 429 166 429 258 c 0,18,19
+ 429 352 429 352 391.5 404 c 128,-1,20
+ 354 456 354 456 287 456 c 0,21,22
+ 215 456 215 456 181 399 c 128,-1,23
+ 147 342 147 342 146 257 c 0,12,13
+EndSplineSet
+Validated: 1
+Position2: "Single Positioning lookup 21 subtable" dx=100 dy=0 dh=100 dv=0
+EndChar
+
+StartChar: ayinhebrew
+Encoding: 1506 1506 115
+Width: 529
+GlyphClass: 2
+Flags: W
+AnchorPoint: "Anchor-4" 228 0 basechar 0
+AnchorPoint: "Anchor-3" 100 580 basechar 0
+AnchorPoint: "Anchor-2" 420 580 basechar 0
+AnchorPoint: "Anchor-1" 260 580 basechar 0
+AnchorPoint: "Anchor-0" 276 312 basechar 0
+LayerCount: 2
+Fore
+SplineSet
+64 518 m 1,0,-1
+ 163 518 l 1,1,-1
+ 239 92 l 1,2,3
+ 317 123 317 123 340.5 179 c 128,-1,4
+ 364 235 364 235 364 340 c 2,5,-1
+ 369 518 l 1,6,-1
+ 463 518 l 1,7,8
+ 455 302 455 302 451 254 c 128,-1,9
+ 447 206 447 206 424 153 c 0,10,11
+ 392 76 392 76 301 29.5 c 128,-1,12
+ 210 -17 210 -17 25 -48 c 1,13,-1
+ 12 33 l 1,14,15
+ 100 46 100 46 154 63 c 1,16,-1
+ 64 518 l 1,0,-1
+EndSplineSet
+Validated: 1
+Substitution2: "Single Substitution lookup 5 subtable" uniFB20
+Position2: "Single Positioning lookup 21 subtable" dx=100 dy=0 dh=100 dv=0
+EndChar
+
+StartChar: finalpehebrew
+Encoding: 1507 1507 116
+Width: 566
+GlyphClass: 2
+Flags: W
+AnchorPoint: "Anchor-5" 340 0 basechar 0
+AnchorPoint: "Anchor-3" 100 580 basechar 0
+AnchorPoint: "Anchor-2" 436 580 basechar 0
+AnchorPoint: "Anchor-1" 240 580 basechar 0
+LayerCount: 2
+Fore
+SplineSet
+144 301 m 2,0,1
+ 144 241 144 241 204 241 c 0,2,3
+ 228 241 228 241 245 247 c 1,4,-1
+ 255 179 l 1,5,6
+ 226 167 226 167 189 167 c 0,7,8
+ 54 167 54 167 54 303 c 2,9,-1
+ 54 498 l 1,10,11
+ 144 524 144 524 236 524 c 0,12,13
+ 354 524 354 524 424 475 c 0,14,15
+ 496 427 496 427 496 290 c 2,16,-1
+ 496 -199 l 1,17,-1
+ 403 -199 l 1,18,-1
+ 403 281 l 2,19,20
+ 403 373 403 373 363.5 408 c 128,-1,21
+ 324 443 324 443 230 447 c 0,22,23
+ 181 447 181 447 144 438 c 1,24,-1
+ 144 301 l 2,0,1
+EndSplineSet
+Validated: 1
+EndChar
+
+StartChar: pehebrew
+Encoding: 1508 1508 117
+Width: 546
+GlyphClass: 2
+Flags: W
+AnchorPoint: "Anchor-4" 260 0 basechar 0
+AnchorPoint: "Anchor-3" 100 580 basechar 0
+AnchorPoint: "Anchor-2" 450 580 basechar 0
+AnchorPoint: "Anchor-1" 250 580 basechar 0
+LayerCount: 2
+Fore
+SplineSet
+60 501 m 1,0,1
+ 146 527 146 527 236 527 c 0,2,3
+ 350 527 350 527 426 459.5 c 128,-1,4
+ 502 392 502 392 502 266 c 0,5,6
+ 502 142 502 142 425 67 c 128,-1,7
+ 348 -8 348 -8 207 -8 c 0,8,9
+ 112 -8 112 -8 56 27 c 1,10,-1
+ 79 104 l 1,11,12
+ 125 73 125 73 200 73 c 0,13,14
+ 282 73 282 73 343 119.5 c 128,-1,15
+ 404 166 404 166 404 264 c 0,16,17
+ 404 349 404 349 357.5 399.5 c 128,-1,18
+ 311 450 311 450 230 450 c 0,19,20
+ 189 450 189 450 149 441 c 1,21,-1
+ 149 346 l 2,22,23
+ 149 286 149 286 209 286 c 0,24,25
+ 233 286 233 286 250 292 c 1,26,-1
+ 260 224 l 1,27,28
+ 231 212 231 212 194 212 c 0,29,30
+ 131 212 131 212 95.5 246.5 c 128,-1,31
+ 60 281 60 281 60 348 c 2,32,-1
+ 60 501 l 1,0,1
+EndSplineSet
+Validated: 1
+Position2: "Single Positioning lookup 21 subtable" dx=100 dy=0 dh=100 dv=0
+EndChar
+
+StartChar: finaltsadihebrew
+Encoding: 1509 1509 118
+Width: 461
+GlyphClass: 2
+Flags: W
+AnchorPoint: "Anchor-5" 100 0 basechar 0
+AnchorPoint: "Anchor-3" 80 580 basechar 0
+AnchorPoint: "Anchor-2" 372 580 basechar 0
+AnchorPoint: "Anchor-1" 220 580 basechar 0
+AnchorPoint: "Anchor-0" 84 108 basechar 0
+LayerCount: 2
+Fore
+SplineSet
+168 -199 m 1,0,-1
+ 168 196 l 1,1,-1
+ 12 518 l 1,2,-1
+ 111 518 l 1,3,-1
+ 236 260 l 1,4,5
+ 275 283 275 283 290.5 311 c 128,-1,6
+ 306 339 306 339 311 386 c 2,7,-1
+ 325 518 l 1,8,-1
+ 422 518 l 1,9,-1
+ 406 368 l 2,10,11
+ 393 236 393 236 260 185 c 1,12,-1
+ 260 -199 l 1,13,-1
+ 168 -199 l 1,0,-1
+EndSplineSet
+Validated: 1
+Position2: "Single Positioning lookup 21 subtable" dx=100 dy=0 dh=100 dv=0
+Position2: "Single Positioning lookup 20 subtable" dx=100 dy=0 dh=100 dv=0
+Position2: "Single Positioning lookup 19 subtable" dx=140 dy=0 dh=140 dv=0
+EndChar
+
+StartChar: tsadihebrew
+Encoding: 1510 1510 119
+Width: 479
+GlyphClass: 2
+Flags: W
+AnchorPoint: "Anchor-4" 220 0 basechar 0
+AnchorPoint: "Anchor-3" 80 580 basechar 0
+AnchorPoint: "Anchor-2" 375 580 basechar 0
+AnchorPoint: "Anchor-1" 230 580 basechar 0
+LayerCount: 2
+Fore
+SplineSet
+425 518 m 1,0,1
+ 418 388 418 388 411 356.5 c 128,-1,2
+ 404 325 404 325 377.5 293.5 c 128,-1,3
+ 351 262 351 262 293 228 c 1,4,-1
+ 404 55 l 1,5,-1
+ 404 0 l 1,6,-1
+ 31 0 l 1,7,-1
+ 31 78 l 1,8,-1
+ 291 78 l 1,9,-1
+ 5 518 l 1,10,-1
+ 111 518 l 1,11,-1
+ 255 288 l 1,12,13
+ 291 314 291 314 307 345 c 128,-1,14
+ 323 376 323 376 323 432 c 2,15,-1
+ 328 518 l 1,16,-1
+ 425 518 l 1,0,1
+EndSplineSet
+Validated: 1
+Position2: "Single Positioning lookup 21 subtable" dx=100 dy=0 dh=100 dv=0
+EndChar
+
+StartChar: qofhebrew
+Encoding: 1511 1511 120
+Width: 550
+GlyphClass: 2
+Flags: W
+AnchorPoint: "Anchor-4" 348 0 basechar 0
+AnchorPoint: "Anchor-3" 120 580 basechar 0
+AnchorPoint: "Anchor-2" 450 580 basechar 0
+AnchorPoint: "Anchor-1" 260 580 basechar 0
+LayerCount: 2
+Fore
+SplineSet
+73 518 m 1,0,-1
+ 496 518 l 1,1,-1
+ 496 389 l 2,2,3
+ 496 328 496 328 484.5 295 c 128,-1,4
+ 473 262 473 262 424 197 c 0,5,6
+ 384 144 384 144 384 83 c 2,7,-1
+ 384 0 l 1,8,-1
+ 291 0 l 1,9,-1
+ 291 70 l 2,10,11
+ 291 126 291 126 301 158 c 128,-1,12
+ 311 190 311 190 340 227 c 2,13,-1
+ 369 264 l 2,14,15
+ 390 291 390 291 396.5 312.5 c 128,-1,16
+ 403 334 403 334 403 370 c 2,17,-1
+ 403 440 l 1,18,-1
+ 73 440 l 1,19,-1
+ 73 518 l 1,0,-1
+81 -199 m 1,20,-1
+ 81 292 l 1,21,-1
+ 170 292 l 1,22,-1
+ 170 -199 l 1,23,-1
+ 81 -199 l 1,20,-1
+EndSplineSet
+Validated: 1
+Position2: "Single Positioning lookup 21 subtable" dx=100 dy=0 dh=100 dv=0
+EndChar
+
+StartChar: reshhebrew
+Encoding: 1512 1512 121
+Width: 509
+GlyphClass: 2
+Flags: W
+AnchorPoint: "Anchor-4" 380 0 basechar 0
+AnchorPoint: "Anchor-3" 80 580 basechar 0
+AnchorPoint: "Anchor-2" 390 580 basechar 0
+AnchorPoint: "Anchor-1" 190 580 basechar 0
+LayerCount: 2
+Fore
+SplineSet
+20 513 m 1,0,1
+ 104 524 104 524 158 524 c 0,2,3
+ 316 524 316 524 377 462.5 c 128,-1,4
+ 438 401 438 401 438 280 c 2,5,-1
+ 438 0 l 1,6,-1
+ 346 0 l 1,7,-1
+ 346 255 l 2,8,9
+ 346 327 346 327 328.5 365 c 128,-1,10
+ 311 403 311 403 265.5 424 c 128,-1,11
+ 220 445 220 445 152 443 c 0,12,13
+ 101 443 101 443 27 433 c 1,14,-1
+ 20 513 l 1,0,1
+EndSplineSet
+Validated: 33
+Position2: "Single Positioning lookup 21 subtable" dx=100 dy=0 dh=100 dv=0
+EndChar
+
+StartChar: shinhebrew
+Encoding: 1513 1513 122
+Width: 694
+GlyphClass: 2
+Flags: W
+AnchorPoint: "Anchor-4" 340 0 basechar 0
+AnchorPoint: "Anchor-3" 130 580 basechar 0
+AnchorPoint: "Anchor-2" 600 580 basechar 0
+AnchorPoint: "Anchor-1" 350 580 basechar 0
+AnchorPoint: "Anchor-0" 430 225 basechar 0
+LayerCount: 2
+Fore
+SplineSet
+144 518 m 1,0,-1
+ 146 434 l 2,1,2
+ 147 307 147 307 157 255 c 1,3,4
+ 207 255 207 255 249.5 280.5 c 128,-1,5
+ 292 306 292 306 292 379 c 1,6,-1
+ 302 518 l 1,7,-1
+ 396 518 l 1,8,-1
+ 384 355 l 2,9,10
+ 379 305 379 305 372.5 287 c 128,-1,11
+ 366 269 366 269 348 247 c 0,12,13
+ 305 192 305 192 171 181 c 1,14,15
+ 183 127 183 127 227 96 c 128,-1,16
+ 271 65 271 65 337 65 c 0,17,18
+ 416 65 416 65 469 117 c 128,-1,19
+ 522 169 522 169 531 296 c 2,20,-1
+ 552 518 l 1,21,-1
+ 646 518 l 1,22,-1
+ 628 326 l 2,23,24
+ 617 216 617 216 590 144 c 128,-1,25
+ 563 72 563 72 497.5 29 c 128,-1,26
+ 432 -14 432 -14 332 -14 c 0,27,28
+ 197 -14 197 -14 126.5 81 c 128,-1,29
+ 56 176 56 176 56 375 c 1,30,-1
+ 49 518 l 1,31,-1
+ 144 518 l 1,0,-1
+EndSplineSet
+Validated: 1
+EndChar
+
+StartChar: tavhebrew
+Encoding: 1514 1514 123
+Width: 643
+GlyphClass: 2
+Flags: W
+AnchorPoint: "Anchor-4" 336 0 basechar 0
+AnchorPoint: "Anchor-3" 140 580 basechar 0
+AnchorPoint: "Anchor-2" 520 580 basechar 0
+AnchorPoint: "Anchor-1" 300 580 basechar 0
+LayerCount: 2
+Fore
+SplineSet
+36 82 m 1,0,1
+ 61 73 61 73 91 73 c 0,2,3
+ 125 73 125 73 137.5 88 c 128,-1,4
+ 150 103 150 103 150 142 c 2,5,-1
+ 150 441 l 1,6,7
+ 108 441 108 441 47 432 c 1,8,-1
+ 39 510 l 1,9,10
+ 151 524 151 524 265 524 c 0,11,12
+ 380 524 380 524 443 504 c 128,-1,13
+ 506 484 506 484 538 434.5 c 128,-1,14
+ 570 385 570 385 572 280 c 2,15,-1
+ 572 0 l 1,16,-1
+ 479 0 l 1,17,-1
+ 479 255 l 2,18,19
+ 479 343 479 343 462 378.5 c 128,-1,20
+ 445 414 445 414 402.5 429.5 c 128,-1,21
+ 360 445 360 445 290 445 c 2,22,-1
+ 243 444 l 1,23,-1
+ 243 130 l 2,24,25
+ 243 80 243 80 233.5 54 c 128,-1,26
+ 224 28 224 28 195.5 12 c 128,-1,27
+ 167 -4 167 -4 111 -4 c 0,28,29
+ 64 -4 64 -4 20 12 c 1,30,-1
+ 36 82 l 1,0,1
+EndSplineSet
+Validated: 1
+EndChar
+
+StartChar: vavvavhebrew
+Encoding: 1520 1520 124
+Width: 493
+GlyphClass: 2
+Flags: W
+AnchorPoint: "Anchor-9" -26 0 basechar 0
+LayerCount: 2
+Fore
+Refer: 102 1493 N 1 0 0 1 0 0 0
+Refer: 102 1493 N 1 0 0 1 247 0 0
+Validated: 1
+EndChar
+
+StartChar: vavyodhebrew
+Encoding: 1521 1521 125
+Width: 493
+GlyphClass: 2
+Flags: W
+AnchorPoint: "Anchor-9" -26 0 basechar 0
+LayerCount: 2
+Fore
+Refer: 106 1497 N 1 0 0 1 0 0 0
+Refer: 102 1493 N 1 0 0 1 247 0 0
+Validated: 1
+EndChar
+
+StartChar: yodyodhebrew
+Encoding: 1522 1522 126
+Width: 493
+GlyphClass: 2
+Flags: W
+AnchorPoint: "Anchor-9" -26 0 basechar 0
+LayerCount: 2
+Fore
+Refer: 106 1497 N 1 0 0 1 0 0 0
+Refer: 106 1497 N 1 0 0 1 247 0 0
+Validated: 1
+EndChar
+
+StartChar: gereshhebrew
+Encoding: 1523 1523 127
+Width: 236
+GlyphClass: 2
+Flags: W
+LayerCount: 2
+Fore
+Refer: 9 39 N 1 0 0 1 0 0 1
+Validated: 1
+EndChar
+
+StartChar: gershayimhebrew
+Encoding: 1524 1524 128
+Width: 417
+GlyphClass: 2
+Flags: W
+LayerCount: 2
+Fore
+Refer: 5 34 N 1 0 0 1 0 0 1
+Validated: 1
+EndChar
+
+StartChar: zerowidthspace
+Encoding: 8203 8203 129
+Width: 0
+GlyphClass: 2
+Flags: W
+LayerCount: 2
+Fore
+Validated: 1
+EndChar
+
+StartChar: zerowidthnonjoiner
+Encoding: 8204 8204 130
+Width: 0
+GlyphClass: 2
+Flags: W
+LayerCount: 2
+Fore
+Validated: 1
+EndChar
+
+StartChar: zerowidthjoiner
+Encoding: 8205 8205 131
+Width: 0
+GlyphClass: 2
+Flags: W
+LayerCount: 2
+Fore
+Validated: 1
+EndChar
+
+StartChar: uni200E
+Encoding: 8206 8206 132
+Width: 0
+GlyphClass: 2
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+210 585 m 1,0,-1
+ 104 480 l 1,1,-1
+ 80 504 l 1,2,-1
+ 147 568 l 1,3,-1
+ 17 568 l 1,4,-1
+ 17 -134 l 1,5,-1
+ -18 -134 l 1,6,-1
+ -18 603 l 1,7,-1
+ 147 603 l 1,8,-1
+ 80 666 l 1,9,-1
+ 104 690 l 1,10,-1
+ 210 585 l 1,0,-1
+EndSplineSet
+Validated: 1
+EndChar
+
+StartChar: uni200F
+Encoding: 8207 8207 133
+Width: 0
+GlyphClass: 2
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+17 -134 m 1,0,-1
+ -18 -134 l 1,1,-1
+ -18 568 l 1,2,-1
+ -147 568 l 1,3,-1
+ -81 504 l 1,4,-1
+ -104 480 l 1,5,-1
+ -210 585 l 1,6,-1
+ -104 690 l 1,7,-1
+ -81 666 l 1,8,-1
+ -147 603 l 1,9,-1
+ 17 603 l 1,10,-1
+ 17 -134 l 1,0,-1
+EndSplineSet
+Validated: 1
+EndChar
+
+StartChar: endash
+Encoding: 8211 8211 134
+Width: 383
+GlyphClass: 2
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+61 440 m 1,0,-1
+ 61 518 l 1,1,-1
+ 322 518 l 1,2,-1
+ 322 440 l 1,3,-1
+ 61 440 l 1,0,-1
+EndSplineSet
+Validated: 1
+EndChar
+
+StartChar: emdash
+Encoding: 8212 8212 135
+Width: 499
+GlyphClass: 2
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+61 220 m 1,0,-1
+ 61 298 l 1,1,-1
+ 438 298 l 1,2,-1
+ 438 220 l 1,3,-1
+ 61 220 l 1,0,-1
+EndSplineSet
+Validated: 1
+EndChar
+
+StartChar: quoteleft
+Encoding: 8216 8216 136
+Width: 209
+GlyphClass: 2
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+149 386 m 1,0,-1
+ 149 284 l 1,1,-1
+ 54 284 l 1,2,-1
+ 54 364 l 2,3,4
+ 54 423 54 423 69.5 459.5 c 128,-1,5
+ 85 496 85 496 135 518 c 1,6,-1
+ 156 484 l 1,7,8
+ 103 463 103 463 103 386 c 1,9,-1
+ 149 386 l 1,0,-1
+EndSplineSet
+Validated: 1
+EndChar
+
+StartChar: quoteright
+Encoding: 8217 8217 137
+Width: 209
+GlyphClass: 2
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+61 416 m 1,0,-1
+ 61 518 l 1,1,-1
+ 156 518 l 1,2,-1
+ 156 438 l 2,3,4
+ 156 372 156 372 138 338 c 128,-1,5
+ 120 304 120 304 75 284 c 1,6,-1
+ 54 318 l 1,7,8
+ 106 340 106 340 106 416 c 1,9,-1
+ 61 416 l 1,0,-1
+EndSplineSet
+Validated: 1
+EndChar
+
+StartChar: quotedblleft
+Encoding: 8220 8220 138
+Width: 360
+GlyphClass: 2
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+148 386 m 1,0,-1
+ 148 284 l 1,1,-1
+ 54 284 l 1,2,-1
+ 54 364 l 2,3,4
+ 54 430 54 430 71.5 464 c 128,-1,5
+ 89 498 89 498 134 518 c 1,6,-1
+ 156 484 l 1,7,8
+ 102 461 102 461 102 386 c 1,9,-1
+ 148 386 l 1,0,-1
+299 386 m 1,10,-1
+ 299 284 l 1,11,-1
+ 205 284 l 1,12,-1
+ 205 364 l 2,13,14
+ 205 423 205 423 220 459.5 c 128,-1,15
+ 235 496 235 496 285 518 c 1,16,-1
+ 307 484 l 1,17,18
+ 253 461 253 461 253 386 c 1,19,-1
+ 299 386 l 1,10,-1
+EndSplineSet
+Validated: 1
+EndChar
+
+StartChar: quotedblright
+Encoding: 8221 8221 139
+Width: 361
+GlyphClass: 2
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+62 416 m 1,0,-1
+ 62 518 l 1,1,-1
+ 157 518 l 1,2,-1
+ 157 438 l 2,3,4
+ 157 372 157 372 139 338 c 128,-1,5
+ 121 304 121 304 76 284 c 1,6,-1
+ 54 318 l 1,7,8
+ 107 341 107 341 107 416 c 1,9,-1
+ 62 416 l 1,0,-1
+214 416 m 1,10,-1
+ 214 518 l 1,11,-1
+ 308 518 l 1,12,-1
+ 308 438 l 2,13,14
+ 308 372 308 372 290 338 c 128,-1,15
+ 272 304 272 304 227 284 c 1,16,-1
+ 206 318 l 1,17,18
+ 260 340 260 340 260 416 c 1,19,-1
+ 214 416 l 1,10,-1
+EndSplineSet
+Validated: 1
+EndChar
+
+StartChar: quotedblbase
+Encoding: 8222 8222 140
+Width: 361
+GlyphClass: 2
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+62 0 m 1,0,-1
+ 62 102 l 1,1,-1
+ 157 102 l 1,2,-1
+ 157 22 l 2,3,4
+ 157 -37 157 -37 141 -73 c 128,-1,5
+ 125 -109 125 -109 76 -132 c 1,6,-1
+ 54 -98 l 1,7,8
+ 107 -77 107 -77 107 0 c 1,9,-1
+ 62 0 l 1,0,-1
+214 0 m 1,10,-1
+ 214 102 l 1,11,-1
+ 308 102 l 1,12,-1
+ 308 22 l 2,13,14
+ 308 -44 308 -44 290 -78 c 128,-1,15
+ 272 -112 272 -112 228 -132 c 1,16,-1
+ 206 -98 l 1,17,18
+ 260 -77 260 -77 260 0 c 1,19,-1
+ 214 0 l 1,10,-1
+EndSplineSet
+Validated: 1
+EndChar
+
+StartChar: ellipsis
+Encoding: 8230 8230 141
+Width: 1000
+GlyphClass: 2
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+117 0 m 1,0,-1
+ 117 100 l 1,1,-1
+ 217 100 l 1,2,-1
+ 217 0 l 1,3,-1
+ 117 0 l 1,0,-1
+450 0 m 1,4,-1
+ 450 100 l 1,5,-1
+ 550 100 l 1,6,-1
+ 550 0 l 1,7,-1
+ 450 0 l 1,4,-1
+783 0 m 1,8,-1
+ 783 100 l 1,9,-1
+ 883 100 l 1,10,-1
+ 883 0 l 1,11,-1
+ 783 0 l 1,8,-1
+EndSplineSet
+Validated: 1
+EndChar
+
+StartChar: sheqelhebrew
+Encoding: 8362 8362 142
+Width: 815
+GlyphClass: 2
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+546 168 m 1,0,-1
+ 464 168 l 1,1,-1
+ 464 378 l 2,2,3
+ 464 416 464 416 447 432 c 128,-1,4
+ 430 448 430 448 392 448 c 2,5,-1
+ 158 448 l 1,6,-1
+ 158 0 l 1,7,-1
+ 76 0 l 1,8,-1
+ 76 518 l 1,9,-1
+ 408 518 l 2,10,11
+ 477 518 477 518 511.5 482 c 128,-1,12
+ 546 446 546 446 546 386 c 2,13,-1
+ 546 168 l 1,0,-1
+270 0 m 1,14,-1
+ 270 350 l 1,15,-1
+ 352 350 l 1,16,-1
+ 352 70 l 1,17,-1
+ 585 70 l 2,18,19
+ 628 70 628 70 643 89 c 128,-1,20
+ 658 108 658 108 658 140 c 2,21,-1
+ 658 518 l 1,22,-1
+ 740 518 l 1,23,-1
+ 740 132 l 2,24,25
+ 740 70 740 70 704 35 c 128,-1,26
+ 668 0 668 0 602 0 c 2,27,-1
+ 270 0 l 1,14,-1
+EndSplineSet
+Validated: 1
+EndChar
+
+StartChar: uni25CC
+Encoding: 9676 9676 143
+Width: 594
+GlyphClass: 2
+Flags: W
+AnchorPoint: "Anchor-4" 295 0 basechar 0
+AnchorPoint: "Anchor-3" 100 580 basechar 0
+AnchorPoint: "Anchor-2" 460 580 basechar 0
+AnchorPoint: "Anchor-1" 295 580 basechar 0
+LayerCount: 2
+Fore
+SplineSet
+479 418 m 0,0,1
+ 479 394 479 394 455 394 c 0,2,3
+ 430 394 430 394 430 418 c 0,4,5
+ 430 443 430 443 455 443 c 0,6,7
+ 479 443 479 443 479 418 c 0,0,1
+406 466 m 0,8,9
+ 406 442 406 442 383 442 c 0,10,11
+ 357 442 357 442 357 466 c 0,12,13
+ 357 491 357 491 383 491 c 0,14,15
+ 406 491 406 491 406 466 c 0,8,9
+527 346 m 0,16,17
+ 527 321 527 321 502 321 c 0,18,19
+ 478 321 478 321 478 346 c 0,20,21
+ 478 370 478 370 503 370 c 0,22,23
+ 527 370 527 370 527 346 c 0,16,17
+544 261 m 256,24,25
+ 544 237 544 237 521 237 c 0,26,27
+ 496 237 496 237 496 261 c 256,28,29
+ 496 285 496 285 521 285 c 0,30,31
+ 544 285 544 285 544 261 c 256,24,25
+321 484 m 0,32,33
+ 321 459 321 459 297 459 c 0,34,35
+ 272 459 272 459 272 484 c 0,36,37
+ 272 508 272 508 297 508 c 0,38,39
+ 321 508 321 508 321 484 c 0,32,33
+237 466 m 0,40,41
+ 237 442 237 442 212 442 c 0,42,43
+ 188 442 188 442 188 466 c 0,44,45
+ 188 491 188 491 212 491 c 0,46,47
+ 237 491 237 491 237 466 c 0,40,41
+527 176 m 0,48,49
+ 527 152 527 152 502 152 c 0,50,51
+ 478 152 478 152 478 176 c 0,52,53
+ 478 201 478 201 502 201 c 0,54,55
+ 527 201 527 201 527 176 c 0,48,49
+165 418 m 0,56,57
+ 165 394 165 394 140 394 c 0,58,59
+ 116 394 116 394 116 417 c 0,60,61
+ 116 443 116 443 140 443 c 0,62,63
+ 165 443 165 443 165 418 c 0,56,57
+479 103 m 0,64,65
+ 479 79 479 79 455 79 c 0,66,67
+ 430 79 430 79 430 103 c 0,68,69
+ 430 128 430 128 455 128 c 0,70,71
+ 479 128 479 128 479 103 c 0,64,65
+406 55 m 0,72,73
+ 406 32 406 32 383 32 c 0,74,75
+ 357 32 357 32 357 55 c 0,76,77
+ 357 80 357 80 383 80 c 0,78,79
+ 406 80 406 80 406 55 c 0,72,73
+116 346 m 0,80,81
+ 116 321 116 321 93 321 c 0,82,83
+ 67 321 67 321 67 346 c 0,84,85
+ 67 370 67 370 92 370 c 0,86,87
+ 116 370 116 370 116 346 c 0,80,81
+99 261 m 256,88,89
+ 99 237 99 237 75 237 c 0,90,91
+ 50 237 50 237 50 261 c 256,92,93
+ 50 285 50 285 75 285 c 0,94,95
+ 99 285 99 285 99 261 c 256,88,89
+321 39 m 0,96,97
+ 321 14 321 14 297 14 c 0,98,99
+ 272 14 272 14 272 39 c 0,100,101
+ 272 63 272 63 297 63 c 0,102,103
+ 321 63 321 63 321 39 c 0,96,97
+116 176 m 0,104,105
+ 116 152 116 152 92 152 c 0,106,107
+ 67 152 67 152 67 176 c 0,108,109
+ 67 201 67 201 92 201 c 0,110,111
+ 116 201 116 201 116 176 c 0,104,105
+237 57 m 0,112,113
+ 237 32 237 32 212 32 c 0,114,115
+ 188 32 188 32 188 55 c 0,116,117
+ 188 80 188 80 212 80 c 0,118,119
+ 237 80 237 80 237 57 c 0,112,113
+165 103 m 0,120,121
+ 165 79 165 79 140 79 c 0,122,123
+ 116 79 116 79 116 103 c 0,124,125
+ 116 128 116 128 140 128 c 0,126,127
+ 165 128 165 128 165 103 c 0,120,121
+EndSplineSet
+Validated: 1
+EndChar
+
+StartChar: uniFB1D
+Encoding: 64285 64285 144
+Width: 247
+GlyphClass: 2
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+124 191 m 0,0,1
+ 138 191 138 191 151.5 180.5 c 128,-1,2
+ 165 170 165 170 165 150 c 0,3,4
+ 165 133 165 133 153 121 c 128,-1,5
+ 141 109 141 109 124 109 c 0,6,7
+ 106 109 106 109 94 121 c 128,-1,8
+ 82 133 82 133 82 150 c 0,9,10
+ 82 165 82 165 92.5 178 c 128,-1,11
+ 103 191 103 191 124 191 c 0,0,1
+171 518 m 1,12,-1
+ 171 250 l 1,13,-1
+ 76 250 l 1,14,-1
+ 76 518 l 1,15,-1
+ 171 518 l 1,12,-1
+EndSplineSet
+Validated: 1
+EndChar
+
+StartChar: uniFB1E
+Encoding: 64286 64286 145
+Width: 0
+GlyphClass: 4
+Flags: W
+AnchorPoint: "Anchor-8" 160 0 basemark 0
+AnchorPoint: "Anchor-7" -160 0 basemark 0
+AnchorPoint: "Anchor-1" 0 610 mark 0
+LayerCount: 2
+Fore
+SplineSet
+145 737 m 1,0,1
+ 137 676 137 676 100 643.5 c 128,-1,2
+ 63 611 63 611 0 611 c 256,3,4
+ -63 611 -63 611 -100 643.5 c 128,-1,5
+ -137 676 -137 676 -144 737 c 1,6,-1
+ -84 737 l 1,7,8
+ -71 671 -71 671 0 671 c 0,9,10
+ 74 671 74 671 84 737 c 1,11,-1
+ 145 737 l 1,0,1
+EndSplineSet
+Validated: 1
+EndChar
+
+StartChar: doubleyodpatahhebrew
+Encoding: 64287 64287 146
+Width: 436
+GlyphClass: 2
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+171 518 m 1,0,-1
+ 171 250 l 1,1,-1
+ 76 250 l 1,2,-1
+ 76 518 l 1,3,-1
+ 171 518 l 1,0,-1
+356 518 m 1,4,-1
+ 356 250 l 1,5,-1
+ 261 250 l 1,6,-1
+ 261 518 l 1,7,-1
+ 356 518 l 1,4,-1
+94 0 m 1,8,-1
+ 94 51 l 1,9,-1
+ 337 51 l 1,10,-1
+ 337 0 l 1,11,-1
+ 94 0 l 1,8,-1
+EndSplineSet
+Validated: 1
+Ligature2: "'ccmp' Glyph Composition/Decomposition in Hebrew lookup 2 subtable" yodyodhebrew patahhebrew
+EndChar
+
+StartChar: uniFB20
+Encoding: 64288 64288 147
+Width: 535
+GlyphClass: 2
+Flags: W
+AnchorPoint: "Anchor-4" 228 0 basechar 0
+AnchorPoint: "Anchor-3" 120 580 basechar 0
+AnchorPoint: "Anchor-2" 420 580 basechar 0
+AnchorPoint: "Anchor-1" 260 580 basechar 0
+AnchorPoint: "Anchor-0" 285 312 basechar 0
+LayerCount: 2
+Fore
+SplineSet
+214 0 m 2,0,-1
+ 22 0 l 1,1,-1
+ 22 78 l 1,2,-1
+ 157 78 l 1,3,-1
+ 70 518 l 1,4,-1
+ 168 518 l 1,5,-1
+ 248 77 l 1,6,7
+ 364 110 364 110 370 340 c 2,8,-1
+ 375 518 l 1,9,-1
+ 469 518 l 1,10,-1
+ 464 381 l 2,11,12
+ 456 150 456 150 392 75 c 128,-1,13
+ 328 0 328 0 214 0 c 2,0,-1
+EndSplineSet
+Validated: 1
+Position2: "Single Positioning lookup 21 subtable" dx=100 dy=0 dh=100 dv=0
+EndChar
+
+StartChar: uniFB21
+Encoding: 64289 64289 148
+Width: 709
+GlyphClass: 2
+Flags: W
+AnchorPoint: "Anchor-4" 342 0 basechar 0
+AnchorPoint: "Anchor-3" 120 580 basechar 0
+AnchorPoint: "Anchor-2" 600 580 basechar 0
+AnchorPoint: "Anchor-1" 350 580 basechar 0
+LayerCount: 2
+Fore
+SplineSet
+683 0 m 1,0,-1
+ 550 0 l 1,1,-1
+ 263 300 l 1,2,3
+ 178 260 178 260 169 179 c 2,4,-1
+ 148 0 l 1,5,-1
+ 51 0 l 1,6,-1
+ 72 179 l 2,7,8
+ 81 243 81 243 115.5 292 c 128,-1,9
+ 150 341 150 341 201 364 c 1,10,-1
+ 53 518 l 1,11,-1
+ 185 518 l 1,12,-1
+ 461 230 l 1,13,14
+ 525 270 525 270 533 339 c 2,15,-1
+ 554 518 l 1,16,-1
+ 650 518 l 1,17,-1
+ 629 339 l 2,18,19
+ 616 225 616 225 523 167 c 1,20,-1
+ 683 0 l 1,0,-1
+EndSplineSet
+Validated: 1
+EndChar
+
+StartChar: uniFB22
+Encoding: 64290 64290 149
+Width: 655
+GlyphClass: 2
+Flags: W
+AnchorPoint: "Anchor-4" 495 0 basechar 0
+AnchorPoint: "Anchor-3" 100 580 basechar 0
+AnchorPoint: "Anchor-2" 520 580 basechar 0
+AnchorPoint: "Anchor-1" 300 580 basechar 0
+LayerCount: 2
+Fore
+SplineSet
+633 440 m 1,0,-1
+ 544 440 l 1,1,-1
+ 544 0 l 1,2,-1
+ 452 0 l 1,3,-1
+ 452 440 l 1,4,-1
+ 22 440 l 1,5,-1
+ 22 518 l 1,6,-1
+ 633 518 l 1,7,-1
+ 633 440 l 1,0,-1
+EndSplineSet
+Validated: 1
+EndChar
+
+StartChar: uniFB23
+Encoding: 64291 64291 150
+Width: 749
+GlyphClass: 2
+Flags: W
+AnchorPoint: "Anchor-4" 380 0 basechar 0
+AnchorPoint: "Anchor-3" 140 580 basechar 0
+AnchorPoint: "Anchor-2" 611 580 basechar 0
+AnchorPoint: "Anchor-1" 332 580 basechar 0
+LayerCount: 2
+Fore
+SplineSet
+678 0 m 1,0,-1
+ 584 0 l 1,1,-1
+ 584 255 l 2,2,3
+ 584 356 584 356 526 399.5 c 128,-1,4
+ 468 443 468 443 302 443 c 0,5,6
+ 189 443 189 443 81 429 c 1,7,-1
+ 73 509 l 1,8,9
+ 184 524 184 524 318 524 c 0,10,11
+ 513 524 513 524 595.5 467.5 c 128,-1,12
+ 678 411 678 411 678 280 c 2,13,-1
+ 678 0 l 1,0,-1
+172 0 m 1,14,-1
+ 79 0 l 1,15,-1
+ 79 292 l 1,16,-1
+ 172 292 l 1,17,-1
+ 172 0 l 1,14,-1
+EndSplineSet
+Validated: 1
+EndChar
+
+StartChar: uniFB24
+Encoding: 64292 64292 151
+Width: 607
+GlyphClass: 2
+Flags: W
+AnchorPoint: "Anchor-4" 280 0 basechar 0
+AnchorPoint: "Anchor-3" 100 580 basechar 0
+AnchorPoint: "Anchor-2" 474 580 basechar 0
+AnchorPoint: "Anchor-1" 240 580 basechar 0
+LayerCount: 2
+Fore
+SplineSet
+563 259 m 0,0,1
+ 563 -8 563 -8 190 -8 c 0,2,3
+ 96 -8 96 -8 39 7 c 1,4,-1
+ 52 91 l 1,5,6
+ 98 76 98 76 195 76 c 0,7,8
+ 333 76 333 76 398 121 c 128,-1,9
+ 463 166 463 166 463 259 c 0,10,11
+ 463 351 463 351 389.5 397 c 128,-1,12
+ 316 443 316 443 195 443 c 0,13,14
+ 97 443 97 443 52 428 c 1,15,-1
+ 39 512 l 1,16,17
+ 96 527 96 527 190 527 c 0,18,19
+ 563 527 563 527 563 259 c 0,0,1
+EndSplineSet
+Validated: 1
+Position2: "Single Positioning lookup 21 subtable" dx=100 dy=0 dh=100 dv=0
+EndChar
+
+StartChar: uniFB25
+Encoding: 64293 64293 152
+Width: 609
+GlyphClass: 2
+Flags: W
+AnchorPoint: "Anchor-4" 400 0 basechar 0
+AnchorPoint: "Anchor-3" -40 580 basechar 0
+AnchorPoint: "Anchor-2" 504 580 basechar 0
+AnchorPoint: "Anchor-1" 350 580 basechar 0
+LayerCount: 2
+Fore
+SplineSet
+556 389 m 2,0,1
+ 556 293 556 293 510 232 c 2,2,-1
+ 483 197 l 2,3,4
+ 444 144 444 144 444 83 c 2,5,-1
+ 444 0 l 1,6,-1
+ 351 0 l 1,7,-1
+ 351 70 l 2,8,9
+ 351 127 351 127 362 160 c 128,-1,10
+ 373 193 373 193 399 227 c 2,11,-1
+ 429 264 l 2,12,13
+ 462 307 462 307 462 370 c 2,14,-1
+ 462 440 l 1,15,-1
+ 29 440 l 1,16,-1
+ 29 716 l 1,17,-1
+ 122 716 l 1,18,-1
+ 122 518 l 1,19,-1
+ 556 518 l 1,20,-1
+ 556 389 l 2,0,1
+EndSplineSet
+Validated: 1
+Position2: "Single Positioning lookup 21 subtable" dx=100 dy=0 dh=100 dv=0
+EndChar
+
+StartChar: uniFB26
+Encoding: 64294 64294 153
+Width: 745
+GlyphClass: 2
+Flags: W
+AnchorPoint: "Anchor-4" 380 0 basechar 0
+AnchorPoint: "Anchor-3" 140 580 basechar 0
+AnchorPoint: "Anchor-2" 600 580 basechar 0
+AnchorPoint: "Anchor-1" 342 580 basechar 0
+LayerCount: 2
+Fore
+SplineSet
+674 0 m 1,0,-1
+ 76 0 l 1,1,-1
+ 76 507 l 1,2,3
+ 216 524 216 524 316 524 c 0,4,5
+ 513 524 513 524 593.5 467 c 128,-1,6
+ 674 410 674 410 674 290 c 2,7,-1
+ 674 0 l 1,0,-1
+581 78 m 1,8,-1
+ 581 281 l 2,9,10
+ 581 366 581 366 526.5 404.5 c 128,-1,11
+ 472 443 472 443 311 443 c 0,12,13
+ 218 443 218 443 169 436 c 1,14,-1
+ 169 78 l 1,15,-1
+ 581 78 l 1,8,-1
+EndSplineSet
+Validated: 1
+EndChar
+
+StartChar: uniFB27
+Encoding: 64295 64295 154
+Width: 656
+GlyphClass: 2
+Flags: W
+AnchorPoint: "Anchor-4" 540 0 basechar 0
+AnchorPoint: "Anchor-3" 80 580 basechar 0
+AnchorPoint: "Anchor-2" 528 580 basechar 0
+AnchorPoint: "Anchor-1" 280 580 basechar 0
+LayerCount: 2
+Fore
+SplineSet
+585 0 m 1,0,-1
+ 492 0 l 1,1,-1
+ 492 255 l 2,2,3
+ 492 361 492 361 436 402 c 128,-1,4
+ 380 443 380 443 201 443 c 0,5,6
+ 117 443 117 443 27 433 c 1,7,-1
+ 20 513 l 1,8,9
+ 152 524 152 524 207 524 c 0,10,11
+ 414 524 414 524 499.5 467 c 128,-1,12
+ 585 410 585 410 585 280 c 2,13,-1
+ 585 0 l 1,0,-1
+EndSplineSet
+Validated: 1
+EndChar
+
+StartChar: uniFB28
+Encoding: 64296 64296 155
+Width: 789
+GlyphClass: 2
+Flags: W
+AnchorPoint: "Anchor-4" 414 0 basechar 0
+AnchorPoint: "Anchor-3" 140 580 basechar 0
+AnchorPoint: "Anchor-2" 652 580 basechar 0
+AnchorPoint: "Anchor-1" 400 580 basechar 0
+LayerCount: 2
+Fore
+SplineSet
+718 0 m 1,0,-1
+ 625 0 l 1,1,-1
+ 625 255 l 2,2,3
+ 625 356 625 356 564 400.5 c 128,-1,4
+ 503 445 503 445 338 445 c 2,5,-1
+ 296 445 l 1,6,-1
+ 243 444 l 1,7,-1
+ 243 130 l 2,8,9
+ 243 51 243 51 212.5 23.5 c 128,-1,10
+ 182 -4 182 -4 111 -4 c 0,11,12
+ 64 -4 64 -4 20 12 c 1,13,-1
+ 36 82 l 1,14,15
+ 61 73 61 73 91 73 c 256,16,17
+ 121 73 121 73 135.5 87.5 c 128,-1,18
+ 150 102 150 102 150 142 c 2,19,-1
+ 150 441 l 1,20,21
+ 108 441 108 441 47 432 c 1,22,-1
+ 39 510 l 1,23,24
+ 167 524 167 524 318 524 c 0,25,26
+ 552 524 552 524 635 465.5 c 128,-1,27
+ 718 407 718 407 718 280 c 2,28,-1
+ 718 0 l 1,0,-1
+EndSplineSet
+Validated: 1
+EndChar
+
+StartChar: uniFB29
+Encoding: 64297 64297 156
+Width: 584
+GlyphClass: 2
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+528 126 m 1,0,-1
+ 56 126 l 1,1,-1
+ 56 208 l 1,2,-1
+ 250 208 l 1,3,-1
+ 250 403 l 1,4,-1
+ 333 403 l 1,5,-1
+ 333 208 l 1,6,-1
+ 528 208 l 1,7,-1
+ 528 126 l 1,0,-1
+EndSplineSet
+Validated: 1
+EndChar
+
+StartChar: shinshindothebrew
+Encoding: 64298 64298 157
+Width: 694
+GlyphClass: 2
+Flags: W
+AnchorPoint: "Anchor-4" 340 0 basechar 0
+AnchorPoint: "Anchor-3" 100 580 basechar 0
+AnchorPoint: "Anchor-2" 700 580 basechar 0
+AnchorPoint: "Anchor-1" 350 580 basechar 0
+AnchorPoint: "Anchor-0" 430 225 basechar 0
+LayerCount: 2
+Fore
+Refer: 122 1513 N 1 0 0 1 0 0 1
+Refer: 82 1465 N 1 0 0 1 578 0 0
+Validated: 1
+Ligature2: "'ccmp' Glyph Composition/Decomposition in Hebrew lookup 2 subtable" shinhebrew shindothebrew
+EndChar
+
+StartChar: shinsindothebrew
+Encoding: 64299 64299 158
+Width: 694
+GlyphClass: 2
+Flags: W
+AnchorPoint: "Anchor-4" 340 0 basechar 0
+AnchorPoint: "Anchor-3" 20 580 basechar 0
+AnchorPoint: "Anchor-2" 600 580 basechar 0
+AnchorPoint: "Anchor-1" 350 580 basechar 0
+AnchorPoint: "Anchor-0" 430 225 basechar 0
+LayerCount: 2
+Fore
+Refer: 122 1513 N 1 0 0 1 0 0 1
+Refer: 82 1465 N 1 0 0 1 74 0 0
+Validated: 1
+Ligature2: "'ccmp' Glyph Composition/Decomposition in Hebrew lookup 2 subtable" shinhebrew sindothebrew
+EndChar
+
+StartChar: shindageshshindothebrew
+Encoding: 64300 64300 159
+Width: 694
+GlyphClass: 2
+Flags: W
+AnchorPoint: "Anchor-4" 340 0 basechar 0
+AnchorPoint: "Anchor-3" 100 580 basechar 0
+AnchorPoint: "Anchor-2" 700 580 basechar 0
+AnchorPoint: "Anchor-1" 350 580 basechar 0
+LayerCount: 2
+Fore
+Refer: 183 64329 N 1 0 0 1 0 0 1
+Refer: 82 1465 N 1 0 0 1 577 0 0
+Validated: 1
+Ligature2: "'ccmp' Glyph Composition/Decomposition in Hebrew lookup 2 subtable" shinhebrew dageshhebrew shindothebrew
+Ligature2: "'ccmp' Glyph Composition/Decomposition in Hebrew lookup 2 subtable" shinhebrew shindothebrew dageshhebrew
+EndChar
+
+StartChar: shindageshsindothebrew
+Encoding: 64301 64301 160
+Width: 694
+GlyphClass: 2
+Flags: W
+AnchorPoint: "Anchor-4" 340 0 basechar 0
+AnchorPoint: "Anchor-3" 20 580 basechar 0
+AnchorPoint: "Anchor-2" 600 580 basechar 0
+AnchorPoint: "Anchor-1" 350 580 basechar 0
+LayerCount: 2
+Fore
+Refer: 183 64329 N 1 0 0 1 0 0 1
+Refer: 82 1465 N 1 0 0 1 74 0 0
+Validated: 1
+Ligature2: "'ccmp' Glyph Composition/Decomposition in Hebrew lookup 2 subtable" shinhebrew dageshhebrew sindothebrew
+Ligature2: "'ccmp' Glyph Composition/Decomposition in Hebrew lookup 2 subtable" shinhebrew sindothebrew dageshhebrew
+EndChar
+
+StartChar: uniFB2E
+Encoding: 64302 64302 161
+Width: 563
+GlyphClass: 2
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+183 -154 m 1,0,-1
+ 183 -103 l 1,1,-1
+ 380 -103 l 1,2,-1
+ 380 -154 l 1,3,-1
+ 183 -154 l 1,0,-1
+536 0 m 1,4,-1
+ 421 0 l 1,5,-1
+ 223 280 l 1,6,7
+ 176 254 176 254 169 179 c 2,8,-1
+ 148 0 l 1,9,-1
+ 51 0 l 1,10,-1
+ 72 179 l 2,11,12
+ 87 305 87 305 174 348 c 1,13,-1
+ 53 518 l 1,14,-1
+ 168 518 l 1,15,-1
+ 334 286 l 1,16,17
+ 354 299 354 299 366 315 c 128,-1,18
+ 378 331 378 331 385.5 360.5 c 128,-1,19
+ 393 390 393 390 407 518 c 1,20,-1
+ 504 518 l 1,21,-1
+ 492 411 l 2,22,23
+ 483 336 483 336 459 295 c 128,-1,24
+ 435 254 435 254 381 219 c 1,25,-1
+ 536 0 l 1,4,-1
+EndSplineSet
+Validated: 1
+EndChar
+
+StartChar: uniFB2F
+Encoding: 64303 64303 162
+Width: 563
+GlyphClass: 2
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+254 -210 m 1,0,-1
+ 254 -128 l 1,1,-1
+ 183 -128 l 1,2,-1
+ 183 -77 l 1,3,-1
+ 380 -77 l 1,4,-1
+ 380 -128 l 1,5,-1
+ 310 -128 l 1,6,-1
+ 310 -210 l 1,7,-1
+ 254 -210 l 1,0,-1
+536 0 m 1,8,-1
+ 421 0 l 1,9,-1
+ 223 280 l 1,10,11
+ 176 254 176 254 169 179 c 2,12,-1
+ 148 0 l 1,13,-1
+ 51 0 l 1,14,-1
+ 72 179 l 2,15,16
+ 87 305 87 305 174 348 c 1,17,-1
+ 53 518 l 1,18,-1
+ 168 518 l 1,19,-1
+ 334 286 l 1,20,21
+ 354 299 354 299 366 315 c 128,-1,22
+ 378 331 378 331 385.5 360.5 c 128,-1,23
+ 393 390 393 390 407 518 c 1,24,-1
+ 504 518 l 1,25,-1
+ 492 411 l 2,26,27
+ 483 336 483 336 459 295 c 128,-1,28
+ 435 254 435 254 381 219 c 1,29,-1
+ 536 0 l 1,8,-1
+EndSplineSet
+Validated: 1
+EndChar
+
+StartChar: uniFB30
+Encoding: 64304 64304 163
+Width: 563
+GlyphClass: 2
+Flags: W
+AnchorPoint: "Anchor-4" 270 0 basechar 0
+AnchorPoint: "Anchor-3" 100 580 basechar 0
+AnchorPoint: "Anchor-2" 450 580 basechar 0
+AnchorPoint: "Anchor-1" 280 580 basechar 0
+LayerCount: 2
+Fore
+SplineSet
+215 77 m 0,0,1
+ 215 94 215 94 227.5 106 c 128,-1,2
+ 240 118 240 118 256 118 c 0,3,4
+ 275 118 275 118 286 106 c 128,-1,5
+ 297 94 297 94 297 77 c 256,6,7
+ 297 60 297 60 286 48 c 128,-1,8
+ 275 36 275 36 256 36 c 0,9,10
+ 239 36 239 36 228 48 c 128,-1,11
+ 217 60 217 60 215 77 c 0,0,1
+536 0 m 1,12,-1
+ 421 0 l 1,13,-1
+ 223 280 l 1,14,15
+ 176 254 176 254 169 179 c 2,16,-1
+ 148 0 l 1,17,-1
+ 51 0 l 1,18,-1
+ 72 179 l 2,19,20
+ 87 305 87 305 174 348 c 1,21,-1
+ 53 518 l 1,22,-1
+ 168 518 l 1,23,-1
+ 334 286 l 1,24,25
+ 354 299 354 299 366 315 c 128,-1,26
+ 378 331 378 331 385.5 360.5 c 128,-1,27
+ 393 390 393 390 407 518 c 1,28,-1
+ 504 518 l 1,29,-1
+ 492 411 l 2,30,31
+ 483 336 483 336 459 295 c 128,-1,32
+ 435 254 435 254 381 219 c 1,33,-1
+ 536 0 l 1,12,-1
+EndSplineSet
+Validated: 1
+Ligature2: "'ccmp' Glyph Composition/Decomposition in Hebrew lookup 3 subtable" alefhebrew dageshhebrew
+Position2: "Single Positioning lookup 21 subtable" dx=100 dy=0 dh=100 dv=0
+EndChar
+
+StartChar: betdageshhebrew
+Encoding: 64305 64305 164
+Width: 542
+GlyphClass: 2
+Flags: W
+AnchorPoint: "Anchor-4" 280 0 basechar 0
+AnchorPoint: "Anchor-3" 80 580 basechar 0
+AnchorPoint: "Anchor-2" 380 580 basechar 0
+AnchorPoint: "Anchor-1" 220 580 basechar 0
+LayerCount: 2
+Fore
+Refer: 98 1489 N 1 0 0 1 0 0 1
+Refer: 82 1465 N 1 0 0 1 -398 -360 0
+Validated: 1
+Ligature2: "'ccmp' Glyph Composition/Decomposition in Hebrew lookup 3 subtable" bethebrew dageshhebrew
+Position2: "Single Positioning lookup 21 subtable" dx=100 dy=0 dh=100 dv=0
+EndChar
+
+StartChar: gimeldageshhebrew
+Encoding: 64306 64306 165
+Width: 429
+GlyphClass: 2
+Flags: W
+AnchorPoint: "Anchor-4" 198 0 basechar 0
+AnchorPoint: "Anchor-3" 80 580 basechar 0
+AnchorPoint: "Anchor-2" 260 580 basechar 0
+AnchorPoint: "Anchor-1" 170 580 basechar 0
+LayerCount: 2
+Fore
+Refer: 99 1490 N 1 0 0 1 0 0 1
+Refer: 82 1465 N 1 0 0 1 155 -338 0
+Ligature2: "'ccmp' Glyph Composition/Decomposition in Hebrew lookup 3 subtable" gimelhebrew dageshhebrew
+Position2: "Single Positioning lookup 21 subtable" dx=100 dy=0 dh=100 dv=0
+EndChar
+
+StartChar: daletdageshhebrew
+Encoding: 64307 64307 166
+Width: 508
+GlyphClass: 2
+Flags: W
+AnchorPoint: "Anchor-4" 348 0 basechar 0
+AnchorPoint: "Anchor-3" 80 580 basechar 0
+AnchorPoint: "Anchor-2" 350 580 basechar 0
+AnchorPoint: "Anchor-1" 240 580 basechar 0
+LayerCount: 2
+Fore
+Refer: 100 1491 N 1 0 0 1 0 0 1
+Refer: 82 1465 N 1 0 0 1 194 -336 0
+Validated: 1
+Ligature2: "'ccmp' Glyph Composition/Decomposition in Hebrew lookup 3 subtable" dalethebrew dageshhebrew
+Position2: "Single Positioning lookup 21 subtable" dx=100 dy=0 dh=100 dv=0
+EndChar
+
+StartChar: hedageshhebrew
+Encoding: 64308 64308 167
+Width: 602
+GlyphClass: 2
+Flags: W
+AnchorPoint: "Anchor-4" 300 0 basechar 0
+AnchorPoint: "Anchor-3" 120 580 basechar 0
+AnchorPoint: "Anchor-2" 485 580 basechar 0
+AnchorPoint: "Anchor-1" 280 580 basechar 0
+LayerCount: 2
+Fore
+Refer: 101 1492 N 1 0 0 1 0 0 1
+Refer: 82 1465 N 1 0 0 1 272 -368 0
+Validated: 1
+Ligature2: "'ccmp' Glyph Composition/Decomposition in Hebrew lookup 3 subtable" hehebrew dageshhebrew
+Position2: "Single Positioning lookup 21 subtable" dx=100 dy=0 dh=100 dv=0
+EndChar
+
+StartChar: vavdageshhebrew
+Encoding: 64309 64309 168
+Width: 287
+GlyphClass: 2
+Flags: W
+AnchorPoint: "Anchor-4" 160 0 basechar 0
+AnchorPoint: "Anchor-3" 160 580 basechar 0
+AnchorPoint: "Anchor-2" 160 580 basechar 0
+AnchorPoint: "Anchor-1" 160 580 basechar 0
+LayerCount: 2
+Fore
+SplineSet
+211 518 m 1,0,-1
+ 211 0 l 1,1,-1
+ 116 0 l 1,2,-1
+ 116 518 l 1,3,-1
+ 211 518 l 1,0,-1
+41 323 m 0,4,5
+ 57 323 57 323 69.5 312.5 c 128,-1,6
+ 82 302 82 302 82 282 c 0,7,8
+ 82 265 82 265 70 253 c 128,-1,9
+ 58 241 58 241 41 241 c 0,10,11
+ 26 241 26 241 13 251.5 c 128,-1,12
+ 0 262 0 262 0 282 c 0,13,14
+ 0 299 0 299 12 311 c 128,-1,15
+ 24 323 24 323 41 323 c 0,4,5
+EndSplineSet
+Validated: 1
+Ligature2: "'ccmp' Glyph Composition/Decomposition in Hebrew lookup 3 subtable" vavhebrew dageshhebrew
+Position2: "Single Positioning lookup 22 subtable" dx=80 dy=0 dh=80 dv=0
+Position2: "Single Positioning lookup 21 subtable" dx=100 dy=0 dh=100 dv=0
+EndChar
+
+StartChar: zayindageshhebrew
+Encoding: 64310 64310 169
+Width: 411
+GlyphClass: 2
+Flags: W
+AnchorPoint: "Anchor-4" 220 0 basechar 0
+AnchorPoint: "Anchor-3" 90 580 basechar 0
+AnchorPoint: "Anchor-2" 320 580 basechar 0
+AnchorPoint: "Anchor-1" 240 580 basechar 0
+LayerCount: 2
+Fore
+Refer: 103 1494 N 1 0 0 1 43 0 0
+Refer: 82 1465 N 1 0 0 1 16 -308 0
+Validated: 1
+Ligature2: "'ccmp' Glyph Composition/Decomposition in Hebrew lookup 3 subtable" zayinhebrew dageshhebrew
+Position2: "Single Positioning lookup 21 subtable" dx=100 dy=0 dh=100 dv=0
+EndChar
+
+StartChar: tetdageshhebrew
+Encoding: 64312 64312 170
+Width: 590
+GlyphClass: 2
+Flags: W
+AnchorPoint: "Anchor-4" 300 0 basechar 0
+AnchorPoint: "Anchor-3" 120 580 basechar 0
+AnchorPoint: "Anchor-2" 460 580 basechar 0
+AnchorPoint: "Anchor-1" 280 580 basechar 0
+LayerCount: 2
+Fore
+Refer: 105 1496 N 1 0 0 1 0 0 1
+Refer: 82 1465 N 1 0 0 1 276 -353 0
+Validated: 1
+Ligature2: "'ccmp' Glyph Composition/Decomposition in Hebrew lookup 3 subtable" tethebrew dageshhebrew
+Position2: "Single Positioning lookup 21 subtable" dx=100 dy=0 dh=100 dv=0
+EndChar
+
+StartChar: yoddageshhebrew
+Encoding: 64313 64313 171
+Width: 287
+GlyphClass: 2
+Flags: W
+AnchorPoint: "Anchor-4" 160 0 basechar 0
+AnchorPoint: "Anchor-3" 160 580 basechar 0
+AnchorPoint: "Anchor-2" 160 580 basechar 0
+AnchorPoint: "Anchor-1" 160 580 basechar 0
+LayerCount: 2
+Fore
+SplineSet
+211 518 m 1,0,-1
+ 211 250 l 1,1,-1
+ 116 250 l 1,2,-1
+ 116 518 l 1,3,-1
+ 211 518 l 1,0,-1
+41 398 m 0,4,5
+ 56 398 56 398 69 387.5 c 128,-1,6
+ 82 377 82 377 82 357 c 0,7,8
+ 82 340 82 340 70 328 c 128,-1,9
+ 58 316 58 316 41 316 c 0,10,11
+ 26 316 26 316 13 326.5 c 128,-1,12
+ 0 337 0 337 0 357 c 0,13,14
+ 0 374 0 374 12 386 c 128,-1,15
+ 24 398 24 398 41 398 c 0,4,5
+EndSplineSet
+Validated: 1
+Ligature2: "'ccmp' Glyph Composition/Decomposition in Hebrew lookup 3 subtable" yodhebrew dageshhebrew
+Position2: "Single Positioning lookup 22 subtable" dx=80 dy=0 dh=80 dv=0
+Position2: "Single Positioning lookup 21 subtable" dx=100 dy=0 dh=100 dv=0
+EndChar
+
+StartChar: finalkafdageshhebrew
+Encoding: 64314 64314 172
+Width: 509
+GlyphClass: 2
+Flags: W
+AnchorPoint: "Anchor-5" 280 0 basechar 0
+AnchorPoint: "Anchor-3" 80 580 basechar 0
+AnchorPoint: "Anchor-2" 390 580 basechar 0
+AnchorPoint: "Anchor-1" 190 580 basechar 0
+LayerCount: 2
+Fore
+Refer: 107 1498 N 1 0 0 1 0 0 1
+Refer: 82 1465 N 1 0 0 1 150 -371 0
+Validated: 1
+Ligature2: "'ccmp' Glyph Composition/Decomposition in Hebrew lookup 3 subtable" finalkafhebrew dageshhebrew
+Position2: "Single Positioning lookup 21 subtable" dx=100 dy=0 dh=100 dv=0
+EndChar
+
+StartChar: kafdageshhebrew
+Encoding: 64315 64315 173
+Width: 461
+GlyphClass: 2
+Flags: W
+AnchorPoint: "Anchor-4" 220 0 basechar 0
+AnchorPoint: "Anchor-3" 80 580 basechar 0
+AnchorPoint: "Anchor-2" 350 580 basechar 0
+AnchorPoint: "Anchor-1" 180 580 basechar 0
+LayerCount: 2
+Fore
+Refer: 108 1499 N 1 0 0 1 0 0 1
+Refer: 82 1465 N 1 0 0 1 136 -361 0
+Validated: 1
+Ligature2: "'ccmp' Glyph Composition/Decomposition in Hebrew lookup 3 subtable" kafhebrew dageshhebrew
+Position2: "Single Positioning lookup 21 subtable" dx=100 dy=0 dh=100 dv=0
+EndChar
+
+StartChar: lameddageshhebrew
+Encoding: 64316 64316 174
+Width: 463
+GlyphClass: 2
+Flags: W
+AnchorPoint: "Anchor-4" 250 0 basechar 0
+AnchorPoint: "Anchor-3" -25 580 basechar 0
+AnchorPoint: "Anchor-2" 360 580 basechar 0
+AnchorPoint: "Anchor-1" 290 580 basechar 0
+LayerCount: 2
+Fore
+Refer: 109 1500 N 1 0 0 1 0 0 1
+Refer: 82 1465 N 1 0 0 1 126 -308 0
+Validated: 1
+Ligature2: "'ccmp' Glyph Composition/Decomposition in Hebrew lookup 3 subtable" lamedhebrew dageshhebrew
+Position2: "Single Positioning lookup 23 subtable" dx=110 dy=0 dh=110 dv=0
+EndChar
+
+StartChar: memdageshhebrew
+Encoding: 64318 64318 175
+Width: 601
+GlyphClass: 2
+Flags: W
+AnchorPoint: "Anchor-4" 320 0 basechar 0
+AnchorPoint: "Anchor-3" 100 580 basechar 0
+AnchorPoint: "Anchor-2" 480 580 basechar 0
+AnchorPoint: "Anchor-1" 340 580 basechar 0
+LayerCount: 2
+Fore
+Refer: 111 1502 N 1 0 0 1 0 0 1
+Refer: 82 1465 N 1 0 0 1 297 -369 0
+Validated: 1
+Ligature2: "'ccmp' Glyph Composition/Decomposition in Hebrew lookup 3 subtable" memhebrew dageshhebrew
+Position2: "Single Positioning lookup 21 subtable" dx=100 dy=0 dh=100 dv=0
+EndChar
+
+StartChar: nundageshhebrew
+Encoding: 64320 64320 176
+Width: 353
+GlyphClass: 2
+Flags: W
+AnchorPoint: "Anchor-4" 150 0 basechar 0
+AnchorPoint: "Anchor-3" 40 580 basechar 0
+AnchorPoint: "Anchor-2" 230 580 basechar 0
+AnchorPoint: "Anchor-1" 144 580 basechar 0
+LayerCount: 2
+Fore
+Refer: 113 1504 N 1 0 0 1 0 0 1
+Refer: 82 1465 N 1 0 0 1 64 -360 0
+Validated: 1
+Ligature2: "'ccmp' Glyph Composition/Decomposition in Hebrew lookup 3 subtable" nunhebrew dageshhebrew
+Position2: "Single Positioning lookup 21 subtable" dx=100 dy=0 dh=100 dv=0
+EndChar
+
+StartChar: samekhdageshhebrew
+Encoding: 64321 64321 177
+Width: 574
+GlyphClass: 2
+Flags: W
+AnchorPoint: "Anchor-4" 288 0 basechar 0
+AnchorPoint: "Anchor-3" 100 580 basechar 0
+AnchorPoint: "Anchor-2" 480 580 basechar 0
+AnchorPoint: "Anchor-1" 280 580 basechar 0
+LayerCount: 2
+Fore
+Refer: 114 1505 N 1 0 0 1 0 0 1
+Refer: 82 1465 N 1 0 0 1 263 -359 0
+Validated: 1
+Ligature2: "'ccmp' Glyph Composition/Decomposition in Hebrew lookup 3 subtable" samekhhebrew dageshhebrew
+Position2: "Single Positioning lookup 21 subtable" dx=100 dy=0 dh=100 dv=0
+EndChar
+
+StartChar: uniFB43
+Encoding: 64323 64323 178
+Width: 566
+GlyphClass: 2
+Flags: W
+AnchorPoint: "Anchor-5" 340 0 basechar 0
+AnchorPoint: "Anchor-3" 100 580 basechar 0
+AnchorPoint: "Anchor-2" 436 580 basechar 0
+AnchorPoint: "Anchor-1" 240 580 basechar 0
+LayerCount: 2
+Fore
+SplineSet
+144 301 m 2,0,1
+ 144 241 144 241 188 241 c 0,2,3
+ 209 241 209 241 226 247 c 1,4,-1
+ 235 179 l 1,5,6
+ 208 167 208 167 175 167 c 0,7,8
+ 54 167 54 167 54 303 c 2,9,-1
+ 54 498 l 1,10,11
+ 144 524 144 524 236 524 c 0,12,13
+ 374 524 374 524 435 468 c 128,-1,14
+ 496 412 496 412 496 290 c 2,15,-1
+ 496 -199 l 1,16,-1
+ 403 -199 l 1,17,-1
+ 403 281 l 2,18,19
+ 403 369 403 369 362.5 408 c 128,-1,20
+ 322 447 322 447 230 447 c 0,21,22
+ 181 447 181 447 144 438 c 1,23,-1
+ 144 301 l 2,0,1
+312 276 m 0,24,25
+ 329 276 329 276 341.5 264 c 128,-1,26
+ 354 252 354 252 354 235 c 256,27,28
+ 354 218 354 218 342.5 206 c 128,-1,29
+ 331 194 331 194 312 194 c 0,30,31
+ 295 194 295 194 283 206 c 128,-1,32
+ 271 218 271 218 271 235 c 0,33,34
+ 271 251 271 251 282 263.5 c 128,-1,35
+ 293 276 293 276 312 276 c 0,24,25
+EndSplineSet
+Validated: 1
+Ligature2: "'ccmp' Glyph Composition/Decomposition in Hebrew lookup 3 subtable" finalpehebrew dageshhebrew
+EndChar
+
+StartChar: pedageshhebrew
+Encoding: 64324 64324 179
+Width: 546
+GlyphClass: 2
+Flags: W
+AnchorPoint: "Anchor-4" 260 0 basechar 0
+AnchorPoint: "Anchor-3" 100 580 basechar 0
+AnchorPoint: "Anchor-2" 450 580 basechar 0
+AnchorPoint: "Anchor-1" 250 580 basechar 0
+LayerCount: 2
+Fore
+SplineSet
+60 501 m 1,0,1
+ 146 527 146 527 236 527 c 0,2,3
+ 350 527 350 527 426 459.5 c 128,-1,4
+ 502 392 502 392 502 266 c 0,5,6
+ 502 142 502 142 425 67 c 128,-1,7
+ 348 -8 348 -8 207 -8 c 0,8,9
+ 112 -8 112 -8 56 27 c 1,10,-1
+ 79 104 l 1,11,12
+ 125 73 125 73 200 73 c 0,13,14
+ 282 73 282 73 343 119.5 c 128,-1,15
+ 404 166 404 166 404 264 c 0,16,17
+ 404 349 404 349 357.5 399.5 c 128,-1,18
+ 311 450 311 450 230 450 c 0,19,20
+ 189 450 189 450 149 441 c 1,21,-1
+ 149 346 l 2,22,23
+ 149 286 149 286 209 286 c 1,24,-1
+ 223 287 l 1,25,-1
+ 233 221 l 1,26,27
+ 213 212 213 212 182 212 c 0,28,29
+ 129 212 129 212 94.5 246.5 c 128,-1,30
+ 60 281 60 281 60 342 c 2,31,-1
+ 60 501 l 1,0,1
+314 306 m 256,32,33
+ 331 306 331 306 343 294 c 128,-1,34
+ 355 282 355 282 355 265 c 256,35,36
+ 355 248 355 248 343.5 236 c 128,-1,37
+ 332 224 332 224 314 224 c 0,38,39
+ 297 224 297 224 285 236 c 128,-1,40
+ 273 248 273 248 273 265 c 256,41,42
+ 273 282 273 282 285 294 c 128,-1,43
+ 297 306 297 306 314 306 c 256,32,33
+EndSplineSet
+Validated: 1
+Ligature2: "'ccmp' Glyph Composition/Decomposition in Hebrew lookup 3 subtable" pehebrew dageshhebrew
+Position2: "Single Positioning lookup 21 subtable" dx=100 dy=0 dh=100 dv=0
+EndChar
+
+StartChar: tsadidageshhebrew
+Encoding: 64326 64326 180
+Width: 479
+GlyphClass: 2
+Flags: W
+AnchorPoint: "Anchor-4" 220 0 basechar 0
+AnchorPoint: "Anchor-3" 80 580 basechar 0
+AnchorPoint: "Anchor-2" 375 580 basechar 0
+AnchorPoint: "Anchor-1" 230 580 basechar 0
+LayerCount: 2
+Fore
+Refer: 119 1510 N 1 0 0 1 0 0 1
+Refer: 82 1465 N 1 0 0 1 66 -392 0
+Validated: 1
+Ligature2: "'ccmp' Glyph Composition/Decomposition in Hebrew lookup 3 subtable" tsadihebrew dageshhebrew
+Position2: "Single Positioning lookup 21 subtable" dx=100 dy=0 dh=100 dv=0
+EndChar
+
+StartChar: qofdageshhebrew
+Encoding: 64327 64327 181
+Width: 550
+GlyphClass: 2
+Flags: W
+AnchorPoint: "Anchor-4" 348 0 basechar 0
+AnchorPoint: "Anchor-3" 120 580 basechar 0
+AnchorPoint: "Anchor-2" 450 580 basechar 0
+AnchorPoint: "Anchor-1" 260 580 basechar 0
+LayerCount: 2
+Fore
+Refer: 120 1511 N 1 0 0 1 0 0 1
+Refer: 82 1465 N 1 0 0 1 235 -336 0
+Validated: 1
+Ligature2: "'ccmp' Glyph Composition/Decomposition in Hebrew lookup 3 subtable" qofhebrew dageshhebrew
+Position2: "Single Positioning lookup 21 subtable" dx=100 dy=0 dh=100 dv=0
+EndChar
+
+StartChar: uniFB48
+Encoding: 64328 64328 182
+Width: 509
+GlyphClass: 2
+Flags: W
+AnchorPoint: "Anchor-4" 380 0 basechar 0
+AnchorPoint: "Anchor-3" 80 580 basechar 0
+AnchorPoint: "Anchor-2" 390 580 basechar 0
+AnchorPoint: "Anchor-1" 190 580 basechar 0
+LayerCount: 2
+Fore
+SplineSet
+20 513 m 1,0,1
+ 104 524 104 524 158 524 c 0,2,3
+ 316 524 316 524 377 462.5 c 128,-1,4
+ 438 401 438 401 438 280 c 2,5,-1
+ 438 0 l 1,6,-1
+ 346 0 l 1,7,-1
+ 346 255 l 2,8,9
+ 346 327 346 327 328.5 365 c 128,-1,10
+ 311 403 311 403 265.5 424 c 128,-1,11
+ 220 445 220 445 152 443 c 0,12,13
+ 101 443 101 443 27 433 c 1,14,-1
+ 20 513 l 1,0,1
+176 288 m 0,15,16
+ 190 288 190 288 203.5 277.5 c 128,-1,17
+ 217 267 217 267 217 247 c 0,18,19
+ 217 230 217 230 205 218 c 128,-1,20
+ 193 206 193 206 176 206 c 0,21,22
+ 158 206 158 206 146 218 c 128,-1,23
+ 134 230 134 230 134 247 c 0,24,25
+ 134 262 134 262 144.5 275 c 128,-1,26
+ 155 288 155 288 176 288 c 0,15,16
+EndSplineSet
+Validated: 33
+Ligature2: "'ccmp' Glyph Composition/Decomposition in Hebrew lookup 3 subtable" reshhebrew dageshhebrew
+Position2: "Single Positioning lookup 21 subtable" dx=100 dy=0 dh=100 dv=0
+EndChar
+
+StartChar: shindageshhebrew
+Encoding: 64329 64329 183
+Width: 694
+GlyphClass: 2
+Flags: W
+AnchorPoint: "Anchor-4" 340 0 basechar 0
+AnchorPoint: "Anchor-3" 120 580 basechar 0
+AnchorPoint: "Anchor-2" 600 580 basechar 0
+AnchorPoint: "Anchor-1" 350 580 basechar 0
+LayerCount: 2
+Fore
+SplineSet
+144 518 m 1,0,-1
+ 146 434 l 2,1,2
+ 147 307 147 307 157 255 c 1,3,4
+ 207 255 207 255 249.5 280.5 c 128,-1,5
+ 292 306 292 306 292 379 c 1,6,-1
+ 302 518 l 1,7,-1
+ 396 518 l 1,8,-1
+ 384 355 l 2,9,10
+ 379 305 379 305 372.5 287 c 128,-1,11
+ 366 269 366 269 348 247 c 0,12,13
+ 305 192 305 192 171 181 c 1,14,15
+ 183 127 183 127 227 96 c 128,-1,16
+ 271 65 271 65 337 65 c 0,17,18
+ 416 65 416 65 469 117 c 128,-1,19
+ 522 169 522 169 531 296 c 2,20,-1
+ 552 518 l 1,21,-1
+ 646 518 l 1,22,-1
+ 628 326 l 2,23,24
+ 617 216 617 216 590 144 c 128,-1,25
+ 563 72 563 72 497.5 29 c 128,-1,26
+ 432 -14 432 -14 332 -14 c 0,27,28
+ 197 -14 197 -14 126.5 81 c 128,-1,29
+ 56 176 56 176 56 375 c 1,30,-1
+ 49 518 l 1,31,-1
+ 144 518 l 1,0,-1
+432 269 m 0,32,33
+ 449 269 449 269 461 257 c 128,-1,34
+ 473 245 473 245 473 228 c 256,35,36
+ 473 211 473 211 461 199 c 128,-1,37
+ 449 187 449 187 432 187 c 0,38,39
+ 416 187 416 187 403.5 197.5 c 128,-1,40
+ 391 208 391 208 391 228 c 0,41,42
+ 391 245 391 245 402.5 257 c 128,-1,43
+ 414 269 414 269 432 269 c 0,32,33
+EndSplineSet
+Validated: 1
+Ligature2: "'ccmp' Glyph Composition/Decomposition in Hebrew lookup 3 subtable" shinhebrew dageshhebrew
+EndChar
+
+StartChar: tavdageshhebrew
+Encoding: 64330 64330 184
+Width: 643
+GlyphClass: 2
+Flags: W
+AnchorPoint: "Anchor-4" 336 0 basechar 0
+AnchorPoint: "Anchor-3" 140 580 basechar 0
+AnchorPoint: "Anchor-2" 520 580 basechar 0
+AnchorPoint: "Anchor-1" 300 580 basechar 0
+LayerCount: 2
+Fore
+Refer: 123 1514 N 1 0 0 1 0 0 1
+Refer: 82 1465 N 1 0 0 1 332 -381 0
+Validated: 1
+Ligature2: "'ccmp' Glyph Composition/Decomposition in Hebrew lookup 3 subtable" tavhebrew dageshhebrew
+EndChar
+
+StartChar: vavholamhebrew
+Encoding: 64331 64331 185
+Width: 247
+GlyphClass: 2
+Flags: W
+AnchorPoint: "Anchor-4" 125 0 basechar 0
+AnchorPoint: "Anchor-3" 40 580 basechar 0
+AnchorPoint: "Anchor-2" 220 580 basechar 0
+AnchorPoint: "Anchor-1" 310 580 basechar 0
+LayerCount: 2
+Fore
+Refer: 102 1493 N 1 0 0 1 0 0 1
+Refer: 82 1465 N 1 0 0 1 98 0 0
+Validated: 1
+Ligature2: "'ccmp' Glyph Composition/Decomposition in Hebrew lookup 4 subtable" vavhebrew holamhebrew
+Position2: "Single Positioning lookup 22 subtable" dx=80 dy=0 dh=80 dv=0
+Position2: "Single Positioning lookup 21 subtable" dx=100 dy=0 dh=100 dv=0
+EndChar
+
+StartChar: uniFB4C
+Encoding: 64332 64332 186
+Width: 542
+GlyphClass: 2
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+437 78 m 1,0,-1
+ 520 78 l 1,1,-1
+ 520 0 l 1,2,-1
+ 24 0 l 1,3,-1
+ 24 78 l 1,4,-1
+ 344 78 l 1,5,-1
+ 344 255 l 2,6,7
+ 344 336 344 336 322.5 373.5 c 128,-1,8
+ 301 411 301 411 256 427 c 128,-1,9
+ 211 443 211 443 138 443 c 0,10,11
+ 98 443 98 443 40 436 c 1,12,-1
+ 32 513 l 1,13,14
+ 105 524 105 524 172 524 c 0,15,16
+ 312 524 312 524 374.5 463.5 c 128,-1,17
+ 437 403 437 403 437 280 c 2,18,-1
+ 437 78 l 1,0,-1
+133 611 m 1,19,-1
+ 133 662 l 1,20,-1
+ 330 662 l 1,21,-1
+ 330 611 l 1,22,-1
+ 133 611 l 1,19,-1
+EndSplineSet
+Validated: 1
+EndChar
+
+StartChar: uniFB4D
+Encoding: 64333 64333 187
+Width: 461
+GlyphClass: 2
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+52 91 m 1,0,1
+ 98 76 98 76 146 76 c 0,2,3
+ 227 76 227 76 272 126.5 c 128,-1,4
+ 317 177 317 177 317 259 c 0,5,6
+ 317 345 317 345 271 394 c 128,-1,7
+ 225 443 225 443 146 443 c 0,8,9
+ 97 443 97 443 52 428 c 1,10,-1
+ 39 512 l 1,11,12
+ 96 527 96 527 141 527 c 0,13,14
+ 271 527 271 527 344 451 c 128,-1,15
+ 417 375 417 375 417 259 c 0,16,17
+ 417 138 417 138 342.5 65 c 128,-1,18
+ 268 -8 268 -8 141 -8 c 0,19,20
+ 96 -8 96 -8 39 7 c 1,21,-1
+ 52 91 l 1,0,1
+117 611 m 1,22,-1
+ 117 662 l 1,23,-1
+ 314 662 l 1,24,-1
+ 314 611 l 1,25,-1
+ 117 611 l 1,22,-1
+EndSplineSet
+Validated: 1
+EndChar
+
+StartChar: uniFB4E
+Encoding: 64334 64334 188
+Width: 546
+GlyphClass: 2
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+60 501 m 1,0,1
+ 146 527 146 527 236 527 c 0,2,3
+ 350 527 350 527 426 459.5 c 128,-1,4
+ 502 392 502 392 502 266 c 0,5,6
+ 502 142 502 142 425 67 c 128,-1,7
+ 348 -8 348 -8 207 -8 c 0,8,9
+ 112 -8 112 -8 56 27 c 1,10,-1
+ 79 104 l 1,11,12
+ 125 73 125 73 200 73 c 0,13,14
+ 282 73 282 73 343 119.5 c 128,-1,15
+ 404 166 404 166 404 264 c 0,16,17
+ 404 349 404 349 357.5 399.5 c 128,-1,18
+ 311 450 311 450 230 450 c 0,19,20
+ 189 450 189 450 149 441 c 1,21,-1
+ 149 346 l 2,22,23
+ 149 286 149 286 209 286 c 0,24,25
+ 233 286 233 286 250 292 c 1,26,-1
+ 260 224 l 1,27,28
+ 231 212 231 212 194 212 c 0,29,30
+ 131 212 131 212 95.5 246.5 c 128,-1,31
+ 60 281 60 281 60 348 c 2,32,-1
+ 60 501 l 1,0,1
+160 611 m 1,33,-1
+ 160 662 l 1,34,-1
+ 357 662 l 1,35,-1
+ 357 611 l 1,36,-1
+ 160 611 l 1,33,-1
+EndSplineSet
+Validated: 1
+EndChar
+
+StartChar: uniFB4F
+Encoding: 64335 64335 189
+Width: 563
+GlyphClass: 2
+Flags: W
+AnchorPoint: "Anchor-4" 260 0 basechar 0
+AnchorPoint: "Anchor-3" -40 580 basechar 0
+AnchorPoint: "Anchor-2" 450 580 basechar 0
+AnchorPoint: "Anchor-1" 300 580 basechar 0
+LayerCount: 2
+Fore
+SplineSet
+122 689 m 1,0,-1
+ 122 518 l 1,1,-1
+ 168 518 l 1,2,-1
+ 334 286 l 1,3,4
+ 354 299 354 299 366 315 c 128,-1,5
+ 378 331 378 331 385.5 360.5 c 128,-1,6
+ 393 390 393 390 407 518 c 1,7,-1
+ 504 518 l 1,8,-1
+ 492 411 l 2,9,10
+ 483 336 483 336 459 295 c 128,-1,11
+ 435 254 435 254 381 219 c 1,12,-1
+ 536 0 l 1,13,-1
+ 421 0 l 1,14,-1
+ 122 421 l 1,15,-1
+ 27 421 l 1,16,-1
+ 27 689 l 1,17,-1
+ 122 689 l 1,0,-1
+EndSplineSet
+Validated: 1
+Position2: "Single Positioning lookup 21 subtable" dx=100 dy=0 dh=100 dv=0
+EndChar
+
+StartChar: finalkafqamatshebrew
+Encoding: 65537 -1 190
+Width: 509
+GlyphClass: 2
+Flags: W
+AnchorPoint: "Anchor-5" 260 0 basechar 0
+AnchorPoint: "Anchor-3" 80 580 basechar 0
+AnchorPoint: "Anchor-2" 390 580 basechar 0
+AnchorPoint: "Anchor-1" 190 580 basechar 0
+LayerCount: 2
+Fore
+Refer: 107 1498 N 1 0 0 1 0 0 1
+Refer: 81 1464 N 1 0 0 1 -103 260 0
+Validated: 1
+Ligature2: "'ccmp' Glyph Composition/Decomposition in Hebrew lookup 2 subtable" finalkafhebrew qamatshebrew
+Position2: "Single Positioning lookup 21 subtable" dx=100 dy=0 dh=100 dv=0
+EndChar
+
+StartChar: finalkafshevahebrew
+Encoding: 65538 -1 191
+Width: 509
+GlyphClass: 2
+Flags: W
+AnchorPoint: "Anchor-5" 260 -30 basechar 0
+AnchorPoint: "Anchor-3" 80 580 basechar 0
+AnchorPoint: "Anchor-2" 390 580 basechar 0
+AnchorPoint: "Anchor-1" 190 580 basechar 0
+LayerCount: 2
+Fore
+Refer: 107 1498 N 1 0 0 1 0 0 1
+Refer: 73 1456 N 1 0 0 1 -103 260 0
+Validated: 1
+Ligature2: "'ccmp' Glyph Composition/Decomposition in Hebrew lookup 2 subtable" finalkafhebrew shevahebrew
+Position2: "Single Positioning lookup 21 subtable" dx=100 dy=0 dh=100 dv=0
+EndChar
+
+StartChar: glyph268
+Encoding: 65539 -1 192
+Width: 0
+GlyphClass: 4
+Flags: W
+LayerCount: 2
+Fore
+Validated: 1
+EndChar
+EndChars
+EndSplineFont
