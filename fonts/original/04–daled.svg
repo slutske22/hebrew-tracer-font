@@ -1,14 +1,12 @@
-<svg viewBox="0 0 365 400" xmlns="http://www.w3.org/2000/svg" xmlns:bx="https://boxy-svg.com">
+<?xml version="1.0" encoding="utf-8"?>
+<svg viewBox="0 0 372 400" xmlns="http://www.w3.org/2000/svg" xmlns:bx="https://boxy-svg.com">
   <defs>
-    <linearGradient id="color-0" gradientUnits="userSpaceOnUse" gradientTransform="matrix(0.817232, 0, 0, 0.98578, 63.485718, -1.719318)" bx:pinned="true">
+    <linearGradient id="color-0" gradientUnits="userSpaceOnUse" gradientTransform="matrix(1.107448, 0, 0, 1.01468, 138.088531, 2.440274)" bx:pinned="true">
       <title>Blue</title>
-      <stop style="stop-color: rgb(9, 0, 255);"></stop>
+      <stop style="stop-color: rgb(9, 0, 255);"/>
     </linearGradient>
   </defs>
-  <rect y="13.285" width="365" height="371.133" style="fill: rgb(216, 216, 216); paint-order: stroke; stroke: rgba(0, 0, 0, 0); stroke-dashoffset: -6px; pointer-events: none; visibility: hidden;"></rect>
-  <text style="fill: rgb(51, 51, 51); font-family: Arial, sans-serif; font-size: 721px; paint-order: fill; stroke: rgb(186, 218, 85); white-space: pre; pointer-events: none; visibility: hidden;" x="-11.978" y="393.303" dx="0.171" dy="-7" transform="matrix(1, -0.000184, 0, 1, 11.806999, 0.03377)">ד</text>
-  <g>
-    <line style="fill: rgb(216, 216, 216); stroke: url(#color-0); stroke-width: 10px; stroke-dasharray: 30; stroke-linecap: round; stroke-dashoffset: 28px;" x1="250.917" y1="22.544" x2="249.852" y2="384.418"></line>
-    <line style="fill: rgb(216, 216, 216); stroke: url(#color-0); stroke-width: 10px; stroke-dasharray: 30; stroke-linecap: round; stroke-dashoffset: 5px;" x1="17.378" y1="23.548" x2="348.741" y2="22.544"></line>
-  </g>
+  <text style="fill: rgb(51, 51, 51); font-family: Cousine; font-size: 670px; paint-order: fill; stroke: rgb(186, 218, 85); white-space: pre; pointer-events: none; visibility: hidden;" transform="matrix(1, -0.000184, 0, 1, 11.806999, 13.404658)" x="-11.978" y="393.303" dx="0.171" dy="-7">ד</text>
+  <line style="fill: rgb(216, 216, 216); stroke: url('#color-0'); stroke-width: 12px; stroke-linecap: round; stroke-dasharray: 38;" x1="19.806" y1="0" x2="354.156" y2="0"/>
+  <line style="fill: rgb(216, 216, 216); stroke: url('#color-0'); stroke-width: 12px; stroke-linecap: round; stroke-dasharray: 38;" x1="280.978" y1="400" x2="278.654" y2="0"/>
 </svg>

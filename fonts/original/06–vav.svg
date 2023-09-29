@@ -1,11 +1,11 @@
-<svg viewBox="0 0 94 400" xmlns="http://www.w3.org/2000/svg" xmlns:bx="https://boxy-svg.com">
+<?xml version="1.0" encoding="utf-8"?>
+<svg viewBox="0 0 372 400" xmlns="http://www.w3.org/2000/svg" xmlns:bx="https://boxy-svg.com">
   <defs>
-    <linearGradient id="color-0" gradientUnits="userSpaceOnUse" gradientTransform="matrix(5.712338, 0, 0, -0.898226, 269.350754, 546.816895)" bx:pinned="true">
+    <linearGradient id="color-0" gradientUnits="userSpaceOnUse" gradientTransform="matrix(1.107448, 0, 0.000026, 1.01468, 59.148491, 2.440035)" bx:pinned="true">
       <title>Blue</title>
-      <stop style="stop-color: rgb(9, 0, 255);"></stop>
+      <stop style="stop-color: rgb(9, 0, 255);"/>
     </linearGradient>
   </defs>
-  <rect y="13.285" width="94.001" height="371.128" style="fill: rgb(216, 216, 216); paint-order: stroke; stroke: rgba(0, 0, 0, 0); stroke-dashoffset: -6px; pointer-events: none; visibility: hidden;" transform="matrix(0.999986, -0.005246, 0, 1.000014, 0, 0.939126)"></rect>
-  <text style="fill: rgb(51, 51, 51); font-family: Arial, sans-serif; font-size: 721px; paint-order: fill; stroke: rgb(186, 218, 85); white-space: pre; pointer-events: none; visibility: hidden;" x="-11.978" y="393.303" dx="0.171" dy="-7" transform="matrix(1, -0.000184, 0, 1, -31.8036, -1.181079)">ו</text>
-  <line style="fill: rgb(216, 216, 216); stroke: url(#color-0); stroke-width: 10px; stroke-linecap: round; stroke-dasharray: 33, 35;" x1="44.363" y1="12.274" x2="45.31" y2="385.357"></line>
+  <text style="fill: rgb(51, 51, 51); font-family: Cousine; font-size: 670px; paint-order: fill; stroke: rgb(186, 218, 85); white-space: pre; visibility: hidden;" transform="matrix(1, -0.000184, 0, 1, 11.806999, 13.404658)" x="-11.978" y="393.303" dx="0.171" dy="-7">ו</text>
+  <line style="fill: rgb(216, 216, 216); stroke: url('#color-0'); stroke-width: 12px; stroke-linecap: round; stroke-dasharray: 37;" x1="202.049" y1="400" x2="200.645" y2="0"/>
 </svg>
