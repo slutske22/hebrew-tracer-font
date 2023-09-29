@@ -7,6 +7,6 @@
     </linearGradient>
   </defs>
   <text style="fill: rgb(51, 51, 51); font-family: Cousine; font-size: 670px; paint-order: fill; stroke: rgb(186, 218, 85); white-space: pre; pointer-events: none; visibility: hidden;" transform="matrix(1, -0.000184, 0, 1, -4.562931, 13.874529)" x="-11.978" y="393.303" dx="0.171" dy="-7">ב</text>
-  <line style="fill: rgb(216, 216, 216); stroke: url(#color-0); stroke-width: 12px; stroke-linecap: round; stroke-dasharray: 32;" x1="9.92" y1="392.882" x2="360.58" y2="392.629"/>
-  <path style="stroke: url(#color-0); fill: rgba(216, 216, 216, 0); stroke-width: 12px; stroke-linecap: round; stroke-dasharray: 31;" d="M 311.567 392.629 L 312.125 161.047 C 312.125 161.047 329.488 -5.23 143.805 0 L 63.294 0 L 24.762 0"/>
+  <line style="fill: rgb(216, 216, 216); stroke: url(#color-0); stroke-width: 12px; stroke-linecap: round; stroke-dasharray: 32;" x1="10.481" y1="400" x2="359.656" y2="400"/>
+  <path style="stroke: url(#color-0); fill: rgba(216, 216, 216, 0); stroke-width: 12px; stroke-linecap: round; stroke-dasharray: 31;" d="M 312.316 400 L 312.125 161.047 C 312.125 161.047 329.488 -5.23 143.805 0 L 63.294 0 L 24.762 0"/>
 </svg>
