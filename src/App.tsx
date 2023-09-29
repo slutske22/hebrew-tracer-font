@@ -12,20 +12,23 @@ const FONT_SIZE = "60px";
 const PageWrapper = styled.main`
   border: 0.5px solid black;
   box-shadow: 15px 15px 25px grey;
-  width: 1000px;
-  aspect-ratio: 11 / 8.5;
+  height: 8.5in;
+  width: 11in;
   margin: 40px auto;
+  border: 1px solid red;
 
   #page-view-content {
     position: relative;
-    display: flex;
+    width: calc(100% - 6rem);
+    height: 100%;
+    border: px solid orange;
   }
 
   .guides {
     display: flex;
     flex-direction: column;
     position: absolute;
-    padding: 3rem;
+    padding: 3rem 0;
     top: 0;
     left: 0;
     width: 100%;
@@ -43,7 +46,7 @@ const TextArea = styled.textarea`
   line-height: ${LINE_HEIGHT};
   min-height: 50px;
   font-family: sans-serif;
-  width: 100%;
+  width: calc(11in - 6rem);
   background-color: transparent;
   border: 1px solid green;
 
@@ -57,8 +60,9 @@ const GuideLine = styled.div<{ index: number }>`
   height: ${FONT_SIZE};
   border-bottom: 1px solid black;
   border-top: 1px solid black;
-  width: calc(100% - 6rem);
+  width: calc(11in - 6rem);
   position: absolute;
+  margin-left: 3rem;
   top: ${(props) =>
     `calc(3rem + (${LINE_HEIGHT} - ${FONT_SIZE}) / 2 +  ${LINE_HEIGHT} * ${props.index})`};
 
@@ -117,7 +121,9 @@ const App = () => {
 
       <ReactToPrint content={() => pageRef.current} />
 
-      <button onClick={handlePrint}>Print!</button>
+      <button onClick={handlePrint} style={{ position: "fixed", top: 0 }}>
+        Print!
+      </button>
     </>
   );
 };
