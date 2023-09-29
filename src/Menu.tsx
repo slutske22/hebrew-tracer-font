@@ -27,7 +27,7 @@ export const Menu: React.FC<Props> = ({
   setGridLines,
   handlePrint,
 }) => {
-  // const formattingPanel = useRef<OverlayPanel>(null);
+  const formattingPanel = useRef<OverlayPanel>(null);
   const gridLinesPanel = useRef<OverlayPanel>(null);
 
   return (
@@ -54,7 +54,7 @@ export const Menu: React.FC<Props> = ({
             icon: (
               <AiOutlineFontSize size={24} style={{ marginRight: "10px" }} />
             ),
-            className: "formatting-menu-item",
+            command: (e) => formattingPanel.current?.toggle(e.originalEvent),
           },
           {
             label: "Guide Lines",
@@ -76,6 +76,7 @@ export const Menu: React.FC<Props> = ({
           },
         ]}
       />
+
       <OverlayPanel ref={gridLinesPanel}>
         <div style={{ marginBottom: "16px" }}>
           <Checkbox
@@ -102,6 +103,8 @@ export const Menu: React.FC<Props> = ({
           Bottom
         </div>
       </OverlayPanel>
+
+      <OverlayPanel ref={formattingPanel}>Formatting</OverlayPanel>
     </>
   );
 };

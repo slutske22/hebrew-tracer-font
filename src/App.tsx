@@ -7,6 +7,7 @@ import "./App.scss";
 import { styled } from "styled-components";
 import "primereact/resources/themes/lara-light-indigo/theme.css";
 import { Menu } from "./Menu";
+import clsx from "clsx";
 
 const LINE_HEIGHT = "140px";
 const FONT_SIZE = "60px";
@@ -63,8 +64,6 @@ const TextArea = styled.textarea`
 
 const GuideLine = styled.div<{ index: number }>`
   height: ${FONT_SIZE};
-  border-bottom: 1px solid grey;
-  border-top: 1px solid grey;
   width: calc(11in - 6rem);
   position: absolute;
   margin-left: 3rem;
@@ -72,13 +71,21 @@ const GuideLine = styled.div<{ index: number }>`
     `calc(3rem + (${LINE_HEIGHT} - ${FONT_SIZE}) / 2 +  ${LINE_HEIGHT} * ${props.index})`};
   z-index: -10;
 
-  &:after {
-    content: "";
-    border-top: 1px dashed lightgrey;
-    width: 100%;
-    position: absolute;
-    top: 50%;
-    z-index: -10;
+  &.top {
+    border-top: 1px solid grey;
+  }
+  &.bottom {
+    border-bottom: 1px solid grey;
+  }
+  &.middle {
+    &:after {
+      content: "";
+      border-top: 1px dashed lightgrey;
+      width: 100%;
+      position: absolute;
+      top: 50%;
+      z-index: -10;
+    }
   }
 `;
 
@@ -129,7 +136,13 @@ const App = () => {
 
           <div className="guides">
             {Array.from({ length: lines }).map((_, i) => (
-              <GuideLine key={i} index={i} />
+              <GuideLine
+                key={i}
+                index={i}
+                className={clsx({
+                  ...gridLines,
+                })}
+              />
             ))}
           </div>
         </div>
