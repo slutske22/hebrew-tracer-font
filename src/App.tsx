@@ -5,10 +5,8 @@ import layout from "simple-keyboard-layouts/build/layouts/hebrew";
 import ReactToPrint, { useReactToPrint } from "react-to-print";
 import "./App.scss";
 import { styled } from "styled-components";
-import { Menubar } from "primereact/menubar";
 import "primereact/resources/themes/lara-light-indigo/theme.css";
-import { AiOutlinePrinter, AiOutlineFontSize } from "react-icons/ai";
-import { BsKeyboard } from "react-icons/bs";
+import { Menu } from "./Menu";
 
 const LINE_HEIGHT = "140px";
 const FONT_SIZE = "60px";
@@ -90,6 +88,11 @@ const GuideLine = styled.div<{ index: number }>`
 const App = () => {
   const [content, setContent] = useState(" ");
   const [lines, setLines] = useState(1);
+  const [gridLines, setGridLines] = useState({
+    top: true,
+    middle: true,
+    bottom: true,
+  });
 
   const pageRef = useRef<HTMLDivElement>(null);
   const textareaRef = useRef<HTMLTextAreaElement>(null);
@@ -114,42 +117,12 @@ const App = () => {
 
   return (
     <>
-      <Menubar
-        start={
-          <div
-            style={{
-              display: "flex",
-              alignItems: "center",
-              marginRight: "auto",
-            }}
-          >
-            <img
-              src="./favicon.svg"
-              style={{ height: "30px", margin: "0 16px" }}
-            />
-            <h3>Hebrew Tracing Page Generator</h3>
-          </div>
-        }
-        model={[
-          {
-            label: "Formatting",
-            icon: (
-              <AiOutlineFontSize size={24} style={{ marginRight: "10px" }} />
-            ),
-          },
-          {
-            label: "Keyboard",
-            icon: <BsKeyboard size={24} style={{ marginRight: "10px" }} />,
-          },
-          {
-            label: "Print",
-            command: handlePrint,
-            icon: (
-              <AiOutlinePrinter size={24} style={{ marginRight: "10px" }} />
-            ),
-          },
-        ]}
+      <Menu
+        gridLines={gridLines}
+        setGridLines={setGridLines}
+        handlePrint={handlePrint}
       />
+
       <PageWrapper id="page-view-wrapper">
         <div ref={pageRef} id="page-view-content">
           <TextArea ref={textareaRef} onChange={onChange} value={content} />
