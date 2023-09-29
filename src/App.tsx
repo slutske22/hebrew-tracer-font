@@ -15,13 +15,11 @@ const PageWrapper = styled.main`
   height: 8.5in;
   width: 11in;
   margin: 40px auto;
-  border: 1px solid red;
 
   #page-view-content {
     position: relative;
     width: calc(100% - 6rem);
     height: 100%;
-    border: px solid orange;
   }
 
   .guides {
@@ -48,30 +46,37 @@ const TextArea = styled.textarea`
   font-family: sans-serif;
   width: calc(11in - 6rem);
   background-color: transparent;
-  border: 1px solid green;
+  border: none;
+  text-align: right;
+  direction: rtl;
+  z-index: 5;
+  letter-spacing: 5px;
+  font-size-adjust: 0.6;
 
   &:focus {
     outline: none;
-    border: 1px solid green;
+    border: none;
   }
 `;
 
 const GuideLine = styled.div<{ index: number }>`
   height: ${FONT_SIZE};
-  border-bottom: 1px solid black;
-  border-top: 1px solid black;
+  border-bottom: 1px solid grey;
+  border-top: 1px solid grey;
   width: calc(11in - 6rem);
   position: absolute;
   margin-left: 3rem;
   top: ${(props) =>
     `calc(3rem + (${LINE_HEIGHT} - ${FONT_SIZE}) / 2 +  ${LINE_HEIGHT} * ${props.index})`};
+  z-index: -10;
 
   &:after {
     content: "";
-    border-top: 1px dashed blue;
+    border-top: 1px dashed lightgrey;
     width: 100%;
     position: absolute;
     top: 50%;
+    z-index: -10;
   }
 `;
 
@@ -116,8 +121,8 @@ const App = () => {
           </div>
         </div>
       </PageWrapper>
-      {/* 
-      <Keyboard layout={layout.layout} onChange={(e) => setContent(e)} /> */}
+
+      <Keyboard layout={layout.layout} onChange={(e) => setContent(e)} />
 
       <ReactToPrint content={() => pageRef.current} />
 
