@@ -1,16 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<svg viewBox="0 0 372 400" xmlns="http://www.w3.org/2000/svg" xmlns:bx="https://boxy-svg.com">
-  <defs>
-    <linearGradient id="color-0" gradientUnits="userSpaceOnUse" gradientTransform="matrix(1.107448, 0, 0, 1.01468, -2.683694, 0.863577)" bx:pinned="true">
-      <title>Blue</title>
-      <stop style="stop-color: rgb(9, 0, 255);"/>
-    </linearGradient>
-    <linearGradient x1="0" x2="0" y1="0" y2="1" id="gradient-0">
-      <stop offset="0" style="stop-color: rgb(9, 0, 255);"/>
-    </linearGradient>
-  </defs>
-  <text style="fill: rgb(51, 51, 51); font-family: Cousine; font-size: 670px; paint-order: fill; stroke: rgb(186, 218, 85); white-space: pre; pointer-events: none; visibility: hidden;" transform="matrix(1, -0.000184, 0, 1, -4.562931, 13.874529)" x="-11.978" y="393.303" dx="0.171" dy="-7">א </text>
-  <line style="fill: rgb(216, 216, 216); stroke: url('#color-0'); stroke-width: 12px; stroke-linecap: round; stroke-dasharray: 33;" x1="46.353" y1="-0.698" x2="340.033" y2="400"/>
-  <path style="fill: rgba(216, 216, 216, 0); stroke-linecap: round; stroke-width: 12px; stroke-dasharray: 32; stroke: url('#color-0');" d="M 326.961 -1.327 L 310.739 117.929 C 310.739 117.929 300.372 176.491 231.794 239.849"/>
-  <path style="stroke: url('#gradient-0'); stroke-dasharray: 33px; stroke-linecap: round; stroke-width: 12px; fill: rgba(216, 216, 216, 0);" d="M 20.679 399.687 L 59.173 260.994 C 59.173 260.994 83.579 163.722 136.719 136.622"/>
+<svg viewBox="0 0 400 420" xmlns="http://www.w3.org/2000/svg" xmlns:bx="https://boxy-svg.com">
+  <line style="stroke: black; stroke-width: 12px; stroke-linecap: round; stroke-dasharray: 33;" x1="61.109" y1="10.214" x2="354.789" y2="410.912"/>
+  <path style="stroke-linecap: round; stroke-width: 12px; stroke-dasharray: 32; stroke: black; fill: transparent" d="M 341.717 9.585 L 325.495 128.841 C 325.495 128.841 315.128 187.403 246.55 250.761"/>
+  <path style="stroke: black; fill:transparent; stroke-dasharray: 33px; stroke-linecap: round; stroke-width: 12px;" d="M 35.435 410.599 L 73.929 271.906 C 73.929 271.906 98.335 174.634 151.475 147.534"/>
 </svg>

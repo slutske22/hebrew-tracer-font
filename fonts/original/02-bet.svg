@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<svg viewBox="0 0 372 400" xmlns="http://www.w3.org/2000/svg" xmlns:bx="https://boxy-svg.com">
+<svg viewBox="0 0 522 450" xmlns="http://www.w3.org/2000/svg" xmlns:bx="https://boxy-svg.com">
   <defs>
     <linearGradient id="color-0" gradientUnits="userSpaceOnUse" gradientTransform="matrix(1.107448, 0, 0, 1.01468, -2.683694, 0.863577)" bx:pinned="true">
       <title>Blue</title>
       <stop style="stop-color: rgb(9, 0, 255);"/>
     </linearGradient>
   </defs>
-  <text style="fill: rgb(51, 51, 51); font-family: Cousine; font-size: 670px; paint-order: fill; stroke: rgb(186, 218, 85); white-space: pre; pointer-events: none; visibility: hidden;" transform="matrix(1, -0.000184, 0, 1, -4.562931, 13.874529)" x="-11.978" y="393.303" dx="0.171" dy="-7">ב</text>
   <line style="fill: rgb(216, 216, 216); stroke: url(#color-0); stroke-width: 12px; stroke-linecap: round; stroke-dasharray: 32;" x1="10.481" y1="400" x2="359.656" y2="400"/>
   <path style="stroke: url(#color-0); fill: rgba(216, 216, 216, 0); stroke-width: 12px; stroke-linecap: round; stroke-dasharray: 31;" d="M 312.316 400 L 312.125 161.047 C 312.125 161.047 329.488 -5.23 143.805 0 L 63.294 0 L 24.762 0"/>
 </svg>
