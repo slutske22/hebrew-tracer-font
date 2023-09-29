@@ -12,7 +12,10 @@
   },
   "dependencies": {
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "react-simple-keyboard": "^3.7.19",
+    "simple-keyboard": "^3.7.15",
+    "simple-keyboard-layouts": "^3.3.19"
   },
   "devDependencies": {
     "@types/react": "^18.2.15",
