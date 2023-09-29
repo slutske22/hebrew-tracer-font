@@ -1,3 +1,18 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.p-menubar {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.p-menubar-root-list {
+  margin-left: auto;
+}
+
 @media print {
   @page {
     size: landscape;

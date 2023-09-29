@@ -5,6 +5,10 @@ import layout from "simple-keyboard-layouts/build/layouts/hebrew";
 import ReactToPrint, { useReactToPrint } from "react-to-print";
 import "./App.scss";
 import { styled } from "styled-components";
+import { Menubar } from "primereact/menubar";
+import "primereact/resources/themes/lara-light-indigo/theme.css";
+import { AiOutlinePrinter, AiOutlineFontSize } from "react-icons/ai";
+import { BsKeyboard } from "react-icons/bs";
 
 const LINE_HEIGHT = "140px";
 const FONT_SIZE = "60px";
@@ -110,6 +114,42 @@ const App = () => {
 
   return (
     <>
+      <Menubar
+        start={
+          <div
+            style={{
+              display: "flex",
+              alignItems: "center",
+              marginRight: "auto",
+            }}
+          >
+            <img
+              src="./favicon.svg"
+              style={{ height: "30px", margin: "0 16px" }}
+            />
+            <h3>Hebrew Tracing Page Generator</h3>
+          </div>
+        }
+        model={[
+          {
+            label: "Formatting",
+            icon: (
+              <AiOutlineFontSize size={24} style={{ marginRight: "10px" }} />
+            ),
+          },
+          {
+            label: "Keyboard",
+            icon: <BsKeyboard size={24} style={{ marginRight: "10px" }} />,
+          },
+          {
+            label: "Print",
+            command: handlePrint,
+            icon: (
+              <AiOutlinePrinter size={24} style={{ marginRight: "10px" }} />
+            ),
+          },
+        ]}
+      />
       <PageWrapper id="page-view-wrapper">
         <div ref={pageRef} id="page-view-content">
           <TextArea ref={textareaRef} onChange={onChange} value={content} />
@@ -122,13 +162,9 @@ const App = () => {
         </div>
       </PageWrapper>
 
-      <Keyboard layout={layout.layout} onChange={(e) => setContent(e)} />
+      {/* <Keyboard layout={layout.layout} onChange={(e) => setContent(e)} /> */}
 
       <ReactToPrint content={() => pageRef.current} />
-
-      <button onClick={handlePrint} style={{ position: "fixed", top: 0 }}>
-        Print!
-      </button>
     </>
   );
 };
