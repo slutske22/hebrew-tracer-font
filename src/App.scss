@@ -1,13 +1,39 @@
-// @media print {
-//   @page {
-//     size: landscape;
-//   }
-// }
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
 
-#page-view-wrapper {
-  border: 0.5px solid black;
-  box-shadow: 15px 15px 25px grey;
-  width: 1000px;
-  aspect-ratio: 11 / 8.5;
-  margin: 40px auto;
+@media print {
+  @page {
+    size: landscape;
+    padding: 3rem;
+  }
+}
+
+.content-text-line {
+  font-size: 60px;
+  border-bottom: 1px solid black;
+  position: relative;
+
+  &:before {
+    content: "";
+    border-top: 1px solid red;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+
+  &:after {
+    content: "";
+    border-top: 1px dashed blue;
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 0;
+  }
 }
