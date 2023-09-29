@@ -3,6 +3,7 @@ import Keyboard from "react-simple-keyboard";
 import "react-simple-keyboard/build/css/index.css";
 import layout from "simple-keyboard-layouts/build/layouts/hebrew";
 import ReactToPrint, { useReactToPrint } from "react-to-print";
+import "./App.scss";
 
 function App() {
   const [content, setContent] = useState("");
@@ -14,9 +15,12 @@ function App() {
 
   return (
     <>
-      <div id="page-view" ref={pageRef}>
-        {content}
+      <div id="page-view-wrapper">
+        <div ref={pageRef} id="page-view-content">
+          {content}
+        </div>
       </div>
+
       <Keyboard layout={layout.layout} onChange={(e) => setContent(e)} />
 
       <ReactToPrint content={() => pageRef.current} />
