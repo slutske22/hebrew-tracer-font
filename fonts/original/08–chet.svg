@@ -1,15 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<svg viewBox="0 0 522 450" xmlns="http://www.w3.org/2000/svg" xmlns:bx="https://boxy-svg.com">
-  <defs>
-    <linearGradient id="color-0" gradientUnits="userSpaceOnUse" gradientTransform="matrix(1.107448, 0, 0.000026, 1.01468, -119.682732, 2.440406)" bx:pinned="true">
-      <title>Blue</title>
-      <stop style="stop-color: rgb(9, 0, 255);"/>
-    </linearGradient>
-    <linearGradient x1="0" x2="0" y1="0" y2="1" id="gradient-0">
-      <stop offset="0" style="stop-color: rgb(9, 0, 255);"/>
-    </linearGradient>
-  </defs>
-  <path style="stroke: url('#color-0'); stroke-width: 12px; stroke-linecap: round; fill: rgba(216, 216, 216, 0); stroke-dasharray: 35;" d="M 352.11 400 C 352.11 400 352.424 251.386 351.305 125.693 C 350.186 0 216.596 0 216.596 0 L 31.316 0"/>
-  <path style="fill: rgb(216, 216, 216); stroke: url('#gradient-0'); stroke-linecap: round; stroke-width: 12px; stroke-dasharray: 37;" d="M 63.727 400 L 62.544 0"/>
+<svg viewBox="0 -10 400 450" xmlns="http://www.w3.org/2000/svg" xmlns:bx="https://boxy-svg.com">
+  <path style="stroke: black; fill: transparent; stroke-width: 12px; stroke-linecap: round; stroke-dasharray: 35;" d="M 352.11 400 C 352.11 400 352.424 251.386 351.305 125.693 C 350.186 0 216.596 0 216.596 0 L 31.316 0"/>
+  <path style="stroke: black; fill: transparent; stroke-linecap: round; stroke-width: 12px; stroke-dasharray: 37;" d="M 63.727 400 L 62.544 0"/>
 </svg>
 

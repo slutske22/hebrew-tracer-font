@@ -1,13 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
-<svg viewBox="0 0 522 450" xmlns="http://www.w3.org/2000/svg" xmlns:bx="https://boxy-svg.com">
-  <defs>
-    <linearGradient id="color-0" gradientUnits="userSpaceOnUse" gradientTransform="matrix(1.107448, 0, 0.000026, 1.01468, -119.682732, 2.440406)" bx:pinned="true">
-      <title>Blue</title>
-      <stop style="stop-color: rgb(9, 0, 255);"/>
-    </linearGradient>
-    <linearGradient x1="0" x2="0" y1="0" y2="1" id="gradient-1">
-      <stop offset="0" style="stop-color: rgb(9, 0, 255);"/>
-    </linearGradient>
-  </defs>
-  <path style="stroke: url('#gradient-1'); stroke-dasharray: 33px; stroke-linecap: round; stroke-width: 12px; fill: rgba(216, 216, 216, 0);" d="M 26.421 -1.166 L 227 0 C 227 0 354.775 3.025 355.541 209.786 C 356.307 416.547 194.371 400 194.371 400 C 194.371 400 34.795 428.682 38.364 198.098 C 41.933 -32.486 159.552 0 159.552 0"/>
+<svg viewBox="0 -20 400 450" xmlns="http://www.w3.org/2000/svg" xmlns:bx="https://boxy-svg.com">
+  <path style="stroke: black; fill: transparent; stroke-dasharray: 33px; stroke-linecap: round; stroke-width: 12px;" d="M 26.421 -1.166 L 227 0 C 227 0 354.775 3.025 355.541 209.786 C 356.307 416.547 194.371 400 194.371 400 C 194.371 400 34.795 428.682 38.364 198.098 C 41.933 -32.486 159.552 0 159.552 0"/>
 </svg>

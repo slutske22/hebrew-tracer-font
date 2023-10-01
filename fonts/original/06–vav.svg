@@ -1,10 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
-<svg viewBox="0 0 522 450" xmlns="http://www.w3.org/2000/svg" xmlns:bx="https://boxy-svg.com">
-  <defs>
-    <linearGradient id="color-0" gradientUnits="userSpaceOnUse" gradientTransform="matrix(1.107448, 0, 0.000026, 1.01468, 59.148491, 2.440035)" bx:pinned="true">
-      <title>Blue</title>
-      <stop style="stop-color: rgb(9, 0, 255);"/>
-    </linearGradient>
-  </defs>
-  <line style="fill: rgb(216, 216, 216); stroke: url('#color-0'); stroke-width: 12px; stroke-linecap: round; stroke-dasharray: 37;" x1="202.049" y1="400" x2="200.645" y2="0"/>
+<svg viewBox="0 -10 400 450" xmlns="http://www.w3.org/2000/svg" xmlns:bx="https://boxy-svg.com">
+  <line style="stroke: black; fill: transparent; stroke-width: 12px; stroke-linecap: round; stroke-dasharray: 37;" x1="202.049" y1="400" x2="200.645" y2="0"/>
 </svg>
