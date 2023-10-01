@@ -2,6 +2,7 @@ import React, { Dispatch, SetStateAction, useRef } from "react";
 import { Menubar } from "primereact/menubar";
 import { OverlayPanel } from "primereact/overlaypanel";
 import { Checkbox } from "primereact/checkbox";
+import { Button } from "primereact/button";
 import { RadioButton } from "primereact/radiobutton";
 import { AiOutlinePrinter, AiOutlineFontSize } from "react-icons/ai";
 import { CgBorderStyleDotted } from "react-icons/cg";
@@ -36,6 +37,7 @@ export const Menu: React.FC<Props> = ({
   const orientationPanel = useRef<OverlayPanel>(null);
   const formattingPanel = useRef<OverlayPanel>(null);
   const gridLinesPanel = useRef<OverlayPanel>(null);
+  const keyboardPanel = useRef<OverlayPanel>(null);
 
   return (
     <>
@@ -80,6 +82,7 @@ export const Menu: React.FC<Props> = ({
           {
             label: "Keyboard",
             icon: <BsKeyboard size={24} style={{ marginRight: "10px" }} />,
+            command: (e) => keyboardPanel.current?.toggle(e.originalEvent),
           },
           {
             label: "Print",
@@ -91,6 +94,7 @@ export const Menu: React.FC<Props> = ({
         ]}
       />
 
+      {/* Page orientation menu dropdown */}
       <OverlayPanel ref={orientationPanel}>
         <div style={{ marginBottom: "16px" }}>
           <RadioButton
@@ -110,6 +114,7 @@ export const Menu: React.FC<Props> = ({
         </div>
       </OverlayPanel>
 
+      {/* Grid lines dropdown */}
       <OverlayPanel ref={gridLinesPanel}>
         <div style={{ marginBottom: "16px" }}>
           <Checkbox
@@ -137,7 +142,26 @@ export const Menu: React.FC<Props> = ({
         </div>
       </OverlayPanel>
 
+      {/* Formatting dropdown */}
       <OverlayPanel ref={formattingPanel}>Formatting</OverlayPanel>
+
+      {/* Keyboard dropdown */}
+      <OverlayPanel ref={keyboardPanel} className="keyboard-overlay">
+        <div style={{ display: "flex", flexDirection: "column" }}>
+          <Button
+            className="p-button-text"
+            style={{ color: "rgb(73, 80, 87)" }}
+          >
+            Hebrew
+          </Button>
+          <Button
+            className="p-button-text"
+            style={{ color: "rgb(73, 80, 87)" }}
+          >
+            Hebrew QWERTY
+          </Button>
+        </div>
+      </OverlayPanel>
     </>
   );
 };

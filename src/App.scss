@@ -13,26 +13,6 @@ body {
   margin-left: auto;
 }
 
-.content-text-line {
-  font-size: 60px;
-  border-bottom: 1px solid black;
-  position: relative;
-
-  &:before {
-    content: "";
-    border-top: 1px solid red;
-    width: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-  }
-
-  &:after {
-    content: "";
-    border-top: 1px dashed blue;
-    width: 100%;
-    position: absolute;
-    top: 50%;
-    left: 0;
-  }
+.keyboard-overlay .p-overlaypanel-content {
+  padding: 0 !important;
 }
