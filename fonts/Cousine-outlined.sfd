@@ -22,7 +22,7 @@ OS2Version: 3
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1277020711
-ModificationTime: 1696185873
+ModificationTime: 1696185962
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -162541,7 +162541,7 @@ StartChar: alef
 Encoding: 1488 1488 2294
 Width: 1229
 GlyphClass: 2
-Flags: WO
+Flags: W
 AnchorPoint: "Anchor-13" 615 -1 basechar 0
 AnchorPoint: "Anchor-12" 615 1349 basechar 0
 AnchorPoint: "Anchor-11" 615 -1 basechar 0
@@ -162755,57 +162755,6 @@ Encoding: 1489 1489 2295
 Width: 1229
 GlyphClass: 2
 Flags: W
-TtInstrs:
-NPUSHB
- 11
- 8
- 0
- 9
- 11
- 6
- 6
- 9
- 17
- 16
- 1
- 0
-PUSHW_4
- 340
- 89
- 1
- 333
-PUSHB_4
- 6
- 10
- 9
- 10
-PUSHW_4
- 340
- 89
- 9
- 334
-SVTCA[y-axis]
-MIAP[rnd]
-CALL
-SRP1
-SVTCA[y-axis]
-SHP[rp1]
-RTG
-MIAP[rnd]
-CALL
-SRP1
-SRP2
-SVTCA[x-axis]
-IP
-IP
-SRP1
-SHP[rp1]
-SRP2
-IP
-SHP[rp1]
-IUP[x]
-IUP[y]
-EndTTInstrs
 AnchorPoint: "Anchor-13" 614 0 basechar 0
 AnchorPoint: "Anchor-12" 580 1350 basechar 0
 AnchorPoint: "Anchor-11" 614 0 basechar 0
@@ -166002,43 +165951,6 @@ Encoding: 64305 64305 2347
 Width: 1229
 GlyphClass: 2
 Flags: W
-TtInstrs:
-PUSHB_7
- 1
- 20
- 19
- 1
- 34
- 19
- 1
-PUSHW_1
- -15
-NPUSHB
- 13
- 19
- 19
- 0
- 12
- 37
- 1
- 19
- 149
- 19
- 1
- 208
- 19
- 1
-SVTCA[y-axis]
-DELTAP1
-DELTAP1
-SRP1
-SHC[rp1]
-SVTCA[x-axis]
-CALL
-DELTAP1
-DELTAP1
-SHC[rp1]
-EndTTInstrs
 AnchorPoint: "Anchor-13" 614 0 basechar 0
 AnchorPoint: "Anchor-12" 614 1350 basechar 0
 AnchorPoint: "Anchor-11" 614 0 basechar 0
@@ -167727,20 +167639,6 @@ Encoding: 64332 64332 2369
 Width: 1229
 GlyphClass: 2
 Flags: W
-TtInstrs:
-PUSHW_2
- 1
- -128
-PUSHB_5
- 19
- 19
- 0
- 12
- 37
-SVTCA[x-axis]
-CALL
-SHC[rp1]
-EndTTInstrs
 AnchorPoint: "Anchor-13" 614 0 basechar 0
 AnchorPoint: "Anchor-12" 400 1350 basechar 0
 AnchorPoint: "Anchor-11" 614 0 basechar 0
