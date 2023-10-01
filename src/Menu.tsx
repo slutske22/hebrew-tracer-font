@@ -123,7 +123,7 @@ export const Menu: React.FC<Props> = ({
           <Checkbox
             style={{ marginRight: "10px" }}
             checked={gridLines.middle}
-            onClick={() => setGridLines((c) => ({ ...c, top: !c.middle }))}
+            onClick={() => setGridLines((c) => ({ ...c, middle: !c.middle }))}
           />
           Middle
         </div>
@@ -131,7 +131,7 @@ export const Menu: React.FC<Props> = ({
           <Checkbox
             style={{ marginRight: "10px" }}
             checked={gridLines.bottom}
-            onClick={() => setGridLines((c) => ({ ...c, top: !c.bottom }))}
+            onClick={() => setGridLines((c) => ({ ...c, bottom: !c.bottom }))}
           />
           Bottom
         </div>
