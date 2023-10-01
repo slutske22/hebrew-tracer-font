@@ -13,12 +13,6 @@ body {
   margin-left: auto;
 }
 
-@media print {
-  @page {
-    size: landscape;
-  }
-}
-
 .content-text-line {
   font-size: 60px;
   border-bottom: 1px solid black;

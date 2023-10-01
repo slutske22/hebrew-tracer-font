@@ -19,6 +19,11 @@ const PageWrapper = styled.main`
   width: 11in;
   margin: 40px auto;
 
+  &.portrait {
+    width: 8.5in;
+    height: 11in;
+  }
+
   #page-view-content {
     position: relative;
     width: calc(100% - 6rem);
@@ -56,6 +61,10 @@ const TextArea = styled.textarea`
   letter-spacing: 5px;
   font-size-adjust: 0.6;
 
+  .portrait & {
+    width: calc(8in - 6rem);
+  }
+
   &:focus {
     outline: none;
     border: none;
@@ -70,6 +79,10 @@ const GuideLine = styled.div<{ index: number }>`
   top: ${(props) =>
     `calc(3rem + (${LINE_HEIGHT} - ${FONT_SIZE}) / 2 +  ${LINE_HEIGHT} * ${props.index})`};
   z-index: -10;
+
+  .portrait & {
+    width: calc(8in - 6rem);
+  }
 
   &.top {
     border-top: 1px solid grey;
@@ -94,6 +107,9 @@ const GuideLine = styled.div<{ index: number }>`
  */
 const App = () => {
   const [content, setContent] = useState(" ");
+  const [orientation, setOrientation] = useState<"landscape" | "portrait">(
+    "landscape"
+  );
   const [lines, setLines] = useState(1);
   const [gridLines, setGridLines] = useState({
     top: true,
@@ -125,12 +141,17 @@ const App = () => {
   return (
     <>
       <Menu
+        orientation={orientation}
+        setOrientation={setOrientation}
         gridLines={gridLines}
         setGridLines={setGridLines}
         handlePrint={handlePrint}
       />
 
-      <PageWrapper id="page-view-wrapper">
+      <PageWrapper
+        id="page-view-wrapper"
+        className={clsx({ portrait: orientation === "portrait" })}
+      >
         <div ref={pageRef} id="page-view-content">
           <TextArea ref={textareaRef} onChange={onChange} value={content} />
 
@@ -151,6 +172,18 @@ const App = () => {
       {/* <Keyboard layout={layout.layout} onChange={(e) => setContent(e)} /> */}
 
       <ReactToPrint content={() => pageRef.current} />
+
+      {orientation === "landscape" && (
+        <style>
+          {`
+            @media print {
+              @page {
+                size: landscape;
+              }
+            }
+        `}
+        </style>
+      )}
     </>
   );
 };
