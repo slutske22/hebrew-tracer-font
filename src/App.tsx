@@ -107,15 +107,18 @@ const GuideLine = styled.div<{ index: number }>`
  */
 const App = () => {
   const [content, setContent] = useState(" ");
+  const [lines, setLines] = useState(1);
   const [orientation, setOrientation] = useState<"landscape" | "portrait">(
     "landscape"
   );
-  const [lines, setLines] = useState(1);
   const [gridLines, setGridLines] = useState({
     top: true,
     middle: true,
     bottom: true,
   });
+  const [keyboard, setKeyboard] = useState<"hebrew" | "qwerty" | undefined>(
+    undefined
+  );
 
   const pageRef = useRef<HTMLDivElement>(null);
   const textareaRef = useRef<HTMLTextAreaElement>(null);
@@ -145,6 +148,7 @@ const App = () => {
         setOrientation={setOrientation}
         gridLines={gridLines}
         setGridLines={setGridLines}
+        setKeyboard={setKeyboard}
         handlePrint={handlePrint}
       />
 

@@ -12,6 +12,7 @@ import { TbFileOrientation } from "react-icons/tb";
 interface Props {
   orientation: "landscape" | "portrait";
   setOrientation: Dispatch<SetStateAction<"landscape" | "portrait">>;
+  setKeyboard: Dispatch<SetStateAction<"hebrew" | "qwerty" | undefined>>;
   gridLines: {
     top: boolean;
     middle: boolean;
