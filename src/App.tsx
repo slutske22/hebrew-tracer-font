@@ -55,8 +55,6 @@ const App = () => {
     content: () => pageRef.current,
   });
 
-  console.log(values);
-
   return (
     <>
       <Menu

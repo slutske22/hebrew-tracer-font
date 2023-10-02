@@ -1,5 +1,5 @@
 import clsx from "clsx";
-import React, { ChangeEventHandler, useState } from "react";
+import React, { ChangeEventHandler, useEffect, useState } from "react";
 import { styled } from "styled-components";
 import { TextGroupProperties } from "./constants";
 import { v4 as uuid } from "uuid";
@@ -94,6 +94,7 @@ export const TextGroup: React.FC<Props> = ({ value, setValues, index }) => {
   const { text, grid } = value;
 
   const [lines, setLines] = useState(1);
+  const [ref, setRef] = useState<HTMLTextAreaElement>();
 
   const onChange: ChangeEventHandler<HTMLTextAreaElement> = (e) => {
     setValues((prev) =>
@@ -105,8 +106,6 @@ export const TextGroup: React.FC<Props> = ({ value, setValues, index }) => {
     e.target.style.height = "5px";
     e.target.style.height = e.target.scrollHeight + "px";
 
-    console.log(e.target.scrollHeight);
-
     const numberOfLines = Math.round(
       Number(getComputedStyle(e.target).height.replace("px", "")) /
         Number(getComputedStyle(e.target).lineHeight.replace("px", ""))
@@ -115,6 +114,15 @@ export const TextGroup: React.FC<Props> = ({ value, setValues, index }) => {
     setLines(numberOfLines);
   };
 
+  /**
+   * On mount, focus on newly created text group
+   */
+  useEffect(() => {
+    if (ref) {
+      ref.focus();
+    }
+  }, [ref]);
+
   return (
     <Wrapper className="text-group-wrapper">
       <TextArea
@@ -122,16 +130,18 @@ export const TextGroup: React.FC<Props> = ({ value, setValues, index }) => {
         onChange={onChange}
         ref={(r) => {
           if (r) {
-            r.style.height = r.scrollHeight + "px";
+            setRef(r);
           }
         }}
         onKeyDown={(e) => {
-          if (e.key === "Enter" || e.keyCode === 13) {
+          if (e.key === "Enter") {
             e.preventDefault();
             setValues((prev) => {
-              prev.splice(index + 1, 0, { ...value, id: uuid(), text: "" });
-              return prev;
+              const copy = [...prev];
+              copy.splice(index + 1, 0, { ...value, id: uuid(), text: "" });
+              return copy;
             });
+            return;
           }
 
           if (
