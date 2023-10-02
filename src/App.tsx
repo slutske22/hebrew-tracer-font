@@ -60,6 +60,7 @@ const TextArea = styled.textarea`
   z-index: 5;
   letter-spacing: 5px;
   font-size-adjust: 0.6;
+  font-family: Cousine Tracer;
 
   .portrait & {
     width: calc(8in - 6rem);
