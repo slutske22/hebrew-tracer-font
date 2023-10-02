@@ -6,7 +6,7 @@ The process of creating the custom fonts followed these steps
 
 ### Drawing the characters
 
-In Boxy SVG (SVG web editor), create a text item with a hebrew character. The system font used was Arial Hebrew (ArialHB.tcc), which is the default hebrew font for mac. Then, using the layers and drawing controls, create an SVG of the letter with simple line and spline strokes. Use the dash array propety of the stroke panel to create the dotted line effect:
+In Boxy SVG (SVG web editor), create a text item with a hebrew character. The original font used was Cousine Regular, with some glyphs traced from Arial Hebrew system font (default hebrew font for mac). Then, using the layers and drawing controls, create an SVG of the letter with simple line and spline strokes. Use the dash array propety of the stroke panel to create the dotted line effect:
 
 ![alt text](./screenshots/001.png)
 
