@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<svg viewBox="0 0 400 420" xmlns="http://www.w3.org/2000/svg" xmlns:bx="https://boxy-svg.com">
-  <line style="stroke: black; stroke-width: 12px; stroke-linecap: round; stroke-dasharray: 33;" x1="61.109" y1="10.214" x2="354.789" y2="410.912"/>
-  <path style="stroke-linecap: round; stroke-width: 12px; stroke-dasharray: 32; stroke: black; fill: transparent" d="M 341.717 9.585 L 325.495 128.841 C 325.495 128.841 315.128 187.403 246.55 250.761"/>
-  <path style="stroke: black; fill:transparent; stroke-dasharray: 33px; stroke-linecap: round; stroke-width: 12px;" d="M 35.435 410.599 L 73.929 271.906 C 73.929 271.906 98.335 174.634 151.475 147.534"/>
-</svg>
