@@ -126,6 +126,7 @@ export const TextGroup: React.FC<Props> = ({ value, setValues, index }) => {
   return (
     <Wrapper className="text-group-wrapper">
       <TextArea
+        id={value.id}
         value={text}
         onChange={onChange}
         ref={(r) => {
@@ -150,7 +151,10 @@ export const TextGroup: React.FC<Props> = ({ value, setValues, index }) => {
             (e.key === "Backspace" || e.key === "Delete")
           ) {
             e.preventDefault();
-            setValues((prev) => prev.filter((v) => v.id !== value.id));
+            setValues((prev) => {
+              document.getElementById(prev[index - 1].id)?.focus();
+              return prev.filter((v) => v.id !== value.id);
+            });
           }
         }}
       />
