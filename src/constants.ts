@@ -30,6 +30,9 @@ export interface TextGroupProperties {
   };
 }
 
+/**
+ * Function to generate a default initial state for a text group
+ */
 export const initialTextGroupState = (): TextGroupProperties => ({
   id: uuid(),
   text: "",
@@ -44,3 +47,8 @@ export const initialTextGroupState = (): TextGroupProperties => ({
     opacity: 1,
   },
 });
+
+/**
+ * Different fonts a user can use
+ */
+export const fontOptions = ["Cousine Regular", "Cousine Tracer"];

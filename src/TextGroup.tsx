@@ -1,14 +1,16 @@
 import clsx from "clsx";
-import React, { ChangeEventHandler, useEffect, useState } from "react";
+import React, { ChangeEventHandler, useEffect, useRef, useState } from "react";
 import { styled } from "styled-components";
-import { TextGroupProperties } from "./constants";
+import { TextGroupProperties, fontOptions } from "./constants";
 import { Button } from "primereact/button";
+import { OverlayPanel } from "primereact/overlaypanel";
+import { InputNumber } from "primereact/inputnumber";
+import { Dropdown } from "primereact/dropdown";
 import { ImFont } from "react-icons/im";
 import { TbLineDotted } from "react-icons/tb";
 import { v4 as uuid } from "uuid";
 
 const LINE_HEIGHT = "90px";
-const FONT_SIZE = "60px";
 
 const Wrapper = styled.div`
   width: calc(11in - 2in);
@@ -20,7 +22,6 @@ const TextArea = styled.textarea`
   resize: none;
   overflow: hidden;
   height: ${LINE_HEIGHT};
-  font-size: ${FONT_SIZE};
   line-height: ${LINE_HEIGHT};
   min-height: 50px;
   font-family: sans-serif;
@@ -46,11 +47,8 @@ const TextArea = styled.textarea`
 `;
 
 const GuideLine = styled.div<{ index: number }>`
-  height: ${FONT_SIZE};
   width: 100%;
   position: absolute;
-  top: ${(props) =>
-    `calc((${LINE_HEIGHT} - ${FONT_SIZE}) / 2 +  ${LINE_HEIGHT} * ${props.index})`};
   z-index: -10;
 
   .portrait & {
@@ -123,6 +121,10 @@ export const TextGroup: React.FC<Props> = ({ value, setValues, index }) => {
 
   const [lines, setLines] = useState(1);
   const [ref, setRef] = useState<HTMLTextAreaElement>();
+  const [fontSize, setFontSize] = useState<number | null>(60);
+  const [fontFamily, setFontFamily] = useState<string | null>("Cousine Tracer");
+
+  const formattingPanel = useRef<OverlayPanel>(null);
 
   const onChange: ChangeEventHandler<HTMLTextAreaElement> = (e) => {
     setValues((prev) =>
@@ -166,6 +168,7 @@ export const TextGroup: React.FC<Props> = ({ value, setValues, index }) => {
           <Button
             className="p-button-outlined p-button-secondary"
             style={{ padding: "5px", marginTop: "3px" }}
+            onClick={(e) => formattingPanel.current?.toggle(e)}
           >
             <ImFont />
           </Button>
@@ -188,6 +191,10 @@ export const TextGroup: React.FC<Props> = ({ value, setValues, index }) => {
         id={value.id}
         value={text}
         onChange={onChange}
+        style={{
+          fontSize: fontSize + "px",
+          fontFamily: fontFamily as string,
+        }}
         ref={(r) => {
           if (r) {
             setRef(r);
@@ -223,12 +230,33 @@ export const TextGroup: React.FC<Props> = ({ value, setValues, index }) => {
           <GuideLine
             key={i}
             index={i}
+            style={{
+              height: fontSize + "px",
+              top: `calc((${LINE_HEIGHT} - ${fontSize}px) / 2)`,
+            }}
             className={clsx({
               ...grid,
             })}
           />
         ))}
       </div>
+
+      <OverlayPanel ref={formattingPanel}>
+        <h4>Font:</h4>
+        <Dropdown
+          options={fontOptions}
+          value={fontFamily}
+          onChange={(e) => setFontFamily(e.value)}
+          style={{ width: "100%" }}
+        />
+
+        <h4>Font Size:</h4>
+        <InputNumber
+          value={fontSize}
+          onChange={(e) => setFontSize(e.value)}
+          showButtons
+        />
+      </OverlayPanel>
     </Wrapper>
   );
 };
