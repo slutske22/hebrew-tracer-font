@@ -2,16 +2,18 @@ import clsx from "clsx";
 import React, { ChangeEventHandler, useEffect, useState } from "react";
 import { styled } from "styled-components";
 import { TextGroupProperties } from "./constants";
+import { Button } from "primereact/button";
+import { ImFont } from "react-icons/im";
+import { TbLineDotted } from "react-icons/tb";
 import { v4 as uuid } from "uuid";
 
 const LINE_HEIGHT = "90px";
 const FONT_SIZE = "60px";
 
 const Wrapper = styled.div`
-  width: calc(11in - 6rem);
+  width: calc(11in - 2in);
   position: relative;
-  border: 1px solid orange;
-  margin: 3rem;
+  margin: 1in;
 `;
 
 const TextArea = styled.textarea`
@@ -31,6 +33,7 @@ const TextArea = styled.textarea`
   letter-spacing: 5px;
   font-size-adjust: 0.6;
   font-family: Cousine Tracer;
+  position: relative;
 
   .portrait & {
     width: calc(8in - 6rem);
@@ -69,6 +72,31 @@ const GuideLine = styled.div<{ index: number }>`
       top: 50%;
       z-index: -10;
     }
+  }
+`;
+
+const FormattingWrapper = styled.div`
+  position: absolute;
+  top: -20px;
+  bottom: -20px;
+  right: -60px;
+  left: -20px;
+  border-radius: 10px;
+  box-shadow: 0 0 5px grey;
+  z-index: 2;
+  opacity: 0;
+  text-align: right;
+  padding: 30px 0;
+  transition: all 200ms;
+
+  .text-group-wrapper:hover & {
+    opacity: 1;
+    transition: all 200ms;
+  }
+
+  &:hover {
+    opacity: 1;
+    transition: all 200ms;
   }
 `;
 
@@ -125,6 +153,37 @@ export const TextGroup: React.FC<Props> = ({ value, setValues, index }) => {
 
   return (
     <Wrapper className="text-group-wrapper">
+      <FormattingWrapper>
+        <div
+          style={{
+            marginLeft: "auto",
+            display: "flex",
+            flexDirection: "column",
+            alignItems: "flex-end",
+            marginRight: "16px",
+          }}
+        >
+          <Button
+            className="p-button-outlined p-button-secondary"
+            style={{ padding: "5px", marginTop: "3px" }}
+          >
+            <ImFont />
+          </Button>
+          <Button
+            className="p-button-outlined p-button-secondary"
+            style={{ padding: "5px", marginTop: "6px" }}
+          >
+            <TbLineDotted
+              style={{
+                borderTop: "0.5px solid black",
+                borderBottom: "0.5px solid black",
+              }}
+              size={14}
+            />
+          </Button>
+        </div>
+      </FormattingWrapper>
+
       <TextArea
         id={value.id}
         value={text}
