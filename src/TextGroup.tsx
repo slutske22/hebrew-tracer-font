@@ -4,11 +4,13 @@ import { styled } from "styled-components";
 import { TextGroupProperties, fontOptions } from "./constants";
 import { Button } from "primereact/button";
 import { OverlayPanel } from "primereact/overlaypanel";
+import { Checkbox } from "primereact/checkbox";
 import { InputNumber } from "primereact/inputnumber";
 import { Dropdown } from "primereact/dropdown";
 import { ImFont } from "react-icons/im";
 import { TbLineDotted } from "react-icons/tb";
 import { v4 as uuid } from "uuid";
+import { Slider } from "primereact/slider";
 
 const Wrapper = styled.div`
   width: calc(11in - 2in);
@@ -135,6 +137,7 @@ export const TextGroup: React.FC<Props> = ({ value, setValues, index }) => {
   const lineHeight = value.font.size * 1.5;
 
   const formattingPanel = useRef<OverlayPanel>(null);
+  const gridPanel = useRef<OverlayPanel>(null);
 
   const onChange: ChangeEventHandler<HTMLTextAreaElement> = (e) => {
     setValues((prev) =>
@@ -186,6 +189,7 @@ export const TextGroup: React.FC<Props> = ({ value, setValues, index }) => {
           <Button
             className="p-button-outlined p-button-secondary"
             style={{ padding: "5px", marginTop: "6px" }}
+            onClick={(e) => gridPanel.current?.toggle(e)}
           >
             <TbLineDotted
               style={{
@@ -299,6 +303,102 @@ export const TextGroup: React.FC<Props> = ({ value, setValues, index }) => {
             )
           }
           showButtons
+        />
+      </OverlayPanel>
+
+      <OverlayPanel
+        ref={gridPanel}
+        onShow={() => setFocused(true)}
+        onHide={() => setFocused(false)}
+        style={{ width: "240px" }}
+      >
+        <h4>Guide Lines</h4>
+        <Checkbox
+          style={{ marginRight: "10px", marginBottom: "6px" }}
+          checked={value.grid.top}
+          onChange={() =>
+            setValues((prev) =>
+              prev.map((v) =>
+                v.id === value.id
+                  ? {
+                      ...v,
+                      grid: {
+                        ...v.grid,
+                        top: !v.grid.top,
+                      },
+                    }
+                  : v
+              )
+            )
+          }
+        />
+        <span style={{ verticalAlign: "top" }}>Top</span>
+
+        <br />
+        <Checkbox
+          style={{ marginRight: "10px", marginBottom: "6px" }}
+          checked={value.grid.middle}
+          onChange={() =>
+            setValues((prev) =>
+              prev.map((v) =>
+                v.id === value.id
+                  ? {
+                      ...v,
+                      grid: {
+                        ...v.grid,
+                        middle: !v.grid.middle,
+                      },
+                    }
+                  : v
+              )
+            )
+          }
+        />
+        <span style={{ verticalAlign: "top" }}>Middle</span>
+
+        <br />
+        <Checkbox
+          style={{ marginRight: "10px" }}
+          checked={value.grid.bottom}
+          onChange={() =>
+            setValues((prev) =>
+              prev.map((v) =>
+                v.id === value.id
+                  ? {
+                      ...v,
+                      grid: {
+                        ...v.grid,
+                        bottom: !v.grid.bottom,
+                      },
+                    }
+                  : v
+              )
+            )
+          }
+        />
+        <span style={{ verticalAlign: "top" }}>Bottom</span>
+
+        <h4>Opacity</h4>
+        <Slider
+          value={value.grid.opacity}
+          min={0}
+          max={1}
+          step={0.01}
+          onChange={(e) =>
+            setValues((prev) =>
+              prev.map((v) =>
+                v.id === value.id
+                  ? {
+                      ...v,
+                      grid: {
+                        ...v.grid,
+                        opacity: e.value as number,
+                      },
+                    }
+                  : v
+              )
+            )
+          }
         />
       </OverlayPanel>
     </Wrapper>
