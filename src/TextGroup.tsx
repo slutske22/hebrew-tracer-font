@@ -85,6 +85,8 @@ const FormattingWrapper = styled.div`
   bottom: -20px;
   right: -60px;
   left: -20px;
+  display: flex;
+  align-items: center;
   border-radius: 10px;
   box-shadow: 0 0 5px grey;
   z-index: 2;
@@ -98,7 +100,8 @@ const FormattingWrapper = styled.div`
     transition: all 200ms;
   }
 
-  &:hover {
+  &:hover,
+  &.focused {
     opacity: 1;
     transition: all 200ms;
   }
@@ -127,6 +130,7 @@ export const TextGroup: React.FC<Props> = ({ value, setValues, index }) => {
 
   const [lines, setLines] = useState(1);
   const [ref, setRef] = useState<HTMLTextAreaElement>();
+  const [focused, setFocused] = useState(false);
 
   const lineHeight = value.font.size * 1.5;
 
@@ -161,7 +165,7 @@ export const TextGroup: React.FC<Props> = ({ value, setValues, index }) => {
 
   return (
     <Wrapper className="text-group-wrapper">
-      <FormattingWrapper>
+      <FormattingWrapper className={clsx({ focused })}>
         <div
           style={{
             marginLeft: "auto",
@@ -169,11 +173,12 @@ export const TextGroup: React.FC<Props> = ({ value, setValues, index }) => {
             flexDirection: "column",
             alignItems: "flex-end",
             marginRight: "16px",
+            transform: "translate(0, -4%)",
           }}
         >
           <Button
             className="p-button-outlined p-button-secondary"
-            style={{ padding: "5px", marginTop: "3px" }}
+            style={{ padding: "5px" }}
             onClick={(e) => formattingPanel.current?.toggle(e)}
           >
             <ImFont />
@@ -248,7 +253,11 @@ export const TextGroup: React.FC<Props> = ({ value, setValues, index }) => {
         ))}
       </div>
 
-      <OverlayPanel ref={formattingPanel}>
+      <OverlayPanel
+        ref={formattingPanel}
+        onShow={() => setFocused(true)}
+        onHide={() => setFocused(false)}
+      >
         <h4>Font:</h4>
         <Dropdown
           options={fontOptions}
