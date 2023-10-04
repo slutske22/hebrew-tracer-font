@@ -37,14 +37,14 @@ export const initialTextGroupState = (): TextGroupProperties => ({
   id: uuid(),
   text: "",
   font: {
-    size: 60,
-    family: "",
+    size: 80,
+    family: "Cousine Tracer",
   },
   grid: {
     top: true,
     middle: true,
     bottom: true,
-    opacity: 1,
+    opacity: 0.7,
   },
 });
 

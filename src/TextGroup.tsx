@@ -10,8 +10,6 @@ import { ImFont } from "react-icons/im";
 import { TbLineDotted } from "react-icons/tb";
 import { v4 as uuid } from "uuid";
 
-const LINE_HEIGHT = "90px";
-
 const Wrapper = styled.div`
   width: calc(11in - 2in);
   position: relative;
@@ -21,8 +19,6 @@ const Wrapper = styled.div`
 const TextArea = styled.textarea`
   resize: none;
   overflow: hidden;
-  height: ${LINE_HEIGHT};
-  line-height: ${LINE_HEIGHT};
   min-height: 50px;
   font-family: sans-serif;
   width: 100%;
@@ -55,20 +51,30 @@ const GuideLine = styled.div<{ index: number }>`
     width: calc(8in - 6rem);
   }
 
-  &.top {
-    border-top: 1px solid grey;
-  }
-  &.bottom {
-    border-bottom: 1px solid grey;
-  }
-  &.middle {
-    &:after {
-      content: "";
-      border-top: 1px dashed lightgrey;
-      width: 100%;
-      position: absolute;
-      top: 50%;
-      z-index: -10;
+  display: flex;
+  align-items: center;
+  /* border: 1px solid blue; */
+
+  .inner {
+    height: 65%;
+    transform: translate(0, -2%);
+    width: 100%;
+
+    &.top {
+      border-top: 1px solid grey;
+    }
+    &.bottom {
+      border-bottom: 1px solid grey;
+    }
+    &.middle {
+      &:after {
+        content: "";
+        border-top: 1px dashed lightgrey;
+        width: 100%;
+        position: absolute;
+        top: 50%;
+        z-index: -10;
+      }
     }
   }
 `;
@@ -121,10 +127,8 @@ export const TextGroup: React.FC<Props> = ({ value, setValues, index }) => {
 
   const [lines, setLines] = useState(1);
   const [ref, setRef] = useState<HTMLTextAreaElement>();
-  const [fontSize, setFontSize] = useState<number>(60);
-  const [fontFamily, setFontFamily] = useState<string>("Cousine Tracer");
 
-  const lineHeight = fontSize * 1.5;
+  const lineHeight = value.font.size * 1.5;
 
   const formattingPanel = useRef<OverlayPanel>(null);
 
@@ -194,8 +198,10 @@ export const TextGroup: React.FC<Props> = ({ value, setValues, index }) => {
         value={text}
         onChange={onChange}
         style={{
-          fontSize: fontSize + "px",
-          fontFamily: fontFamily as string,
+          fontSize: value.font.size + "px",
+          fontFamily: value.font.family,
+          height: lineHeight + "px",
+          lineHeight: lineHeight + "px",
         }}
         ref={(r) => {
           if (r) {
@@ -227,19 +233,18 @@ export const TextGroup: React.FC<Props> = ({ value, setValues, index }) => {
         }}
       />
 
-      <div className="guides">
+      <div className="guides" style={{ opacity: value.grid.opacity }}>
         {Array.from({ length: lines }).map((_, i) => (
           <GuideLine
             key={i}
             index={i}
             style={{
-              height: fontSize + "px",
-              top: (lineHeight - fontSize) / 2 + lineHeight * i + "px",
+              height: value.font.size + "px",
+              top: (lineHeight - value.font.size) / 2 + lineHeight * i + "px",
             }}
-            className={clsx({
-              ...grid,
-            })}
-          />
+          >
+            <div className={clsx("inner", { ...grid })} />
+          </GuideLine>
         ))}
       </div>
 
@@ -247,15 +252,43 @@ export const TextGroup: React.FC<Props> = ({ value, setValues, index }) => {
         <h4>Font:</h4>
         <Dropdown
           options={fontOptions}
-          value={fontFamily}
-          onChange={(e) => setFontFamily(e.value)}
+          value={value.font.family}
+          onChange={(e) =>
+            setValues((prev) =>
+              prev.map((v) =>
+                v.id === value.id
+                  ? {
+                      ...v,
+                      font: {
+                        ...v.font,
+                        family: e.target.value,
+                      },
+                    }
+                  : v
+              )
+            )
+          }
           style={{ width: "100%" }}
         />
 
         <h4>Font Size:</h4>
         <InputNumber
-          value={fontSize}
-          onChange={(e) => setFontSize(e.value as number)}
+          value={value.font.size}
+          onChange={(e) =>
+            setValues((prev) =>
+              prev.map((v) =>
+                v.id === value.id
+                  ? {
+                      ...v,
+                      font: {
+                        ...v.font,
+                        size: e.value as number,
+                      },
+                    }
+                  : v
+              )
+            )
+          }
           showButtons
         />
       </OverlayPanel>
