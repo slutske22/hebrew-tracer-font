@@ -121,8 +121,10 @@ export const TextGroup: React.FC<Props> = ({ value, setValues, index }) => {
 
   const [lines, setLines] = useState(1);
   const [ref, setRef] = useState<HTMLTextAreaElement>();
-  const [fontSize, setFontSize] = useState<number | null>(60);
-  const [fontFamily, setFontFamily] = useState<string | null>("Cousine Tracer");
+  const [fontSize, setFontSize] = useState<number>(60);
+  const [fontFamily, setFontFamily] = useState<string>("Cousine Tracer");
+
+  const lineHeight = fontSize * 1.5;
 
   const formattingPanel = useRef<OverlayPanel>(null);
 
@@ -232,7 +234,7 @@ export const TextGroup: React.FC<Props> = ({ value, setValues, index }) => {
             index={i}
             style={{
               height: fontSize + "px",
-              top: `calc((${LINE_HEIGHT} - ${fontSize}px) / 2)`,
+              top: (lineHeight - fontSize) / 2 + lineHeight * i + "px",
             }}
             className={clsx({
               ...grid,
@@ -253,7 +255,7 @@ export const TextGroup: React.FC<Props> = ({ value, setValues, index }) => {
         <h4>Font Size:</h4>
         <InputNumber
           value={fontSize}
-          onChange={(e) => setFontSize(e.value)}
+          onChange={(e) => setFontSize(e.value as number)}
           showButtons
         />
       </OverlayPanel>
