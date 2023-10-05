@@ -211,6 +211,7 @@ export const TextGroup: React.FC<Props> = ({ value, setValues, index }) => {
           fontFamily: value.font.family,
           height: lineHeight + "px",
           lineHeight: lineHeight + "px",
+          opacity: value.font.opacity,
         }}
         ref={(r) => {
           if (r) {
@@ -261,11 +262,42 @@ export const TextGroup: React.FC<Props> = ({ value, setValues, index }) => {
         ref={formattingPanel}
         onShow={() => setFocused(true)}
         onHide={() => setFocused(false)}
+        style={{ width: "360px" }}
       >
         <h4>Font:</h4>
         <Dropdown
           options={fontOptions}
           value={value.font.family}
+          itemTemplate={(item) => {
+            return (
+              <div
+                style={{
+                  fontFamily: item,
+                  width: "100%",
+                  display: "flex",
+                  justifyContent: "space-between",
+                }}
+              >
+                <span>{item}</span>
+                <span>אבגדה</span>
+              </div>
+            );
+          }}
+          valueTemplate={(item) => {
+            return (
+              <div
+                style={{
+                  fontFamily: item,
+                  width: "100%",
+                  display: "flex",
+                  justifyContent: "space-between",
+                }}
+              >
+                <span>{item}</span>
+                <span>אבגדה</span>
+              </div>
+            );
+          }}
           onChange={(e) =>
             setValues((prev) =>
               prev.map((v) =>
@@ -287,6 +319,8 @@ export const TextGroup: React.FC<Props> = ({ value, setValues, index }) => {
         <h4>Font Size:</h4>
         <InputNumber
           value={value.font.size}
+          suffix="px"
+          style={{ width: "100%" }}
           onChange={(e) =>
             setValues((prev) =>
               prev.map((v) =>
@@ -303,6 +337,29 @@ export const TextGroup: React.FC<Props> = ({ value, setValues, index }) => {
             )
           }
           showButtons
+        />
+
+        <h4>Opacity</h4>
+        <Slider
+          value={value.font.opacity}
+          min={0}
+          max={1}
+          step={0.01}
+          onChange={(e) =>
+            setValues((prev) =>
+              prev.map((v) =>
+                v.id === value.id
+                  ? {
+                      ...v,
+                      font: {
+                        ...v.font,
+                        opacity: e.value as number,
+                      },
+                    }
+                  : v
+              )
+            )
+          }
         />
       </OverlayPanel>
 

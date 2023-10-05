@@ -18,6 +18,7 @@ export interface TextGroupProperties {
   font: {
     size: number;
     family: string;
+    opacity: number;
   };
   /**
    * Details for the grid for this group
@@ -39,6 +40,7 @@ export const initialTextGroupState = (): TextGroupProperties => ({
   font: {
     size: 80,
     family: "Cousine Tracer",
+    opacity: 1,
   },
   grid: {
     top: true,
