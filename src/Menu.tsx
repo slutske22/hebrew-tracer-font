@@ -3,13 +3,28 @@ import { Menubar } from "primereact/menubar";
 import { OverlayPanel } from "primereact/overlaypanel";
 import { Button } from "primereact/button";
 import { RadioButton } from "primereact/radiobutton";
-import { AiOutlinePrinter, AiOutlineFontSize } from "react-icons/ai";
+import { AiOutlinePrinter } from "react-icons/ai";
+import { IoDocumentOutline } from "react-icons/io5";
 import { BsKeyboard } from "react-icons/bs";
-import { TbFileOrientation } from "react-icons/tb";
+import { InputNumber } from "primereact/inputnumber";
 
 interface Props {
   orientation: "landscape" | "portrait";
   setOrientation: Dispatch<SetStateAction<"landscape" | "portrait">>;
+  margins: {
+    top: number;
+    bottom: number;
+    left: number;
+    right: number;
+  };
+  setMargins: Dispatch<
+    SetStateAction<{
+      top: number;
+      bottom: number;
+      left: number;
+      right: number;
+    }>
+  >;
   setKeyboard: Dispatch<SetStateAction<"hebrew" | "qwerty" | undefined>>;
   handlePrint: () => void;
 }
@@ -17,10 +32,11 @@ interface Props {
 export const Menu: React.FC<Props> = ({
   orientation,
   setOrientation,
+  margins,
+  setMargins,
   handlePrint,
 }) => {
   const orientationPanel = useRef<OverlayPanel>(null);
-  const formattingPanel = useRef<OverlayPanel>(null);
   const keyboardPanel = useRef<OverlayPanel>(null);
 
   return (
@@ -43,18 +59,11 @@ export const Menu: React.FC<Props> = ({
         }
         model={[
           {
-            label: "Orientation",
+            label: "Page Format",
             icon: (
-              <TbFileOrientation size={24} style={{ marginRight: "10px" }} />
+              <IoDocumentOutline size={24} style={{ marginRight: "10px" }} />
             ),
             command: (e) => orientationPanel.current?.toggle(e.originalEvent),
-          },
-          {
-            label: "Formatting",
-            icon: (
-              <AiOutlineFontSize size={24} style={{ marginRight: "10px" }} />
-            ),
-            command: (e) => formattingPanel.current?.toggle(e.originalEvent),
           },
           {
             label: "Keyboard",
@@ -73,6 +82,7 @@ export const Menu: React.FC<Props> = ({
 
       {/* Page orientation menu dropdown */}
       <OverlayPanel ref={orientationPanel}>
+        <h4>Page Orientation</h4>
         <div style={{ marginBottom: "16px" }}>
           <RadioButton
             style={{ marginRight: "10px" }}
@@ -89,10 +99,34 @@ export const Menu: React.FC<Props> = ({
           />
           Landscape
         </div>
-      </OverlayPanel>
 
-      {/* Formatting dropdown */}
-      <OverlayPanel ref={formattingPanel}>Formatting</OverlayPanel>
+        <h4>Margins</h4>
+        {Object.keys(margins).map((side) => (
+          <div
+            style={{
+              display: "flex",
+              marginBottom: "6px",
+              alignItems: "center",
+            }}
+          >
+            <span style={{ textTransform: "capitalize", width: "80px" }}>
+              {side}
+            </span>
+            <InputNumber
+              value={margins[side as keyof typeof margins]}
+              onChange={(e) =>
+                setMargins((prev) => ({ ...prev, [side]: e.value as number }))
+              }
+              min={0}
+              maxFractionDigits={2}
+              minFractionDigits={2}
+              step={0.05}
+              showButtons
+              suffix=" in"
+            />
+          </div>
+        ))}
+      </OverlayPanel>
 
       {/* Keyboard dropdown */}
       <OverlayPanel ref={keyboardPanel} className="keyboard-overlay">

@@ -42,6 +42,12 @@ const App = () => {
   const [orientation, setOrientation] = useState<"landscape" | "portrait">(
     "landscape"
   );
+  const [margins, setMargins] = useState({
+    top: 0.75,
+    bottom: 0.75,
+    left: 0.75,
+    right: 0.75,
+  });
   const [keyboard, setKeyboard] = useState<"hebrew" | "qwerty" | undefined>(
     undefined
   );
@@ -60,6 +66,8 @@ const App = () => {
       <Menu
         orientation={orientation}
         setOrientation={setOrientation}
+        margins={margins}
+        setMargins={setMargins}
         setKeyboard={setKeyboard}
         handlePrint={handlePrint}
       />
@@ -75,6 +83,7 @@ const App = () => {
               value={value}
               setValues={setValues}
               index={index}
+              margins={margins}
             />
           ))}
         </div>

@@ -12,10 +12,27 @@ import { TbLineDotted } from "react-icons/tb";
 import { v4 as uuid } from "uuid";
 import { Slider } from "primereact/slider";
 
-const Wrapper = styled.div`
-  width: calc(11in - 2in);
+const Wrapper = styled.div<{
+  margins: {
+    top: number;
+    bottom: number;
+    left: number;
+    right: number;
+  };
+}>`
   position: relative;
-  margin: 1in;
+  width: ${(props) =>
+    `calc(11in - ${props.margins.left}in - ${props.margins.right}in)`};
+  margin-left: ${(props) => props.margins.left}in;
+  margin-right: ${(props) => props.margins.right}in;
+
+  &:first-child {
+    margin-top: ${(props) => props.margins.top}in;
+  }
+
+  &:last-child {
+    margin-bottom: ${(props) => props.margins.bottom}in;
+  }
 `;
 
 const TextArea = styled.textarea`
@@ -122,12 +139,26 @@ interface Props {
    *  The index of this text group in the array of text groups
    */
   index: number;
+  /**
+   * Whole page margins
+   */
+  margins: {
+    top: number;
+    bottom: number;
+    left: number;
+    right: number;
+  };
 }
 
 /**
  * Component to render single textarea element, with grid lines and options
  */
-export const TextGroup: React.FC<Props> = ({ value, setValues, index }) => {
+export const TextGroup: React.FC<Props> = ({
+  value,
+  setValues,
+  index,
+  margins,
+}) => {
   const { text, grid } = value;
 
   const [lines, setLines] = useState(1);
@@ -167,7 +198,7 @@ export const TextGroup: React.FC<Props> = ({ value, setValues, index }) => {
   }, [ref]);
 
   return (
-    <Wrapper className="text-group-wrapper">
+    <Wrapper className="text-group-wrapper" margins={margins}>
       <FormattingWrapper className={clsx({ focused })}>
         <div
           style={{
@@ -319,7 +350,7 @@ export const TextGroup: React.FC<Props> = ({ value, setValues, index }) => {
         <h4>Font Size:</h4>
         <InputNumber
           value={value.font.size}
-          suffix="px"
+          suffix=" px"
           style={{ width: "100%" }}
           onChange={(e) =>
             setValues((prev) =>
