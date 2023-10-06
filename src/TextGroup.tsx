@@ -14,24 +14,24 @@ import { Slider } from "primereact/slider";
 
 const Wrapper = styled.div<{
   margins: {
-    top: number;
-    bottom: number;
-    left: number;
-    right: number;
+    top: string;
+    bottom: string;
+    left: string;
+    right: string;
   };
 }>`
   position: relative;
   width: ${(props) =>
     `calc(11in - ${props.margins.left}in - ${props.margins.right}in)`};
-  margin-left: ${(props) => props.margins.left}in;
-  margin-right: ${(props) => props.margins.right}in;
+  margin-left: ${(props) => props.margins.left};
+  margin-right: ${(props) => props.margins.right};
 
   &:first-child {
-    margin-top: ${(props) => props.margins.top}in;
+    margin-top: ${(props) => props.margins.top};
   }
 
   &:last-child {
-    margin-bottom: ${(props) => props.margins.bottom}in;
+    margin-bottom: ${(props) => props.margins.bottom};
   }
 `;
 
@@ -198,7 +198,15 @@ export const TextGroup: React.FC<Props> = ({
   }, [ref]);
 
   return (
-    <Wrapper className="text-group-wrapper" margins={margins}>
+    <Wrapper
+      className="text-group-wrapper"
+      margins={{
+        top: `calc(${margins.top}in - (${lineHeight - value.font.size}px))`,
+        bottom: margins.bottom + "in",
+        left: margins.left + "in",
+        right: margins.right + "in",
+      }}
+    >
       <FormattingWrapper className={clsx({ focused })}>
         <div
           style={{
