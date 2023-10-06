@@ -1,7 +1,4 @@
 import React, { useRef, useState } from "react";
-import Keyboard from "react-simple-keyboard";
-import "react-simple-keyboard/build/css/index.css";
-import layout from "simple-keyboard-layouts/build/layouts/hebrew";
 import ReactToPrint, { useReactToPrint } from "react-to-print";
 import "./App.scss";
 import { styled } from "styled-components";
@@ -10,6 +7,7 @@ import { Menu } from "./Menu";
 import clsx from "clsx";
 import { TextGroup } from "./TextGroup";
 import { TextGroupProperties, initialTextGroupState } from "./constants";
+import { Keyboards } from "./Keyboards";
 
 const PageWrapper = styled.main`
   border: 0.5px solid black;
@@ -38,7 +36,7 @@ const PageWrapper = styled.main`
 /**
  * Main App component
  */
-const App = () => {
+const App: React.FC = () => {
   const [orientation, setOrientation] = useState<"landscape" | "portrait">(
     "landscape"
   );
@@ -48,12 +46,11 @@ const App = () => {
     left: 0.75,
     right: 0.75,
   });
-  const [keyboard, setKeyboard] = useState<"hebrew" | "qwerty" | undefined>(
-    undefined
-  );
+  const [keyboardOpen, setKeyboardOpen] = useState(true);
   const [values, setValues] = useState<TextGroupProperties[]>([
     initialTextGroupState(),
   ]);
+  const [currentInput, setCurrentInput] = useState(values[0].id);
 
   const pageRef = useRef<HTMLDivElement>(null);
 
@@ -68,7 +65,7 @@ const App = () => {
         setOrientation={setOrientation}
         margins={margins}
         setMargins={setMargins}
-        setKeyboard={setKeyboard}
+        setKeyboardOpen={setKeyboardOpen}
         handlePrint={handlePrint}
       />
 
@@ -82,6 +79,7 @@ const App = () => {
               key={value.id}
               value={value}
               setValues={setValues}
+              setCurrentInput={setCurrentInput}
               index={index}
               margins={margins}
             />
@@ -89,7 +87,13 @@ const App = () => {
         </div>
       </PageWrapper>
 
-      {/* <Keyboard layout={layout.layout} onChange={(e) => setContent(e)} /> */}
+      {keyboardOpen && (
+        <Keyboards
+          setOpen={setKeyboardOpen}
+          currentInput={currentInput}
+          setValues={setValues}
+        />
+      )}
 
       <ReactToPrint content={() => pageRef.current} />
 

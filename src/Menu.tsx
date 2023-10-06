@@ -1,7 +1,6 @@
 import React, { Dispatch, SetStateAction, useRef } from "react";
 import { Menubar } from "primereact/menubar";
 import { OverlayPanel } from "primereact/overlaypanel";
-import { Button } from "primereact/button";
 import { RadioButton } from "primereact/radiobutton";
 import { AiOutlinePrinter } from "react-icons/ai";
 import { IoDocumentOutline } from "react-icons/io5";
@@ -25,19 +24,22 @@ interface Props {
       right: number;
     }>
   >;
-  setKeyboard: Dispatch<SetStateAction<"hebrew" | "qwerty" | undefined>>;
+  setKeyboardOpen: Dispatch<SetStateAction<boolean>>;
   handlePrint: () => void;
 }
 
+/**
+ * Primary top menu for the app
+ */
 export const Menu: React.FC<Props> = ({
   orientation,
   setOrientation,
   margins,
   setMargins,
+  setKeyboardOpen,
   handlePrint,
 }) => {
   const orientationPanel = useRef<OverlayPanel>(null);
-  const keyboardPanel = useRef<OverlayPanel>(null);
 
   return (
     <>
@@ -68,7 +70,7 @@ export const Menu: React.FC<Props> = ({
           {
             label: "Keyboard",
             icon: <BsKeyboard size={24} style={{ marginRight: "10px" }} />,
-            command: (e) => keyboardPanel.current?.toggle(e.originalEvent),
+            command: () => setKeyboardOpen(true),
           },
           {
             label: "Print",
@@ -126,24 +128,6 @@ export const Menu: React.FC<Props> = ({
             />
           </div>
         ))}
-      </OverlayPanel>
-
-      {/* Keyboard dropdown */}
-      <OverlayPanel ref={keyboardPanel} className="keyboard-overlay">
-        <div style={{ display: "flex", flexDirection: "column" }}>
-          <Button
-            className="p-button-text"
-            style={{ color: "rgb(73, 80, 87)" }}
-          >
-            Hebrew
-          </Button>
-          <Button
-            className="p-button-text"
-            style={{ color: "rgb(73, 80, 87)" }}
-          >
-            Hebrew QWERTY
-          </Button>
-        </div>
       </OverlayPanel>
     </>
   );

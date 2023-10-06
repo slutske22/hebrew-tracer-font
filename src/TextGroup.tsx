@@ -136,6 +136,10 @@ interface Props {
    */
   setValues: React.Dispatch<React.SetStateAction<TextGroupProperties[]>>;
   /**
+   * Sets which input user is currently on
+   */
+  setCurrentInput: React.Dispatch<React.SetStateAction<string>>;
+  /**
    *  The index of this text group in the array of text groups
    */
   index: number;
@@ -158,6 +162,7 @@ export const TextGroup: React.FC<Props> = ({
   setValues,
   index,
   margins,
+  setCurrentInput,
 }) => {
   const { text, grid } = value;
 
@@ -244,6 +249,7 @@ export const TextGroup: React.FC<Props> = ({
       <TextArea
         id={value.id}
         value={text}
+        onFocus={() => setCurrentInput(value.id)}
         onChange={onChange}
         style={{
           fontSize: value.font.size + "px",
