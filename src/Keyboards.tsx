@@ -5,6 +5,7 @@ import { Rnd } from "react-rnd";
 import * as layouts from "./layouts";
 import { styled } from "styled-components";
 import { IoClose } from "react-icons/io5";
+import { GoLinkExternal } from "react-icons/go";
 import { Button } from "primereact/button";
 import { TextGroupProperties } from "./constants";
 
@@ -64,41 +65,72 @@ export const Keyboards: React.FC<Props> = ({
     >
       <Wrapper>
         <div
-          style={{ display: "flex", marginBottom: "10px", marginLeft: "6px" }}
+          style={{
+            display: "flex",
+            justifyContent: "space-between",
+            marginBottom: "10px",
+            marginLeft: "6px",
+          }}
         >
-          <Button
-            className="p-button-text p-button-secondary"
-            style={{
-              padding: "0 6px",
-              marginRight: "20px",
-              boxShadow:
-                keyboardType === "standard"
-                  ? "0 0 0 0.2rem #E2E8F0"
-                  : undefined,
-            }}
-            onClick={() => setKeyboardType("standard")}
-          >
-            Standard
-          </Button>
-          <Button
-            className="p-button-text p-button-secondary"
-            style={{
-              padding: "0 6px",
-              boxShadow:
-                keyboardType === "qwerty" ? "0 0 0 0.2rem #E2E8F0" : undefined,
-            }}
-            onClick={() => setKeyboardType("qwerty")}
-          >
-            QWERTY
-          </Button>
+          <div>
+            <Button
+              className="p-button-text p-button-secondary"
+              style={{
+                padding: "0 6px",
+                marginRight: "20px",
+                boxShadow:
+                  keyboardType === "standard"
+                    ? "0 0 0 0.2rem #E2E8F0"
+                    : undefined,
+              }}
+              onClick={() => {
+                setKeyboardType("standard");
+                setLayoutName("default");
+              }}
+            >
+              Standard
+            </Button>
+            <Button
+              className="p-button-text p-button-secondary"
+              style={{
+                padding: "0 6px",
+                boxShadow:
+                  keyboardType === "qwerty"
+                    ? "0 0 0 0.2rem #E2E8F0"
+                    : undefined,
+              }}
+              onClick={() => {
+                setKeyboardType("qwerty");
+                setLayoutName("default");
+              }}
+            >
+              QWERTY
+            </Button>
+          </div>
 
-          <Button
-            className="p-button-text p-button-secondary"
-            style={{ padding: 0, marginLeft: "auto" }}
-            onClick={() => setOpen(false)}
-          >
-            <IoClose />
-          </Button>
+          <div>
+            <a
+              href="https://opensiddur.org/help/typing/"
+              style={{ marginLeft: "auto" }}
+              target="_blank"
+            >
+              <Button
+                className="p-button-text p-button-secondary"
+                style={{ padding: 0, marginRight: "20px" }}
+              >
+                Typing with Vowels{" "}
+                <GoLinkExternal style={{ marginLeft: "6px" }} />
+              </Button>
+            </a>
+
+            <Button
+              className="p-button-text p-button-secondary"
+              style={{ padding: 0, marginLeft: "auto" }}
+              onClick={() => setOpen(false)}
+            >
+              <IoClose />
+            </Button>
+          </div>
         </div>
 
         <Keyboard

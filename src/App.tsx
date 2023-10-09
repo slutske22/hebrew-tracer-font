@@ -46,7 +46,7 @@ const App: React.FC = () => {
     left: 0.75,
     right: 0.75,
   });
-  const [keyboardOpen, setKeyboardOpen] = useState(true);
+  const [keyboardOpen, setKeyboardOpen] = useState(false);
   const [values, setValues] = useState<TextGroupProperties[]>([
     initialTextGroupState(),
   ]);

@@ -56,7 +56,7 @@ export const Menu: React.FC<Props> = ({
               src="./favicon.svg"
               style={{ height: "30px", margin: "0 16px" }}
             />
-            <h3>Hebrew Tracing Page Generator</h3>
+            <h3>Hebrew Tracing Page Maker</h3>
           </div>
         }
         model={[
