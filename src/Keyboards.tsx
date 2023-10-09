@@ -2,7 +2,7 @@ import React, { Dispatch, SetStateAction, useState } from "react";
 import Keyboard from "react-simple-keyboard";
 import "react-simple-keyboard/build/css/index.css";
 import { Rnd } from "react-rnd";
-import layout from "simple-keyboard-layouts/build/layouts/hebrew";
+import * as layouts from "./layouts";
 import { styled } from "styled-components";
 import { IoClose } from "react-icons/io5";
 import { Button } from "primereact/button";
@@ -102,7 +102,7 @@ export const Keyboards: React.FC<Props> = ({
         </div>
 
         <Keyboard
-          layout={layout.layout}
+          layout={layouts[keyboardType]}
           layoutName={layoutName}
           inputName={currentInput}
           onKeyPress={onKeyPress}
