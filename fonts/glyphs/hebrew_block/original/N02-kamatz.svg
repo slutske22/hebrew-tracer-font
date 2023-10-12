@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<svg viewBox="0 0 400 420" xmlns="http://www.w3.org/2000/svg">
+<svg viewBox="0 0 400 450" xmlns="http://www.w3.org/2000/svg">
   <line style="stroke: black; stroke-linecap: round; stroke-width: 12px; stroke-dasharray: 22;" x1="150.662" y1="369.897" x2="257.657" y2="370.903"/>
-  <line style="stroke: black; stroke-linecap: round; stroke-width: 12px; stroke-dasharray: 19; stroke-dashoffset: 14px;" x1="205.925" y1="371.696" x2="206.054" y2="404.478"/>
+  <line style="stroke: black; stroke-linecap: round; stroke-width: 12px; stroke-dasharray: 19; stroke-dashoffset: 2px;" x1="205.925" y1="371.696" x2="205.944" y2="420"/>
 </svg>
