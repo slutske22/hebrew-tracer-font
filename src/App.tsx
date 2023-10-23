@@ -1,4 +1,4 @@
-import React, { useRef, useState } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import ReactToPrint, { useReactToPrint } from "react-to-print";
 import "./App.scss";
 import { styled } from "styled-components";
@@ -8,6 +8,10 @@ import clsx from "clsx";
 import { TextGroup } from "./TextGroup";
 import { TextGroupProperties, initialTextGroupState } from "./constants";
 import { Keyboards } from "./Keyboards";
+import { MdDelete } from "react-icons/md";
+import ImageUploading, { ImageListType } from "react-images-uploading";
+import { Rnd } from "react-rnd";
+import { Button } from "primereact/button";
 
 const PageWrapper = styled.main`
   border: 0.5px solid black;
@@ -15,6 +19,7 @@ const PageWrapper = styled.main`
   height: 8.5in;
   width: 11in;
   margin: 40px auto;
+  position: relative;
 
   &.portrait {
     width: 8.5in;
@@ -33,10 +38,45 @@ const PageWrapper = styled.main`
   }
 `;
 
+const ImageWrapper = styled.div`
+  border: 1px dashed transparent;
+  position: relative;
+  height: 100%;
+  width: 100%;
+  transition: all 200ms;
+  background-color: white;
+
+  & img {
+    height: 100%;
+    width: 100%;
+  }
+
+  & button {
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+    z-index: 10;
+    padding: 8px;
+    opacity: 0;
+    transition: all 200ms;
+  }
+
+  &:hover {
+    border: 1px dashed grey;
+    transition: all 200ms;
+
+    button {
+      opacity: 1;
+      transition: all 200ms;
+    }
+  }
+`;
+
 /**
  * Main App component
  */
 const App: React.FC = () => {
+  const [shiftKey, setShiftKey] = useState(false);
   const [orientation, setOrientation] = useState<"landscape" | "portrait">(
     "landscape"
   );
@@ -47,6 +87,7 @@ const App: React.FC = () => {
     right: 0.75,
   });
   const [keyboardOpen, setKeyboardOpen] = useState(false);
+  const [images, setImages] = useState<ImageListType>([]);
   const [values, setValues] = useState<TextGroupProperties[]>([
     initialTextGroupState(),
   ]);
@@ -58,57 +99,98 @@ const App: React.FC = () => {
     content: () => pageRef.current,
   });
 
+  useEffect(() => {
+    window.addEventListener("keydown", (e) => {
+      if (e.shiftKey) {
+        console.log("keydown");
+        setShiftKey(true);
+      }
+    });
+
+    window.addEventListener("keyup", () => {
+      setShiftKey(false);
+    });
+  }, []);
+
   return (
-    <>
-      <Menu
-        orientation={orientation}
-        setOrientation={setOrientation}
-        margins={margins}
-        setMargins={setMargins}
-        setKeyboardOpen={setKeyboardOpen}
-        handlePrint={handlePrint}
-      />
+    <ImageUploading
+      multiple
+      value={images}
+      onChange={(imageList) => setImages(imageList)}
+    >
+      {({ imageList, onImageUpload, onImageRemove, dragProps, isDragging }) => (
+        <>
+          <Menu
+            orientation={orientation}
+            setOrientation={setOrientation}
+            margins={margins}
+            setMargins={setMargins}
+            setKeyboardOpen={setKeyboardOpen}
+            handlePrint={handlePrint}
+            onImageUpload={onImageUpload}
+            dragProps={dragProps}
+            isDragging={isDragging}
+          />
 
-      <PageWrapper
-        id="page-view-wrapper"
-        className={clsx({ portrait: orientation === "portrait" })}
-      >
-        <div ref={pageRef} id="page-view-content">
-          {values.map((value, index) => (
-            <TextGroup
-              key={value.id}
-              value={value}
+          <PageWrapper
+            id="page-view-wrapper"
+            className={clsx({ portrait: orientation === "portrait" })}
+          >
+            <div ref={pageRef} id="page-view-content">
+              {values.map((value, index) => (
+                <TextGroup
+                  key={value.id}
+                  value={value}
+                  setValues={setValues}
+                  setCurrentInput={setCurrentInput}
+                  index={index}
+                  margins={margins}
+                />
+              ))}
+
+              {imageList.map((image, index) => (
+                <Rnd key={image.dataURL} lockAspectRatio={shiftKey}>
+                  <ImageWrapper>
+                    <img
+                      style={{ pointerEvents: "none" }}
+                      src={image.dataURL}
+                    />
+                    <Button
+                      className="p-button-danger"
+                      onClick={() => onImageRemove(index)}
+                    >
+                      <MdDelete />
+                    </Button>
+                  </ImageWrapper>
+                </Rnd>
+              ))}
+            </div>
+          </PageWrapper>
+
+          {keyboardOpen && (
+            <Keyboards
+              setOpen={setKeyboardOpen}
+              currentInput={currentInput}
               setValues={setValues}
-              setCurrentInput={setCurrentInput}
-              index={index}
-              margins={margins}
             />
-          ))}
-        </div>
-      </PageWrapper>
+          )}
 
-      {keyboardOpen && (
-        <Keyboards
-          setOpen={setKeyboardOpen}
-          currentInput={currentInput}
-          setValues={setValues}
-        />
+          <ReactToPrint content={() => pageRef.current} />
+
+          {orientation === "landscape" && (
+            <style>
+              {`
+                  @media print {
+                    @page {
+                      size: landscape;
+                    }
+                  }
+              `}
+            </style>
+          )}
+        </>
       )}
-
-      <ReactToPrint content={() => pageRef.current} />
-
-      {orientation === "landscape" && (
-        <style>
-          {`
-            @media print {
-              @page {
-                size: landscape;
-              }
-            }
-        `}
-        </style>
-      )}
-    </>
+    </ImageUploading>
   );
 };
 

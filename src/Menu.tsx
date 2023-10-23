@@ -4,7 +4,7 @@ import { OverlayPanel } from "primereact/overlaypanel";
 import { RadioButton } from "primereact/radiobutton";
 import { AiOutlinePrinter } from "react-icons/ai";
 import { IoDocumentOutline } from "react-icons/io5";
-import { BsKeyboard } from "react-icons/bs";
+import { BsKeyboard, BsCardImage } from "react-icons/bs";
 import { InputNumber } from "primereact/inputnumber";
 
 interface Props {
@@ -26,6 +26,15 @@ interface Props {
   >;
   setKeyboardOpen: Dispatch<SetStateAction<boolean>>;
   handlePrint: () => void;
+  onImageUpload: () => void;
+  isDragging: boolean;
+  dragProps: {
+    onDrop: (e: MouseEvent) => void;
+    onDragEnter: (e: MouseEvent) => void;
+    onDragLeave: (e: MouseEvent) => void;
+    onDragOver: (e: MouseEvent) => void;
+    onDragStart: (e: MouseEvent) => void;
+  };
 }
 
 /**
@@ -37,7 +46,10 @@ export const Menu: React.FC<Props> = ({
   margins,
   setMargins,
   setKeyboardOpen,
+  onImageUpload,
   handlePrint,
+  dragProps,
+  isDragging,
 }) => {
   const orientationPanel = useRef<OverlayPanel>(null);
 
@@ -71,6 +83,27 @@ export const Menu: React.FC<Props> = ({
             label: "Keyboard",
             icon: <BsKeyboard size={24} style={{ marginRight: "10px" }} />,
             command: () => setKeyboardOpen(true),
+          },
+          {
+            label: "Add Image",
+            icon: <BsCardImage size={24} style={{ marginRight: "10px" }} />,
+            template: () => (
+              <li className="p-menuitem" onClick={() => onImageUpload()}>
+                {/* @ts-expect-error ignore mouseevent props */}
+                <a
+                  href="#"
+                  className="p-menuitem-link"
+                  style={{
+                    borderRadius: "6px",
+                    border: isDragging ? "1px dashed green" : undefined,
+                  }}
+                  {...dragProps}
+                >
+                  <BsCardImage size={24} style={{ marginRight: "10px" }} />
+                  <span className="p-menuitem-text">Add Image</span>
+                </a>
+              </li>
+            ),
           },
           {
             label: "Print",
