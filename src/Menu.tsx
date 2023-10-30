@@ -1,11 +1,14 @@
-import React, { Dispatch, SetStateAction, useRef } from "react";
+import React, { Dispatch, SetStateAction, useRef, useState } from "react";
 import { Menubar } from "primereact/menubar";
 import { OverlayPanel } from "primereact/overlaypanel";
 import { RadioButton } from "primereact/radiobutton";
 import { AiOutlinePrinter } from "react-icons/ai";
 import { IoDocumentOutline } from "react-icons/io5";
-import { BsKeyboard, BsCardImage } from "react-icons/bs";
+import { BsKeyboard, BsCardImage, BsInfoCircleFill } from "react-icons/bs";
+import { useLocalStorage } from "usehooks-ts";
 import { InputNumber } from "primereact/inputnumber";
+import { Button } from "primereact/button";
+import { Disclaimer } from "./Disclaimer";
 
 interface Props {
   orientation: "landscape" | "portrait";
@@ -53,6 +56,13 @@ export const Menu: React.FC<Props> = ({
 }) => {
   const orientationPanel = useRef<OverlayPanel>(null);
 
+  const [showDisclaimerOnStart] = useLocalStorage(
+    "showDisclaimerOnStart",
+    true
+  );
+
+  const [disclaimerOpen, setDisclaimerOpen] = useState(showDisclaimerOnStart);
+
   return (
     <>
       <Menubar
@@ -69,6 +79,13 @@ export const Menu: React.FC<Props> = ({
               style={{ height: "30px", margin: "0 16px" }}
             />
             <h3>Hebrew Tracing Page Maker</h3>
+            <Button
+              className="p-button-text p-button-secondary"
+              style={{ padding: 0, marginLeft: "10px" }}
+              onClick={() => setDisclaimerOpen(true)}
+            >
+              <BsInfoCircleFill size={22} />
+            </Button>
           </div>
         }
         model={[
@@ -162,6 +179,11 @@ export const Menu: React.FC<Props> = ({
           </div>
         ))}
       </OverlayPanel>
+
+      <Disclaimer
+        visible={disclaimerOpen}
+        onHide={() => setDisclaimerOpen(false)}
+      />
     </>
   );
 };

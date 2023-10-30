@@ -20,6 +20,7 @@ const PageWrapper = styled.main`
   width: 11in;
   margin: 40px auto;
   position: relative;
+  overflow: hidden;
 
   &.portrait {
     width: 8.5in;
@@ -53,8 +54,8 @@ const ImageWrapper = styled.div`
 
   & button {
     position: absolute;
-    bottom: 5px;
-    right: 5px;
+    bottom: 15px;
+    right: 15px;
     z-index: 10;
     padding: 8px;
     opacity: 0;
@@ -102,7 +103,6 @@ const App: React.FC = () => {
   useEffect(() => {
     window.addEventListener("keydown", (e) => {
       if (e.shiftKey) {
-        console.log("keydown");
         setShiftKey(true);
       }
     });
@@ -149,7 +149,11 @@ const App: React.FC = () => {
               ))}
 
               {imageList.map((image, index) => (
-                <Rnd key={image.dataURL} lockAspectRatio={shiftKey}>
+                <Rnd
+                  key={image.dataURL}
+                  lockAspectRatio={shiftKey}
+                  style={{ zIndex: 100000 }}
+                >
                   <ImageWrapper>
                     <img
                       style={{ pointerEvents: "none" }}
