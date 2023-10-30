@@ -17,6 +17,7 @@ export interface TextGroupProperties {
    */
   font: {
     size: number;
+    lineHeight: number;
     family: string;
     opacity: number;
   };
@@ -39,6 +40,7 @@ export const initialTextGroupState = (): TextGroupProperties => ({
   text: "",
   font: {
     size: 80,
+    lineHeight: 100,
     family: "Cousine Tracer",
     opacity: 1,
   },

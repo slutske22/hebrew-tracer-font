@@ -170,8 +170,6 @@ export const TextGroup: React.FC<Props> = ({
   const [ref, setRef] = useState<HTMLTextAreaElement>();
   const [focused, setFocused] = useState(false);
 
-  const lineHeight = value.font.size * 1.5;
-
   const formattingPanel = useRef<OverlayPanel>(null);
   const gridPanel = useRef<OverlayPanel>(null);
 
@@ -206,7 +204,9 @@ export const TextGroup: React.FC<Props> = ({
     <Wrapper
       className="text-group-wrapper"
       margins={{
-        top: `calc(${margins.top}in - (${lineHeight - value.font.size}px))`,
+        top: `calc(${margins.top}in - (${
+          value.font.lineHeight - value.font.size
+        }px))`,
         bottom: margins.bottom + "in",
         left: margins.left + "in",
         right: margins.right + "in",
@@ -254,8 +254,8 @@ export const TextGroup: React.FC<Props> = ({
         style={{
           fontSize: value.font.size + "px",
           fontFamily: value.font.family,
-          height: lineHeight + "px",
-          lineHeight: lineHeight + "px",
+          height: value.font.lineHeight + "px",
+          lineHeight: value.font.lineHeight + "px",
           opacity: value.font.opacity,
         }}
         ref={(r) => {
@@ -295,7 +295,10 @@ export const TextGroup: React.FC<Props> = ({
             index={i}
             style={{
               height: value.font.size + "px",
-              top: (lineHeight - value.font.size) / 2 + lineHeight * i + "px",
+              top:
+                (value.font.lineHeight - value.font.size) / 2 +
+                value.font.lineHeight * i +
+                "px",
             }}
           >
             <div className={clsx("inner", { ...grid })} />
@@ -375,6 +378,30 @@ export const TextGroup: React.FC<Props> = ({
                       font: {
                         ...v.font,
                         size: e.value as number,
+                        lineHeight: ((e.value as number) * 100) / 80,
+                      },
+                    }
+                  : v
+              )
+            )
+          }
+          showButtons
+        />
+
+        <h4>Line Height:</h4>
+        <InputNumber
+          value={value.font.lineHeight}
+          suffix=" px"
+          style={{ width: "100%" }}
+          onChange={(e) =>
+            setValues((prev) =>
+              prev.map((v) =>
+                v.id === value.id
+                  ? {
+                      ...v,
+                      font: {
+                        ...v.font,
+                        lineHeight: e.value as number,
                       },
                     }
                   : v
