@@ -12,6 +12,7 @@ import { MdDelete } from "react-icons/md";
 import ImageUploading, { ImageListType } from "react-images-uploading";
 import { Rnd } from "react-rnd";
 import { Button } from "primereact/button";
+import { Example } from "./examples";
 
 const PageWrapper = styled.main`
   border: 0.5px solid black;
@@ -112,6 +113,12 @@ const App: React.FC = () => {
     });
   }, []);
 
+  const setupExample = (example: Example) => {
+    setOrientation(example.orientation);
+    setMargins(example.margins);
+    setValues(example.texts);
+  };
+
   return (
     <ImageUploading
       multiple
@@ -130,6 +137,7 @@ const App: React.FC = () => {
             onImageUpload={onImageUpload}
             dragProps={dragProps}
             isDragging={isDragging}
+            setupExample={setupExample}
           />
 
           <PageWrapper

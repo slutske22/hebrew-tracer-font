@@ -9,6 +9,8 @@ import { useLocalStorage } from "usehooks-ts";
 import { InputNumber } from "primereact/inputnumber";
 import { Button } from "primereact/button";
 import { Disclaimer } from "./Disclaimer";
+import { TbSquareLetterA } from "react-icons/tb";
+import { Example, letterExamples } from "./examples";
 
 interface Props {
   orientation: "landscape" | "portrait";
@@ -38,6 +40,7 @@ interface Props {
     onDragOver: (e: MouseEvent) => void;
     onDragStart: (e: MouseEvent) => void;
   };
+  setupExample: (example: Example) => void;
 }
 
 /**
@@ -53,6 +56,7 @@ export const Menu: React.FC<Props> = ({
   handlePrint,
   dragProps,
   isDragging,
+  setupExample,
 }) => {
   const orientationPanel = useRef<OverlayPanel>(null);
 
@@ -89,6 +93,19 @@ export const Menu: React.FC<Props> = ({
           </div>
         }
         model={[
+          {
+            label: "Templates",
+            icon: <TbSquareLetterA size={24} style={{ marginRight: "10px" }} />,
+            items: [
+              {
+                label: "Letters",
+                items: letterExamples.map((example) => ({
+                  label: example.label,
+                  command: () => setupExample(example),
+                })),
+              },
+            ],
+          },
           {
             label: "Page Format",
             icon: (
