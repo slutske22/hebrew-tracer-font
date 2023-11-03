@@ -21,7 +21,7 @@ struct Args {
 fn main() {
     let args = Args::parse();
 
-    println!("\nProcessing files from {}\n...", args.source);
+    println!("\nProcessing files from {}\n...", args.source.blue());
 
     let destination = args.dest.unwrap_or(String::from("/output"));
 
@@ -56,7 +56,7 @@ fn main() {
             if !path::Path::new(&destination).exists() {
                 println!(
                     "\nDestination path \"{}\" does not exist, would you like to create it? (y) or (n)",
-                    &destination
+                    &destination.blue()
                 );
 
                 let mut create_for_you = String::new();
@@ -84,5 +84,5 @@ fn main() {
         }
     }
 
-    println!("Done!\n\n")
+    println!("{}\n\n", "Done!".green())
 }
