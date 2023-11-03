@@ -4,6 +4,7 @@ import fs from "fs";
 import path from "path";
 import yargs from "yargs";
 import { hideBin } from "yargs/helpers";
+import { JSDOM } from "jsdom";
 
 function main() {
   const argv = yargs(hideBin(process.argv)).argv;
@@ -26,15 +27,41 @@ function main() {
 
   const files = fs.readdirSync(source);
 
-  for (const file of [files[0]]) {
+  for (const file of files) {
     if (path.extname(file) === ".svg") {
-      const text = fs.readFileSync(path.join(source, file), "utf-8");
+      let text = fs.readFileSync(path.join(source, file), "utf-8");
 
-      // process the text
+      // Process the text - convert to dom, manipulate, then back to string
+      const dom = new JSDOM(text);
+      const svg = dom.window.document.querySelector("svg");
+      const pathElement = dom.window.document.querySelector("path");
+
+      // Change fill and stroke to create outline:
+      pathElement?.setAttribute("fill", "none");
+      pathElement?.setAttribute("stroke", "black");
+      pathElement?.setAttribute("stroke-width", "40");
+      pathElement?.setAttribute("stroke-location", "inside");
+
+      // Widen the viewport to accomodate widening the outline
+      let viewBox = svg?.getAttribute("viewBox");
+      viewBox = viewBox
+        ?.split(" ")
+        .map((item, idx) => {
+          const d = Number(item);
+          if (idx === 0) return d - 20;
+          if (idx === 2) return file.startsWith("N") ? d + 50 : d + 20;
+          return d;
+        })
+        .join(" ");
+      svg?.setAttribute("viewBox", viewBox as string);
+
+      text = svg?.outerHTML as string;
 
       if (dest && !fs.existsSync(dest)) {
-        console.error(`Destination directory "${dest}" does not exist\n`);
-        return;
+        console.warn(
+          `Destination directory "${dest}" does not exist, creating dir\n`
+        );
+        fs.mkdirSync(dest);
       }
 
       if (!dest && !fs.existsSync(path.join(source, "output"))) {
@@ -42,6 +69,8 @@ function main() {
       }
 
       const outputPath = dest ?? path.join(source, "output");
+
+      console.log(`Writing modified file: ${dest}/${file}`);
 
       fs.writeFileSync(path.join(outputPath, file), text);
     }

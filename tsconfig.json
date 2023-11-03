@@ -21,7 +21,8 @@
     "noFallthroughCasesInSwitch": true
   },
   "ts-node": {
-    "esm": true
+    "esm": true,
+    "files": true
   },
   "include": ["src"],
   "references": [{ "path": "./tsconfig.node.json" }]
