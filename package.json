@@ -9,7 +9,8 @@
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
     "deploy": "gh-pages -d dist",
-    "svg-fixer": "node node_modules/oslllo-svg-fixer/src/cli.js"
+    "svg-fixer": "node node_modules/oslllo-svg-fixer/src/cli.js",
+    "outliner": "ts-node fonts/svg-outliner.ts"
   },
   "dependencies": {
     "clsx": "^2.0.0",
@@ -25,12 +26,15 @@
     "simple-keyboard-layouts": "^3.3.19",
     "styled-components": "^6.0.8",
     "usehooks-ts": "^2.9.1",
-    "uuid": "^9.0.1"
+    "uuid": "^9.0.1",
+    "yargs": "^17.7.2"
   },
   "devDependencies": {
+    "@types/node": "^20.8.10",
     "@types/react": "^18.2.15",
     "@types/react-dom": "^18.2.7",
     "@types/uuid": "^9.0.4",
+    "@types/yargs": "^17.0.29",
     "@typescript-eslint/eslint-plugin": "^6.0.0",
     "@typescript-eslint/parser": "^6.0.0",
     "@vitejs/plugin-react": "^4.0.3",
@@ -40,7 +44,9 @@
     "gh-pages": "^6.0.0",
     "oslllo-svg-fixer": "^3.0.0",
     "sass": "^1.68.0",
-    "typescript": "^5.0.2",
+    "ts-node": "^10.9.1",
+    "tslib": "^2.6.2",
+    "typescript": "^5.2.2",
     "vite": "^4.4.5"
   }
 }
