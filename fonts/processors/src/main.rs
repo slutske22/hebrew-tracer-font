@@ -1,5 +1,6 @@
-use clap::Parser;
-use std::fs;
+use clap::{arg, Parser};
+use colored::Colorize;
+use std::{fs, io, path};
 
 /// The command line arguments to use when running the program
 ///
@@ -20,7 +21,9 @@ struct Args {
 fn main() {
     let args = Args::parse();
 
-    println!("Processing files from {}", args.source);
+    println!("\nProcessing files from {}\n...", args.source);
+
+    let destination = args.dest.unwrap_or(String::from("/output"));
 
     let mut paths = fs::read_dir(args.source).unwrap();
 
@@ -35,13 +38,51 @@ fn main() {
     }
 
     for path in paths {
-        let filename = path.unwrap().path();
-        let extension = filename.extension();
+        let filepath = path.as_ref().unwrap().path();
+        let filename = path.as_ref().unwrap().file_name();
+        let extension = filepath.extension();
 
         if extension.unwrap() == "svg" {
-            println!("Processing {}", filename.display());
+            let mut contents = std::fs::read_to_string(&filepath).unwrap();
 
-            // do stuff here
+            contents = contents.replace(
+                "fill=\"currentColor\"",
+                "fill=\"none\" stroke=\"black\" stroke-width=\"40\"",
+            );
+
+            let mut file_path = destination.to_owned();
+            file_path.push_str(filename.to_str().unwrap());
+
+            if !path::Path::new(&destination).exists() {
+                println!(
+                    "\nDestination path \"{}\" does not exist, would you like to create it? (y) or (n)",
+                    &destination
+                );
+
+                let mut create_for_you = String::new();
+                match io::stdin().read_line(&mut create_for_you) {
+                    Err(e) => println!("Error creating input, {:?}", e),
+                    Ok(_) => {}
+                }
+
+                if create_for_you.trim().parse::<String>().unwrap() == "y" {
+                    println!("Creating directory at {}\n", destination);
+                    match fs::create_dir_all(&destination) {
+                        Err(e) => println!("Error creating dir, {:?}", e),
+                        Ok(_) => {}
+                    }
+                } else {
+                    println!("\nExiting...\n");
+                    break;
+                }
+            }
+
+            match fs::write(file_path, contents) {
+                Err(e) => println!("Error reading file:\n{:?}", e),
+                Ok(_) => {}
+            }
         }
     }
+
+    println!("Done!\n\n")
 }
