@@ -1,8 +1,24 @@
 # Custom Fonts
 
-## Process
+The processes of creating the custom fonts followed these steps
 
-The process of creating the custom fonts followed these steps
+## Bubble fonts
+
+Using FontForge, glyphs from the original fonts are exported to SVG files.  For serif font, Times New Roman was used.  For sans-serif, the Cousine Regular font was used (with glyph widths slightly adjusted from the original font).  Then the custom script from the `./processors` directory was run against these exported svgs, generating new svgs of bubble letters.
+
+```
+cargo run -- -s ../times-new-roman/original/glyphs -d ../times-new-roman/bubble/glyphs/
+```
+
+There is also a node-based script that will do the same thing:
+
+```
+npm run outliner -- -s ../times-new-roman/original/glyphs -d ../times-new-roman/bubble/glyphs/
+```
+
+After the SVGs are generated, I manually imported them back into the font file in FontForge, one by one. Any last minute adjustments were made, then the `.sfd` is re-exported to a `.woff` or `.tiff`.
+
+## Tracer Fonts
 
 ### Drawing the characters
 
