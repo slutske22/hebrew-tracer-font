@@ -323,11 +323,13 @@ export const TextGroup: React.FC<Props> = ({
                   fontFamily: item,
                   width: "100%",
                   display: "flex",
+                  alignItems: "center",
                   justifyContent: "space-between",
+                  fontSize: "30px",
                 }}
               >
-                <span>{item}</span>
-                <span>אבגדה</span>
+                <span style={{ marginRight: "20px" }}>{item}</span>
+                <span style={{ fontSize: "50px" }}>אבגדה</span>
               </div>
             );
           }}

@@ -55,4 +55,10 @@ export const initialTextGroupState = (): TextGroupProperties => ({
 /**
  * Different fonts a user can use
  */
-export const fontOptions = ["Cousine Regular", "Cousine Tracer", "Cousine Bubble"];
+export const fontOptions = [
+  "Cousine Regular",
+  "Cousine Tracer",
+  "Cousine Bubble",
+  "Times New Roman",
+  "Times New Roman Bubble",
+];
