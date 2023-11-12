@@ -1,6 +1,4 @@
-<?xml version="1.0" standalone="no"?>
-<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" >
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" viewBox="-10 0 942 2048">
-   <path fill="none" stroke="black" stroke-width="40"
-d="M850 1638h-799l39 -204h598q25 -130 25 -321q0 -184 -31.5 -247.5t-178.5 -63.5h-272q-149 0 -149 -126q0 -93 61 -164h26q16 70 100 70h191q173 0 239.5 38t87 102t20.5 223v141q0 232 -87 348h168z" />
+<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1" viewBox="-10 0 942 2048" xmlns="http://www.w3.org/2000/svg">
+  <path fill="none" stroke="black" stroke-width="40" d="M 850 1638 L 51 1638 L 90 1434 L 688 1434 C 704.667 1347.333 713 1240.333 713 1113 C 713 990.333 702.5 907.833 681.5 865.5 C 660.5 823.167 601 802 503 802 L 231 802 C 131.667 802 82 760 82 676 C 82 614 102.333 559.333 143 512 L 169 512 C 179.667 558.667 213 582 269 582 L 460 582 C 575.333 582 655.167 594.667 699.5 620 C 743.833 645.333 772.833 679.333 786.5 722 C 800.167 764.667 807 839 807 945 L 807 1086 C 807 1240.667 797.817 1352.219 789.435 1435.506 L 888 1434 L 850 1638 Z"/>
 </svg>
