@@ -1,4 +1,4 @@
-## ]:eyes: View the app :eyes:](https://slutske22.github.io/hebrew-tracer-font/)
+## [:eyes: View the app :eyes:](https://slutske22.github.io/hebrew-tracer-font/)
 
 # React + TypeScript + Vite
 
