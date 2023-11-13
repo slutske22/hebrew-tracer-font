@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg viewBox="-48.222 -105.009 584.825 709.856" xmlns="http://www.w3.org/2000/svg" xmlns:bx="https://boxy-svg.com">
+  <defs>
+    <marker id="marker-0" viewBox="0 0 100 100" overflow="visible" orient="auto" refX="50" refY="50">
+      <title>Arrowhead</title>
+      <path d="M 156.761 44.756 L 203.403 125.54 L 110.119 125.54 L 156.761 44.756 Z" style="stroke: rgb(0, 0, 0);" transform="matrix(0.862945, -0.505298, 0.505298, 0.862945, -155.360611, 44.149979)" bx:shape="triangle 110.119 44.756 93.284 80.784 0.5 0 1@6eb2a68a"/>
+    </marker>
+  </defs>
+  <path style="stroke: black; fill: transparent; stroke-linecap: round; stroke-width: 12px; stroke-dasharray: 36;" d="M 120.14 71.122 L 210.847 71.122 C 210.847 71.122 404.715 55.293 404.368 269.34 C 404.021 483.387 219.717 471.122 219.717 471.122 L 119.919 471.122"/>
+  <path style="fill: none; stroke: rgb(0, 0, 0); marker-end: url('#marker-0'); stroke-width: 10px;" d="M 159.509 29.475 C 264.703 27.409 332.826 35.131 395.763 99.561"/>
+  <text style="fill: rgb(51, 51, 51); font-family: 'Times New Roman'; font-size: 51px; stroke-width: 10px; white-space: pre;" x="113.619" y="45.2">1</text>
+</svg>

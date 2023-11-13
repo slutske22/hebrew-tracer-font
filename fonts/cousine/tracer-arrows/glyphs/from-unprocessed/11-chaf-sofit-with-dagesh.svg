@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg viewBox="-96.725 -140.578 566.539 787.5" xmlns="http://www.w3.org/2000/svg" xmlns:bx="https://boxy-svg.com">
+  <defs>
+    <marker id="marker-0" viewBox="0 0 100 100" overflow="visible" orient="auto" refX="50" refY="50">
+      <title>Arrowhead</title>
+      <path d="M 156.761 44.756 L 203.403 125.54 L 110.119 125.54 L 156.761 44.756 Z" style="stroke: rgb(0, 0, 0);" transform="matrix(0.862945, -0.505298, 0.505298, 0.862945, -155.360611, 44.149979)" bx:shape="triangle 110.119 44.756 93.284 80.784 0.5 0 1@6eb2a68a"/>
+    </marker>
+  </defs>
+  <path style="stroke: black; fill: transparent; stroke-linecap: round; stroke-width: 12px; stroke-dasharray: 35;" d="M 17.541 -0.791 L 139.396 0 C 139.396 0 304.454 0 305.913 193.594 C 307.372 387.188 306.359 523.462 306.359 523.462"/>
+  <path style="fill: none; stroke: rgb(0, 0, 0); marker-end: url('#marker-0'); stroke-width: 10px;" d="M 53.468 -41.278 C 158.662 -43.344 226.785 -35.622 289.722 28.808"/>
+  <text style="fill: rgb(51, 51, 51); font-family: 'Times New Roman'; font-size: 51px; stroke-width: 10px; white-space: pre;" x="7.578" y="-25.553">1</text>
+  <ellipse style="stroke: rgb(0, 0, 0); fill: none; stroke-width: 8px;" cx="136.088" cy="194.017" rx="16.306" ry="15.475"/>
+  <text style="fill: rgb(51, 51, 51); font-family: 'Times New Roman'; font-size: 59.7px; white-space: pre;" x="74.862" y="210.84">2</text>
+</svg>
