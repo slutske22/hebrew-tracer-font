@@ -24,7 +24,7 @@ OS2Version: 3
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1277020711
-ModificationTime: 1699907347
+ModificationTime: 1699908458
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -98609,7 +98609,7 @@ StartChar: alef
 Encoding: 1488 1488 1274
 Width: 1229
 GlyphClass: 1
-Flags: WO
+Flags: W
 LayerCount: 2
 Fore
 SplineSet
@@ -100302,7 +100302,7 @@ StartChar: kaf
 Encoding: 1499 1499 1285
 Width: 1229
 GlyphClass: 1
-Flags: W
+Flags: WO
 LayerCount: 2
 Fore
 SplineSet
@@ -100449,7 +100449,6 @@ SplineSet
  380 36 380 36 376 34 c 1,188,-1
  376 34 l 1,175,176
 EndSplineSet
-Validated: 41
 EndChar
 
 StartChar: lamed
@@ -162025,7 +162024,6 @@ Flags: W
 LayerCount: 2
 Fore
 Refer: 1285 1499 N 1 0 0 1 0 0 3
-Validated: 9
 EndChar
 
 StartChar: lamedwide
@@ -162479,7 +162477,6 @@ LayerCount: 2
 Fore
 Refer: 1285 1499 N 1 0 0 1 0 0 3
 Refer: 1265 1471 N 1 0 0 1 -52 0 2
-Validated: 9
 EndChar
 
 StartChar: perafe
