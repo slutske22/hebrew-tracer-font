@@ -1,6 +1,8 @@
 import { TextGroupProperties, initialTextGroupState } from "../constants";
 import Panda from "./panda.png";
+import PandaEatingPizza from "./panda-earing-pizza.png";
 import Morning from "./morning.jpeg";
+import Shema from "./shema.png";
 
 export interface Example {
   label: string;
@@ -58,6 +60,42 @@ export const letterExamples: Example[] = [
       height: 300 * 1.2,
     },
   },
+  {
+    label: "פנדה אוכל פיצה",
+    orientation: "portrait",
+    margins: {
+      top: 0.75,
+      bottom: 0.75,
+      left: 0.75,
+      right: 0.75,
+    },
+    texts: Array.from({ length: 6 }).map((_, i) => {
+      const defaults = initialTextGroupState();
+      const group: TextGroupProperties = {
+        ...defaults,
+        text: i ? "פנדה אוכל פיצה" : "פ",
+        font: {
+          ...defaults.font,
+          size: 70,
+          lineHeight: 120,
+        },
+      };
+      if (i === 0) {
+        group.font.size = group.font.lineHeight = 300;
+        group.grid.opacity = 0;
+      }
+      if (i === 0 || i === 1) group.font.family = "Cousine Regular";
+
+      return group;
+    }),
+    image: {
+      url: PandaEatingPizza,
+      x: 70,
+      y: -30,
+      width: 220 * 1.2,
+      height: 250 * 1.2,
+    },
+  },
 ];
 
 export const sentenceExamples: Example[] = [
@@ -96,6 +134,43 @@ export const sentenceExamples: Example[] = [
       y: -290,
       width: 520,
       height: 300,
+    },
+  },
+  {
+    label: "שמע ישראל",
+    orientation: "landscape",
+    margins: {
+      top: 3.2,
+      bottom: 0.75,
+      left: 0.75,
+      right: 0.75,
+    },
+    texts: Array.from({ length: 4 }).map((_, i) => {
+      const defaults = initialTextGroupState();
+      const group: TextGroupProperties = {
+        ...defaults,
+        text: "שְׁמַע יִשְׂרָאֵל יְהוָה אֱלֹהֵינוּ יְהוָה אֶחָד",
+        font: {
+          ...defaults.font,
+          size: 45,
+          lineHeight: 120,
+        },
+      };
+
+      if (i === 0) {
+        group.grid.opacity = 0;
+        group.font.size = 60;
+        group.font.family = "Times New Roman Bubble";
+      }
+
+      return group;
+    }),
+    image: {
+      url: Shema,
+      x: 320,
+      y: -220,
+      width: 420,
+      height: 230,
     },
   },
 ];

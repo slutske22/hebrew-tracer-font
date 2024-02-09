@@ -96,11 +96,13 @@ export const Menu: React.FC<Props> = ({
           {
             label: "Templates",
             icon: <TbSquareLetterA size={24} style={{ marginRight: "10px" }} />,
+            style: { zIndex: 10000 },
             items: [
               {
                 label: "Letters",
                 items: letterExamples.map((example) => ({
                   label: example.label,
+                  style: { zIndex: 10000 },
                   command: () => setupExample(example),
                 })),
               },
@@ -108,6 +110,7 @@ export const Menu: React.FC<Props> = ({
                 label: "Phrases",
                 items: sentenceExamples.map((example) => ({
                   label: example.label,
+                  style: { zIndex: 10000 },
                   command: () => setupExample(example),
                 })),
               },
@@ -118,6 +121,7 @@ export const Menu: React.FC<Props> = ({
             icon: (
               <IoDocumentOutline size={24} style={{ marginRight: "10px" }} />
             ),
+            style: { zIndex: 10000 },
             command: (e) => orientationPanel.current?.toggle(e.originalEvent),
           },
           {

@@ -22,6 +22,7 @@ const PageWrapper = styled.main`
   margin: 40px auto;
   position: relative;
   overflow: hidden;
+  z-index: 0;
 
   &.portrait {
     width: 8.5in;
@@ -98,6 +99,9 @@ const App: React.FC = () => {
 
   const handlePrint = useReactToPrint({
     content: () => pageRef.current,
+    pageStyle: `@media print {
+      @page { size: ${orientation}; }
+    }`,
   });
 
   useEffect(() => {
@@ -165,7 +169,7 @@ const App: React.FC = () => {
                   <Rnd
                     key={dataURL}
                     lockAspectRatio={shiftKey}
-                    style={{ zIndex: 100000 }}
+                    style={{ zIndex: 100 }}
                     onDragStop={(e) => console.log(e)}
                     onResizeStop={(e) => console.log(e)}
                     default={
