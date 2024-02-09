@@ -314,6 +314,7 @@ export const TextGroup: React.FC<Props> = ({
       >
         <h4>Font:</h4>
         <Dropdown
+          panelClassName="font-family-dropdown"
           options={fontOptions}
           value={value.font.family}
           itemTemplate={(item) => {

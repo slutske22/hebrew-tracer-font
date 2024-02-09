@@ -10,7 +10,7 @@ import { InputNumber } from "primereact/inputnumber";
 import { Button } from "primereact/button";
 import { Disclaimer } from "./Disclaimer";
 import { TbSquareLetterA } from "react-icons/tb";
-import { Example, letterExamples } from "./examples";
+import { Example, letterExamples, sentenceExamples } from "./examples";
 
 interface Props {
   orientation: "landscape" | "portrait";
@@ -100,6 +100,13 @@ export const Menu: React.FC<Props> = ({
               {
                 label: "Letters",
                 items: letterExamples.map((example) => ({
+                  label: example.label,
+                  command: () => setupExample(example),
+                })),
+              },
+              {
+                label: "Phrases",
+                items: sentenceExamples.map((example) => ({
                   label: example.label,
                   command: () => setupExample(example),
                 })),

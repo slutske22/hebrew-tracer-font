@@ -39,8 +39,8 @@ export const initialTextGroupState = (): TextGroupProperties => ({
   id: uuid(),
   text: "",
   font: {
-    size: 80,
-    lineHeight: 100,
+    size: 120,
+    lineHeight: (120 * 100) / 80,
     family: "Cousine Tracer",
     opacity: 1,
   },

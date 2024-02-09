@@ -79,7 +79,7 @@ const ImageWrapper = styled.div`
 const App: React.FC = () => {
   const [shiftKey, setShiftKey] = useState(false);
   const [orientation, setOrientation] = useState<"landscape" | "portrait">(
-    "landscape"
+    "portrait"
   );
   const [margins, setMargins] = useState({
     top: 0.75,
@@ -116,6 +116,9 @@ const App: React.FC = () => {
     setOrientation(example.orientation);
     setMargins(example.margins);
     setValues(example.texts);
+    if (example.image) {
+      setImages([{ dataURL: example.image?.url, ...example.image }]);
+    }
   };
 
   return (
@@ -155,26 +158,35 @@ const App: React.FC = () => {
                 />
               ))}
 
-              {imageList.map((image, index) => (
-                <Rnd
-                  key={image.dataURL}
-                  lockAspectRatio={shiftKey}
-                  style={{ zIndex: 100000 }}
-                >
-                  <ImageWrapper>
-                    <img
-                      style={{ pointerEvents: "none" }}
-                      src={image.dataURL}
-                    />
-                    <Button
-                      className="p-button-danger"
-                      onClick={() => onImageRemove(index)}
-                    >
-                      <MdDelete />
-                    </Button>
-                  </ImageWrapper>
-                </Rnd>
-              ))}
+              {imageList.map((image, index) => {
+                const { dataURL, x, y, width, height } = image;
+
+                return (
+                  <Rnd
+                    key={dataURL}
+                    lockAspectRatio={shiftKey}
+                    style={{ zIndex: 100000 }}
+                    onDragStop={(e) => console.log(e)}
+                    onResizeStop={(e) => console.log(e)}
+                    default={
+                      width && height ? { x, y, width, height } : undefined
+                    }
+                  >
+                    <ImageWrapper>
+                      <img
+                        style={{ pointerEvents: "none" }}
+                        src={image.dataURL}
+                      />
+                      <Button
+                        className="p-button-danger"
+                        onClick={() => onImageRemove(index)}
+                      >
+                        <MdDelete />
+                      </Button>
+                    </ImageWrapper>
+                  </Rnd>
+                );
+              })}
             </div>
           </PageWrapper>
 
