@@ -126,6 +126,25 @@ const FormattingWrapper = styled.div`
   }
 `;
 
+const FormattingPanel = styled(OverlayPanel)`
+  width: 600px;
+  .p-overlaypanel-content {
+    display: flex;
+
+    .column {
+      flex: 1;
+
+      &:first-child {
+        padding-right: 24px;
+        border-right: 0.5px solid grey;
+      }
+      &:last-child {
+        padding-left: 24px;
+      }
+    }
+  }
+`;
+
 interface Props {
   /**
    * The value of the text group
@@ -171,7 +190,6 @@ export const TextGroup: React.FC<Props> = ({
   const [focused, setFocused] = useState(false);
 
   const formattingPanel = useRef<OverlayPanel>(null);
-  const gridPanel = useRef<OverlayPanel>(null);
 
   const onChange: ChangeEventHandler<HTMLTextAreaElement> = (e) => {
     setValues((prev) =>
@@ -227,21 +245,9 @@ export const TextGroup: React.FC<Props> = ({
             className="p-button-outlined p-button-secondary"
             style={{ padding: "5px" }}
             onClick={(e) => formattingPanel.current?.toggle(e)}
+            tooltip="Format"
           >
             <ImFont />
-          </Button>
-          <Button
-            className="p-button-outlined p-button-secondary"
-            style={{ padding: "5px", marginTop: "6px" }}
-            onClick={(e) => gridPanel.current?.toggle(e)}
-          >
-            <TbLineDotted
-              style={{
-                borderTop: "0.5px solid black",
-                borderBottom: "0.5px solid black",
-              }}
-              size={14}
-            />
           </Button>
         </div>
       </FormattingWrapper>
@@ -306,233 +312,229 @@ export const TextGroup: React.FC<Props> = ({
         ))}
       </div>
 
-      <OverlayPanel
+      <FormattingPanel
         ref={formattingPanel}
         onShow={() => setFocused(true)}
         onHide={() => setFocused(false)}
-        style={{ width: "360px" }}
       >
-        <h4>Font:</h4>
-        <Dropdown
-          panelClassName="font-family-dropdown"
-          options={fontOptions}
-          value={value.font.family}
-          itemTemplate={(item) => {
-            return (
-              <div
-                style={{
-                  fontFamily: item,
-                  width: "100%",
-                  display: "flex",
-                  alignItems: "center",
-                  justifyContent: "space-between",
-                  fontSize: "30px",
-                }}
-              >
-                <span style={{ marginRight: "20px" }}>{item}</span>
-                <span style={{ fontSize: "50px" }}>אבגדה</span>
-              </div>
-            );
-          }}
-          valueTemplate={(item) => {
-            return (
-              <div
-                style={{
-                  fontFamily: item,
-                  width: "100%",
-                  display: "flex",
-                  justifyContent: "space-between",
-                }}
-              >
-                <span>{item}</span>
-                <span>אבגדה</span>
-              </div>
-            );
-          }}
-          onChange={(e) =>
-            setValues((prev) =>
-              prev.map((v) =>
-                v.id === value.id
-                  ? {
-                      ...v,
-                      font: {
-                        ...v.font,
-                        family: e.target.value,
-                      },
-                    }
-                  : v
+        <div className="column">
+          <h4 style={{ marginTop: 0 }}>Font:</h4>
+          <Dropdown
+            panelClassName="font-family-dropdown"
+            options={fontOptions}
+            value={value.font.family}
+            itemTemplate={(item) => {
+              return (
+                <div
+                  style={{
+                    fontFamily: item,
+                    width: "100%",
+                    display: "flex",
+                    alignItems: "center",
+                    justifyContent: "space-between",
+                    fontSize: "30px",
+                  }}
+                >
+                  <span style={{ marginRight: "20px" }}>{item}</span>
+                  <span style={{ fontSize: "50px" }}>אבגדה</span>
+                </div>
+              );
+            }}
+            valueTemplate={(item) => {
+              return (
+                <div
+                  style={{
+                    fontFamily: item,
+                    width: "100%",
+                    display: "flex",
+                    justifyContent: "space-between",
+                  }}
+                >
+                  <span>{item}</span>
+                  <span>אבגדה</span>
+                </div>
+              );
+            }}
+            onChange={(e) =>
+              setValues((prev) =>
+                prev.map((v) =>
+                  v.id === value.id
+                    ? {
+                        ...v,
+                        font: {
+                          ...v.font,
+                          family: e.target.value,
+                        },
+                      }
+                    : v
+                )
               )
-            )
-          }
-          style={{ width: "100%" }}
-        />
+            }
+            style={{ width: "300px" }}
+          />
 
-        <h4>Font Size:</h4>
-        <InputNumber
-          value={value.font.size}
-          suffix=" px"
-          style={{ width: "100%" }}
-          onChange={(e) =>
-            setValues((prev) =>
-              prev.map((v) =>
-                v.id === value.id
-                  ? {
-                      ...v,
-                      font: {
-                        ...v.font,
-                        size: e.value as number,
-                        lineHeight: ((e.value as number) * 100) / 80,
-                      },
-                    }
-                  : v
+          <h4>Font Size:</h4>
+          <InputNumber
+            value={value.font.size}
+            suffix=" px"
+            style={{ width: "100%" }}
+            onChange={(e) =>
+              setValues((prev) =>
+                prev.map((v) =>
+                  v.id === value.id
+                    ? {
+                        ...v,
+                        font: {
+                          ...v.font,
+                          size: e.value as number,
+                          lineHeight: ((e.value as number) * 100) / 80,
+                        },
+                      }
+                    : v
+                )
               )
-            )
-          }
-          showButtons
-        />
+            }
+            showButtons
+          />
 
-        <h4>Line Height:</h4>
-        <InputNumber
-          value={value.font.lineHeight}
-          suffix=" px"
-          style={{ width: "100%" }}
-          onChange={(e) =>
-            setValues((prev) =>
-              prev.map((v) =>
-                v.id === value.id
-                  ? {
-                      ...v,
-                      font: {
-                        ...v.font,
-                        lineHeight: e.value as number,
-                      },
-                    }
-                  : v
+          <h4>Line Height:</h4>
+          <InputNumber
+            value={value.font.lineHeight}
+            suffix=" px"
+            style={{ width: "100%" }}
+            onChange={(e) =>
+              setValues((prev) =>
+                prev.map((v) =>
+                  v.id === value.id
+                    ? {
+                        ...v,
+                        font: {
+                          ...v.font,
+                          lineHeight: e.value as number,
+                        },
+                      }
+                    : v
+                )
               )
-            )
-          }
-          showButtons
-        />
+            }
+            showButtons
+          />
 
-        <h4>Opacity</h4>
-        <Slider
-          value={value.font.opacity}
-          min={0}
-          max={1}
-          step={0.01}
-          onChange={(e) =>
-            setValues((prev) =>
-              prev.map((v) =>
-                v.id === value.id
-                  ? {
-                      ...v,
-                      font: {
-                        ...v.font,
-                        opacity: e.value as number,
-                      },
-                    }
-                  : v
+          <h4>Opacity</h4>
+          <Slider
+            value={value.font.opacity}
+            min={0}
+            max={1}
+            step={0.01}
+            onChange={(e) =>
+              setValues((prev) =>
+                prev.map((v) =>
+                  v.id === value.id
+                    ? {
+                        ...v,
+                        font: {
+                          ...v.font,
+                          opacity: e.value as number,
+                        },
+                      }
+                    : v
+                )
               )
-            )
-          }
-        />
-      </OverlayPanel>
+            }
+          />
+        </div>
 
-      <OverlayPanel
-        ref={gridPanel}
-        onShow={() => setFocused(true)}
-        onHide={() => setFocused(false)}
-        style={{ width: "240px" }}
-      >
-        <h4>Guide Lines</h4>
-        <Checkbox
-          style={{ marginRight: "10px", marginBottom: "6px" }}
-          checked={value.grid.top}
-          onChange={() =>
-            setValues((prev) =>
-              prev.map((v) =>
-                v.id === value.id
-                  ? {
-                      ...v,
-                      grid: {
-                        ...v.grid,
-                        top: !v.grid.top,
-                      },
-                    }
-                  : v
+        <div className="column">
+          <h4 style={{ marginTop: 0 }}>Guide Lines</h4>
+          <Checkbox
+            style={{ marginRight: "10px", marginBottom: "6px" }}
+            checked={value.grid.top}
+            onChange={() =>
+              setValues((prev) =>
+                prev.map((v) =>
+                  v.id === value.id
+                    ? {
+                        ...v,
+                        grid: {
+                          ...v.grid,
+                          top: !v.grid.top,
+                        },
+                      }
+                    : v
+                )
               )
-            )
-          }
-        />
-        <span style={{ verticalAlign: "top" }}>Top</span>
+            }
+          />
+          <span style={{ verticalAlign: "top" }}>Top</span>
 
-        <br />
-        <Checkbox
-          style={{ marginRight: "10px", marginBottom: "6px" }}
-          checked={value.grid.middle}
-          onChange={() =>
-            setValues((prev) =>
-              prev.map((v) =>
-                v.id === value.id
-                  ? {
-                      ...v,
-                      grid: {
-                        ...v.grid,
-                        middle: !v.grid.middle,
-                      },
-                    }
-                  : v
+          <br />
+          <Checkbox
+            style={{ marginRight: "10px", marginBottom: "6px" }}
+            checked={value.grid.middle}
+            onChange={() =>
+              setValues((prev) =>
+                prev.map((v) =>
+                  v.id === value.id
+                    ? {
+                        ...v,
+                        grid: {
+                          ...v.grid,
+                          middle: !v.grid.middle,
+                        },
+                      }
+                    : v
+                )
               )
-            )
-          }
-        />
-        <span style={{ verticalAlign: "top" }}>Middle</span>
+            }
+          />
+          <span style={{ verticalAlign: "top" }}>Middle</span>
 
-        <br />
-        <Checkbox
-          style={{ marginRight: "10px" }}
-          checked={value.grid.bottom}
-          onChange={() =>
-            setValues((prev) =>
-              prev.map((v) =>
-                v.id === value.id
-                  ? {
-                      ...v,
-                      grid: {
-                        ...v.grid,
-                        bottom: !v.grid.bottom,
-                      },
-                    }
-                  : v
+          <br />
+          <Checkbox
+            style={{ marginRight: "10px" }}
+            checked={value.grid.bottom}
+            onChange={() =>
+              setValues((prev) =>
+                prev.map((v) =>
+                  v.id === value.id
+                    ? {
+                        ...v,
+                        grid: {
+                          ...v.grid,
+                          bottom: !v.grid.bottom,
+                        },
+                      }
+                    : v
+                )
               )
-            )
-          }
-        />
-        <span style={{ verticalAlign: "top" }}>Bottom</span>
+            }
+          />
+          <span style={{ verticalAlign: "top" }}>Bottom</span>
 
-        <h4>Opacity</h4>
-        <Slider
-          value={value.grid.opacity}
-          min={0}
-          max={1}
-          step={0.01}
-          onChange={(e) =>
-            setValues((prev) =>
-              prev.map((v) =>
-                v.id === value.id
-                  ? {
-                      ...v,
-                      grid: {
-                        ...v.grid,
-                        opacity: e.value as number,
-                      },
-                    }
-                  : v
+          <h4>Opacity</h4>
+          <Slider
+            value={value.grid.opacity}
+            min={0}
+            max={1}
+            step={0.01}
+            onChange={(e) =>
+              setValues((prev) =>
+                prev.map((v) =>
+                  v.id === value.id
+                    ? {
+                        ...v,
+                        grid: {
+                          ...v.grid,
+                          opacity: e.value as number,
+                        },
+                      }
+                    : v
+                )
               )
-            )
-          }
-        />
-      </OverlayPanel>
+            }
+          />
+        </div>
+      </FormattingPanel>
     </Wrapper>
   );
 };
