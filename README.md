@@ -1,5 +1,5 @@
 <p align="center">
-   <img width="160px" src="https://raw.githubusercontent.com/slutske22/hebrew-tracer-font/main/public/favicon.svg">
+   <img width="160px" src="https://raw.githubusercontent.com/slutske22/hebrew-tracer-font/main/public/preview.png">
 
    <h2 align="center">Hebrew Tracer Font</h2>
    <p align="center">A simple app for generating custom hebrew tracing worksheets</p>
