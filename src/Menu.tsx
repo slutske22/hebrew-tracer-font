@@ -11,6 +11,7 @@ import { Button } from "primereact/button";
 import { Disclaimer } from "./Disclaimer";
 import { TbSquareLetterA } from "react-icons/tb";
 import { Example, letterExamples, sentenceExamples } from "./examples";
+import { Checkbox } from "primereact/checkbox";
 
 interface Props {
   orientation: "landscape" | "portrait";
@@ -41,6 +42,8 @@ interface Props {
     onDragStart: (e: MouseEvent) => void;
   };
   setupExample: (example: Example) => void;
+  basad: boolean;
+  setBasad: Dispatch<SetStateAction<boolean>>;
 }
 
 /**
@@ -57,6 +60,8 @@ export const Menu: React.FC<Props> = ({
   dragProps,
   isDragging,
   setupExample,
+  basad,
+  setBasad,
 }) => {
   const orientationPanel = useRef<OverlayPanel>(null);
 
@@ -206,6 +211,17 @@ export const Menu: React.FC<Props> = ({
             />
           </div>
         ))}
+
+        <div>
+          <h4 style={{ display: "flex" }}>
+            בס״ד
+            <Checkbox
+              style={{ marginLeft: "2.5rem" }}
+              checked={basad}
+              onChange={() => setBasad((b) => !b)}
+            />
+          </h4>
+        </div>
       </OverlayPanel>
 
       <Disclaimer

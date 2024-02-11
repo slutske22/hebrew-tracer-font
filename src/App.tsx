@@ -82,6 +82,8 @@ const App: React.FC = () => {
   const [orientation, setOrientation] = useState<"landscape" | "portrait">(
     "portrait"
   );
+  const [basad, setBasad] = useState(false);
+
   const [margins, setMargins] = useState({
     top: 0.75,
     bottom: 0.75,
@@ -123,6 +125,7 @@ const App: React.FC = () => {
     if (example.image) {
       setImages([{ dataURL: example.image?.url, ...example.image }]);
     }
+    setBasad(!!example.basad);
   };
 
   return (
@@ -144,6 +147,8 @@ const App: React.FC = () => {
             dragProps={dragProps}
             isDragging={isDragging}
             setupExample={setupExample}
+            basad={basad}
+            setBasad={setBasad}
           />
 
           <PageWrapper
@@ -191,6 +196,12 @@ const App: React.FC = () => {
                   </Rnd>
                 );
               })}
+
+              {basad && (
+                <h4 style={{ position: "absolute", right: "25px", top: "0" }}>
+                  בס״ד
+                </h4>
+              )}
             </div>
           </PageWrapper>
 

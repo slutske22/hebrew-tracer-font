@@ -21,6 +21,7 @@ export interface Example {
     width: number;
     height: number;
   };
+  basad?: boolean;
 }
 
 export const letterExamples: Example[] = [
@@ -135,6 +136,7 @@ export const sentenceExamples: Example[] = [
       width: 520,
       height: 300,
     },
+    basad: true,
   },
   {
     label: "שמע ישראל",
@@ -172,5 +174,6 @@ export const sentenceExamples: Example[] = [
       width: 420,
       height: 230,
     },
+    basad: true,
   },
 ];

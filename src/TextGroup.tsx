@@ -8,7 +8,6 @@ import { Checkbox } from "primereact/checkbox";
 import { InputNumber } from "primereact/inputnumber";
 import { Dropdown } from "primereact/dropdown";
 import { ImFont } from "react-icons/im";
-import { TbLineDotted } from "react-icons/tb";
 import { v4 as uuid } from "uuid";
 import { Slider } from "primereact/slider";
 
