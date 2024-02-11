@@ -39,3 +39,4 @@ This app is written with react and typescript, using vite as the bundler and dem
 - `npm start`
 
 To learn more about how custom fonts were made, check out [this README](https://github.com/slutske22/hebrew-tracer-font/tree/main/fonts)
+
